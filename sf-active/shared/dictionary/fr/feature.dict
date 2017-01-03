@@ -1,0 +1,39 @@
+<?php
+// Dictionary file - fr - feature
+
+$local = array(
+                "no_features_to_edit" =>    "Aucun feature &agrave; &eacute;diter!",
+                "features_edit" =>          "&Eacute;diter un feature",
+                "feature_story_edit" =>     "&Eacute;diter un feature",
+                "feature_story_add" =>      "Ajouter un feature",
+                "feature_title1" =>         "Titre court",
+                "feature_title2" =>         "Titre long (affich&eacute;)",
+                "template_name" =>          "Template",
+                "order_num" =>              "Num&eacute;ro d'ordre",
+                "status" =>                 "Statut",
+                "feature_list" =>           "Liste des features",
+                "feature_all_versions" =>   "Historique du feature",
+		"feature_history" =>        "Historique du feature",
+                "feature_history_inst" =>   "Cliquer sur la version &agrave; &eacute;diter&nbsp;; elle deviendra la plus r&eacute;cente.",
+                "feature_modifier" =>       "Dernier feature modifi&eacute;",
+                "feature_test" =>           "Page de test",
+                "feature_preview" =>        "Aper&ccedil;u (contient un lien pour le mettre en ligne)",
+                "story_version_id" =>       "ID de version du feature",
+                "feature_version_num" =>    "Num&eacute;ro de version",
+                "feature_display_date" =>   "Date (affich&eacute;e)",
+                "feature_image_url" =>      "URL de l'image",
+                "feature_alt_tag" =>        "Balise alt",
+                "story_index_for" =>        "Index pour ",
+                "story_index_inst" =>       "Cliquer sur le titre d'un feature existant pour &eacute;diter ce feature",
+                "feature_id_number" =>      "ID",
+                // 07 sep 03
+                "no_template_defined" =>    "<br><h3>Aucun template d&eacute;fini pour ce feature</h3><br>",
+		"test"              =>      "test",
+
+                // language stuff
+                "language"          =>      "langue",
+                "select_a_language" =>      "s&eacute;lectionner une langue",
+
+                );
+
+?>

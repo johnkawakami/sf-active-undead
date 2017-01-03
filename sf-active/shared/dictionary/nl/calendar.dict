@@ -1,0 +1,40 @@
+<?php
+// Dictionary file - nl - calendar
+
+$local = array(
+			"admin_calendar" => "Beheer agenda",
+			"enter_event_id" => "Voer het ID-nummer van het evenement in waarvan je het bevestigingsnummer nodig hebt",
+			"hint_event_id" => "Check URL van het evenement om ID-nummer te verkrijgen",
+			"event_found" => "Event gevonden voor evenements ID", 
+			"conf_no" => "Bevestigingsnummer",
+			"find" =>  "Zoek",
+			"event_up" =>  "Evenementen ververst.", 
+			"lookup_conf" => "Zoek bevestigingsnummer van evenement",
+			"regen_event" => "Maak cached HTML aan",
+			"topic_menu" => "Bewerk onderwerpen",
+			"type_menu" => "Bewerk evenementstypes",
+			"location_menu" => "Bewerk locaties",
+			"locations" => "Locaties",
+			"event_types" => "Evenementstypes",
+			"event_topics" => "Onderwerpen",
+			"click_on_location_to_edit" => "Klik op een locatie om die te bewerken",
+			"click_on_topic_to_edit" => "Klik op een onderwerp om die te bewerken",
+			"click_on_type_to_edit" => "Klik op een evenements type om die te bewerken",
+			"location_edit" => "Bewerk een locatie",
+			"event_type_edit" => "Bewerk een evenementstype",
+			"event_topic_edit" => "Bewerk een onderwerp",
+			"location_add" => "Maak een nieuwe locatie aan",
+			"event_type_add" => "Maak een nieuw evenementstype aan",
+			"event_topic_add" => "Maak een nieuw onderwerp aan",
+			"location_name" => "Naam van de locatie",
+			"event_type_name" => "Naam van het evenementstype",
+			"event_topic_name" => "Naam van het onderwerp",
+                "location" =>                   "Plaats",
+                "event_type" =>                 "type evenement",
+                "event_topic" =>                "onderwerp",
+                "enter_event2_id" =>            "Voer het ID-nummer van het evenement dat je wil bewerken",
+
+
+);
+
+?>

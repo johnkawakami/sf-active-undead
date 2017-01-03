@@ -1,0 +1,87 @@
+#imcnetwork a:hover{ padding-left:6px; background-color:#dddddd; color:#0088cc; font-size:10pt; }
+#imcnetwork a{display:block;}
+#imcnetwork b{display:block;}
+body { font-family: arial, sans-serif; background-color: #ffffee; color: #111111; margin: 7px 7px 7px 7px }
+address, caption, div, dl, li, ol, p, ul { font-family: serif; font-size: 14px }
+td, th { font-family: serif; font-size: 14px; color: #111111; }
+input, select, option, textarea { font-family: tahoma, arial, sans-serif; font-size: 12px }
+a:link { color: #1111dd }
+a:visited { color: #1111bb }
+a:hover { }
+a:active { text-decoration: none; color: #cc0000; background-color: #ffff00 }
+a.left:link { text-decoration: underline; color: #ffffdd; }
+a.left:visited { text-decoration: underline; color: #ffffdd; }
+a.left:hover { text-decoration: none; }
+a.left:active { color:#cc0000; }
+a.headline-text:link { text-decoration: none; color: #333333 }
+a.headline-text:visited { text-decoration: none; color: #555555 }
+a.headline-text:hover { text-decoration: underline; color: #991111 }
+a.headline-text:active { text-decoration: none; background-color: #990000; color: #dddddd }
+a.navbar:link { font-family: tahoma, arial, sans-serif; font-size: 13px; text-decoration: none; color: #ffffff } 
+a.navbar:visited { font-family: tahoma, arial, sans-serif; font-size: 13px; text-decoration: none; color: #ffffff }
+a.navbar:hover { font-family: tahoma, arial, sans-serif; font-size: 13px; text-decoration: underline; color: #ffff00 } 
+a.navbar:active { font-family: tahoma, arial, sans-serif; font-size: 13px; color: #cc3366; }
+a.newswire:link { font-size: 12px; font-family: arial, sans-serif; text-decoration: none; color: #ffffcc }
+a.newswire:visited { font-size: 12px; font-family: arial, sans-serif; text-decoration: none; color: #cccccc }
+a.newswire:hover { font-size: 12px; font-family: arial, sans-serif; text-decoration: underline; }
+a.newswire:active { font-size: 12px; font-family: arial, sans-serif; text-decoration: none; color: #cc0000; }
+a.newswirehed:link { font-size: 12px; font-family: arial, sans-serif; text-decoration: none; color: #111199 }
+a.newswirehed:visited { font-size: 12px; font-family: arial, sans-serif; text-decoration: none; color: #111199 }
+a.newswirehed:hover { font-size: 12px; font-family: arial, sans-serif; text-decoration: underline; color: #dddd55 }
+a.newswirehed:active { font-size: 12px; font-family: arial, sans-serif; text-decoration: none; }
+a.publink:link { color: #cccccc }
+a.publink:visited { color: #cccccc }
+a.publink:hover { } 
+a.publink:active { text-decoration: none; color: #ffffff; background-color: #0033cc }
+big { font-size: 14px }
+small { font-family: tahoma, "MS Sans Serif", arial, sans-serif; font-size: 10px }
+small.featurelist { font-size: 12px; font-family: arial, sans-serif; 
+color: #ffffdd; }
+code, pre { font-family: monospace }
+div.theme { font-family: tahoma, "MS Sans Serif", arial, sans-serif; font-size: 10px; color: #888888 }
+div.mast { font-family: "Trebuchet MS", tahoma, arial, sans-serif; font-size: 24px; font-weight: bold }
+div.top { font-family: "Trebuchet MS", arial, sans-serif; font-size: 19px; font-weight: bold }
+div.left { color: #ffffdd; }
+.heading { font-family: arial, sans-serif; font-size: 12px }
+.addcomment { font-family: arial, sans-serif; font-size: 12px }
+.hed { font-family: "Trebuchet MS", arial, sans-serif; font-size: 18px; font-weight: bold; color: #333333 }
+.hedl { font-family: "Trebuchet MS", arial, sans-serif; font-size: 16px; font-weight: bold }
+h1, div.h1 { font-family: "Trebuchet MS", arial, sans-serif; font-size: 24px; font-weight: bold }
+h2, div.h2 { font-family: "Trebuchet MS", arial, sans-serif; font-size: 19px; font-weight: bold }
+h3, div.h3 { font-family: "Trebuchet MS", arial, sans-serif; font-size: 16px; font-weight: bold }
+h4, div.h4 { font-family: "Trebuchet MS", arial, sans-serif; font-size: 14px; font-weight: bold }
+h5, div.h5 { font-family: "Trebuchet MS", "MS Sans Serif", arial, sans-serif; font-size: 12px; font-weight: bold }
+h6, div.h6 { font-family: "Trebuchet MS", "MS Sans Serif", arial, sans-serif; font-size: 10px; font-weight: bold }
+.blurb { font-family: serif; }
+.newswirehead { color: #cccccc; font-family: tahoma, arial, sans-serif; }
+.mast { background-color: #ffffff }
+.bgaccent { color: #ffffff; background-color: #999999; }
+.bg3 { background-color: #ffffff }
+.bgult { background-color: #333333 }
+.bgcentercol { background-color: #ffffee }
+.bgnavbar { background-color: #cc3366 }
+.bgnewswire { background-color: #111199; }
+.bgleftcol { background-color: limegreen; }
+.bgcities { background-color: #ffffcc }
+.bgpenult { background-color: #ffffff; color: #333333 }
+.bg9 { background-color: #666666 }
+.bg00 { background-color: #000000 }
+.bgsearchgrey { background-color: #eeeeee }
+.date { color: #999999; font-family: tahoma, "MS Sans Serif", arial, sans-serif; font-size: 10px }
+
+.detailTextLabel { background-color: #ccccee; color: #000000; font-weight: bold }
+.detailText { color: #000000 }
+.calendar { font-size: 10px; font-family: tahoma, "MS Sans Serif", arial, sans-serif }
+.calendarHeader { font-size: 10px; font-family: tahoma, "MS Sans Serif", arial, sans-serif; }
+.calendarToday { color: #ffffff; font-size: 10px; font-family: tahoma, "MS Sans Serif", arial, sans-serif }
+.calendarHighlightWeek { background-color: #aaaaaa; }
+
+.bodyClass { background-color: #000000; }
+.bgcolor { background-color: #333333; color: #999999}
+.bgcolor3 { background-color: #666666; color: #dddddd }
+
+.weekTitles  { font-weight: bold; color: #ffffff; background-color: #999999; } 
+.eventTitle { font-weight: bold }
+.eventText { background-color: #eeeeee }
+.eventNav { }
+.eventNav2 { }

@@ -1,0 +1,11 @@
+<?php
+// Dictionary file - en - event_display_week
+
+$local = array(
+	"cal_calendar" => "Takvim",
+	"cal_return_to_cal" => "Takvime d&ouml;n",
+	"cal_update" => "G&uuml;ncelle",
+	"cal_delete" => "Sil"
+);
+
+?>

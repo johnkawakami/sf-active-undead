@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - it - template viewer
+
+$local = array(
+	"template_viewer_info" =>        "Bu sayfa &#351;ablonu d&uuml;zenlemek i&ccedil;in kullan&#305;lacakt&#305;r...",
+	"filter" => "filter",
+	"search_string" => "Arama listesi",
+	"insertname" => "Yeni &#351;ablon i&ccedil;in bir isim giriniz",
+	"errortpl" => "Yanl&#305;&#351; bir &#351;ablon ismi girdiniz, tekrar deneyiniz.",
+        "filename_header" => "Yeni &#351;ablon olu&#351;tur");
+
+?>

@@ -1,0 +1,12 @@
+
+<?php
+// Dictionary file - en - calendar
+
+$local = array(
+                "admin_calendar" =>             "Takvim g&uuml;ncelleme",
+                "refresh_event" =>             "Haftalara g&ouml;re duyurlar yenileniyor:   ",
+                "event_up" =>             "Bellek yenilendi",
+                "admin_index" =>                "Site g&uuml;ncelleme"
+                );
+
+?>

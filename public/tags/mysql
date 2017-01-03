@@ -1,0 +1,1 @@
+select * from tags where id=5053 -u root -p la_indymedia_org

@@ -1,0 +1,30 @@
+.blurb { font-family: arial, helvetica, sans-serif; color: #cccccc } /* center column blurbs */
+.hed { font-family: arial, helvetica, sans-serif; color: #6699CC } /* center column headlines */
+
+
+.detailTextLabel {background-color: #d0d0f0; font-family: arial,helvetica, 
+sans-serif; color: #000000; font-weight: bold}
+.detailText {font-family: arial, helvetica, sans-serif; color: #000000 }
+.calendar { font-family: arial, helvetica, sans-serif; color: #c0c0ff; 
+font-size: 11px }
+.calendarHeader { font-family: arial, helvetica, sans-serif; 
+color:#ffffff; font-size: 11px } 
+.calendarToday { font-family: arial, helvetica, sans-serif; color:#ffffff; 
+font-size: 11px }
+.calendarHighlightWeek { background-color: #404040; font-family:arial, helvetica, sans-serif}
+
+.bodyClass {background-color: #000000; }
+.bgcolor { background-color: #333333; font-family: arial, helvetica, sans-serif; color: #999999}
+.bgcolor3 { background-color: #606060; font-family: arial, helvetica, sans-serif; color: #dddddd }
+
+
+.weekTitles  { background-color: #d0d0f0; font-family: arial, helvetica, 
+sans-serif; color: #000000; 
+font-size: 12px; font-weight: bold} 
+.eventTitle {font-family: arial, helvetica, sans-serif; color: #000000; 
+font-size: 12px; font-weight:bold}
+.eventText { background-color: #f0f0f0;font-family: arial, helvetica, sans-serif; color: #000000; 
+font-size: 12px }
+.eventNav {font-family: arial, helvetica, sans-serif; font-size: 12px; }
+.eventNav2 {font-family: arial, helvetica, sans-serif; font-size: 12px; }
+

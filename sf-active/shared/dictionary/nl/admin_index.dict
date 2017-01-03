@@ -1,0 +1,16 @@
+<?php
+// Dictionary file - en - admin_index
+
+$local = array(
+              "admin_welcome" =>  "Welkom bij de beheerssectie",
+              "admin_subtitle" => "Hoodfmenu beheerssectie",
+              "admin_user" =>     "Beheer gebruikers",
+              "admin_category" => "Beheer categorie&euml;n en features ",
+              "admin_calendar" => "Beheer de kalender",
+              "admin_upload" =>   "Upload beeldmateriaal",
+              "admin_article" =>  "Beheer artikels",
+              "admin_email" =>    "Verstuur Nieuwsbrief",
+              "admin_spam" =>     "Spam Filters",
+              "admin_logoff" =>   "Uitloggen"
+              );
+?>

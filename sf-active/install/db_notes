@@ -1,0 +1,23 @@
+First you will need to create a mysql database, then create the tables 
+within that database, and finally load sample data into those tables (some 
+sample data is required for the code to work; you can change it later).
+
+The default mysql username is root, with a blank password.  This is ok as
+long as you do not allow remote access...
+
+[dev@dev] > mysql -u your_mysql_username -p
+mysql> CREATE DATABASE your_mysql_database;
+mysql> grant all on your_mysql_database.* to your_mysql_user@localhost identified by 'your_mysql_password';
+mysql> grant all on your_mysql_database.* to your_mysql_user@'%' identified by 'your_mysql_password';
+mysql> flush privileges
+mysql> quit;
+[dev@dev] > mysql -u your_mysql_username -p your_mysql_database < mysql_db.sql
+[dev@dev] > mysql -u your_mysql_username -p your_mysql_database < mysql_db_sample_data.sql
+
+
+
+
+
+if you update from an old release, you might apply the patches for calendar, categories and user
+just take a look at the files starting with patch_
+

@@ -1,0 +1,52 @@
+<?php
+// Dictionary file - fr - category
+
+$local = array(
+"categories" => "Cat&eacute;gories",
+"category_add" =>  "Ajouter un feature",
+"archive_generate" => "G&eacute;n&eacute;rer une archive",
+"click_on_category_to_edit" => "(Cliquer sur un titre pour &eacute;diter une cat&eacute;gorie, cliquer sur 'Administrer les articles' pour administrer les articles dans chaque cat&eacute;gorie)",
+"story_list" => "Liste des publications pour cette section",
+"no_center_column" => "Pas de colonne centrale",
+"updated_site" => "Site mis &agrave; jour",
+"feature_list" => "Liste des features",
+"category_pushto" =>  "Envoi en production",
+"category_shortname" => "Nom court de cat&eacute;gorie",
+"category_name" => "Nom de cat&eacute;gorie",
+"category_summarylength" => "Longueur du r&eacute;sum&eacute;",
+"template_name" => "Nom du template",
+"default_template" => "Template par d&eacute;faut",
+"newswire_type" => "Type de fil d'infos",
+"centercolumn_type" => "Type de colonne centrale",
+"category_description" => "Description de la cat&eacute;gorie",
+"n_newswire" => "Pas de fil d'infos",
+"s_newswire" => "Fil d'infos standard",
+"a_newswire" => "Tous les fils d'infos",
+"f_newswire" =>                 "Filtered Newswire",
+"no_centercolumn" => "Pas de colonne centrale",
+"standard_centercolumn" => "Colonne centrale standard ",
+"ordernum" => "Num&eacute;ros d'ordre",
+"category_add" => "Ajouter une cat&eacute;gorie",
+"category_edit" => "&Eacute;diter une cat&eacute;gorie",
+"catclass_type" =>          "Classe de la cat&eacute;gorie",
+                "m_category_left" =>              "Cat&eacute;gories",
+                "t_category_left" =>              "cat&eacute;gories th&eacute;matiques",
+                "l_category_left" =>              "cat&eacute;gories locales",
+                "i_category_left" =>              "traiter les cat&eacute;gories",
+                 "m_category" =>              "principale",
+                "h_category" =>              "inactive",
+                "t_category" =>              "th&eacute;matique",
+                "l_category" =>              "r&eacute;gionale",
+                "i_category" =>              "interne",
+                "o_category" =>             "other",
+                "e_category" =>             "event",
+                "p_category" =>             "project",
+                "recache"    =>              "Cocher cette case pour remettre en cache la page pour cette cat&eacute;gorie (automatique lors de l'ajout d'une cat&eacute;gorie)",
+                // 07 sep 03
+                "no_feature_template_defined"=>  "<br><h3>Aucun template n'a &eacute;t&eacute; d&eacute;fini pour ce feature</h3><br>",
+                "no_category_template_defined"=>  "<br><h3>Aucun template n'a &eacute;t&eacute; d&eacute;fini pour cette cat&eacute;gorie</h3><br>",
+				"refresh_newswire"      =>  "Rafra&icirc;chir le fil d'infos",
+
+
+);
+?>

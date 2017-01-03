@@ -1,0 +1,39 @@
+<?php
+// Dictionary file - es - feature
+
+$local = array(
+                "no_features_to_edit" =>    "Non ci sono features da editare!",
+                "features_edit" =>          "Edita questa feature",
+                "feature_story_edit" =>     "Edita questa feature",
+                "feature_story_add" =>      "Aggiungi una feature",
+                "feature_title1" =>         "Titolo breve",
+                "feature_title2" =>         "Titolo lungo di pubblicazione",
+                "template_name" =>          "Template",
+                "order_num" =>              "Order Number",
+                "status" =>                 "Status",
+                "feature_list" =>           "Lista delle feature",
+                "feature_all_versions" =>   "Vedi le versioni precedenti di questa feature",
+		"feature_history" =>        "Versioni precedenti",
+                "feature_history_inst" =>   "Clicca su una versione per editarla e ritornare a una vecchia versione della feature.",
+                "feature_modifier" =>       "Data ultima modifica",
+                "feature_test" =>           "Vedi anteprima della pagina",
+                "feature_preview" =>        "Vedi anteprima della pagina (contiente il link per mandare in produzione)",
+                "story_version_id" =>       "ID della versione della feature",
+                "feature_version_num" =>    "Numero di versione",
+                "feature_display_date" =>   "Data visibile",
+                "feature_image_url" =>      "Indirizzo immagine",
+                "feature_alt_tag" =>        "Alt/Titoletto barra",
+                "story_index_for" =>        "Indice per ",
+                "story_index_inst" =>       "Clicca su un titolo per editare una feature gia' esistente",
+                "feature_id_number" =>      "ID della feature",
+                // 07 sep 03
+                "no_template_defined" =>    "<br><h3>Non e' stato specificato nessun template per questa feature</h3><br>",
+		"test"              =>      "test",
+
+                // language stuff
+                "language"          =>      "language",
+                "select_a_language" =>      "select a language",
+
+                );
+
+?>

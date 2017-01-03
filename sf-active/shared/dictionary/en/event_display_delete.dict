@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - en - event_display_week
+
+$local = array(
+	"cal_enter_confirm" => "Please enter the confirmation number for this article to delete it",
+	"cal_return_to_event" => "Return to event detail",
+	"cal_conf_no" => "Confirmation Number",
+	"cal_delete" => "Delete",
+	"cal_error_event_id" => "The event id in the url was invalid",
+	"cal_error_event_delete" => "Could not delete event, perhaps your confirmation number is invalid"
+);
+

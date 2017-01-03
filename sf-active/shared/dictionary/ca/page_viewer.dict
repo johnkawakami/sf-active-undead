@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - ca - page viewer
+
+$local = array(
+	"page_viewer_info" =>        "Aquesta pàgina es fa servir per editar la pàgina de procés ...........",
+	"filter" => "filtrar",
+	"search_string" => "Cercar",
+	"insertname" => "Inserta un nom pel nou css",
+	"errorpage" => "Has entrat un nom de pàgina incorrecta. Torna a provar",
+        "filename_header" => "Crea un nou procés pagecss");
+
+
+?>

@@ -1,0 +1,17 @@
+<?php
+// Dictionary file - es - admin_index
+
+$local = array(
+              "admin_welcome" =>  "Vitaj do administraèného systému",
+              "admin_subtitle" => "Správa stránky - Hlavná ponuka",
+              "admin_user" =>     "Spravovatelia",
+              "admin_category" => "Spravovanie kategórií a rubrík",
+              "admin_calendar" => "Spravovanie kalendára",
+              "admin_upload" =>   "Upload obrázky",
+              "admin_article" =>  "Spravovanie èlánkov",
+              "admin_email" =>    "Pošli týždenný email",
+              "admin_spam" =>     "Spam filtre",
+              "admin_logoff" =>   "Odhlásenie"
+              );
+
+?>

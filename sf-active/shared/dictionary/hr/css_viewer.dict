@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - it - css viewer
+
+$local = array(
+	"css_viewer_info" =>        "Ova strana slu¾i za promjenu style sheet-a ...........",
+	"filter" => "filter",
+	"search_string" => "Lista za pretragu",
+	"insertname" => "Unesi ime novog css-a",
+	"errorcss" => "Une¹eno ime css-a je neodgovarajuæe. Poku¹aj ponovo",
+        "filename_header" => "Kreiraj novi css");
+
+
+?>

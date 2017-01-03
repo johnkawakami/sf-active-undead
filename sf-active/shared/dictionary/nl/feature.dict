@@ -1,0 +1,40 @@
+<?php
+// Dictionary file - nl - feature
+
+$local = array(
+                "no_features_to_edit" =>    "Geen features om te bewerken!",
+                "features_edit" =>          "Bewerk deze feature",
+                "feature_story_edit" =>     "Bewerk deze blurb",
+                "feature_story_add" =>      "Voeg een verhaal toe",
+                "feature_title1" =>         "Korte titel",
+                "feature_title2" =>         "Lange titel (wordt getoond)",
+                "template_name" =>          "Naam van de template",
+                "order_num" =>              "Volgnummer",
+                "status" =>                 "Status",
+                "feature_list" =>           "Lijst met features",
+                "feature_all_versions" =>   "Bekijk de geschiedenis van deze feature",
+                "feature_history" =>        "Geschiedenis van deze feature",
+                "feature_history_inst" =>   "Klik op de versie die je wil bewerken en maak deze de nieuwste.",
+                "feature_modifier" =>       "Laatst gewijzigd",
+                "feature_test" =>           "Bekijk een testpagina",
+                "feature_preview" =>        "Bekijk een voorbeeld (bevat een link om het online te plaatsen)",
+                "story_version_id" =>       "Feature versie ID",
+                "feature_version_num" =>    "Versienummer",
+                "feature_display_date" =>   "Datum (zoals ie getoond wordt)",
+                "feature_image_url" =>      "URL Afbeelding",
+                "feature_alt_tag" =>        "Alt Tag",
+                "story_index_for" =>        "Index voor ",
+                "story_index_inst" =>       "Klik op een titel om een bestaande feature te bewerken",
+                "feature_id_number" =>      "ID Nummer",
+
+		// full i18,
+		"no_template_defined" =>	"<br><h3>Er is voor deze feature geen template gedefini&euml;erd</h3><br>",
+		"test"              =>      "toon een test",
+
+                // language stuff
+                "language"          =>      "taal",
+                "select_a_language" =>      "selecteer een taal",
+
+	);
+
+?>

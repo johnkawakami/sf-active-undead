@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - es - logedit
+
+$local = array(
+        "logedit" => "INCLUDE, CSS, TEMPLATES",
+        "logedit_info" =>        "Esta p&aacute;gina se usa para editar o crear Includes, Templates y CSS. Ten cuidado.",
+        "filter" => "filtro",
+        "include_create" => "Crear un nuevo Include",
+        "template_create" => "Crear una nueva Plantilla",
+        "css_create" => "Crear una nueva hoja de estilo (CSS)",
+        "page_create" => "Crear una nueva p&aacute;giuna",
+        "submit_include" => "crear"        
+        );
+
+?>

@@ -1,0 +1,12 @@
+<?php
+// Dictionary file -it - printable
+
+$local = array(
+	"prn_orginal_article" => "L'articolo originale e' all'indirizzo",
+	"prn_print_comments" => "Stampa i commenti.",
+	"prn_hide_comments" => "Nascondi i commenti.",
+	"prn_no_id" => "errore: non possiamo mostrare l'articolo. non hai fornito un id valida.",
+	"prn_no_comments" => "/* senza commenti */"
+);
+
+?>

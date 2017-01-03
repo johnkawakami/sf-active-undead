@@ -1,0 +1,39 @@
+<?
+
+// dossier.dict - hr - language file for the dossier code
+
+$local = array (
+		"dossier"					=>		"dosje",
+		"dossier_title"				=>		"Stranica za dosje ".$GLOBALS[current_dossier_name]." za ".$GLOBALS[site_name ],
+		"dossier_list_link"			=>		"Nazad na listu dosjea",
+		"dossier_article_link"		=>		"Dodaj èlanak u dossier",
+		"dossier_feature_link"		=>		"Dodaj dosje",
+		"dossier_articlelist"		=>		"Lista èlanaka iz ovog dosjea",
+		"update_ok"					=>		"Tvoj èlanak je a¾uriran",
+		"refresh_result"			=>		"Svi èlanci su osvje¾eni",
+		"refresh_work_further"		=>		"Sada mo¾e¹ nastaviti raditi na dosjeu.",
+		"dossier_listpage_title"	=>		"Pregled stranice sa dosjeima iz ".$GLOBALS[site_name ],
+		"dossier_edit_index"		=>		"Editiraj generalni indeks dosjea",
+		"dossier_refresh_articles"	=>		"Osvje¾i èlanke ovog dosjea",
+		"dossier_name"				=>		"Naziv dosjea",
+		"dossier_feature_edittitle"	=>		"Administriraj indeks ovog dosjea",
+		"dossier_feature_newtitle"	=>		"Dodaj dosje",
+		"dossier_addfeature_error"	=>		"Pronaðena je gre¹ka<br />Èlanak nije objavljen",
+		"dossier_updatefeature_error"	=>	"oðena je gre¹ka<br />Èlanak nije a¾uriran",
+		"try_again"					=>		"Poku¹aj ponovo...",
+		"dossier_article_add_title"	=>		"Dodavanje èlanka u dosje",
+		"html_warning"				=>		"Èlanci moraju biti sastavljeni u HTML formatu",
+		"link_to_id"				=>		"Èlanak na koji ¾eli¹ link",
+		"link_to_id_pub"			=>		"U sluèaju da ¾eli¹ da se ovaj èlanak pojavi u generalnom indeksu dosjea, unesi '0'; ako ga ¾eli¹ dodati kao poglavlje drugog èlanka, unesi ID èlanka na kojeg ¾eli¹ linkati.",
+		"order_num"					=>		"Redni broj",
+		"order_num_pub"				=>		"Ove vrijednosti odreðuju redoslijed pod kojim æe se èlanak pojaviti u indeksu.",
+		"dossier_select"			=>		"Odaberi dosje",
+		"dossier_article_display_change" =>	"Promijeni status prikaza za ovaj èlanak u dosjeu",
+		"dossier_adminindex_title"	=>		"Administracija dosjea",
+		"status"					=>		"status",
+		"dossier_publish_ok"		=>		"<b>Tvoj èlanak se neæe pojaviti u vijestina prije nego ¹to dosje bude postavljen online..</b>. Neæe se pojaviti ni na stranici s dosjeima dok ne osvje¾i¹ dosje.",
+
+
+
+);
+?>

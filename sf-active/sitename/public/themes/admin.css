@@ -1,0 +1,12 @@
+td, th { font-family: arial, sans-serif; font-size: 12px; color: #000000; }
+input, select, option, textarea { font-family: arial, sans-serif; font-size: 12px }
+a.nav:link { font-family: verdana, "MS Sans Serif", arial; font-size: 10px; color: #000000; text-decoration: none }
+a.nav:visited { font-family: verdana, "MS Sans Serif", arial; font-size: 10px; color: #000000; text-decoration: none } 
+a.nav:hover { font-family: verdana, "MS Sans Serif", arial; font-size: 10px; color: #000000; text-decoration: underline; }
+a.nav:active { font-family: verdana, "MS Sans Serif", arial; font-size: 10px; text-decoration: none; color: #ffffff; }
+
+a.bar:link { font-family: verdana, arial; font-size: 12px; color: #000000; text-decoration: none }
+a.bar:visited { font-family: verdana, arial; font-size: 12px; color: #000000; text-decoration: none }
+a.bar:hover { font-family: verdana, arial; font-size: 12px; color: #000000; text-decoration: underline; }
+a.bar:active { font-family: verdana, arial; font-size: 12px; text-decoration: none; color: #ffffff; }
+

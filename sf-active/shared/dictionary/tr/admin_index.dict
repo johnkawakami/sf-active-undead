@@ -1,0 +1,17 @@
+<?php
+// Dictionary file - en - admin_index
+
+$local = array(
+              "admin_welcome" =>  "&#304;dari b&ouml;l&uuml;me ho&#351;geldiniz",
+              "admin_subtitle" => "&#304;dare ana men&uuml;",
+              "admin_user" =>     "Kullan&#305;c&#305;lar",
+              "admin_category" => "Kategoriler &amp; B&ouml;l&uuml;mler",
+              "admin_calendar" => "Takvim",
+              "admin_upload" =>   "Dosya y&uuml;kleme",
+              "admin_article" =>  "Haber b&ouml;l&uuml;m&uuml;",
+              "admin_email" =>    "Haftal&#305;k e-posta g&ouml;nderimi",
+              "admin_spam" =>     "Spam filtreleri",
+              "admin_logoff" =>   "&Ccedil;&#305;k&#305;&#351;"
+              );
+
+?>

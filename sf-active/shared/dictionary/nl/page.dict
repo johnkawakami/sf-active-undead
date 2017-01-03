@@ -1,0 +1,11 @@
+<?
+
+// error strings for the page_class
+
+$local=array(
+	"string_error" => "ID van de pagina is geen string",
+	"template_error" => "Kan de template niet vinden",
+	"script_error" => "Kan het script niet vinden",
+	"class_error" => "Kan de gepaste klasse niet vinden",
+)
+?>

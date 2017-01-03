@@ -1,0 +1,28 @@
+<?php
+// Dictionary file - hr - mailinglist
+
+$local = array(
+              "invalid_email" =>        "E-mail adresa je neispravna!",
+              "subscribe_thanks" =>     "Hvala na upisivanju. Da bi proces bio dovr¹en, mora¹ odgovoriti na potvrdni e-mail koji ti je poslan.",
+              "unsubscribe_thanks" =>   "Ispisan/a si s liste. E-mailom æe¹ dobiti dodatnu obavijest.",
+              "passwd_notsent" =>       "Nisam u moguænosti sada poslati lozniku. Probaj ponovo kasnije",
+              "passwd_sent" =>          "Lozinka je poslana na e-mail.",
+			  "delivery_options" =>		"Opcije isporuke",
+			  "weekly_email" =>			"E-mail sa tjednim vijestima",
+			  "top_text" =>				"Tjedni sa¾etak glavnih naslova koji æe biti poslan u tekstualnom obliku. Svaki tjedan æemo slati glavne naslove e-mailom. .",
+			  "email_address" =>		"E-mail adresa",
+			  "subscribe" =>			"Upi¹i me",
+			  "password" =>				"Lozinka (za ispisivanje)",
+			  "unsubscribe" =>			"Odjava",
+			  "email_pass" =>			"Po¹alji mi lozinku mailom",
+			  "indy_news" =>			"Independent Media Vijesti",
+			  "list_text" =>			"Javna mailing lista za independent media vijesti, dogaðanja, obavijesti. Umjereni promet. Za upis, posjeti <a href=\"http://lists.indymedia.org/\">stranicu sa mailing listama</a>",
+			  "xml_newsfeeds" =>		"XML Newsfeeds za PDAs &amp; Syndication",
+			  "xml_text" =>				"Sljedeæe XML datoteke su odr¾avane i mogu se koristiti na tvojoj stranici, PDA ili desktop applet-u",
+			  "feature_stories" =>		"odabrane prièe (srednji stupac)",
+			  "open_newswire" =>		"otvorene vijesti (desni stupac)",
+			  "syndication_page" =>		"stranica za distribuciju i pregled (syndication)",
+			  "custom_xml" =>			"Napravi posebni XML upit",
+              );
+
+?>

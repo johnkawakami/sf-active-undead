@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - it - article_display_list
+
+$local = array(
+               "articles_edit_list" => "Amministrazione Articoli",
+               "enter_article_id" =>    "Inserisci l'ID dell'articolo che vuoi editare:",
+               "enter_comment_id" =>    "Inserisci l'ID dell'articolo di cui vuoi editare i commenti:",
+		"comment_edit" => 	"Comment_EDIT",
+               "click_on_article_to_edit" =>    "Amministrazione Articoli",
+               "save" =>    "Salva",
+		"promote_to_feature"  => "make this article a feature",			       
+              );
+
+?>

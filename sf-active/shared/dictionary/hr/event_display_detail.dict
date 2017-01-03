@@ -1,0 +1,10 @@
+<?php
+// Dictionary file - hr - event_display_week
+
+$local = array(
+	"cal_calendar" => "Kalendar",
+	"cal_return_to_cal" => "Povratak na kalendar",
+	"cal_update" => "A¾uriraj",
+	"cal_delete" => "Obri¹i"
+);
+

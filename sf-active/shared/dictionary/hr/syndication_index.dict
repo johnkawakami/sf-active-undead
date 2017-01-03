@@ -1,0 +1,11 @@
+<?php
+// Dictionary file - hr - syndication_index
+
+$local = array(
+        "syndication_page" => "Distribucija",
+        "features" => "tekstovi",
+        "all_features" => "tekstovi iz svih kategorija"
+);
+
+?>
+

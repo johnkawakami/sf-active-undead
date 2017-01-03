@@ -1,0 +1,75 @@
+<?php
+// Dictionary file - en - publish
+
+$local = array(
+              "pub_stepone" =>    "STEP 1: ENTER ARTICLE INFORMATION",
+              "pub_steptwo" =>    "STEP 2: ENTER TEXT",
+              "pub_stepthree" =>  "STEP 3: ATTACH A FILE",
+	      "attach_a_file"=>   "ATTACH A FILE",
+              "pub_author" =>     "Author",
+              "pub_url" =>        "Web Address URL",
+              "pub_artmime" =>    "TEXT or HTML",
+
+              "pub_optional" =>   "The above contact fields are optional and will be publicly visible with your article.",
+              "pub_sum" =>        "The summary should be no longer than 6 lines. Please include duration of audio/video pieces.",
+
+              "pub_art" =>        "For text articles, URLs wil be converted to clickable links. You may also use &lt;a href=&quot;url&quot;&gt;link&lt;/a&gt; in plain text articles (other tags will be ignored unless you select &quot;html format&quot;).",
+              "pub_mime" =>       "Do not select &quot;html format&quot; unless you include &lt;p&gt; and/or &lt;br&gt; tags!!",
+              "pub_cuantofiles" =>"How many files to upload?",
+              "sel_categories" => "Category",
+              "sel_cattema" => "Thematic category <small>(Optional)</small>",
+              "sel_catlocali" => "Local category",
+	      "sel_catinternal" => "internal category",
+              "sel_catevent" => "event category",
+              "sel_catproject" => "project category",
+              "sel_catother" => "other categories",
+              "sel_cathidden" => "hidden category",
+// new words since translation was started
+              "select_file" => "Select File",
+              "comment" => "Comment",
+              "max_upload" => 'Max filesize:',
+              "total_limit" => 'total size limit:',
+              "minutes" => 'minutes upload time',
+              "accepted_types" => 'Accepted filetypes: '.$GLOBALS['accepted_filetypes'], 
+	      // added by bart (for preview & ...)
+	      "preview" => "Preview",
+              "preview_warning" => "<b>If you wish to use the preview, do it before you enter the uploads</b>.",
+              "publish_successful" => "<strong>Publish successful! We have added your story to the newswire.</strong>",
+              "comment_successful" => "<strong>Comment added!</strong>",
+            // for e-mail validation
+              "validate_email" =>   "EMAIL VALIDATION ?",
+              "validate_form" => "Check this box to have an email sent to yourself so that you can validate that you own this email address.",
+              "pub_validation_email" => "Hello,
+              This email is being sent to you because
+              either you or someone posing as you published
+              a story at SITE_NAME using your email address
+              and requested validation of the email address.
+
+              The story in question can be found here:
+              ARTICLE_URL
+
+              If you are the person who published the story
+              please visit the following url:
+              VALIDATIONURL
+              to validate your story. If you did not make
+              this request and think someone is trying to
+              represent themselves as you, feel free to
+              contact the operators of SITE_NAME at
+              ADMIN_EMAIL.
+
+              If you have any other questions or comments
+              please feel free to contact us
+              here at: PUBLIC_EMAIL ",
+              "pub_validation_email_sub" => "[SITE_NAME] Request for article email validation",
+              "validated_ok" => "your post has been validated",
+              "validated_allready" => "this post was allready validated",
+              "validated_error" => "there went something wrong. Maybe you used the wrong url ?",
+              "validation_email_ok" => "The validation email has been sent.",
+              "validation_email_error" => "There was a problem with sending the validation email. did you enter an email address ?",
+
+            // for language stuff
+              "sel_language"  =>  "Select a language",
+              "pub_error_language" => "You have to select a language for this article",
+
+              );
+?>

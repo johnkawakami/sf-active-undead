@@ -1,0 +1,31 @@
+<?php
+// Dictionary file - en - comment latest
+$local = array(
+		"category" =>          "Kategorija",
+		"sortby" =>          "Sortiraj po",
+		"newest" =>          "Najsvežije",   
+		"reverse" =>          "Obrnuto",
+		"modified" =>         "Menjano",
+		"rank" =>         "Nivo",
+
+// Added after translation
+                "go" => "Kreni!",
+                "keyword" => "Kljuèna reè",
+                "comments" => "Komentara",
+                "no_summaries" => "Nema sižea",
+// ful i18n
+		"no_newswire" => "&#149; GREŠKA: Ova kategorija nije podešena da sadrži vesti posetilaca.<BR>",
+		"newswire_refreshed_for" => "&#149; Standardne vesti posetilaca su osvežene za",
+		"refreshed_all" => "&#149; Sve vesti posetilaca su osvežene za",
+		"unable_to_determine" => "&#149; Ne mogu da odredim tip sižea.<BR>",
+
+// upgrading some old $lang_
+                "date_warning" => "Pogrešna pretraga datuma! Trebalo je da izaberete mesec, dan i godinu.",
+                "hidden_warning" => "Samo duplikati, test i skriveni èlanci.",
+                "no_results" => "Nema prièa!",
+                "search_suggestion" => "Probajte da suzite svoju pretragu na kratku frazu ili na jednu reè.",
+		"more_stories" =>       "more stories",
+		"newer_stories" =>      "newer stories",
+                "select_a_language" =>  "select a language",
+        );
+?>

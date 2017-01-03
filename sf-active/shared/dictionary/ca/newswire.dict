@@ -1,0 +1,32 @@
+<?php
+// Dictionary file - ca - comment latest
+$local = array(
+		"category" =>          "Categoria",
+		"sortby" =>          "Ordenar per",
+		"newest" =>          "Nou",   
+		"reverse" =>          "Revers",
+		"modified" =>         "Modificat",
+		"rank" =>         "Rank",
+// Added after translation
+                "go" => "Go!",
+                "keyword" => "Paraula clau",
+                "comments" => "Comentaris",
+                "no_summaries" => "Sense sumaris",
+// ful i18n
+		"no_newswire" => "&#149; ERROR: Aquesta categoria no esta configurada per suportar newswires.<BR>",
+		"newswire_refreshed_for" => "&#149; Standard newswire refrescades perr",
+		"refreshed_all" => "&#149; Tots els newswires refrescats per",
+		"unable_to_determine" => "&#149; No s'ha pogut determinar el tipus de sumari.<BR>",
+
+// upgrading some old $lang_
+                "date_warning" => "Data invalida! Has de seleccionar un mes, un dia i un any",
+                "hidden_warning" => "Articles amagats, de prova o duplicats només.",
+                "no_results" => "No s'ha trobat cap historia!",
+                "search_suggestion" => "Prova d'encongir la teva cerca a una frase curta o una sola paraula.",
+		 "more_stories" =>       "mes articles",
+		 "newer_stories" =>      "articles més recents",
+                "select_a_language" =>  "select a language",
+				 
+
+        );
+?>

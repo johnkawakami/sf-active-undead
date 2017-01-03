@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - it - include viewer
+
+$local = array(
+	"Bu sayfa eklemeleri (include'lar&#305;) d&uuml;zenlemek i&ccedil;in kullan&#305;l&#305;r...",
+	"filter" => "filtre",
+	"search_string" => "Arama Listesi",
+	"insertname" => "Yeni ekleme i&ccedil;in isim giriniz.",
+	"errortpl" => "Yanl&#305;&#351; bir ekleme ismi girdiniz, tekrar deneyin.",
+        "filename_header" => "Yeni ekleme olu&#351;tur.");
+
+?>

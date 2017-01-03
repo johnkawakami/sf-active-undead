@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - it - template viewer
+
+$local = array(
+	"template_viewer_info" =>        "Questa pagina puo' essere usata per vedere ed editare un qualsiasi file nella directory di template. Il nome del file e' dato attraverso l'indirizzo web. La funzione filter mostra solo le linee contenenti le parole chiave scelte e non puoi salvare dopo aver filtrato. Un filtro vuoto ritornera' una pagina con tutte le linee (quindi cliccare filtra puo' quivalere a ricaricare la pagina se il tuo ultimo comando era errato). Per favore clicca su filter prima di effettuare i tuoi cambiamenti e salvare altrimenti potresti sovrascrivere altri cambiamenti (nel caso dei log potresti cancellare tutto cio' che era stato loggato mentre stavi esaminando il log).",
+	"filter" => "filtra",
+	"search_string" => "parole da cercare",
+	"insertname" => "inserisci nome del nuovo template",
+	"errortpl" => "Hai inserito un nome di template non valido, riprova",
+        "filename_header" => "Crea un nuovo template");
+
+?>

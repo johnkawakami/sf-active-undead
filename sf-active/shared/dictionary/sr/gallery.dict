@@ -1,0 +1,15 @@
+<?
+
+// translation file for gallery - en
+
+$local = array(
+	"media"		=>	"medij",
+	"previous"	=>	"prethodno",
+	"next"		=>	"sledeæe",
+	"view_midsize"	=>	"umanjeno",
+	"view_fullsize"	=>	"prava velièina",
+	"read_article"	=>	"proèitaj èlanak",
+	"no_files"	=>	"Ne postoje takve datoteke.",
+	"download"	=>	"snimi",
+)
+?>

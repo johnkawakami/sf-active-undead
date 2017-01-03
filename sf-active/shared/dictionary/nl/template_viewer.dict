@@ -1,0 +1,11 @@
+<?php
+// Dictionary file - it - template viewer
+
+$local = array(
+	"template_viewer_info" =>        "Deze pagina wordt gebruikt om template ........... te bewerken",
+	"filter" => "filter",
+	"search_string" => "Zoek lijst",
+	"insertname" => "Vul een naam in voor de nieuwe template",
+	"errortpl" => "Je hebt een foute templatenaam ingevuld. Probeer opnieuw",
+        "filename_header" => "Maak een nieuwe template");
+?>

@@ -1,0 +1,30 @@
+<?php
+// Dictionary file - fr - comment latest
+$local = array(
+		"category" =>          "Cat&eacute;gorie",
+		"sortby" =>          "Trier par",
+		"newest" =>          "Plus r&eacute;cents",   
+		"reverse" =>          "Ordre inverse",
+		"modified" =>         "Modifi&eacute;s",
+		"rank" =>         "Ordre",
+// Added after translation
+                "go" => "Go!",
+                "keyword" => "Mot cl&eacute;",
+                "comments" => "Commentaires",
+                "no_summaries" => "Sans r&eacute;sum&eacute;",
+// ful i18n
+		"no_newswire" => "&#149; ERREUR: Cette cat&eacute;gorie n'est pas pr&eacute;vue pour supporter un fil d'infos.<BR>",
+		"newswire_refreshed_for" => "&#149; Fil d'infos standard rafra&icirc;chi pour la cat&eacute;gorie ",
+		"refreshed_all" => "&#149; Tous les fils d'infos ont &eacute;t&eacute; rafra&icirc;chis pour la cat&eacute;gorie ",
+		"unable_to_determine" => "&#149; Impossible de d&eacute;terminer le type.<BR>",
+
+// upgrading some old $lang_
+                "date_warning" => "Recherche par date invalide! S&eacute;lectionner un mois, un jour et une ann&eacute;e",
+                "hidden_warning" => "Doublons, tests, et articles cach&eacute;s seulement.",
+                "no_results" => "Aucun article trouv&eacute;!",
+                "search_suggestion" => "Essayez de r&eacute;duire la recherche &agrave; une courte phrase ou un simple mot.",
+		"more_stories" =>       "suite des r&eacute;sultats",
+		"newer_stories" =>      "articles les plus r&eacute;cents",
+                "select_a_language" =>  "s&eacute;lectionner une langue",
+        );
+?>

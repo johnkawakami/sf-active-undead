@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - es - event_display_list
+
+$local = array(
+        "cal_all" => "Todas",
+        "cal_view_events" => "Mostrar Actividades",
+        "cal_topic" => "Tema",
+        "cal_type" => "Tipo de actividad",
+        "cal_location" => "Lugar",
+        "cal_end_date" => "Fecha de finalizaci&oacute;n",
+        "cal_display_details" => "Mostrar Detalles",
+        "cal_start_date" => "Fecha de comienzo"
+);
+

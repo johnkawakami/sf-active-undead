@@ -1,0 +1,52 @@
+<?php
+// Dictionary file - en - event_display_week
+
+$local = array(
+	"cal_calendar" => "Calendário",
+	"cal_week" => "Semana",
+	"cal_error_event_add" => "Ocorreu um erro ao publicar seu evento. Verifique se todos os campos obrigatórios foram preenchidos e a data e hora são válidos",
+	"cal_error_event_title" => "Sem um título, seu evento não pode ser publicado. Então coloque um!",
+	"cal_error_event_delete" => "A ID do evento na página era inválida, não foi possível deletar.",
+	"cal_error_event_id" => "A ID do evento na url é inválida",
+	"cal_confirm_add_page" => "Confirmar Adicionar Página",
+	"cal_your_confirm" => "Seu número de confirmação é",
+	"cal_need_confirm" => "Você vai precisar deste número para atualizar ou deletar este evento.",
+	
+	"cal_conf_no" => "Número de Confirmação",
+	"cal_title" => "Título",
+	"cal_return_to_calendar" => "Retornar ao Calendário",
+
+	"cal_start_date" => "Data de Início",
+	"cal_start_time" => "Hora de Início",
+	"cal_duration" => "Duração",
+	"cal_location" => "Localização",
+	"cal_event_type" => "Tipo de Evento",
+	"cal_event_topic" => "Tópico do Evento",
+	"cal_contact_name" => "Nome de Contato",
+	"cal_contact_email" => "Email de Contato",
+	"cal_contact_phone" => "Telefone para Contato",
+	"cal_description" => "Descrição",
+
+	
+	"cal_update" => "Atualizar",
+	"cal_add" => "Adicionar",
+	"cal_location_details" => "Detalhes de Localização",
+	"cal_return_to_event" => "Retornar",
+	"cal_enter_confirm" => "Favor entrar com o número de confirmação deste artigo para deletá-lo",
+	"cal_delete" => "Apagar",
+	"cal_hours" => "Horas",
+	"cal_end_date" => "Data de Término",
+	"cal_display_details" => "Mostrar Detalhes",
+	"cal_view_events" => "Ver Eventos",
+	"cal_previous_week" => "Semana Anterior",
+	"cal_next_week" => "Próxima Semana",
+	"cal_week_of" => "Semana de",
+	"cal_add_an_event" => "Adicionar um Evento",
+	"cal_view_all_months" => "Ver Todos os Meses",
+	"cal_list_future_events" => "Listar Eventos Futuros",
+	"cal_filter_by_topic" => "Filtrar por Tópico",
+	"cal_filter" => "Filtro",
+	"cal_no_events" => "Esta semana não há eventos publicados.",
+	"cal_error_event_update_title" => "Eventos têm de ter um título para serem salvos",
+	"cal_error_event_update" => "Não foi possível atualizar evento, seu número de confirmação é inválido"
+);

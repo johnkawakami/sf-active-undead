@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - it - article_regenerate
+
+$local = array(
+	"id_article" => "ID regenerisanog èlanka: ",
+	"wrote_to" => "Snimljeno u: "
+              );
+
+?>

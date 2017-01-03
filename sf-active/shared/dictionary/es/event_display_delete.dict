@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - es - event_display_week
+
+$local = array(
+        "cal_enter_confirm" => "Por favor ingresa el n&uacute;mero de confirmaci&oacute;n de este art&iacute;culo para poder eliminarlo.",
+        "cal_return_to_event" => "Volver a los detalles de la actividad",
+        "cal_conf_no" => "N&uacute;mero de Confirmaci&oacute;n",
+        "cal_delete" => "Eliminar",
+        "cal_error_event_id" => "El identificador de la actividad en la url era no valido",
+        "cal_error_event_delete" => "No se pudo eliminar la actividad, tal vez tu N&uacute;mero de Confirmaci&oacute;n no es v&aacute;lido"
+);
+

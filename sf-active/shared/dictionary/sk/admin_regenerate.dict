@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - es - admin_regenerate
+
+$local = array(
+              "article_regenerate" =>    "Obnov èlánky",
+              "id" =>                    "Identifikaèné èíslo",
+              "wrote_to" =>              "Zapísané do",
+              "regenerated" =>           "Obnovené",
+              "admin_index" =>           "Hlavná ponuka",
+              "admin_article" =>         "Spravovanie èlánkov",
+              "start_id" =>              "Zaèínajúce identifikaèné èíslo èlánkov",
+              "max_to_gen" =>            "Poèet èlánkov na obnovenie", 
+              );
+
+?>

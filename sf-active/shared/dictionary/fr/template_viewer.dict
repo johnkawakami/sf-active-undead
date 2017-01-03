@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - fr - template viewer
+
+$local = array(
+	"template_viewer_info" =>        "Cette page est utilis&eacute;e pour &eacute;diter les templates ...........",
+	"filter" => "Filtrer",
+	"search_string" => "Chercher une cha&icirc;ne",
+	"insertname" => "Nom du nouveau template: ",
+	"errortpl" => "Nom de template incorrect. Veuillez r&eacute;essaier.",
+        "filename_header" => "Cr&eacute;er un nouveau template");
+
+?>

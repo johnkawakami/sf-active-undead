@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - en - admin_regenerate
+
+$local = array(
+              "article_regenerate" =>    "Regeneriši èlanak",
+              "id" =>                    "Identifikacioni (ID) broj",
+              "wrote_to" =>              "Napisano za",
+              "regenerated" =>           "Završena regeneracija",
+              "admin_index" =>           "Glavni meni",
+              "admin_article" =>         "Promeni èlanke",
+              "start_id" =>              "Poèetni identifikacioni broj èlanka",
+              "max_to_gen" =>            "Broj èlanaka za regeneraciju", 
+              );
+
+?>

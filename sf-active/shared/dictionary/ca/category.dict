@@ -1,0 +1,52 @@
+<?php
+// Dictionary file - ca - category
+
+$local = array(
+                "categories" =>                 "Especials",
+                "category_add" =>               "Afegir especial",
+                "archive_generate" =>           "Generate archives",
+                "click_on_category_to_edit" =>  "(Clica al t&iacute;tol per editar una categoria; clica a 'Administrar articles' per administrar els articles en cada categoria.)",
+                "story_list" =>                 "Llista d'articles per aquest especial",
+                "no_center_column" =>           "No columna central",
+		"updated_site" =>               "La p&agrave;gina actual ha estat actualitzada",
+		"feature_list" =>               "Llista d'articles",
+		"category_pushto" =>		"Publicar",
+                "category_shortname" =>         "Categoria (nom curt)",
+                "category_name" =>              "Nom categoria",
+                "category_summarylength" =>     "Llargada del sumari",
+                "template_name" =>              "Nom de la plantilla",
+                "default_template" =>           "Plantilla per defecte",
+                "newswire_type" =>              "Tipus newswire",
+                "centercolumn_type" =>          "Tipus columna central",
+                "category_description" =>       "Descripci&oacute; de la categoria",
+                "n_newswire" =>                 "Sense Newswire",
+                "s_newswire" =>                 "Newswire estandar",
+                "a_newswire" =>                 "Newswire sencer",
+		"f_newswire" =>                 "Filtered Newswire",
+                "no_centercolumn" =>            "No columna central",
+                "standard_centercolumn" =>      "Columna central estandar",
+                "ordernum" =>                   "N&uacute;mero d'ordre",
+                "category_add" =>               "Afegir una categoria",
+                "category_edit" =>              "Editar una categoria",
+                "catclass_type" =>          "Category class",
+                "m_category_left" =>              "Categories",
+                "t_category_left" =>              "thematic categories",
+                "l_category_left" =>              "local collectives",
+                "i_category_left" =>              "process categories",
+                "m_category" =>              "principal",
+                "h_category" =>              "inactiu",
+                "t_category" =>              "tematic",
+                "l_category" =>              "local",
+                "i_category" =>              "intern",
+                "o_category" =>             "other",
+                "e_category" =>             "event",
+                "p_category" =>             "project",
+                "recache"    =>              "Marca aqui si vols recaxejar la categoria directory index (automatic si estas afegint una categoria)",
+                // 07 sep 03
+                "no_feature_template_defined" =>  "<br><h3>No s'ha definit cap template per aquesta feature feature</h3><br>",
+                "no_category_template_defined" =>  "<br><h3>No s'ha definit cap template per aquesta categoria</h3><br>",
+				"refresh_newswire"      =>  "refresca el newswire ",
+				
+);
+
+?>

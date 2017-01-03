@@ -1,0 +1,20 @@
+<?php
+// Dictionary file - fr - event_display_event
+
+$local = array(
+	"cal_title" => "Titre&nbsp;",
+	"cal_start_date" => "DATE DE D&Eacute;BUT",
+	"cal_start_time" => "HEURE DE D&Eacute;BUT",
+	"cal_duration" => "Dur&eacute;e",
+	"cal_hours" => "Heures",
+	"cal_location" => "Lieu",
+	"cal_location_details" => "Informations sur le lieu",
+	"cal_type" => "Type d'&eacute;v&eacute;nement",
+	"cal_topic" => "Th&egrave;me de l'&eacute;v&eacute;nement",	
+	"cal_contact_name" => "Nom de la personne de contact",
+	"cal_contact_email" => "E-mail de la personne de contact",
+	"cal_contact_phone" => "T&eacute;l&eacute;phone de la personne de contact",
+	"cal_description" => "DESCRIPTION",
+);
+
+?>

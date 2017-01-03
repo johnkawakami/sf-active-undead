@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - en - event_display_list
+
+$local = array(
+	"CALENDAR_LOCAL_INFORMATION" => "Kalender: Zie per maand",
+	"CALENDAR_LOCAL_CLICK_ON_WEEK" => "Klik op een week om de evenementen van die week te bekijken"
+);
+

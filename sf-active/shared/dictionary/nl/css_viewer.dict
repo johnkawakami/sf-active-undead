@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - it - css viewer
+
+$local = array(
+	"css_viewer_info" =>        "Deze pagina wordt gebruikt om style sheet ........... te bewerken",
+	"filter" => "filter",
+	"search_string" => "Zoek lijst",
+	"insertname" => "Vul een naam in voor het nieuw css-bestand",
+	"errorcss" => "Je hebt een ongeldige naam voor een css-betand ingevuld. Probeer opnieuw",
+        "filename_header" => "Maak een nieuw css-bestand");
+
+
+?>

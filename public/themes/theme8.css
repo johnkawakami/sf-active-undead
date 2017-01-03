@@ -1,0 +1,98 @@
+#imcnetwork a:hover{ padding-left:6px; background-color:#dddddd; color:#0088cc; font-size:10pt; }
+#imcnetwork a{display:block; font-size:8pt;}
+#imcnetwork b{display:block;}
+body { font-family: georgia; background-color: #ffffff; color: #000000; margin: 7px 7px 7px 7px }
+address, caption, div, dl, li, ol, p, ul { font-family: georgia; font-size: 12px }
+td, th { font-family: georgia; font-size: 12px; color: #000000; }
+input, select, option, textarea { font-family: georgia; font-size: 12px }
+a:link { color: #0000cc }
+a:visited { color: #440088 }
+a:hover { }
+a:active { text-decoration: none; background-color: #eee; }
+a.left:link { text-decoration: underline; font-size: 10px } 
+a.left:visited { text-decoration: underline;  font-size: 10px }
+a.left:hover { text-decoration: none; font-size: 10px }
+a.left:active { font-size: 10px }
+a.headline-text:link { text-decoration: none; color: #990000 } 
+a.headline-text:visited { text-decoration: none; color: #990000 }
+a.headline-text:hover { text-decoration: underline; color: #990000 } 
+a.headline-text:active { text-decoration: none; background-color: #990000; color: #dd0000 }
+a.navbar:link { font-family: georgia; font-size: 13px; text-decoration: none; color: #cccccc } 
+a.navbar:visited { font-family: georgia; font-size: 13px; text-decoration: none; color: #cccccc }
+a.navbar:hover { font-family: georgia; font-size: 13px; text-decoration: underline; color: #ffffff } 
+a.navbar:active { font-family: georgia; font-size: 13px; }
+a.newswire:link { font-family: georgia; 
+text-decoration: none; color: #990000 } 
+a.newswire:visited { font-family: georgia; 
+text-decoration: none; color: #dd0000 }
+a.newswire:hover { font-family: georgia; 
+text-decoration: underline; }
+a.newswire:active { font-family: georgia; 
+text-decoration: none; }
+a.publink:link { color: #cc0000 }
+a.publink:visited { color: #cc0000 }
+a.publink:hover { } 
+a.publink:active { text-decoration: none; background-color: #cc3300 }
+big { font-size: 14px }
+small { font-family: georgia; font-size: 10px }
+small.featurelist { font-size: 10px; font-family: georgia; color: #000000 }
+code, pre { font-family: monospace; }
+div.theme { font-family: georgia; font-size: 10px; color: #222222 }
+div.mast { font-family: georgia; font-size: 24px; font-weight: bold }
+div.top { font-family: georgia; font-size: 19px; font-weight: bold }
+div.left { color: #222222; }
+.hed { font-family: Georgia, Verdana; font-size: 24px; font-weight: bold; color: #990000 }
+.hedl { font-family: Georgia, Verdana; font-size: 20px; font-weight: bold }
+h1, div.h1 { font-family: Georgia, Verdana; font-size: 20px; font-weight: bold }
+h2, div.h2 { font-family: Georgia, Verdana; font-size: 18px; font-weight: bold }
+h3, div.h3 { font-family: Georgia, Verdana; font-size: 16px; font-weight: bold }
+h4, div.h4 { font-family: Georgia, Verdana; font-size: 14px; font-weight: bold; background-color: #ccc; margin: 0px 0px 0px 0px; padding: 15px 5px 15px 5px; }
+h5, div.h5 { font-family: Georgia, Verdana; font-size: 12px; font-weight: bold }
+h6, div.h6 { font-family: georgia; font-size: 10px; font-weight: bold }
+.blurb, .blurb p { font-family: georgia; font-size: 14pt; line-height: 1.75em; }
+.newswirehead { color: #000000; font-family: georgia; }
+.mast { background-color: #ffffff; }
+.bgaccent { color: #000000; background-color: #999999; }
+.bg3 { background-color: #ffffff }
+.bgult { background-color: #ddd; }
+.bgcentercol { background-color: #fff; font-size: 12pt; }
+.bgnavbar { background-color: #666666 }
+.bgnewswire { background-color: #fff }
+.bgleftcol { background-color: #ffffff; }
+.bgcities { background-color: #dddddd; line-height: 1.5em; }
+.bgpenult { background-color: #ffffff; color: #333333 }
+.bg9 { background-color: #666666 }
+.bg00 { background-color: #000000 }
+.bgsearchgrey { background-color: #eeeeee }
+.date { color: #cc3333; font-family: georgia, "MS Sans Serif", georgia; font-size: 10px }
+p.heading { font-size: 20pt; font-family: Georgia, Verdana; }
+strong.heading { font-size: 20pt; }
+blockquote.summary { width: 5.5in; margin-left: 60px;  padding-left: margin-right: 40px; 0px; font-style: italic; font-size: 14pt; }
+.article, .article p { font-size: 14pt; max-width: 5.5in; margin-left: 60px; margin-right: 40px; line-height: 1.75; }
+p.media { text-align: left; margin-left: 1in; }
+p.media img { padding: 5px; border: 1px solid #ddd; margin: 0 auto 0 auto; }
+p.newswire { margin-bottom: 2em; }
+
+.detailTextLabel { background-color: #ccccee; color: #000000; font-weight: bold }
+.detailText { color: #000000 }
+.calendar { font-size: 10px; font-family: georgia, "MS Sans Serif", 
+georgia }
+.calendarHeader { font-size: 10px; font-family: georgia, "MS Sans Serif", 
+georgia }
+.calendarToday { color: #ffffff; font-size: 10px; font-family: georgia, 
+"MS Sans Serif", georgia }
+.calendarHighlightWeek { background-color: #aaaaaa; }
+
+.bodyClass { background-color: #000000; }
+.bgcolor { background-color: #999999; color: #222222}
+.bgcolor3 { background-color: #666666; color: #dddddd }
+
+.weekTitles  { font-weight: bold; color: #ffffff; background-color: #999999; } 
+.eventTitle { font-weight: bold }
+.eventText { background-color: #eeeeee }
+.eventNav { }
+.eventNav2 { }
+
+.troll-1 { color: #999; font-size: .8em; }
+.crdate { font-size: .8em; }
+div.report { text-align: left; text-style: italic; }

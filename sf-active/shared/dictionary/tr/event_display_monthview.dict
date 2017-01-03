@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - en - event_display_list
+
+$local = array(
+	"CALENDAR_LOCAL_INFORMATION" => "Takvim: Bütün aylar",
+	"CALENDAR_LOCAL_CLICK_ON_WEEK" => "Duyurular&#305; görüntülemek için haftaya t&#305;klay&#305;n"
+);
+?>

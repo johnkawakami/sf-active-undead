@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - es - include viewer
+
+$local = array(
+        "include_viewer_info" =>        "Esta p&aacute; es usada para editar los INCLUDES ...........",
+        "filter" => "filtrar",
+        "search_string" => "Lista de b&uacute;squeda",
+        "insertname" => "A&ntilde;adir nombre del nuevo INCLUDE",
+        "errortpl" => "Has escrito un nombre incorrecto de INCLUDE. Intenta nuevamente",
+        "filename_header" => "Crear un nuevo INCLUDE");
+
+?>

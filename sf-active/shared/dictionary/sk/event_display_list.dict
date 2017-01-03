@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - en - event_display_list
+
+$local = array(
+	"cal_all" => "Všetko",
+	"cal_view_events" => "Zobraz udalosti",
+	"cal_topic" => "Táma udalosti",
+	"cal_type" => "Typ udalosti",
+	"cal_location" => "Miesto",
+	"cal_end_date" => "Koneèný dátum",
+	"cal_display_details" => "Zobraz detaily",
+	"cal_start_date" => "Zaèiatoèný dátum"
+);
+

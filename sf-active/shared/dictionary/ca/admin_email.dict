@@ -1,0 +1,16 @@
+<?php
+// Dictionary file - ca - admin_email
+
+$local = array(
+	"mailing_list_admin" => "Newsletter Administraci&oacute;",
+	"date" => "Data",
+	"your_mail_sent" => "Missatge enviat",
+	"your_mail_not_sent" => "El missatge no ha estat enviat",
+	"subject" => "Assumpte",
+	"message_body" => "Cos del missatge",
+	"check_here" => "Marca aquesta caixa quan estigui tot emplenat",
+	"list_recipients" => "Direcció on s'envia la news",
+	"local_sendto_address" => $GLOBALS['mailing_list_news'],
+        "send" => "Enviar");
+
+?>

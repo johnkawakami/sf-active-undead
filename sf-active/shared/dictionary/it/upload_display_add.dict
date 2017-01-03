@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - it - upload_display_add
+
+$local = array(
+               "upload_subtitle" =>    "Upload immagini",
+	       "file_to_upload" =>     "File da uploadare",
+	       "location_upload" =>    "directory in cui uploadare",
+	       "over_write" =>         "sovrascrivere",
+	       "browse_images" =>      "naviga immagini presenti",
+	       "image_exists_error" => "L'immagine esiste gia'!",
+	       "image_cannot_move" =>  "Non posso spostare il file!",
+	       "image_uploaded" =>     "Immagine uploadata!"
+              );
+
+?>

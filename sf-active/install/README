@@ -1,0 +1,30 @@
+SF-ACTIVE v0.9.4
+--------------
+
+* DOCUMENTATION
+  sf-active is most completely documented in the HTML docs that are
+  included in cvs. You are encouraged to start there. These can be
+  found online at http://sfactive.indymedia.org/docs/ (this site is
+  updated nightly from cvs).
+
+* SUPPORT QUESTIONS
+  Submit your questions & subscribe to imc-sf-active@indymedia.org:
+  http://lists.indymedia.org/imc-sf-active/
+
+* IRC SUPPORT
+  You can also try finding sf-active developers and sysadmins in
+  irc at irc.indymedia.org in #sfkids or #sf-active. For more
+  details, see http://irc.indymedia.org/
+
+* SF-ACTIVE COLLABORATIVE WEBSITE
+  There is an open publishing website for sf-active developers and
+  users at http://sfactive.indymedia.org/
+
+* REPORTING BUGS
+  You can also submit bugs or feature requests to the sf-active bug
+  database at http://codecoop.org/tracker/?group_id=28
+
+* CUSTOMIZING SF-ACTIVE
+  Please see css_notes.txt in this directory for more information
+  on creating custom themes for sf-active.
+

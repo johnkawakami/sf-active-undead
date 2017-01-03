@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - en - event_display_add_confirm
+
+$local = array(
+	"cal_calendar" => "Takvim",
+	"cal_confirm_add_page" => "Onayla",
+	"cal_your_confirm" => "Onay numaran&#305;z",
+	"cal_need_confirm" => "Bu numara duyurunuzu de&#287;i&#351;tirmek veya silmek istedi&#287;inizde gerekli olacakt&#305;r.",
+	"cal_return_to_calendar" => "Takvime d&ouml;n"
+);
+
+?>

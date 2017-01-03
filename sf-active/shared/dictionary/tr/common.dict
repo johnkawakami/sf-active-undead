@@ -1,0 +1,227 @@
+<?php
+// Common dictionary file for eng
+
+$GLOBALS['dict']['imc_network'] =           "&#304;stanbul Indymedia - Ba&#287;&#305;ms&#305;z Bas&#305;n Merkezi";
+$GLOBALS['dict']['about_us'] =              "hakk&#305;m&#305;zda";
+$GLOBALS['dict']['contact_us'] =            "ileti&#351;im";
+$GLOBALS['dict']['subscribe_me'] =          "bbm'ye kat&#305;l";
+$GLOBALS['dict']['calendar'] =              "takvim";
+$GLOBALS['dict']['publish'] =               "haber yay&#305;nla";
+$GLOBALS['dict']['button_publish'] =        "yay&#305;nla";
+$GLOBALS['dict']['search'] =                "ara";
+$GLOBALS['dict']['text'] =                  "yaz&#305;";
+$GLOBALS['dict']['image'] =                 "foto&#287;raf";
+$GLOBALS['dict']['audio'] =                 "ses";
+$GLOBALS['dict']['video'] =                 "video";
+$GLOBALS['dict']['other'] =                 "di&#287;er";
+$GLOBALS['dict']['all'] =                   "Hepsi";
+$GLOBALS['dict']['any'] =                   "Herhangi biri";
+$GLOBALS['dict']['medium'] =                "haber";
+$GLOBALS['dict']['traducir'] =              "&Ccedil;eviri";
+$GLOBALS['dict']['refresh_text'] =          "Metni g&uuml;ncelle...";
+$GLOBALS['dict']['nothing_was_done'] =      "Hi&ccedil; bir &#351;ey yap&#305;lmad&#305;!";
+$GLOBALS['dict']['required'] =              "Gerekli";
+$GLOBALS['dict']['reorder'] =               "Yeniden s&#305;rala";
+$GLOBALS['dict']['current'] =               "Mevcut";
+$GLOBALS['dict']['archived'] =              "Ar&#351;ivli";
+$GLOBALS['dict']['action_archive'] =        "Ar&#351;iv";
+$GLOBALS['dict']['action_hide'] =           "Gizle";
+$GLOBALS['dict']['action_display'] =        "G&ouml;ster";
+$GLOBALS['dict']['hidden'] =                "Gizli";
+$GLOBALS['dict']['logon_failed'] =          "Kullan&#305;c&#305; ad&#305; ya da &#351;ifeniz ge&ccedil;ersiz!";
+$GLOBALS['dict']['admin_article'] =         "Haber ar&#351;ivi";
+$GLOBALS['dict']['admin_index'] =           "Ana men&uuml;";
+$GLOBALS['dict']['edit'] =                  "D&uuml;zenle";
+$GLOBALS['dict']['id'] =                    "ID numaras&#305;";
+$GLOBALS['dict']['created'] =               "Olu&#351;turulma tarihi";
+$GLOBALS['dict']['modified'] =              "G&uuml;ncellleme tarihi";
+$GLOBALS['dict']['title'] =                 "Ba&#351;l&#305;k";
+$GLOBALS['dict']['author'] =                "G&ouml;nderen";
+$GLOBALS['dict']['email'] =                 "e-posta";
+$GLOBALS['dict']['link'] =                  "Web adresi";
+$GLOBALS['dict']['address'] =               "Adres";
+$GLOBALS['dict']['phone'] =                 "Telefon";
+$GLOBALS['dict']['category_list'] =         "Kategori listesi";
+$GLOBALS['dict']['mimetype'] =              "Mime Type";
+$GLOBALS['dict']['textmime'] =              "Düz metin/HTML";
+$GLOBALS['dict']['displaystat'] =           "G&ouml;r&uuml;n&uuml;m durumu";
+$GLOBALS['dict']['parent_id'] =             "Ana ID";
+$GLOBALS['dict']['mediafile'] =             "&Ccedil;oklu ortam dosyas&#305;";
+$GLOBALS['dict']['summary'] =               "&Ouml;zet";
+$GLOBALS['dict']['article'] =               "Haber";
+$GLOBALS['dict']['status_hidden'] =         "Gizli";
+$GLOBALS['dict']['status_local'] =          "Yerel";
+$GLOBALS['dict']['status_display'] =        "Di&#287;er";
+$GLOBALS['dict']['status_global'] =         "K&uuml;resel";
+$GLOBALS['dict']['status_both'] =           "&#304;kisi de";
+$GLOBALS['dict']['user_add'] =              "Kullan&#305;c&#305; ekle";
+$GLOBALS['dict']['delete'] =                "Sil";
+$GLOBALS['dict']['username'] =              "Kullan&#305;c&#305; ad&#305;";
+$GLOBALS['dict']['password'] =              "&#350;ifre";
+$GLOBALS['dict']['insecure_pass_msg'] =         "Your password is insecure.";
+$GLOBALS['dict']['secure_pass_desc'] =          "A secure password is at least 6 characters long and contains letters, capitals and numbers.";
+$GLOBALS['dict']['secure_pass_desc2'] =         "You have to enter a secure password!";
+$GLOBALS['dict']['first_name'] =            "Ad&#305;";
+$GLOBALS['dict']['last_name'] =             "Soyad&#305;";
+$GLOBALS['dict']['save'] =                  "Kaydet";
+$GLOBALS['dict']['copy'] =                  "Kopyala";
+$GLOBALS['dict']['order_number'] =          "S&#305;ra numaras&#305;";
+$GLOBALS['dict']['comment_pub_one'] =       "1) Haberle ilgili bilgileri girin";
+$GLOBALS['dict']['comment_pub_two'] =       "2) Haberi girin";
+$GLOBALS['dict']['comment_pub_three'] =     "3) Dosya ekleyin";
+$GLOBALS['dict']['optional'] =              "&#304;ste&#287;e ba&#287;l&#305;";
+$GLOBALS['dict']['select_a_category'] =     "Bir kategori se&ccedil;in";
+// added by blicero fro catclass function -- blicero 20 may 2003
+$GLOBALS['dict']['select_a_thematic_category'] =     "Bir alan kategorisi se&ccedil;in";
+$GLOBALS['dict']['select_a_local_category'] =     " Yerel bir kategori se&ccedil;in";
+$GLOBALS['dict']['select_a_internal_category'] = "Select a internal category";
+$GLOBALS['dict']['select_a_event_category'] = "Select a event category";
+$GLOBALS['dict']['select_a_project_category'] = "Select a project category";
+$GLOBALS['dict']['select_a_other_category'] = "Select a other category";
+$GLOBALS['dict']['select_a_hidden_category'] = "Select a hidden category";
+
+// have to include archive stuff here :/
+
+$GLOBALS['dict']['local_information'] = "Orta kolon haber ar&#351;ivi";
+$GLOBALS['dict']['local_click_on_week'] = "Haftan&#305;n &uuml;zerine t&#305;klay&#305;n";
+$GLOBALS['dict']['archive_id'] = "kategori haber ar&#351;ivi";
+$GLOBALS['dict']['archive_index'] = "t&uuml;m haber ar&#351;ivi";
+$GLOBALS['dict']['archive_week'] = "haftal&#305;k ar&#351;ivler";
+$GLOBALS['dict']['archive_date'] = "tarihe g&ouml;re ar&#351;ivler";
+$GLOBALS['dict']['archive_id'] = "kategori haber ar&#351;ivi";
+$GLOBALS['dict']['archive_title2'] = "Konu ba&#351;l&#305;&#287;&#305;";
+$GLOBALS['dict']['archive_display_date'] = "Tarih";
+$GLOBALS['dict']['archive_findweek'] = "Haftalara g&ouml;re eski ar&#351;ivler";
+$GLOBALS['dict']['next_archive_page'] = "sonraki sayfa";
+$GLOBALS['dict']['prev_archive_page'] = "&ouml;nceki sayfa";
+$GLOBALS['dict']['prev_archive_week'] = "&ouml;nceki hafta";
+$GLOBALS['dict']['next_archive_week'] = "sonraki hafta";
+$GLOBALS['dict']['archive_navmonths'] = "aylara g&ouml;re taray&#305;n";
+$GLOBALS['dict']['archive_navdate'] = "t&uuml;m ar&#351;ivi tarihe g&ouml;re taray&#305;n";
+$GLOBALS['dict']['archive_navid'] = "T&uuml;m kategori ar&#351;ivlerini taray&#305;n";
+$GLOBALS['dict']['archive_home'] = "ana sayfa";
+$GLOBALS['dict']['search_by_keyword'] = "anahtar kelime";
+$GLOBALS['dict']['search_by_author'] = "g&ouml;nderen";
+$GLOBALS['dict']['view_article_wo_comment'] = "Yorumlar&#305; eklemeden sadece haberi g&ouml;r&uuml;nt&uuml;leyin";
+$GLOBALS['dict']['your_story_is'] = "G&ouml;nderdi&#287;iniz haber";
+$GLOBALS['dict']['html_article'] = "HTML";
+$GLOBALS['dict']['image_file'] = "Resim dosyas&#305;";
+$GLOBALS['dict']['pdf_file'] = "PDF";
+$GLOBALS['dict']['smil_file'] = "SMIL";
+$GLOBALS['dict']['mpeg_video_file'] = "MPEG";
+$GLOBALS['dict']['realaudio_file'] = "RealAudio";
+$GLOBALS['dict']['mp3_stream'] = "MP3 stream";
+$GLOBALS['dict']['mp3_playlist'] = "MP3 playlist";
+$GLOBALS['dict']['realaudio_metafile'] = "RealAudio Metafile";
+$GLOBALS['dict']['wm_audio_file'] = "Windows Media ses dosyas&#305;";
+$GLOBALS['dict']['mp3_file'] = "MP3";
+$GLOBALS['dict']['realvideo_file'] = "RealVideo";
+$GLOBALS['dict']['quicktime_file'] = "Quicktime";
+$GLOBALS['dict']['avi_file'] = "AVI";
+$GLOBALS['dict']['realvideo_metafile'] = "RealVideo Metafile";
+$GLOBALS['dict']['wm_file'] = "Windows Media ses dosyas&#305;";
+$GLOBALS['dict']['error_detected'] = "B&#304;R HATA OLU&#350;TU - L&Uuml;TFEN TEKRAR DENEY&#304;N!";
+$GLOBALS['dict']['fill_out_form_right'] = "Formdaki t&uuml;m b&ouml;l&uuml;mleri do&#287;ru bir &#351;ekilde doldur&#287;un";
+$GLOBALS['dict']['pub_error_title'] = "Ba&#351;l&#305;k b&ouml;l&uuml;m&uuml;n&uuml; bo&#351; b&#305;rakamazs&#305;n&#305;z.";
+$GLOBALS['dict']['pub_error_author'] = "G&ouml;nderen b&ouml;l&uuml;m&uuml;n&uuml; bo&#351; b&#305;rakamazs&#305;n&#305;z.";
+$GLOBALS['dict']['pub_error_summary'] = "&Ouml;zet k&#305;sm&#305;n&#305; bo&#351; b&#305;rakamazs&#305;n&#305;z.";
+$GLOBALS['dict']['pub_error_long_summary'] = "&Ouml;zetiniz &ccedil;ok uzun. L&uuml;tfen biraz k&#305;salt&#305;n.";
+$GLOBALS['dict']['pub_error_upload'] = "Bir haber girmeniz veya dosya eklemeniz gerekmektedir.";
+$GLOBALS['dict']['pub_error_long_upload'] = "Azami 20 adet dosya g&ouml;nderebilirsiniz.";
+$GLOBALS['dict']['pub_error_file'] = "G&ouml;ndermek istedi&#287;iniz dosya t&uuml;r&uuml; desteklenmiyor. L&uuml;tfen tekrar deneyin";
+$GLOBALS['dict']['pub_error_where_file'] = "Resim dosyas&#305; eklememi&#351;siniz.";
+$GLOBALS['dict']['pub_error_select_file'] = "G&ouml;nderece&#287;iniz dosyayla ilgili ba&#351;l&#305;k b&ouml;l&uuml;m&uuml;n&uuml; bo&#351;b&#305;rakm&#305;&#351;s&#305;n&#305;z.";
+$GLOBALS['dict']['there_were'] = "Toplam";
+$GLOBALS['dict']['files_detected'] = "dosya alg&#305;land&#305;.";
+
+// new words since translation was started
+$GLOBALS['dict']['single_comment'] = "yorum";
+$GLOBALS['dict']['plural_comment'] = "yorum";
+$GLOBALS['dict']['arttype'] = "Metin tipi";
+$GLOBALS['dict']['year'] = 'Y&#305;l';        
+$GLOBALS['dict']['month'] = 'Ay';      
+$GLOBALS['dict']['day'] = 'Gün';
+$GLOBALS['dict']['spam_message']="Haber yay&#305;nlama bölümü geçici bir süre için servis d&#305;&#351;&#305;d&#305;r";
+$GLOBALS['dict']['newswire'] = 'HABERLER';
+$GLOBALS['dict']['view_current'] = 'bölümleri görüntüle';
+$GLOBALS['dict']['regen_article'] = 'Yeniden S&#305;rala';
+$GLOBALS['dict']['start_id'] = "Ba&#351;lang&#305;ç haberinin ID'si";
+$GLOBALS['dict']['max_to_gen'] = 'Yeniden S&#305;ralanacak haber say&#305;s&#305;';
+$GLOBALS['dict']['regenerate'] = 'Yenile';
+// added by blicero for italy branching :)
+$GLOBALS['dict']['reason'] = 'Reason (optional)';
+
+//added bu blicero for admin
+$GLOBALS['dict']['admincategories'] =		"KATEGOR&#304;LER";
+$GLOBALS['dict']['adminarticles'] =		"HABERLER";
+$GLOBALS['dict']['admincalendar'] =              "TAKV&#304;M";
+$GLOBALS['dict']['adminupload'] =              "DOSYA Y&Uuml;KLEME";
+$GLOBALS['dict']['admingraphics'] =              "CSS,INCLUDE, TEMPLATE";
+$GLOBALS['dict']['adminxml'] =              "RSS/XML";
+$GLOBALS['dict']['adminloggedin'] =              "Giri&#351; yapan kullan&#305;c&#305;";
+$GLOBALS['dict']['adminlogout'] =              "&Ccedil;IKI&#350;";
+$GLOBALS['dict']['adminusers'] =              "KULLANICILAR";
+$GLOBALS['dict']['adminemail'] =              "E-POSTA";
+$GLOBALS['dict']['adminstats'] =              "SITE KULLANIMI";
+$GLOBALS['dict']['adminnextip'] =              "BLOKLANAN IP'LER";
+$GLOBALS['dict']['adminiplog'] =              "IP LOGU";
+$GLOBALS['dict']['adminipblock'] =              "BLOKLANAN IP LOGLARI";
+$GLOBALS['dict']['adminlatestcomments'] =              "SON YORUMLAR";
+$GLOBALS['dict']['admincities'] =              "&#350;EH&#304;LER";
+$GLOBALS['dict']['adminsite'] =              "Site g&uuml;ncelleme";
+$GLOBALS['dict']['adminviewsite'] =              "Siteyi g&ouml;r&uuml;nt&uuml;le";
+$GLOBALS['dict']['adminlanguage'] =         "LANGUAGES";
+
+
+//added by blicero to show automatically subpage listing
+// some more stuff for index_left, occam
+$GLOBALS['dict']['features'] = "Bölümler";
+$GLOBALS['dict']['latest_news'] = "son haberler";
+$GLOBALS['dict']['commentary'] = "yorum";
+$GLOBALS['dict']['syndication'] = "syndication";
+$GLOBALS['dict']['resources'] = "haber yap&#305;n";
+$GLOBALS['dict']['participate'] = "kat&#305;l&#305;m";
+$GLOBALS['dict']['archives'] = "ar&#351;ivler";
+$GLOBALS['dict']['chat'] = "sohbet";
+$GLOBALS['dict']['donate'] = "donate";
+$GLOBALS['dict']['latest_newswire'] = "son haberlerin listesi";
+$GLOBALS['dict']['publish_your_news'] = "haber yay&#305;nla";
+$GLOBALS['dict']['view_latest_comments'] = "son yorumlar";
+$GLOBALS['dict']['view_hidden_posts'] = "gizlenen haberler";
+
+// added by blicero for mail2admin
+$GLOBALS['dict']['admin_hiding_message'] = 	"haber d&uuml;zenlemebildirimi";
+$GLOBALS['dict']['edited_by'] = 	"D&uuml;zenleyen";
+
+//added by blicero to show automatically subpage listing
+$GLOBALS['dict']['features'] = "B&ouml;l&uuml;mler";
+
+// added by gek for sfactive website
+$GLOBALS['dict']['download'] = "dosya indir";
+$GLOBALS['dict']['documentation'] = "d&ouml;k&uuml;mantasyon";
+$GLOBALS['dict']['support'] = "destek";
+$GLOBALS['dict']['servers'] = "serverlar";
+$GLOBALS['dict']['bugs'] = "buglar";
+$GLOBALS['dict']['irc'] = "irc";
+$GLOBALS['dict']['links'] = "linkler";
+
+// for syndication index
+$GLOBALS['dict']['art_feat'] = "Articles and features" ;
+$GLOBALS['dict']['e_category_left'] = "event categories";
+$GLOBALS['dict']['p_category_left'] = "project categories";
+$GLOBALS['dict']['o_category_left'] = "other categories";
+
+// for email validation
+$GLOBALS['dict']['article_validated'] = "(email address validated)";
+$GLOBALS['dict']['article_not_validated'] = "";
+
+// for gallery - resizes
+$GLOBALS['dict']['latest_uploads'] = "latest media";
+
+// admin stuff -- mtoups
+$GLOBALS['dict']['lastlogin'] = "Last Login";
+
+// language stuff
+$GLOBALS['dict']['language'] =   "LANGUAGE";
+$GLOBALS['dict']['select_a_language'] =  "select a language";
+?>

@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - en - admin_email
+$local = array(
+    "your_mail_sent" => "Jouw e-mail is verstuurd!",
+    "your_mail_not_sent" => "Jouw e-mail is NIET verstuurd!",
+    'check_here' => 'Check hier',
+    'send' => 'Verstuurd!',
+    'date' => 'Datum',
+    'list_recipients' => 'Ontvangers adres',
+    'mailing_list_admin' => 'Mailinglijst Beheerder',
+    'subject' => 'Onderwerp',
+    'message_body' => 'Body van het bericht'
+);
+?>

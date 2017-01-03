@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - it - article_regenerate
+
+$local = array(
+	"id_article" => "Regenerated article ID: ",
+	"wrote_to" => "Wrote to: "
+              );
+
+?>

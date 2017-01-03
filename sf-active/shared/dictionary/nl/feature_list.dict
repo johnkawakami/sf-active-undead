@@ -1,0 +1,10 @@
+<?php
+// Dictionary file - nl - feature_list
+
+$local = array(
+       "features" => "Features:",
+       "catclass" => "Deze categorie is ",
+       "feature_overview" => "HUIDIGE ONDERWERPEN & ACTIES"
+);
+
+?>

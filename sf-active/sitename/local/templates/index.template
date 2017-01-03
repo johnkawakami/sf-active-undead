@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>
+			<tag:lang.page_title /> : <tag:lang.site_nick /> 
+		</title>
+		<meta http-equiv="Content-Type" content="text/html; <tag:charset />" />
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9" />
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<!-- <meta name="ROBOTS" content="NOINDEX, NOFOLLOW, NOARCHIVE" /> -->
+		<!-- <link rel="stylesheet" type="text/css" href="/themes/<?php echo $GLOBALS['sf_theme']; ?>" />  -->
+		<link rel="stylesheet" type="text/css" href="/themes/theme0.css" />
+	</head>
+	<body>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bgult">
+			<tr>
+				<td>
+					<table width="100%" border="0" cellspacing="1" cellpadding="0">
+						<tr>
+							<td class="bgpenult">
+								<table class="mast" width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr class="mast">
+										<td class="mast" width="60"><a name="top" href="/"><img align="middle" alt="imc" src="/images/ilogo.gif" width="60" height="60" border="0" /></a></td>
+										<td class="mast"><a href="/"><img align="middle" src="/images/sfindy.gif"" alt="sf.indymedia.org" border="0" width="148" height="26" /></a></td>
+										<td width="418" class="mast" align="right"><a href="/"><img align="middle" alt="san francisco bay area indymedia" src="/images/logo.jpg" width="418" height="60" border="0" /></a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" class="bgnavbar">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<th width="20%"><a class="navbar" href="/process/about.php"><tag:lang.about_us /></a></th>
+										<th width="20%"><a class="navbar" href="/process/contact.php"><tag:lang.contact_us /></a></th>
+										<th width="20%"><a class="navbar" href="/mailinglist.php"><tag:lang.subscribe_me /></a></th>
+										<th width="20%"><a class="navbar" href="/calendar/"><tag:lang.calendar /></a></th>
+										<th width="20%"><a class="navbar" href="/publish.php"><tag:lang.publish /></a></th>
+										
+										<td width="52" align="right">
+											<table cellpadding="0" cellspacing="0" border="0">
+												<tr>
+													<td><a href=""><img alt="white theme" align="middle" src="/images/box-white.gif" width="13" height="13" border="0" hspace="2" /></a></td>
+													<td><a href=""><img align="middle" src="/images/box-black.gif" alt="black theme" width="13" height="13" border="0" hspace="2" /></a></td>
+													<td><a href=""><img src="/images/box-red.gif" alt="red theme" width="13" height="13" align="middle" border="0" hspace="2" /></a></td>
+													<td><a href="/theme.php"><img src="/images/box-help.gif" alt="theme help" align="middle" width="13" height="13" border="0" hspace="2" /></a></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td class="bg3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td width="100" valign="top" class="bgleftcol">
+										<table width="100%" border="0" cellspacing="0" cellpadding="3">
+											<tr>
+												<td>
+													<div class="left">
+														<small><a class="left" href="/features/"><b><tag:lang.features /></b></a><br />
+														<small class="featurelist">
+					 									 &#8226; <a class="left" href="/news/"><tag:lang.latest_news /></a><br />
+					 									 &#8226; <a class="left" href="/syn/"><tag:lang.syndication /></a><br />
+														 &#8226; <a class="left" href="/comment_latest.php"><tag:lang.commentary /></a>
+													   	<loop:categories>
+				 										 &#8226; <a href="<tag:categories.link />" class="left"><tag:categories.title /></a><br>
+														</loop:categories>
+														</small>
+														</small>
+													</div>													
+													<p class="left" align="center"><small><a href="/process/donate.php"><img src="/images/pileup.gif" width="95" height="120" border="0" alt="donate now" /></a></small></p>
+													<div class="left"><small><a class="left" href="/process/resources/"><b><tag:lang.resources /></b></a></small></div>
+													<div class="left"><small><a class="left" href="/process/"><b><tag:lang.participate /></b></a></small></div>
+													<div class="left"><small><b><a class="left" href="/archives/"><tag:lang.archives /></a></b></small></div>
+													<div class="left"><small><b><a class="left" href="/irc/"><tag:lang.chat /></a></b></small></div>
+													<div class="left"><? include(SF_INSTALL_PATH . '/local/include/search.inc'); ?></div>
+													<div class="left"><? include(SF_INSTALL_PATH . '/local/include/translate.inc'); ?></div>
+													<div class="left"><small><a class="left" href="/process/links.php"><b><tag:lang.links /></b></a></small></div>
+													<div class="left"><small><a class="left" href="/process/donate.php"><b><tag:lang.donate /></b></a></small></div>
+													<div class="left"><small><strong><a class="left" href="http://sfactive.indymedia.org/">sf-active</a></strong></small></div>
+													<div class="left"><small><strong><a class="left" href="/network.php">imc network</a></strong></small></div>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td class="bgult" width="1"><img src="/im/bump.gif" width="1" height="1" alt="" /></td>
+									<td valign="top"  class="bgcentercol">
+										<table border="0" cellspacing="0" cellpadding="4" width="100%">
+											<tr>
+												<td width="100%" valign="top">
+													<table border="0" cellspacing="0" cellpadding="3">
+														<tr>
+															<td>
+																<loop:features>
+
+																</loop:features>
+
+																<h3><a href="/archives/archive_display_by_date.php?category_id=<tag:categorieid />">[ &nbsp; Older Stories &nbsp; ]</a></h3>
+																<h3><a href="/archives/archive_display_by_date.php">[ &nbsp; Older Stories &nbsp; ]</a></h3>
+																<p><a href="/process/donate.php"><img src="/images/donate.png" width="256" height="80" border="0" alt="Donate to <tag:sitenick>" /></a></p>
+																<tag:sitecrumb />
+																<a href="#top">(top)</a>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td class="bgult" width="1"><img src="/im/bump.gif" width="1" height="1" alt="" /></td>
+									<td width="150" class="bgnewswire" valign="top">
+										<table width="100%" border="0" cellspacing="0"  cellpadding="3">
+											<tr>
+												<td valign="top">
+													<div align="center">
+														<div class="h4"><span class="newswirehead"><tag:lang.latest_newswire /></span></div>
+														include(SF_INCLUDE_PATH . '/media_key.inc');
+														<div align="center" class="h3"><a class="publink" href="/publish.php"><tag:lang.publish_your_news /></a></div>
+													</div>
+
+													<p class="newswirehead"><tag:lang.newswire /></p>
+													<cloop:newswire>
+														<case:image>
+															<p><img alt="" border="0" src="/im/imc_photo.gif">
+															<a href="<tag:newswire[].link />" class="newswire"><tag:newswire[].heading /></a>
+															<span class="date"><tag:newswire[].created /></span>
+														</case:image>
+
+														<case:video>
+															<p><img alt="" border="0" src="/im/imc_video.gif">
+															<a href="<tag:newswire[].link />" class="newswire"><tag:newswire[].heading /></a>
+															<span class="date"><tag:newswire[].created /></span>
+														</case:video>
+
+														<case:audio>
+															<p><img alt="" border="0" src="/im/imc_audio.gif">
+															<a href="<tag:newswire[].link />" class="newswire"><tag:newswire[].heading /></a>
+															<span class="date"><tag:newswire[].created /></span>
+														</case:audio>
+
+														<case:pdf>
+															<p><img alt="" border="0" src="/im/imc_pdf.gif">
+															<a href="<tag:newswire[].link />" class="newswire"><tag:newswire[].heading /></a>
+															<span class="date"><tag:newswire[].created /></span>
+														</case:pdf>
+
+														<case:default>    
+															<p><img alt="" border="0" src="/im/imc_article.gif">
+															<a href="<tag:newswire[].link />" class="newswire"><tag:newswire[].heading /></a>
+															<span class="date"><tag:newswire[].created /></span>
+														</case:default>
+													</cloop:newswire>
+
+													<p><b><a class="publink" href="/comment_latest.php"><tag:lang.view_latest_comments' /></a></b></p>
+													<p><a class="newswirehed" href="/news/?display=f"><small><tag:lang.view_hidden_posts /></small></a></p>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="bgcities">
+							<table cellpadding="7" cellspacing="0" border="0" width="100%">
+								<tr valign="top">
+									<td>
+										<small>IMC Network:</b> include (SF_SHARED_PATH."/cities.inc");
+										<br /><br />include (SF_INSTALL_PATH . '/local/include/disclaimer.inc');
+										</small>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	</body>
+</html>

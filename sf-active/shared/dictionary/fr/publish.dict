@@ -1,0 +1,71 @@
+<?php
+// Dictionary file - fr - publish
+
+$local = array(
+              "pub_stepone" =>    "1: ENTRER LES INFORMATIONS RELATIVES &Agrave; L'ARTICLE",
+              "pub_steptwo" =>    "2: INS&Egrave;RER LE TEXTE DE L'ARTICLE",
+              "pub_stepthree" =>  "3: LE CAS &Eacute;CH&Eacute;ANT, JOINDRE DES FICHIERS",
+	      "attach_a_file"=>   "LE CAS &Eacute;CH&Eacute;ANT, JOINDRE DES FICHIERS",
+              "pub_author" =>     "AUTEUR",
+              "pub_url" =>        "URL",
+              "pub_artmime" =>    "Texte ou HTML",
+              "pub_optional" =>   "Donn&eacute;es facultatives",
+              "pub_sum" =>        "Le r&eacute;sum&eacute; ne peut pas d&eacute;passer 6 lignes. Merci de mentionner la dur&eacute;e des s&eacute;quences audio/vid&eacute;o.",
+              "pub_art" =>        "Dans les articles au format texte, les url sont converties
+en liens cliquables. Dans ces articles, la syntaxe suivante peut &eacute;galement &ecirc;tre utilis&eacute;e: &lt;a href=&quot;URL&quot;&gt;LIEN&lt;/a&gt;
+(toutes les autres balises seront ignor&eacute;es). Si vous utilisez des balises, publiez en &quot;format html&quot;).",
+              "pub_mime" =>       "S&eacute;lectionner &quot;format html&quot; uniquement si le texte contient des balises HTML comme &lt;p&gt; ou &lt;br&gt;!!",
+              "pub_cuantofiles" =>"NOMBRE DE FICHIERS &Agrave; TRANSMETTRE?",
+              "sel_categories" => "CAT&Eacute;GORIES",
+              "sel_cattema" => "Cat&eacute;gorie th&eacute;matique",
+              "sel_catlocali" => "Cat&eacute;gorie locale",
+              "sel_catinternal" => "Cat&eacute;gorie interne",
+              "sel_catevent" => "Cat&eacute;gorie &eacute;v&eacute;nement",
+              "sel_catproject" => "Cat&eacute;gorie projet",
+              "sel_catother" => "Autre Cat&eacute;gorie",
+              "sel_cathidden" => "Cat&eacute;gorie cach&eacute;e",
+
+// new words since translation was started
+              "select_file" => "S&eacute;lectionner un fichier",
+              "comment" => "Commentaire",
+              "max_upload" => 'Taille maximale du fichier:',
+              "total_limit" => 'Taille limite totale:',
+              "minutes" => 'Dur&eacute;e du t&eacute;l&eacute;chargement en minutes',
+              "accepted_types" => 'Fichiers accept&eacute;s:  '.$GLOBALS['accepted_filetypes'],
+              // added by bart (for preview & ...)
+              "preview" => "Pr&eacute;visualiser",
+              "preview_warning" => "<b>Si vous voulez transmettre des fichiers avec votre article, pr&eacute;visualisez l'article avant de joindre les fichiers</b>.",
+              "publish_successful" => "<strong>Publication r&eacute;ussie&nbsp;! L'article figure maintenant dans le fil d'infos.</strong>",
+              "comment_successful" => "<strong>Commentaire ajout&eacute;!</strong>",
+            // for e-mail validation
+              "validate_email" =>   "E-MAIL VALIDE?",
+              "validate_form" => "V&eacute;rifiez cette bo&icirc;te afin qu'un e-mail vous soit envoy&eacute; et puisse ainsi confirmer que vous poss&eacute;der bien cet adresse e-mail.",
+              "pub_validation_email" => "Salut,
+	      Cet email vous est envoy&eacute; parce que vous ou quelqu'un se pr&eacute;sente 
+	      comme &eacute;tant l'auteur d'un article sur SITE_NAME et l'a sign&eacute; en utilisant 
+	      votre adresse e-mail, ceci demande donc v&eacute;rification
+	      
+	      L'article en question peut &ecric;tre trouv&eacute; ici:
+              ARTICLE_URL
+	      
+	      Si vous &ecric; bien la personne qui a publi&eacute; cette article
+	      merci de visiter l'url suivante
+              VALIDATIONURL
+	      pour valider votre article. Si vous n'avez pas fait cette demande et que vous pensez que quelqu'un est en train de se faire passer pour vous, sentez vous libre de contacter l'op&eacute;rateur de SITE_NAME &agrave;
+              ADMIN_EMAIL.
+	      
+	      Si vous avez des questions ou commentaires
+	      merci de nous contacter
+	      ici &agrave;: PUBLIC_EMAIL ",
+              "pub_validation_email_sub" => "[SITE_NAME] demande pour une validation d'e-mail",
+              "validated_ok" => "votre article a &eacute;t&eacute; valid&eacute;",
+              "validated_allready" => "cet article a d&eacute;j&agrave; &eacute;t&eacute; valid&eacute;",
+              "validated_error" => "il y eu un probl&egrave;me. Peut-&ecric; avez-vous utilis&eacute; une mauvaise url ?",
+              "validation_email_ok" => "La validation d'e-mail a &eacute;t&eacute; envoy&eacute;e.",
+              "validation_email_error" => "Il y a eu un probl&egrave;me lors de la validation d'e-mail. aviez-vous entr&eacute; une adresse e-mail ?",
+
+            // for language stuff
+              "sel_language"  =>  "S&eacute;lectionner une langue",
+              "pub_error_language" => "Vous devez s&eacute;lectionner une langue pour cet article",
+              );
+?>

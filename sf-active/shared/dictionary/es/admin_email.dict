@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - es - admin_email
+$local = array(
+    "your_mail_sent" => "Tu correo fue enviado!",
+    "your_mail_not_sent" => "Tu correo NO fue enviado! :(",
+    'check_here' => 'Cliquea aqu&iacute; cuando este listo',
+    'send' => 'Enviar!',
+    'date' => 'Fecha',
+    'list_recipients' => 'Lista destinataria',
+    'mailing_list_admin' => 'Administrador de la lista de correo',
+    'subject' => 'Asunto',
+    'message_body' => 'Mensaje'
+);
+?>

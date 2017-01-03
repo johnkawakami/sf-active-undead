@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - ca - comment latest
+
+$local = array(
+	"latest_comment_text" =>        "Aix&ograve; &eacute;s la llista dels &uacute;ltims comentaris postjeats. &Eacute;s aqu&iacute; perqu&egrave; puguis participar m&eacute;s f&agrave;cilment , i continuar discussions començades. Mira tamb&eacute; el ",	
+	
+	"most_commented" =>        "articles m&eacute;s comentats.",
+        "latest_author" =>     "&Uacute;LTIM AUTOR",
+        "posted_at" =>   "POSTEJAT A ",
+	"browse_older_threads" =>        "Navegar per fils m&eacute;s antics &gt;&gt;",
+// Added after translation
+        "thread" =>          "FIL"
+        );
+
+?>

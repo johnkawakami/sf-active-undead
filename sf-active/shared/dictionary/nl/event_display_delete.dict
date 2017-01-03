@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - en - event_display_week
+
+$local = array(
+	"cal_enter_confirm" => "Geef aub het bevestigingsnummer voor dit artikel op om het te verwijderen",
+	"cal_return_to_event" => "Terug naar evenementdetails",
+	"cal_conf_no" => "Bevestigingsnummer",
+	"cal_delete" => "Verwijder",
+	"cal_error_event_id" => "Het evenementsID in de URL was ongeldig",
+	"cal_error_event_delete" => "Dit evenement kon niet verwijderd worden. Misschien is uw bevestigingsnummer ongeldig"
+);
+

@@ -1,0 +1,52 @@
+<?php
+// Dictionary file - en - event_display_week
+
+$local = array(
+	"cal_calendar" => "Calendario",
+	"cal_week" => "Settimana",
+	"cal_error_event_add" => "C'e' stato un errore nell'inserire il tuo appuntamento. Assicurati che tutti i campi siano stati compilati correttamente e che la data e la ora siano corretti.",
+	"cal_error_event_title" => "Senza Titolo il tuo appuntamento non puo' essere inserito. Aggiungine uno!",
+	"cal_error_event_delete" => "Non ho potuto cancellare il tuo appuntamento. Forse il tuo numero di conferma non e' corretto.",
+	"cal_error_event_id" => "L'ID dell'appuntamento richiesto non e' corretto",
+	"cal_confirm_add_page" => "Pagina di conferma dell'inserimento",
+	"cal_your_confirm" => "Il tuo numero di conferma e': ",
+	"cal_need_confirm" => "Avrai bisogno di questo numero per aggiornare o cancellare questo appuntamento.",
+	
+	"cal_conf_no" => "Numero di Conferma",
+	"cal_title" => "TITOLO",
+	"cal_return_to_calendar" => "Torna al Calendario",
+
+	"cal_start_date" => "DATA D'INIZIO",
+	"cal_start_time" => "ORA D'INIZIO",
+	"cal_duration" => "Durata",
+	"cal_location" => "Luogo",
+	"cal_event_type" => "Tipo di appuntamento",
+	"cal_event_topic" => "Tema dell'appuntamento",
+	"cal_contact_name" => "Contatto",
+	"cal_contact_email" => "Email di contatto",
+	"cal_contact_phone" => "Telefono di contatto",
+	"cal_description" => "DESCRIZIONE",
+
+	
+	"cal_update" => "Aggiorna",
+	"cal_add" => "Aggiunta",
+	"cal_location_details" => "Dettagli del luogo",
+	"cal_return_to_event" => "Torna ai dettagli dell'appuntamento",
+	"cal_enter_confirm" => "Per favore entra il numero di conferma di questo appuntamento per cancellarlo",
+	"cal_delete" => "Cancella",
+	"cal_hours" => "Ore",
+	"cal_end_date" => "Data di termine",
+	"cal_display_details" => "Mostra i dettagli",
+	"cal_view_events" => "Mostra appuntamenti",
+	"cal_previous_week" => "Settimana precedente",
+	"cal_next_week" => "Settiana successiva",
+	"cal_week_of" => "Settimana del",
+	"cal_add_an_event" => "Aggiungi un appuntamento",
+	"cal_view_all_months" => "Mostra tutti i mesi",
+	"cal_list_future_events" => "Mostra i prossimi appuntamenti",
+	"cal_filter_by_topic" => "Mostra gli appuntamenti per tema",
+	"cal_filter" => "Filtra",
+	"cal_no_events" => "Non esistono apputnamenti per questa settimana.",
+	"cal_error_event_update_title" => "Un appuntamento deve avere un titolo per essere inserito",
+	"cal_error_event_update" => "Nono ho potuto aggiornare il tuo appuntamento. Forse il tuo numero di conferma non e' corretto"
+);

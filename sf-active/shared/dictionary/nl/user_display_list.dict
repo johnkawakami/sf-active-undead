@@ -1,0 +1,10 @@
+<?php
+// Dictionary file - nl - user_display_list
+
+$local = array(
+	"by_id" => "sorteer op user_id",
+	"by_login" =>	"sorteer op tijdstip van inloggen",
+	"by_username" => "sorteer op de gebruikersnaam",
+              );
+
+?>

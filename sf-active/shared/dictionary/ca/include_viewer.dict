@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - ca - include viewer
+
+$local = array(
+	"include_viewer_info" =>        "Aquesta pàgina serveix per editar un include",
+	"filter" => "filtrar",
+	"search_string" => "Buscar",
+	"insertname" => "Inserta un nom pel nou include",
+	"errortpl" => "Has entrar un nom incorrecte. Torna a provar",
+        "filename_header" => "Crear un nou include");
+
+?>

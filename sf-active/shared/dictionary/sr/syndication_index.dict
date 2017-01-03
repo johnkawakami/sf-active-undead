@@ -1,0 +1,11 @@
+<?php
+// Dictionary file - en - syndication_index
+
+$local = array(
+        "syndication_page" => "Rašèlanjivanje",
+        "features" => "tekstovi",
+        "all_features" => "tekstovi iz svih kategorija"
+);
+
+?>
+

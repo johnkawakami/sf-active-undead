@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - hr - admin_email
+$local = array(
+    "your_mail_sent" => "Poruka je poslana!",
+    "your_mail_not_sent" => "POruka NIJE poslana!",
+    'check_here' => 'Klikni ovdje',
+    'send' => 'Po¹alji!',
+    'date' => 'Datum',
+    'list_recipients' => 'Adresa primatelja',
+    'mailing_list_admin' => 'Admin mailing liste',
+    'subject' => 'Subject',
+    'message_body' => 'Sadr¾aj poruke'
+);
+?>

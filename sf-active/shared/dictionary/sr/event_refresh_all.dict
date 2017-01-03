@@ -1,0 +1,11 @@
+<?php
+// Dictionary file - en - calendar
+
+$local = array(
+                "admin_calendar" =>             "Administracija kalendara",
+                "refresh_event" =>             "Osvežavanje dogaðaja za nedelju:  ",
+                "event_up" =>             "Keš je osvežen",
+                "admin_index" =>                "Administracija sajta"
+                );
+
+?>

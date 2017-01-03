@@ -1,0 +1,29 @@
+<?php
+// Dictionary file - en - mailinglist
+
+$local = array(
+              "invalid_email" =>        "Això és una direcció de correu invàlida!",
+              "subscribe_thanks" =>     "Gràcies per subscriure't. Ara deus respondre un e-mail de confirmació que se t'ha enviat.",
+              "unsubscribe_thanks" =>   "Has estat donat de baixa de la llista. Rebràs un e-mail de confirmació.",
+              "passwd_notsent" =>       "No t'hem pogut enviar el password ara. Torna a provar-ho més tard.",
+              "passwd_sent" =>          "La teva password se t'ha enviat per email.",
+                          "delivery_options" =>         "Opcions d'entrega",
+                          "weekly_email" =>                     "Email de notícies setmanal",
+                          "top_text" =>                         "Sumari setmanal de les capçaleres enviat en text pla. T'enviarem cada setmana les capçaleres dels articles en un email.",
+                          "email_address" =>            "Direcció d'email",
+                          "subscribe" =>                        "Subscrpció",
+                          "password" =>                         "Password (per donar-se de baixa)",
+                          "unsubscribe" =>                      "Donar-se de baixa",
+                          "email_pass" =>                       "Enviar-me el password",
+                          "indy_news" =>                        "Independent Media News",
+                          "list_text" =>                        "Llista de correu pública per notícies, events i anuncis. Tràfic moderat. Per subscriure't, visita la <a href=\"http://lists.indymedia.org/\">mailing list page</a>",
+                          "xml_newsfeeds" =>            "XML Newsfeeds per sindicar els continguts.",
+                          "xml_text" =>                         "Els següents arxius XML són mantinguts i poden ser usats en el teu website, PDA o programa lector de feeds XML.",
+                          "feature_stories" =>          "feature stories",
+                          "open_newswire" =>            "newswire obert",
+                          "syndication_page" =>         "syndication overview page",
+                          "custom_xml" =>                       "Genera una consulta XML personalitzada",
+
+              );
+
+?>

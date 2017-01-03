@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - ca - event_add
+
+$local = array(
+	"features" => "Categories:",
+	"feature_overview" => "TEMES ACTUALS & ACCIONS PROPERES"
+);
+
+?>

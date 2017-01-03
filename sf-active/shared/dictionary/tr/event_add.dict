@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - en - event_add
+
+$local = array(
+	"cal_calendar" => "Takvim",
+	"cal_spam_block" => "Suistimal nedeniyle siteden uzakla&#351;t&#305;r&#305;ld&#305;n&#305;z.",
+	"cal_error_event_add" => "Duyurunuzu eklerken bir sorun olu&#351;tu. T&uuml;m b&ouml;l&uuml;mleri doldurdu&#287;unuzdan
+emin misiniz?",
+	"cal_error_event_title" => "Duyurunuzun yay&#305;nlanmas&#305; i&ccedil;in bir ba&#351;l&#305;&#287;&#305; olmas&#305; gerekiyor.",
+	"cal_error_event_delete" => "Duyuru silinemedi, onay kodunuzu kontrol edin.",
+	"cal_error_event_id" => "Duyuru bulunamad&#305;."
+);
+
+?>

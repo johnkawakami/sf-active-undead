@@ -1,0 +1,22 @@
+<?php
+// Dictionary file - en - archive_generate
+
+$local = array(
+                "categories" =>                 "Features",
+                "categoryid" =>                 "Category ID",
+                "submit" =>                 "Regenerate",
+                "arc_id" =>                 "ID:",
+                "arcdatetogen" =>                 "Number of week to regenerate:",
+                "default_weeks" =>                 "(default is 5 weeks)",
+                "arc_numtogen" =>                 "Number of feature to regenerate:",
+                "admin_archive_id" =>                 "Regenerates archive by id",
+                "admin_archive_date" =>                 "Regenerates archives by week",
+                "archive_generate" =>           "Generate archives",
+                "i_category" =>              "internal",
+                "no_items_for_week" =>          "no items existed for week: ",
+				"no_items_for_id" =>			"no featuure found for id ",
+                "specify_dmy" =>                "You must specify a day month and year to generate weeks",
+                "writing" =>                    "writing: ",
+                );
+
+?>

@@ -1,0 +1,38 @@
+<?php
+// Dictionary file - es - feature
+
+$local = array(
+                "no_features_to_edit" =>    "Nema tekstova za promjenu",
+                "features_edit" =>          "Editiraj tekstove u kategoriji",
+                "feature_story_edit" =>     "Editiraj ovu prièu",
+                "feature_story_add" =>      "Dodaj prièu",
+                "feature_title1" =>         "Skraæeni naslov za link",
+                "feature_title2" =>         "Dugi naslov za prikaz",
+                "template_name" =>          "Ime predlo¹ka",
+                "order_num" =>              "Redni broj",
+                "status" =>                 "Status",
+                "feature_list" =>           "Lista tekstova",
+                "feature_all_versions" =>   "Povijest promjena ovog teksta",
+		"feature_history" =>        "Povijest promjena ove kategorije",
+                "feature_history_inst" =>   "Klikni na oznaku verzije za promijenu i povrat na stariju verziju.",
+                "feature_modifier" =>       "Zadnja izmjena",
+                "feature_test" =>           "Pogledaj test stranicu",
+                "feature_preview" =>        "Pogledaj finalni izgled kategorije (SADR®I LINK ZA OBJAVU NA SAJTU!)",
+                "story_version_id" =>       "ID verzije prièe",
+                "feature_version_num" =>    "Broj verzije",
+                "feature_display_date" =>   "Prika¾i datum",
+                "feature_image_url" =>      "URL slike",
+                "feature_alt_tag" =>        "Alt Tag",
+                "story_index_for" =>        "Indeks za ",
+                "story_index_inst" =>       "Klikni na naslov za editiranje postojeæe prièe",
+                "feature_id_number" =>      "ID broj",
+		// 07 sep 03
+		"no_template_defined" =>    "<br><h3>Nije definiran predlo¾ak za ovu kategoriju</h3><br>",
+
+                // language stuff
+                "language"          =>      "language",
+                "select_a_language" =>      "select a language",
+
+                );
+
+?>

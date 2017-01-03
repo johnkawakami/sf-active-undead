@@ -1,0 +1,38 @@
+<?php
+// Dictionary file - en - category
+
+$local = array(
+                "categories" =>                 "Editorias",
+                "category_add" =>               "Adicionar Editorial",
+                "archive_generate" =>           "Gerar arquivos",
+                "click_on_category_to_edit" =>  "(Clique num título para editar uma categoria; clique em 'Administrar artigos' para administrar artigos em cada categoria.)",
+                "story_list" =>                 "Lista de sinopses para este Editorial",
+                "no_center_column" =>           "Sem Coluna Central",
+		"updated_site" =>               "O site foi atualizado",
+		"feature_list" =>               "Lista de sinopses",
+		"category_pushto" =>		"Publicar",
+                "category_shortname" =>         "Pequeno nome para a Categoria",
+                "category_name" =>              "Nome da Categoria",
+                "category_summarylength" =>     "Duração do sumário",
+                "template_name" =>              "Nome do Modelo",
+                "default_template" =>           "Modelo Padrão",
+                "newswire_type" =>              "Tipo de Newswire",
+                "centercolumn_type" =>          "Tipo de Coluna Central",
+                "category_description" =>       "Descrição de Categoria",
+                "n_newswire" =>                 "Sem Newswire",
+                "s_newswire" =>                 "Newswire Padrão",
+                "a_newswire" =>                 "Newswire Completo",
+		"f_newswire" =>                 "Filtered Newswire",
+                "no_centercolumn" =>            "Sem Coluna Central",
+                "standard_centercolumn" =>      "Coluna Central Padrão",
+                "ordernum" =>                   "Número na Ordem",
+                "category_add" =>               "Adicionar uma Categoria",
+                "category_edit" =>              "Edit Category",
+                // 07 sep 03
+                "no_feature_template_defined" => "<br><h3>No template was defined for this feature</h3><br>",
+                "no_category_template_defined" => "<br><h3>No template was defined for this category</h3><br>",
+				"refresh_newswire"      =>  "refresh the newswire ",
+				
+                );
+
+?>

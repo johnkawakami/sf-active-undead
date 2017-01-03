@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - es - admin_regenerate
+
+$local = array(
+              "article_regenerate" =>    "Regenerar Art&iacute;culos",
+              "id" =>                    "N&uacute;mero Identificador",
+              "wrote_to" =>              "Escribir a",
+              "regenerated" =>           "Ya fue regenerado",
+              "admin_index" =>           "Men&uacute; Principal",
+              "admin_article" =>         "Administrar Art&iacute;culos",
+              "start_id" =>              "Empezar en el Art&iacute;culo con identificador",
+              "max_to_gen" =>            "Cantidad de art&iacute;culos a regenerar",
+              );
+
+?>

@@ -1,0 +1,39 @@
+<?php
+// Dictionary file - es - feature
+
+$local = array(
+                "no_features_to_edit" =>    "No Features To Edit!",
+                "features_edit" =>          "Edit This Feature",
+                "feature_story_edit" =>     "Edit This Blurb",
+                "feature_story_add" =>      "Add Story",
+                "feature_title1" =>         "Short Link Title",
+                "feature_title2" =>         "Long Display Title",
+                "template_name" =>          "Template Name",
+                "order_num" =>              "Order Number",
+                "status" =>                 "Status",
+                "feature_list" =>           "Blurb List",
+                "feature_all_versions" =>   "View History Of This Blurb",
+		"feature_history" =>        "History Of This Feature",
+                "feature_history_inst" =>   "Click on a version to edit and rollback an old version.",
+                "feature_modifier" =>       "Last modified",
+                "feature_test" =>           "View Test Page",
+                "feature_preview" =>        "Preview feature (contains link to push live)",
+                "story_version_id" =>       "Blurb version ID",
+                "feature_version_num" =>    "Version number",
+                "feature_display_date" =>   "Display Date",
+                "feature_image_url" =>      "URL Image",
+                "feature_alt_tag" =>        "Alt Tag",
+                "story_index_for" =>        "Index for ",
+                "story_index_inst" =>       "Click on a title to edit an existing story",
+                "feature_id_number" =>      "ID Number",
+		// 07 sep 03
+		"no_template_defined" =>    "<br><h3>No template was defined for this feature</h3><br>",
+		"test"              =>      "test",
+
+                // language stuff
+                "language"          =>      "language",
+                "select_a_language" =>      "select a language",
+
+                );
+
+?>

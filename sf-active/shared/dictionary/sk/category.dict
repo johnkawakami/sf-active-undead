@@ -1,0 +1,38 @@
+<?php
+// Dictionary file - en - category
+
+$local = array(
+                "categories" =>                 "Rubriky",
+                "category_add" =>               "Pridaj rubriku",
+                "archive_generate" =>           "Vytvor archívy",
+                "click_on_category_to_edit" =>  "(Klikni na názov ak chceš editova kategóriu; klikni na 'Spravuj èlánky' chceš editova èlánky v danej kategórii.)",
+                "story_list" =>                 "Zoznam èlánkov v tejto rubrike",
+                "no_center_column" =>           "Bez stredného stlpca",
+		"updated_site" =>               "Aktuálna stránka bola obnovená",
+		"feature_list" =>               "Zoznam èlánkov",
+		"category_pushto" =>		"Uverejni",
+                "category_shortname" =>         "Krátke meno kategórie",
+                "category_name" =>              "Meno kategórie",
+                "category_summarylength" =>     "Dlžka súhrnu",
+                "template_name" =>              "Meno šablóny",
+                "default_template" =>           "Predvolená šablóna (default)",
+                "newswire_type" =>              "Typ stlpca aktuálnych správ",
+                "centercolumn_type" =>          "Typ stredného stlpca",
+                "category_description" =>       "Popis kategórie",
+                "n_newswire" =>                 "Bez stlpca aktuálnych správ",
+                "s_newswire" =>                 "Štandartný stlpec aktuálnych správ",
+                "a_newswire" =>                 "Celý stlpec aktuálnych správ",
+		"f_newswire" =>                 "Filtered Newswire",
+                "no_centercolumn" =>            "Bez stredného stlpca",
+                "standard_centercolumn" =>      "Štandartný stredny stlpec",
+                "ordernum" =>                   "Poradové èíslo",
+                "category_add" =>               "Pridaj kategóriu",
+                "category_edit" =>              "Edituj kategóriu",
+                // 07 sep 03
+                "no_feature_template_defined" => "<br><h3>No template was defined for this feature</h3><br>",
+                "no_category_template_defined" => "<br><h3>No template was defined for this category</h3><br>",
+				"refresh_newswire"      =>  "refresh the newswire ",
+				
+                );
+
+?>

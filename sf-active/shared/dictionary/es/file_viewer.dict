@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - es - comment latest
+
+$local = array(
+        "file_viewer_info" =>        "Esta p&aacute;gina se usa para ver y editar archivos guardados. El nombre del archivo es dado a trav&eacute;s de la URL. El filtro solo muestra las l&iacute;neas que contienen las palabras claves dadas y no puedes salvar si el filtro est&aacute; en uso. Dejando el filtro en blanco se carga la p&aacute;gina mostrando todas las l&iacute;neas. Favor de activar el filtro antes de hacer cambios y salvarlos, pues de lo contrario puedes salvar sobre otros cambios.",
+        "filter" => "filtro"
+        );
+
+?>

@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - hr - event_display_week
+
+$local = array(
+	"cal_enter_confirm" => "Unesit potvrdi broj ovog èlanka da bi ga obrisao/la",
+	"cal_return_to_event" => "Povratak na detalje o dogaðajma",
+	"cal_conf_no" => "Potvrdni broj",
+	"cal_delete" => "Obri¹i",
+	"cal_error_event_id" => "ID eventa u URL-u je netoèan",
+	"cal_error_event_delete" => "Ne mogu obrisati dogaðaj, mo¾da je potvrdni broj pogre¹an"
+);
+

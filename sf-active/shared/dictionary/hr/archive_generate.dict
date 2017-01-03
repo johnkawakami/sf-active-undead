@@ -1,0 +1,21 @@
+<?php
+// Dictionary file - hr - archive_generate
+
+$local = array(
+                "categories" =>                 "Kategorije",
+                "categoryid" =>                 "ID kategorije",
+                "submit" =>                 "Regeneriraj",
+                "arc_id" =>                 "ID:",
+                "arcdatetogen" =>                 "Broj tjedana za regeneraciju",
+                "default_weeks" =>                 "(podrazumijeva se 5 tjedana)",
+                "arc_numtogen" =>                 "Broj kategorija za regeneraciju:",
+                "admin_archive_id" =>                 "Regeneriraj arhivu po ID-u",
+                "admin_archive_date" =>                 "Regeneriraj arhivu po tjednu",
+                "archive_generate" =>           "Generiraj arhive",
+                "i_category" =>              "interno",
+                "no_items_for_week" =>          "ne postoje zapisi za tjedan: ",
+                "specify_dmy" =>                "Mora¹ odrediti dan, mjesec i godinu da bi se generirali tjedni",
+                "writing" =>                    "pi¹em: ",
+                );
+
+?>

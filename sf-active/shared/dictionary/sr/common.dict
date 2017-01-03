@@ -1,0 +1,236 @@
+<?php
+// Common dictionary file for eng
+
+$GLOBALS['dict']['features'] =              "Kategorije";
+$GLOBALS['dict']['imc_network'] =           "Indimedija";
+$GLOBALS['dict']['about_us'] =              "O nama";
+$GLOBALS['dict']['contact_us'] =            "Kontaktiraj nas";
+$GLOBALS['dict']['subscribe_me'] =          "Upiši se";
+$GLOBALS['dict']['calendar'] =              "Kalendar";
+$GLOBALS['dict']['publish'] =               "Objavi";
+$GLOBALS['dict']['button_publish'] =        "Objavi";
+$GLOBALS['dict']['search'] =                "Pretraži";
+$GLOBALS['dict']['text'] =                  "Tekst";
+$GLOBALS['dict']['image'] =                 "Slika";
+$GLOBALS['dict']['audio'] =                 "Zvuèni zapis";
+$GLOBALS['dict']['video'] =                 "Video zapis";
+$GLOBALS['dict']['other'] =                 "Ostalo";
+$GLOBALS['dict']['all'] =                   "Sve";
+$GLOBALS['dict']['any'] =                   "Bilo šta";
+$GLOBALS['dict']['medium'] =                "Medijum";
+$GLOBALS['dict']['traducir'] =              "Prevedi";
+$GLOBALS['dict']['refresh_text'] =          "Osveži tekst...";
+$GLOBALS['dict']['nothing_was_done'] =      "Ništa nije uraðeno!";
+$GLOBALS['dict']['required'] =              "Neophodno";
+$GLOBALS['dict']['reorder'] =               "Izmena";
+$GLOBALS['dict']['current'] =               "Trenutno";
+$GLOBALS['dict']['archived'] =              "Arhivirano";
+$GLOBALS['dict']['action_archive'] =        "Arhiviraj";
+$GLOBALS['dict']['action_hide'] =           "Sakrij";
+$GLOBALS['dict']['action_display'] =        "Prikazi";
+$GLOBALS['dict']['hidden'] =                "Sakriveno";
+$GLOBALS['dict']['logon_failed'] =          "Nemogu da se ulogujem. Šifra nije odgovarajuæa!";
+$GLOBALS['dict']['admin_article'] =         "Administriraj èlanke";
+$GLOBALS['dict']['admin_index'] =           "Glavni meni";
+$GLOBALS['dict']['edit'] =                  "Promeni";
+$GLOBALS['dict']['id'] =                    "Broj ID";
+$GLOBALS['dict']['created'] =               "Sastavljeno";
+$GLOBALS['dict']['modified'] =              "Menjano";
+$GLOBALS['dict']['title'] =                 "Naslov";
+$GLOBALS['dict']['author'] =                "Autor";
+$GLOBALS['dict']['email'] =                 "email";
+$GLOBALS['dict']['link'] =                  "Internet adresa";
+$GLOBALS['dict']['address'] =               "Adresa";
+$GLOBALS['dict']['phone'] =                 "Telefon";
+$GLOBALS['dict']['category_list'] =         "Lista kategorija";
+$GLOBALS['dict']['mimetype'] =              "Mime tip";
+$GLOBALS['dict']['textmime'] =              "HTML/Tekst";
+$GLOBALS['dict']['displaystat'] =           "Prikaži status";
+$GLOBALS['dict']['parent_id'] =             "Roditeljski ID";
+$GLOBALS['dict']['mediafile'] =             "Medija datoteka";
+$GLOBALS['dict']['summary'] =               "Siže";
+$GLOBALS['dict']['article'] =               "Èlanak";
+$GLOBALS['dict']['status_hidden'] =         "Sakriveno";
+$GLOBALS['dict']['status_local'] =          "Lokalno";
+$GLOBALS['dict']['status_display'] =        "Ostalo";
+$GLOBALS['dict']['status_global'] =         "Globalno";
+$GLOBALS['dict']['status_both'] =           "Zajedno";
+$GLOBALS['dict']['user_add'] =              "Dodaj korisnika";
+$GLOBALS['dict']['delete'] =                "Obriši";
+$GLOBALS['dict']['username'] =              "Korisnièko ime";
+$GLOBALS['dict']['password'] =              "Šifra";
+$GLOBALS['dict']['insecure_pass_msg'] =         "Vaša lozinka nije sigurna.";
+$GLOBALS['dict']['secure_pass_desc'] =          "Sigurna lozinka je ima najmanje 6 karaktera i poseduje mala i velika slova i brojeve.";
+$GLOBALS['dict']['secure_pass_desc2'] =         "Morate da unesete sigurnu šifru!";
+$GLOBALS['dict']['first_name'] =            "Ime";
+$GLOBALS['dict']['last_name'] =             "Prezime";
+$GLOBALS['dict']['save'] =                  "Snimi";
+$GLOBALS['dict']['copy'] =                  "Kopiraj";
+$GLOBALS['dict']['order_number'] =          "Broj u redosledu";
+$GLOBALS['dict']['comment_pub_one'] =       "PRVI KORAK: UNESI INFORMACIJU O KOMENTARU";
+$GLOBALS['dict']['comment_pub_two'] =       "DRUGI KORAK: UNESI KOMENTAR";
+$GLOBALS['dict']['comment_pub_three'] =     "TREÆI KORAK: PRIKAÈI DATOTEKU";
+$GLOBALS['dict']['optional'] =              "Proizvoljno";
+$GLOBALS['dict']['select_a_category'] =     "Odaberi kategoriju";
+// added by blicero fro catclass function -- blicero 20 may 2003
+$GLOBALS['dict']['select_a_thematic_category'] =     "Odaberi tematsku kategoriju";
+$GLOBALS['dict']['select_a_local_category'] =     "Odaberi lokalnu kategoriju";
+$GLOBALS['dict']['select_a_internal_category'] = "Odaberi internu kategoriju";
+$GLOBALS['dict']['select_a_event_category'] = "Odaberi kategoriju dogaðaja";
+$GLOBALS['dict']['select_a_project_category'] = "Odaberi kategoriju projekata";
+$GLOBALS['dict']['select_a_other_category'] = "Odaberi ostale kategorije";
+$GLOBALS['dict']['select_a_hidden_category'] = "Odaberi sakrivenu kategoriju";
+
+// have to include archive stuff here :/
+
+$GLOBALS['dict']['local_information'] = "Ovaj link vodi ka strani sa arhivom naših naslovnih prièa.";
+$GLOBALS['dict']['local_click_on_week'] = "Klikni na nedelju da odeš na arhivu za datu nedelju.";
+$GLOBALS['dict']['archive_id'] = "arhiva jedne kategorije";
+$GLOBALS['dict']['archive_index'] = "arhiva svih kategorija";
+$GLOBALS['dict']['archive_week'] = "nedeljne arhive";
+$GLOBALS['dict']['archive_date'] = "dnevne arhive";
+$GLOBALS['dict']['archive_id'] = "arhiva jedne kategorije";
+$GLOBALS['dict']['archive_title2'] = "Naziv kategorije";
+$GLOBALS['dict']['archive_display_date'] = "Datum";
+$GLOBALS['dict']['archive_findweek'] = "Pronaði stare arhive za datu nedelju";
+$GLOBALS['dict']['next_archive_page'] = "sledeæa strana";
+$GLOBALS['dict']['prev_archive_page'] = "prethodna strana";
+$GLOBALS['dict']['prev_archive_week'] = "prethodna nedelja";
+$GLOBALS['dict']['next_archive_week'] = "sledeæa nedelja";
+$GLOBALS['dict']['archive_navmonths'] = "navigacija kroz mesece";
+$GLOBALS['dict']['archive_navdate'] = "proði sve arhivirane kategorije po datumima";
+$GLOBALS['dict']['archive_navid'] = "proði sve arhive pojedinaènih kategorija";
+$GLOBALS['dict']['archive_home'] = "prednja strana";
+$GLOBALS['dict']['search_by_keyword'] = "kljuèna reè";
+$GLOBALS['dict']['search_by_author'] = "autor";
+$GLOBALS['dict']['view_article_wo_comment'] = "Pogledaj èlanak bez komentara";
+$GLOBALS['dict']['your_story_is'] = "Tvoja prièa je";
+$GLOBALS['dict']['html_article'] = "HTML èlanak";
+$GLOBALS['dict']['image_file'] = "Datoteka sa slikom";
+$GLOBALS['dict']['pdf_file'] = "PDF datoteka";
+$GLOBALS['dict']['smil_file'] = "SMIL datoteka";
+$GLOBALS['dict']['mpeg_video_file'] = "MPEG Video datoteka";
+$GLOBALS['dict']['realaudio_file'] = "RealAudio datoteka";
+$GLOBALS['dict']['mp3_stream'] = "MP3 Strim";
+$GLOBALS['dict']['mp3_playlist'] = "MP3 Plejlista";
+$GLOBALS['dict']['realaudio_metafile'] = "RealAudio Metafile";
+$GLOBALS['dict']['wm_audio_file'] = "Windows Media Audio datoteka";
+$GLOBALS['dict']['mp3_file'] = "MP3 datoteka";
+$GLOBALS['dict']['realvideo_file'] = "RealVideo datoteka";
+$GLOBALS['dict']['quicktime_file'] = "Quicktime datoteka";
+$GLOBALS['dict']['avi_file'] = "AVI Video datoteka";
+$GLOBALS['dict']['wav_file'] = "Wav datoteka";
+$GLOBALS['dict']['realvideo_metafile'] = "RealVideo Metafile";
+$GLOBALS['dict']['wm_file'] = "Windows Media Audio datoteka";
+$GLOBALS['dict']['error_detected'] = "UOÈENA JE GREŠKA -- MOLIM PROBAJTE PONOVO!";
+$GLOBALS['dict']['fill_out_form_right'] = "Proverite da li je obrazac popunjen ispravno";
+$GLOBALS['dict']['pub_error_title'] = "Niste napisali naslov.";
+$GLOBALS['dict']['pub_error_author'] = "Niste naveli autora.";
+$GLOBALS['dict']['pub_error_summary'] = "Niste sacinili siže.";
+$GLOBALS['dict']['pub_error_long_summary'] = "Vas siže je predugaèak. Molim skratite ga.";
+$GLOBALS['dict']['pub_error_upload'] = "Morate napisati èlanak ili poslati datoteku.";
+$GLOBALS['dict']['pub_error_long_upload'] = "Možete poslati 20 i manje datoteka odjednom!";
+$GLOBALS['dict']['pub_error_file'] = "Tip datoteke koju ste poslali nije podržan. Probajte ponovo.";
+$GLOBALS['dict']['pub_error_where_file'] = "Niste poslali sliku, a rekli ste da æete je poslati.";
+$GLOBALS['dict']['pub_error_select_file'] = "Niste popunili naslov radi slanja.";
+$GLOBALS['dict']['there_were'] = "Otkriveno/a je";
+$GLOBALS['dict']['files_detected'] = "datoteka.";
+
+// new words since translation was started
+$GLOBALS['dict']['single_comment'] = "komentar";
+$GLOBALS['dict']['plural_comment'] = "komentara";
+$GLOBALS['dict']['arttype'] = "Tip èlanka";
+$GLOBALS['dict']['year'] = 'Godina';        
+$GLOBALS['dict']['month'] = 'Mesec';      
+$GLOBALS['dict']['day'] = 'Dan';
+$GLOBALS['dict']['spam_message']="Zbog velikog saobraæaja, spema ili greške u bazi podataka objavljivanje nije trenutno moguæe.";
+$GLOBALS['dict']['newswire'] = 'vesti';
+$GLOBALS['dict']['view_current'] = 'vidi trenutne kategorije';
+$GLOBALS['dict']['regen_article'] = 'Regeneriši keš za èlanke';
+$GLOBALS['dict']['start_id'] = 'Poèetni ID clanka';
+$GLOBALS['dict']['max_to_gen'] = 'Broj èlanaka za regeneraciju';
+$GLOBALS['dict']['regenerate'] = 'Regeneracija';
+
+// added by blicero for italy branching :)
+$GLOBALS['dict']['reason'] = 'Razlog';
+$GLOBALS['dict']['additional_reason'] = 'Dodatni komentar na razlog za skrivanje (ako postoji)';
+
+//added bu blicero for admin
+$GLOBALS['dict']['admincategories'] =              "KATEGORIJE";
+$GLOBALS['dict']['adminarticles'] =              "ÈLANCI";
+$GLOBALS['dict']['admincalendar'] =              "KALENDAR";
+$GLOBALS['dict']['adminupload'] =              "POŠALJI DATOTEKU";
+$GLOBALS['dict']['admingraphics'] =              "CSS, INCLUDE, TEMPLATE";
+$GLOBALS['dict']['adminxml'] =              "XML / RSS";
+$GLOBALS['dict']['adminloggedin'] =              "Logovan kao";
+$GLOBALS['dict']['adminlogout'] =              "IZAÐI";
+$GLOBALS['dict']['adminusers'] =              "KORISNICI";
+$GLOBALS['dict']['adminemail'] =              "EMAIL";
+$GLOBALS['dict']['adminstats'] =              "KORIŠÆENJE PREZENTACIJE";
+$GLOBALS['dict']['adminnextip'] =              "IPS JE BLOKIRAN";
+$GLOBALS['dict']['adminiplog'] =              "IP LOG";
+$GLOBALS['dict']['adminipblock'] =              "IPS BLOK LOG";
+$GLOBALS['dict']['adminlatestcomments'] =              "POSLEDNJI KOMENTARI";
+$GLOBALS['dict']['adminspam'] =              "SPAM";
+$GLOBALS['dict']['admincities'] =              "MESTA";
+$GLOBALS['dict']['admindossier'] =              "DOSIJE";
+$GLOBALS['dict']['adminlanguage'] =         "JEZICI";
+
+
+$GLOBALS['dict'][latest_news]  = 	"poslednje vesti";
+$GLOBALS['dict'][commentary] = 	"komentar";
+$GLOBALS['dict'][syndication] =	"deljenje/podela";
+$GLOBALS['dict'][resources] =	"izvori";
+$GLOBALS['dict'][participate] =	"uèestvuj";
+$GLOBALS['dict'][archives] =		"arhive";
+$GLOBALS['dict'][chat] =		"èet";
+$GLOBALS['dict'][donate] =		"doniraj";
+$GLOBALS['dict'][latest_newswire] =		"poslednje vesti";
+$GLOBALS['dict'][publish_your_news] =	"objavi svoju vest";
+$GLOBALS['dict'][view_latest_comments] = 	"pogledaj poslednje komentare";
+$GLOBALS['dict'][view_hidden_posts] = 	"pogledaj sakrivene vesti";
+$GLOBALS['dict'][download] = 	"download";
+$GLOBALS['dict'][documentation] =	"dokumentacija";
+$GLOBALS['dict'][support] =		"podrška";
+$GLOBALS['dict'][servers] = 		"serveri";
+$GLOBALS['dict'][bugs] =		"bagovi";
+$GLOBALS['dict'][irc] =		"IRC/ÈET";
+$GLOBALS['dict'][links] = 		"internet adrese";
+
+// added by drazen for admin
+$GLOBALS['dict']['adminhelp'] = 	    "POMOÆ";
+// end of change by drazen
+
+$GLOBALS['dict']['adminsite'] =              "Administracija sajta";
+$GLOBALS['dict']['adminviewsite'] =              "Vidi prezentaciju";
+
+// added by blicero for mail2admin
+$GLOBALS['dict']['admin_hiding_message'] = 	"Sakrivena je poruka administrativnom akcijom";
+$GLOBALS['dict']['edited_by'] = 	"Promenio je";
+
+// for syndication index
+$GLOBALS['dict']['art_feat'] = "Èlanci i tekstovi iz glavne kolone" ;
+
+// for i18n of leftcatlisting
+$GLOBALS['dict']['m_category_left'] = "kategorije";
+$GLOBALS['dict']['t_category_left'] = "tematske kategorije";
+$GLOBALS['dict']['l_category_left'] = "lokalni kolektivi";
+$GLOBALS['dict']['i_category_left'] = "interne kategorije";
+$GLOBALS['dict']['e_category_left'] = "kategorija dogaðaja";
+$GLOBALS['dict']['p_category_left'] = "kategorija projekata";
+$GLOBALS['dict']['o_category_left'] = "ostale kategorije";
+
+// for email validation
+$GLOBALS['dict']['article_validated'] = "(imejl je potvrðen)";
+$GLOBALS['dict']['article_not_validated'] = "";
+
+// for gallery - resizes
+$GLOBALS['dict']['latest_uploads'] = "latest media";
+
+// admin stuff -- mtoups
+$GLOBALS['dict']['lastlogin'] = "Last Login";
+
+// language stuff
+$GLOBALS['dict']['language'] =   "LANGUAGE";
+$GLOBALS['dict']['select_a_language'] =  "select a language";
+?>

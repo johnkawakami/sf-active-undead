@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - en - event_add
+
+$local = array(
+	"cal_calendar" => "Kalendár",
+	"cal_spam_block" => "Vyzerá to, ze Tvoj prístup je zablokovaný pre spam",
+	"cal_error_event_add" => "Vyskytla sa chyba pri pridávaní udalosti. Skontroluj všetky políèka formulára a správnost dátumu a èasu",
+	"cal_error_event_title" => "Udalost nemôže byt zobrazená bez názvu. Pridaj názov!",
+	"cal_error_event_delete" => "Udalost nemôše by vymazaná, možno že konfirmaèné èíslo je neplatné",
+	"cal_error_event_id" => "Neplatné identifikaèné èíslo udalosti v jej URL"
+);
+
+?>

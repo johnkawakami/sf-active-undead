@@ -1,0 +1,11 @@
+
+<?php
+// Dictionary file - en  - feature_display_copy
+
+$local = array(
+	"copy_action" => "Copier",
+	"localsubtitle" => "Copier le feature",
+	"feature_copy_blurb" => "Cat&eacute;gorie dans laquelle le feature doit &ecirc;tre copi&eacute;:"
+);
+
+?>

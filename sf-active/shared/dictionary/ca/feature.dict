@@ -1,0 +1,39 @@
+<?php
+// Dictionary file - es - feature
+
+$local = array(
+                "no_features_to_edit" =>    "No hi ha categories per editar!",
+                "features_edit" =>          "Edita aquesta categoria",
+                "feature_story_edit" =>     "Edita aquest article",
+                "feature_story_add" =>      "Afegir article",
+                "feature_title1" =>         "Títol link curt",
+                "feature_title2" =>         "Títol llarg display",
+                "template_name" =>          "Nom de la plantilla",
+                "order_num" =>              "Número d'ordre",
+                "status" =>                 "Status",
+                "feature_list" =>           "Llista d'articles",
+                "feature_all_versions" =>   "Veure Historial d'articles",
+		"feature_history" =>        "Historial d'aquesta categoria",
+                "feature_history_inst" =>   "Clica en una versió per a editar i tornar a la versió antiga.",
+                "feature_modifier" =>       "Última modificació",
+                "feature_test" =>           "Veure pàgina de Test",
+                "feature_preview" =>        "Preview article (conté el link per publicar-ho)",
+                "story_version_id" =>       "Article versió ID",
+                "feature_version_num" =>    "Número versió",
+                "feature_display_date" =>   "Data",
+                "feature_image_url" =>      "URL Imatge",
+                "feature_alt_tag" =>        "etiqueta Alt",
+                "story_index_for" =>        "Index per ",
+                "story_index_inst" =>       "Clica a un títol per editar un article",
+                "feature_id_number" =>      "Número ID",
+                // 07 sep 03
+                "no_template_defined" =>    "<br><h3>No s'ha definit cap template per aquest feature.</h3><br>",
+		"test"              =>      "test",
+
+                // language stuff
+                "language"          =>      "language",
+                "select_a_language" =>      "select a language",
+
+                );
+
+?>

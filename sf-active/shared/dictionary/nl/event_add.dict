@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - en - event_add
+
+$local = array(
+	"cal_calendar" => "Kalender",
+	"cal_spam_block" => "De toegang tot deze site is u blijkbaar geweigerd wegens 'spamming'",
+	"cal_error_event_add" => "Er is een fout opgetreden bij het toevoegen van uw evenement. Zorg ervoor dat alle noodzakelijke velden ingevuld zijn en dat de datum en tijd correct zijn.",
+	"cal_error_event_title" => "Zonder titel kan uw evenement niet toegevoegd worden. Zet er dus een bij!",
+	"cal_error_event_delete" => "Dit evenement kon niet verwijderd worden. Misschien is uw bevestigingsnummer ongeldig.",
+	"cal_error_event_id" => "Het evenements ID in de URL was ongeldig."
+);
+
+?>
+

@@ -1,0 +1,11 @@
+<?
+
+// error strings for the page_class
+
+$local=array(
+        "string_error" => "El ID no es una secuencia.",
+        "template_error" => "No se pudo encontrar la plantilla.",
+        "script_error" => "No se pudo encontrar el archivo de script.",
+        "class_error" => "No se pudo encontrar una class apropiada."
+)
+?>

@@ -1,0 +1,11 @@
+<?php
+// Dictionary file - en - event_display_add_confirm
+
+$local = array(
+	"cal_calendar" => "Kalendar",
+	"cal_confirm_add_page" => "Potvrdni broj za dogağaj",
+	"cal_your_confirm" => "Vaš potvrdni broj je",
+	"cal_need_confirm" => "Ovaj broj æe vam trebati da aurirate ili obrišete dogağaj.",
+	"cal_return_to_calendar" => "Vrati se na kalendar"
+);
+

@@ -1,0 +1,10 @@
+<?php
+// Dictionary file - en - event_add..
+
+$local = array(
+	"features" => "tekstovi u centralnoj koloni:",
+	"catclass" => "Kategorije  ",
+	"feature_overview" => "TRENUTNE TEME & TEKUÆE AKCIJE"
+);
+
+?>

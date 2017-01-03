@@ -1,0 +1,38 @@
+<?php
+// Dictionary file - es - feature
+
+$local = array(
+                "no_features_to_edit" =>    "Ziadna rubrika na editovanie!",
+                "features_edit" =>          "Edituj túto rubriku",
+                "feature_story_edit" =>     "Edituj tento èlánok",
+                "feature_story_add" =>      "Pridaj èlánok",
+                "feature_title1" =>         "Krátka verzia názvu",
+                "feature_title2" =>         "Dlhá verzia názvu",
+                "template_name" =>          "Meno šablóny",
+                "order_num" =>              "Poradové èíslo",
+                "status" =>                 "Stav",
+                "feature_list" =>           "Zoznam èlánkov",
+                "feature_all_versions" =>   "Zobraz históriu tohto èlánku",
+		"feature_history" =>        "História tejto rubriky",
+                "feature_history_inst" =>   "Klikni na verziu a rollback starú verziu.",
+                "feature_modifier" =>       "Naposledy modifikovanè",
+                "feature_test" =>           "Zobraz testovaciu stránku",
+                "feature_preview" =>        "Predbežné zobrazenie rubriky (obsahuje linku na uverejnenie)",
+                "story_version_id" =>       "Císlo verzie èlánku",
+                "feature_version_num" =>    "Císlo verzie",
+                "feature_display_date" =>   "Zobraz dátum",
+                "feature_image_url" =>      "URL obrázku",
+                "feature_alt_tag" =>        "Alt Tag",
+                "story_index_for" =>        "Index pre ",
+                "story_index_inst" =>       "Klikni na názov pre editovanie existujúceho èlánku",
+                "feature_id_number" =>      "Identifikaèné èíslo",
+                // 07 sep 03
+                "no_template_defined" =>    "<br><h3>No template was defined for this feature</h3><br>",
+		"test"              =>      "test",
+                // language stuff
+                "language"          =>      "language",
+                "select_a_language" =>      "select a language",
+
+                );
+
+?>

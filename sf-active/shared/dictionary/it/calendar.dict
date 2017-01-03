@@ -1,0 +1,38 @@
+<?php
+// Dictionary file - en - calendar
+
+$local = array(
+                "admin_calendar" =>             "Amministrazine Calendario",
+                "enter_event_id" =>             "Inserisci l'ID dell'evento per il quale vuoi trovare il numero di conferma",
+                "hint_event_id" =>              "Per ottenere l'ID dell'evento, dovete guardare il link all'evento stesso",                  "event_found" =>                "Evento trovato per l'ID",
+                "conf_no" =>                    "Numero di Conferma",
+                "find" =>                       "cerca",
+                "event_up" =>                   "Agenda rigenerata.",
+                "lookup_conf" =>                "Cerca il Numero di Conferma di un evento",
+                "regen_event" =>                "Rigenera l'html della cache",
+				"topic_menu" => 				"Edita gli argomenti",
+				"type_menu" => 					"Edita i tipi di evento",
+				"location_menu" => 				"Edita i luoghi dove si svolgono gli eventi",
+				"locations" => 					"Luoghi",
+				"event_types" => 				"Tipi di Evento",
+				"event_topics" => 				"Argomenti",
+				"click_on_location_to_edit" => 	"Clicca su un luogo per editarlo",
+				"click_on_topic_to_edit" => 	"Click su un argomento per editarlo",
+				"click_on_type_to_edit" => 		"Clicca su un tipo di evento per editarlo",
+				"location_edit" => 				"Edita un luogo",
+				"event_type_edit" => 			"Edita un tipo di evento",
+				"event_topic_edit" => 			"Edit un argomento di evento",
+				"location_add" => 				"Aggiungi un luogo",
+				"event_type_add" => 			"Aggiungi un tipo di evento",
+				"event_topic_add" => 			"Aggiungi un argomento",
+				"location_name" => 				"Nome del luogo",
+				"event_type_name" => 			"Nome del tipo di evento",
+				"event_topic_name" => 			"Nome dell'argomento",
+                "location" =>                   "Luogo",
+                "event_type" =>                 "Tipo di evento",
+                "event_topic" =>                "Argomento dell'evento",
+                "enter_event2_id" =>            "Inserisci l'id dell'evento che vuoi editare",
+
+                );
+
+?>

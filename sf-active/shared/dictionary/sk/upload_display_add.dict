@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - es - upload_display_add
+
+$local = array(
+               "upload_subtitle" =>    "Upload obrázok",
+	       "file_to_upload" =>     "Súbor pre upload",
+	       "location_upload" =>    "miesto pre upload",
+	       "over_write" =>         "prepíš súbor s rovnakým menom",
+	       "browse_images" =>      "prehladaj obrázky",
+	       "image_exists_error" => "obrázok existuje!",
+	       "image_cannot_move" =>  "Nemôže by presahovaný!",
+	       "image_uploaded" =>     "Uploaded obrázok!"
+              );
+
+?>

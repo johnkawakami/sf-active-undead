@@ -1,0 +1,11 @@
+<?php
+// Dictionary file - it - syndication_index
+
+$local = array(
+        "syndication_page" => "Syndication",
+        "features" => "colonna centrale",
+        "all_features" => "colonna centrale da tutte le categorie"
+);
+
+?>
+

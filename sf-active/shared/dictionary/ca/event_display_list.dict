@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - en - event_display_list
+
+$local = array(
+	"cal_all" => "Tot",
+	"cal_view_events" => "Veure events",
+	"cal_topic" => "Event Topic",
+	"cal_type" => "Tipus d'event",
+	"cal_location" => "Lloc",
+	"cal_end_date" => "Data final",
+	"cal_display_details" => "Veure detallls",
+	"cal_start_date" => "Data d'inici"
+);
+

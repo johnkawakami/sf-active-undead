@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - es - template viewer
+
+$local = array(
+        "template_viewer_info" =>  "Esta p&aacute;gina es para editar las plantillas (template)...",
+        "filter" =>                "filtro",
+        "search_string" =>         "buscar lista",
+        "insertname" =>            "Nombrar una nueva plantilla",
+        "errortpl" =>              "Haz escrito un nombre para la plantilla incorrecto. Vuelve a intentarlo. (debes escribir la extensi&oacute;n)",
+        "filename_header" =>       "Crear una plantilla nueva");
+
+?>

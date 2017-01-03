@@ -1,0 +1,22 @@
+<?php
+// Dictionary file - nl - archive_generate
+
+$local = array(
+                "categories" =>                 "Categorie&euml;n",
+                "categoryid" =>                 "Categorie ID ",
+                "submit" =>                 "Regenereer",
+                "arc_id" =>                 "ID:",
+                "arcdatetogen" =>                 "Aantal weken die geregenereerd moeten worden:",
+                "default_weeks" =>                 "(standaard is dit 5 weken)",
+                "arc_numtogen" =>                 "Aantal features die geregenereerd moeten worden:",
+                "admin_archive_id" =>                 "Regenereer archieven per id",
+                "admin_archive_date" =>                 "Regenereer archiven per week",
+                "archive_generate" =>           "Genereer archieven",
+                "i_category" =>              "intern",
+				"no_items_for_week" =>		"Er waren geen items voor week: ",
+				"no_items_for_id" =>		"Er bestaat geen feature met id",
+		"specify_dmy" =>		"Je moet een dag, maand en jaar specifi&euml;ren om weken te genereren",
+		"writing" =>			"Aan het schrijven naar: ",
+                );
+
+?>

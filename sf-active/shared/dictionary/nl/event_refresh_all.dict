@@ -1,0 +1,12 @@
+
+<?php
+// Dictionary file - en - calendar
+
+$local = array(
+                "admin_calendar" =>             "Beheer de kalender",
+                "refresh_event" =>             "Evenementen aan het verversen voor week: ",
+                "event_up" =>             "Cache ververste",
+                "admin_index" =>                "Beheer de site"
+                );
+
+?>

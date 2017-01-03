@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - en - page viewer
+
+$local = array(
+	"page_viewer_info" =>        "This page is used to edit process page ...........",
+	"filter" => "filter",
+	"search_string" => "Search list",
+	"insertname" => "Insert a name for the new css",
+	"errorpage" => "You have entered an incorrect page name. Try again",
+        "filename_header" => "Create a new process pagecss");
+
+
+?>

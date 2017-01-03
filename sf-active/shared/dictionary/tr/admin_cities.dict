@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - en - admin+AF8-cities
+$local = array(
+              "admin+AF8-refreshing+AF8-cities" =>  "&#351;ehirler yeniden y&uuml;kleniyor.",
+              "cities_unavailable" => "Listing of Independent Media Centers is currently unavailable.",
+              "die" => "Could not open XML input",
+              );
+?>
+

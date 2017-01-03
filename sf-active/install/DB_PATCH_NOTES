@@ -1,0 +1,23 @@
+0.9.2 -> 0.9.4 DATABASE PATCH NOTES
+-----------------------------------
+Patching your db for 0.9.4 depends on whether or not you've already
+applied the install/patch_email_validation.sql from 0.9.2
+
+If you aren't sure, do 'desc webcast' and look for a validation
+column. 
+
+If there is a validation column or you know you've applied the 
+install/patch_email_validation.sql patch, first you must apply
+install/patch_094_092_validation_removed_from_webcast.sql
+
+Then, apply the following patches for 0.9.4:
+install/patch_094_new_validation_table.sql
+install/patch_094_calendar.sql
+install/patch_094_calendar_artmime.sql
+install/patch_094_language_event.sql
+install/patch_094_language_feature.sql
+install/patch_094_language_table.sql
+install/patch_094_language_webcast.sql
+install/patch_094_last_login.sql
+install/patch_drop_date_entered.sql
+

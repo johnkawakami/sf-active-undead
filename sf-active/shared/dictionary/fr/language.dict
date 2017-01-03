@@ -1,0 +1,22 @@
+<?php
+// Dictionary file - fr  - language.inc
+
+$local = array(
+	"languages"	=>  "langues",
+	"show"		=>  "visible",
+	"hide"		=>  "cach&eacute;",
+	"language_add"	=>  "ajouter une langue",
+	"language_code"	=>  "Code de la langue",
+	"order_num"	=>  "num&eacute;ro d'ordre",
+	"display"	=>  "status",
+	"language_name"		=>  "Nom",
+	"language_edit"	=>  "Editer une langue",
+	"click_on_language_to_edit" =>	"Clique sur une langue pour l'&eacute;diter.",
+        "build_site"    =>  "cr&eacute;er un subsite",
+        "build_info"    =>  "choisis oui si tu veux cr&eacute;er des newswires, des contenus, des colonnes centrales, ... pour cette langue",
+        "yes"           => "oui",
+        "no"            =>  "non",
+	"subsite"	=>  "subsite",
+              );
+
+?>

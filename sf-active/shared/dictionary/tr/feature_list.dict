@@ -1,0 +1,10 @@
+<?php
+// Dictionary file - en - event_add
+
+$local = array(
+	"features" => "B&ouml;l&uuml;mler:",
+	"catclass" => "Mevcut b&ouml;l&uuml;m:  ",
+	"feature_overview" => "G&Uuml;NCEL KONULAR - S&Uuml;REG&#304;DEN TARTI&#350;MALAR"
+);
+
+?>

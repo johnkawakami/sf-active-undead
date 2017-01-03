@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - ca - event_display_list
+
+$local = array(
+	"CALENDAR_LOCAL_INFORMATION" => "Calendari: navegar per mesos",
+	"CALENDAR_LOCAL_CLICK_ON_WEEK" => "Clica en una setmana per veure els seus events"
+);
+

@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - hr - event_display_list
+
+$local = array(
+	"cal_all" => "Sve",
+	"cal_view_events" => "Pogledaj dogağaje",
+	"cal_topic" => "Tema dogağaja",
+	"cal_type" => "Tip dogağaja",
+	"cal_location" => "Mjesto",
+	"cal_end_date" => "Zavr¹ni datum",
+	"cal_display_details" => "Prika¾i detalje",
+	"cal_start_date" => "Poèetni datum"
+);
+

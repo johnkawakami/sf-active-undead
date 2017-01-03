@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - es - upload_display_add
+
+$local = array(
+               "upload_subtitle" =>    "Slanje slike",
+	       "file_to_upload" =>     "Datoteka za slanje",
+	       "location_upload" =>    "Lokacija za slanje",
+	       "over_write" =>         "prepi¹i datoteku s istim imenom",
+	       "browse_images" =>      "pregledaj slike",
+	       "image_exists_error" => "slika postoji!",
+	       "image_cannot_move" =>  "ne mo¾e se pomaknuti!",
+	       "image_uploaded" =>     "Slika je poslana!"
+              );
+
+?>

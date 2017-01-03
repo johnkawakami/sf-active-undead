@@ -1,0 +1,15 @@
+Read the 404error.php sources to get info about installing
+these files.
+
+You should be able to move the website/errors directory
+into your website/ directory and alter your httpd.conf
+or .htaccess file to get the desired effect.
+
+To cause auto-generation of newswire files, just go into
+the newswire directories and delete the files.  As the
+files get accessed, the resultant 404 errors will trigger
+regeneration.
+
+
+LICENSE: This software is licensed under the GNU General
+Public License.

@@ -1,0 +1,24 @@
+<?php
+// Dictionary file - fr - mailable
+
+$local = array(
+	"prn_original_article" => "L'article original se trouve ici: ",
+	"original_upload" => "Le fichier transmis se trouve ici: ",
+	"prn_print_comments" => "Commentaires e-mail",
+	"prn_hide_comments" => "Cacher les commentaires",
+	"prn_no_id" => "Erreur: impossible d'afficher l'article. Aucune id d'article.",
+	"prn_no_comments" => "/* pas de commentaire */",
+	"fromaddress" => "De l'adresse",
+	"toaddress" => "&Agrave; l'adresse",
+	"subject" => "Sujet",
+	"commentmail" => "Commentaire pour introduire l'e-mail",
+	"submit_email" => "Envoyer l'e-mail",
+	"from_is_not_mail" => "L'adresse d'origine est invalide!",
+	"to_is_not_mail" => "L'adresse de destination est invalide!",
+	"subject_is_too_long" => "Le sujet est trop long!",
+	"subject_is_null" => "Merci d'indiquer un sujet!",
+	"comment_is_too_long" => "Le commentaire est trop long!",
+	"notice" => "Concernant le copyright et la protection de la vie priv&eacute;e, se r&eacute;f&eacute;rer &agrave;: "
+);
+
+?>

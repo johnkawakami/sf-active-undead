@@ -1,0 +1,11 @@
+<?php
+// Dictionary file - en - event_display_add_confirm
+
+$local = array(
+	"cal_calendar" => "Kalender",
+	"cal_confirm_add_page" => "Bevestig toevoegen",
+	"cal_your_confirm" => "Uw bevestigingsnummer is",
+	"cal_need_confirm" => "U zal dit nummer nodig hebben om dit evenement te wijzigen of te verwijderen.",
+	"cal_return_to_calendar" => "Terug naar de kalender"
+);
+

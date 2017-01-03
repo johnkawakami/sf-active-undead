@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - es - admin_index
+
+$local = array(
+               "articles_edit_list" => "Haber b&ouml;l&uuml;m&uuml;",
+               "enter_article_id" =>    "&Uuml;zerinde &ccedil;al&#305;&#351;&#305;lacak haberin ID'sini yaz&#305;n",
+               "enter_comment_id" =>    "&Uuml;zerinde &ccedil;al&#305;&#351;&#305;lacak yorumun haber ID'sini yaz&#305;n",
+		"comment_edit" => 	"Yorumu a&ccedil;",
+               "click_on_article_to_edit" =>    "Haber b&ouml;l&uuml;m&uuml;",
+               "save" =>    "Kaydet",
+	        "promote_to_feature"  => "make this article a feature",
+              );
+
+?>

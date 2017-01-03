@@ -1,0 +1,11 @@
+<?
+
+// error strings for the page_class
+
+$local=array(
+	"string_error" => "Page ID no és una caden.",
+	"template_error" => "No es pot trobar l'arxiu de template.",
+	"script_error" => "No es pot trobar l'arxiu d'script",
+	"class_error" => "No es pot trobar la classe apropiada"
+)
+?>

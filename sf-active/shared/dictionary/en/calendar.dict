@@ -1,0 +1,39 @@
+<?php
+// Dictionary file - en - calendar
+
+$local = array(
+                "admin_calendar" =>             "Admin Calendar",
+                "enter_event_id" =>             "Enter the event ID number of the event for which you need the confirmation number",
+                "hint_event_id" =>              "To obtain the event ID number check the URL of the event.",
+                "event_found" =>                "Event found for event ID",
+                "conf_no" =>                    "Confirmation Number",
+                "find" =>                       "lookup",
+                "event_up" =>                   "Events refreshed.",
+                "lookup_conf" =>                "Lookup event confirmation number",
+                "regen_event" =>                "Regenerate cached HTML",
+				"topic_menu" => 				"Edit topics",
+				"type_menu" => 					"Edit types",
+				"location_menu" => 				"Edit Locations",
+				"locations" => 					"Locations",
+				"event_types" => 				"Types",
+				"event_topics" => 				"Topics",
+				"click_on_location_to_edit" => 	"Click on a location to edit",
+				"click_on_topic_to_edit" => 	"Click on a topic to edit",
+				"click_on_type_to_edit" => 		"Click on a type to edit",
+				"location_edit" => 				"Edit a location",
+				"event_type_edit" => 			"Edit an event type",
+				"event_topic_edit" => 			"Edit an event topic",
+				"location_add" => 				"Add a location",
+				"event_type_add" => 			"Add a type",
+				"event_topic_add" => 			"Add a topic",
+				"location_name" => 				"Location name",
+				"event_type_name" => 			"Type name",
+				"event_topic_name" => 			"Topic name",
+                "location" =>                   "Location",
+                "event_type" =>                 "Event Type",
+                "event_topic" =>                "Event Topic",
+                "enter_event2_id" =>            "Enter the ID-number of the event you want to edit",
+
+                );
+
+?>

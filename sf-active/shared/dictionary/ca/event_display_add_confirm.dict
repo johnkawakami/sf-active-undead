@@ -1,0 +1,11 @@
+<?php
+// Dictionary file - ca - event_display_add_confirm
+
+$local = array(
+	"cal_calendar" => "Calendari",
+	"cal_confirm_add_page" => "Confirmar afegit de pàgina",
+	"cal_your_confirm" => "El teu número de confirmació és",
+	"cal_need_confirm" => "Necessitaràs aquest número per actualitzar o esborrar aquest event.",
+	"cal_return_to_calendar" => "Retorna al calendari"
+);
+

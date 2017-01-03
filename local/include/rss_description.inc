@@ -1,0 +1,1 @@
+The Los Angeles Independent Media Center allows people to publish news about events of interest to the local progressive community.

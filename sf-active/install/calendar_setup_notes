@@ -1,0 +1,9 @@
+To Set Up Your Calendar:
+
+- All tables & sample data you need are now in the mysql_db.sql & mysql_db_sample_data.sql.
+So if you install sfactive it should work by default.
+
+- Locations, topics and types can now be directly managed from the admin.
+
+- If you use an old version of sf-active, you probably need to patch your database. take
+a look at patch_calendar_for_install.sql.

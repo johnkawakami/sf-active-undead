@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - it - include viewer
+
+$local = array(
+	"include_viewer_info" =>        "Ova strana se koristi za menjanje include datoteka...........",
+	"filter" => "filter",
+	"search_string" => "Lista za pretragu",
+	"insertname" => "Unesite ime za novi include",
+	"errortpl" => "Uneli ste loš naziv za include. Probajte ponovo",
+        "filename_header" => "Napravi novi include");
+
+?>

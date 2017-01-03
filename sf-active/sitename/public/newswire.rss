@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://my.netscape.com/rdf/simple/0.9/">
+<channel>
+	<title>SF Indymedia Newswire</title>
+	<link>http://localhost/</link>
+	<description>San Francisco Bay Area Independent Media Center</description>
+</channel>
+<image>
+	<title>SF Indymedia</title>
+	<url>http://localhost/images/logo.png</url>
+	<link>http://localhost/</link>
+</image>
+<item>
+	<title>new test</title>
+	<link>http://localhost/news///24.php</link>
+</item>
+<item>
+	<title>fasdfasdf</title>
+	<link>http://localhost/news///18.php</link>
+</item>
+<item>
+	<title>fasdfasdf</title>
+	<link>http://localhost/news///17.php</link>
+</item>
+<item>
+	<title>fasdfasdf</title>
+	<link>http://localhost/news///16.php</link>
+</item>
+<item>
+	<title>fasdfasdf</title>
+	<link>http://localhost/news///15.php</link>
+</item>
+<item>
+	<title>test</title>
+	<link>http://localhost/news///1.php</link>
+</item>
+<item>
+	<title>test</title>
+	<link>http://localhost/news///2.php</link>
+</item>
+<item>
+	<title>asdfasdf</title>
+	<link>http://localhost/news///3.php</link>
+</item>
+<item>
+	<title>fasdfasdf</title>
+	<link>http://localhost/news///4.php</link>
+</item>
+<item>
+	<title>fasdfasdf</title>
+	<link>http://localhost/news///5.php</link>
+</item>
+<item>
+	<title>fasdfasdf</title>
+	<link>http://localhost/news///6.php</link>
+</item>
+<item>
+	<title>fasdfasdf</title>
+	<link>http://localhost/news///7.php</link>
+</item>
+<item>
+	<title>fasdfasdf</title>
+	<link>http://localhost/news///8.php</link>
+</item>
+<item>
+	<title>fasdfasdf</title>
+	<link>http://localhost/news///9.php</link>
+</item>
+<item>
+	<title>fasdfasdf</title>
+	<link>http://localhost/news///10.php</link>
+</item>
+<textinput>
+	<title>Search SF Indymedia</title>
+	<description>Search SF Indymedia stories</description>
+	<name>keyword</name>
+	<link>http://localhost/news/</link>
+</textinput>
+</rdf:RDF>

@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - es - event_add
+
+$local = array(
+        "cal_calendar" => "Calendario",
+        "cal_spam_block" => "Al parecer has sido bloqueado de este sitio por hacer mala utilizaci&oacute;n",
+        "cal_error_event_add" => "Hubo un error al publicar tu actividad. Asegurate que has llenado todos los datos obligatorios y que a fecha sea v&aacute;lida",
+        "cal_error_event_title" => "Sin un t&iacute;tulo, la actividad no puede ser publicada. ¡Escribe uno!",
+        "cal_error_event_delete" => "No se puede eliminar la actividad, a lo mejor el N&uacute;mero de confirmaci&oacute;n no es correcto",
+        "cal_error_event_id" => "El identificador de la actividad (URL) no es correcto"
+);
+
+?>

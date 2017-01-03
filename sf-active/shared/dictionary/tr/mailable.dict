@@ -1,0 +1,24 @@
+<?php
+// Dictionary file - en - mailable
+
+$local = array(
+	"prn_original_article" => "Haberin konumu: ",
+	"original_upload" => "Y&uuml;klenen resmin konumu: ",
+	"prn_print_comments" => "Yorumlar&#305; e-posta ile g&ouml;nder.",
+	"prn_hide_comments" => "Yorumlar&#305; gizle.",
+	"prn_no_id" => "hata: haber g&ouml;r&uuml;nt&uuml;lenemiyor.",
+	"prn_no_comments" => "/* yorum yok */",
+	"fromaddress" => "G&ouml;nderen adresi",
+	"toaddress" => "G&ouml;nderilen adres",
+	"subject" => "Konu",
+	"commentmail" => "e-posta a&ccedil;&#305;klamas&#305;",
+	"submit_email" => "e-postay&#305; g&ouml;nder",
+	"from_is_not_mail" => "G&ouml;nderen adresi ge&ccedil;erli bir e-posta adresi de&#287;il!",
+	"to_is_not_mail" => "G&ouml;nderilen adresi ge&ccedil;erli bir e-posta adresi de&#287;il!",
+	"subject_is_too_long" => "&Ouml;zet &ccedil;ok uzun!",
+	"subject_is_null" => "Konuyu yazmay&#305; unuttunuz!",
+	"comment_is_too_long" => "Yorum &ccedil;ok uzun!",
+	"notice" => "&#304;rtibat: "
+);
+
+?>

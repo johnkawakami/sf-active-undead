@@ -1,0 +1,75 @@
+<?php
+// Dictionary file - tr - publish
+
+$local = array(
+              "pub_stepone" =>    "1) Yorum i&ccedil;in bilgilerinizi girin",
+              "pub_steptwo" =>    "2) Haberi girin",
+              "pub_stepthree" =>  "3) Dosya ekleyin",
+              "attach_a_file"=>   "Dosya ekleyin",
+              "pub_author" =>     "G&ouml;nderen",
+              "pub_url" =>        "Web adresi",
+              "pub_artmime" =>    "D&uuml;z metin / Html",
+
+              "pub_optional" =>   "Yukar&#305;daki irtibat alanlar&#305; haberle birlikte yay&#305;nlanacakt&#305;r ve doldurmak iste&#287;e ba&#287;l&#305;d&#305;r.",
+              "pub_sum" =>        "&Ouml;zet b&ouml;l&uuml;m&uuml; 6 sat&#305;rdan uzun olmayacakt&#305;r. Ses veya video ekliyorsan&#305;z l&uuml;tfen s&uuml;relerini belirtin.",
+              "pub_art" =>        "D&uuml;z metin olarak girilen haberlerde web adresleri t&#305;klanabilir link
+hal,ne gelecektir. Ayr&#305;ca link vermek i&ccedil;in &lt;a href=&quot;url&quot;&gt;link&lt;/a&gt; kodunu kullanabilirsiniz (Di&#287;er kodlar&#305;n ge&ccedil;erli olmas&#305; i&ccedil;in Html format&#305;n&#305; se&ccedil;melisiniz).",
+              "pub_mime" =>       "E&#287;er &lt;p&gt; and/or &lt;br&gt; kodlar&#305;n&#305; kullanm&#305;yorsan&#305;z &quot;html format&quot; format&#305;n&#305; se&ccedil;meyin.",
+              "pub_cuantofiles" =>"Y&uuml;klenecek dosya adedi",
+              "sel_categories" => "Kategori",
+              "sel_cattema" => "Alan kategorisi",
+              "sel_catlocali" => "Yerel kategori",
+              "sel_catinternal" => "internal category",
+              "sel_catevent" => "event category",
+              "sel_catproject" => "project category",
+              "sel_catother" => "other categories",
+              "sel_cathidden" => "hidden category",
+
+// new words since translation was started
+              "select_file" => "Dosya se&ccedil;",
+              "comment" => "Yorum",
+              "max_upload" => 'Dosya b&uuml;y&uuml;kl&uuml;&#287;&uuml; limiti:',
+              "total_limit" => 'Toplam y&uuml;kleme limiti:',
+              "minutes" => 'Kabul edilen dosya t&uuml;rleri:&nbsp;',
+              "accepted_types" => 'Accepted filetypes:  '.$GLOBALS['accepted_filetypes'],
+              // added by bart (for preview & ...)
+              "preview" => "Preview",
+              "preview_warning" => "<b>If you wish to use the preview, do it before you enter the uploads</b>.",
+              "publish_successful" => "<strong>Publish successful! We have added your story to the newswire.</strong>",
+              "comment_successful" => "<strong>Comment added!</strong>",
+            // for e-mail validation
+              "validate_email" =>   "EMAIL VALIDATION ?",
+              "validate_form" => "Check this box to have an email sent to yourself so that you can validate that you own this email address.",
+              "pub_validation_email" => "Hello,
+              This email is being sent to you because
+              either you or someone posing as you published
+              a story at SITE_NAME using your email address
+              and requested validation of the email address.
+
+              The story in question can be found here:
+              ARTICLE_URL
+
+              If you are the person who published the story
+              please visit the following url:
+              VALIDATIONURL
+              to validate your story. If you did not make
+              this request and think someone is trying to
+              represent themselves as you, feel free to
+              contact the operators of SITE_NAME at
+              ADMIN_EMAIL.
+
+              If you have any other questions or comments
+              please feel free to contact us
+              here at: PUBLIC_EMAIL ",
+              "pub_validation_email_sub" => "[SITE_NAME] Request for article email validation",
+              "validated_ok" => "your post has been validated",
+              "validated_allready" => "this post was allready validated",
+              "validated_error" => "there went something wrong. Maybe you used the wrong url ?",
+              "validation_email_ok" => "The validation email has been sent.",
+              "validation_email_error" => "There was a problem with sending the validation email. did you enter an email address ?",
+
+            // for language stuff
+              "sel_language"  =>  "Select a language",
+              "pub_error_language" => "You have to select a language for this article",
+              );
+?>

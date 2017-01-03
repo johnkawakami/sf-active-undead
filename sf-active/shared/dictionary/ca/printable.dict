@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - ca - printable
+
+$local = array(
+	"prn_orginal_article" => "L'article original és a ",
+	"prn_print_comments" => "Ensenya els comentaris.",
+	"prn_hide_comments" => "Amaga els comentaris.",
+	"prn_no_id" => "error: no es pot ensenyar l'article. ID incorrecte.",
+	"prn_no_comments" => "/* no hi ha comentaris */"
+);
+
+?>

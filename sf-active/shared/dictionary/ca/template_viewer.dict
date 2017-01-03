@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - ca - template viewer
+
+$local = array(
+	"template_viewer_info" =>        "Aquesta pàgina es fa servir per editar plantilles",
+	"filter" => "filtre",
+	"search_string" => "Cerca",
+	"insertname" => "Inserta un nom per la nova plantilla",
+	"errortpl" => "Has entrat un nom incorrecte per la plantilla. Torna a provar.",
+        "filename_header" => "Crea una nova plantilla");
+
+?>

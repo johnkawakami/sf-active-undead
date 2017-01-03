@@ -1,0 +1,53 @@
+<?php
+// Dictionary file - en - category
+
+$local = array(
+                "categories" =>                 "B&ouml;l&uuml;mler",
+                "category_add" =>               "B&ouml;l&uuml;m ekle",
+                "archive_generate" =>           "Ar&#351;ivleri d&uuml;zenle",
+                "click_on_category_to_edit" =>  "(Bir kategoriyi d&uuml;zenlemek isterseniz ba&#351;l&#305;&#287;&#305;na t&#305;klay&#305;n; &#304;&ccedil;eri&#287;indeki
+yaz&#305;lar i&ccedil;in 'Yaz&#305;lar&#305; d&uuml;zenle'ye t&#305;klay&#305;n.)",
+                "story_list" =>                 "Bu b&ouml;l&uuml;mdeki ana haberlerin listesi",
+                "no_center_column" =>           "Orta kolon de&#287;il",
+		"updated_site" =>               "Site g&uuml;ncellendi",
+		"feature_list" =>               "Ana haber listesi",
+		"category_pushto" =>		"Yay&#305;nla",
+                "category_shortname" =>         "Kategori k&#305;sa ad&#305;",
+                "category_name" =>              "Kategori ad&#305;",
+                "category_summarylength" =>     "&Ouml;zet uzunlu&#287;u",
+                "template_name" =>              "&#350;ablon ad&#305;",
+                "default_template" =>           "Varsay&#305;lan &#351;ablon",
+                "newswire_type" =>              "Haber listesi tipi",
+                "centercolumn_type" =>          "Orta kolon tipi",
+                "category_description" =>       "Kategori a&ccedil;&#305;klamas&#305;",
+                "n_newswire" =>                 "Haber listesi yok",
+                "s_newswire" =>                 "Standart haber listesi",
+		"f_newswire" =>                 "Filtered Newswire",
+                "a_newswire" =>                 "T&uuml;m haber listesi",
+                "no_centercolumn" =>            "Orta kolon yok",
+                "standard_centercolumn" =>      "Standart orta kolon",
+                "ordernum" =>                   "S&#305;ra no",
+                "category_add" =>               "Kategori ekle",
+                "category_edit" =>              "Kategori d&uuml;zenle",
+                "catclass_type" =>          "Kategori s&#305;n&#305;f&#305;",
+                "m_category_left" =>              "Kategoriler",
+                "t_category_left" =>              "Alan kategorileri",
+                "l_category_left" =>              "Yerel kategoriler",
+                "i_category_left" =>              "Y&ouml;ntem kategorileri",
+                 "m_category" =>              "Ana",
+                "h_category" =>              "&Acirc;t&#305;l",
+                "t_category" =>              "Genel",
+                "l_category" =>              "yerel",
+                "i_category" =>              "dahili",
+                "o_category" =>             "other",
+                "e_category" =>             "event",
+                "p_category" =>             "project",
+                // 07 sep 03
+                "no_feature_template_defined" => "<br><h3>No template was defined for this feature</h3><br>",
+                "no_category_template_defined" => "<br><h3>No template was defined for this category</h3><br>",
+				"refresh_newswire"      =>  "refresh the newswire ",
+
+
+                );
+
+?>

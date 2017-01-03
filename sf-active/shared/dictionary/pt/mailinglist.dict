@@ -1,0 +1,28 @@
+<?php
+// Dictionary file - en - mailinglist
+
+$local = array(
+              "invalid_email" =>        "Este endereço de email é inválido!",
+              "subscribe_thanks" =>     "Obrigado por se inscrever. Você deve responder ao email de confirmação que lhe foi enviado.",
+              "unsubscribe_thanks" =>   "Você foi retirado da lista. Você receberá um email de confirmação.",
+              "passwd_notsent" =>       "Não foi possível enviar sua senha neste momento, por favor, tente novamente mais tarde.",
+              "passwd_sent" =>          "Sua senha foi enviada por email.",
+                          "delivery_options" =>         "Delivery Options",
+                          "weekly_email" =>                     "Weekly News Email",
+                          "top_text" =>                         "A weekly summary of featured headlines sent in plain-text. We'll send you each week's feature headlines in an email.",
+                          "email_address" =>            "Email address",
+                          "subscribe" =>                        "Subscribe",
+                          "password" =>                         "Password (to unsubscribe)",
+                          "unsubscribe" =>                      "Unsubscribe",
+                          "email_pass" =>                       "Email my password",
+                          "indy_news" =>                        "Independent Media News",
+                          "list_text" =>                        "Public mailing list for independent media news, events, announcements. Moderate traffic. To subscribe, visit the <a href=\"http://lists.indymedia.org/\">mailing list page</a>",
+                          "xml_newsfeeds" =>            "XML Newsfeeds for PDAs &amp; Syndication",
+                          "xml_text" =>                         "The following XML files are maintained and may be used on your website, PDA or desktop applet",
+                          "feature_stories" =>          "feature stories",
+                          "open_newswire" =>            "open newswire",
+                          "syndication_page" =>         "syndication overview page",
+                          "custom_xml" =>                       "Generate custom XML query",
+              );
+
+?>

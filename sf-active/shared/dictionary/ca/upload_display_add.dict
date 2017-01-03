@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - ca - upload_display_add
+
+$local = array(
+               "upload_subtitle" =>    "Pujar imatge",
+	       "file_to_upload" =>     "Arxiu a pujar",
+	       "location_upload" =>    "lloc a pujar",
+	       "over_write" =>         "sobreescriu l'arxiu amb el mateix nom",
+	       "browse_images" =>      "explorar imatges",
+	       "image_exists_error" => "la imatge existeix!",
+	       "image_cannot_move" =>  "No es pot moure!",
+	       "image_uploaded" =>     "Imatge pujada!"
+              );
+
+?>

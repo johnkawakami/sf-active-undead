@@ -1,0 +1,205 @@
+--------------------------------------------------------------------
+SF-ACTIVE v0.9.4
+--------------------------------------------------------------------
+
+o The documentation has been updated a lot. It still isn't complete. (most
+complete versions are english and dutch).
+
+o The date_entered column has been dropped from the webcast table (it wasn't 
+used anyway).
+
+o email validation is now stored in its own table instead of webcast
+(much less wasteful of our already bloated webcast table)
+ - for upgrades, see the patches in install/
+
+o it's now possible to mirror uploaded files to a mirror server(s) directly
+while uploading. (before you needed pytoeye.py)
+
+o fixed bug in validating of uploads. it allowed only 19 files while the form
+allowed 20
+
+o the date is now the same in the comment_box in article.php as in the long 
+comment in article_comment.php. It still doesn't honour dst (daylight saving
+time).
+
+o you can now also upload rtf files. also the list on the publish pages of
+which files you can upload is now defined in shared/global.cfg (so users get
+an up to date list even if translations aren't up to date).
+
+o fixed a bug that prevented the search to display thumbnails of pictures 
+published in attachments and comments
+
+o the calendar now uses the same system as the articles to handle html & 
+plain text input. (this fixes a presentation bug with html events). (requires
+dbase patch patch_094_calendar_artmime.sql)
+
+o fixed a bug that prevented the main newswire from being refreshed when you edit
+the status of an article
+
+o The mysql_db_sample_data are updated so the default category comes with a
+newswire and a center column.
+
+o If you add, edit or update location, you will now be redirected to the right
+page (instead of getting an error/warning about headers
+
+o Articles, events and features are now associated with a certain language,
+that will display in feeds and is searchable
+
+o You can now define and control the languages your site supports in the 
+admin.
+
+o We now keep track of when administrators last logged in (this requires 
+dbase patch patch_094_last_login.sql). you can also order the list of your
+users on most columns of the user table.
+
+o The calendar search will now display thumbnails of published images
+
+o You can now publish a file (like with articles) in the calendar
+(this requires dbase patch patch_094_calendar.sql).
+
+o Support for a static minicalendar (= upcoming events on frontpage).
+
+o use dcterms:hasPart to syndicate linked files (features, newswire and 
+calendar) 
+
+o license changed to GPL. added copy of GPL in install
+
+--------------------------------------------------------------------
+SF-ACTIVE v0.9.2
+--------------------------------------------------------------------
+
+o Besides some things listed here, various small bugs have been fixed.
+
+o There is configurable support for email validation of posted articles
+
+o There's a search for the calendar now.
+
+o some sql-queries have been speed up a lot. queries used to create 
+select-forms have been replaced by cached array's. Some more unneeded 
+queries have been removed.
+
+o There's some basic support to 'promote' articles to features.
+
+o RDF-feeds should be valid by now. Article rdf-feeds use now also 
+content:encoded (= full html of the article). (encoding issues is for next
+release).
+
+o You can now choose for select, multiple or checkbox forms for choosing
+categories when publishing.
+
+o Uploads are now stored in monthly subdirectories inside SF_UPLOAD_PATH.
+thumbnails & midsize images are created and are used in the search, the
+articles and in galleries.
+
+o There is some basic security checking on passwords. if your pass
+is too simple you're jailed on the page to change until it's found safe.
+
+o Some security issues in the admin have been solved. (the page_class was
+sometimes executed before the authentication handling.
+
+o The documentation has been updated & is for the biggest part
+translated into french.
+
+o Internationalisation: Dutch, French & Serbian language has
+been brought up to date. Basic croatian translation available.
+
+o The database layer has been fixed. The database connection isn't
+closed anymore after each query.
+
+o You can now set site-specific limits on the amount of articles
+people can publish in a certain time. You can have different variables 
+for the amount of articles & for articles with the same content.
+
+o the calendar doesn't allow any longer to browse into eternity into 
+the past/feature (bug #95)
+
+o you can now turn off the limiting of search results
+
+o there is now a cli-script that allows you to refresh all the 
+ramfiles in case your realserver setup changes. (bug #141)
+
+o the upload section in the admin is fixed so it uses the settings
+in the sfactive.cfg file
+
+o mailinglist.php has been updated so it works better with mailman.
+
+
+
+
+--------------------------------------------------------------------
+SF-ACTIVE v0.9
+--------------------------------------------------------------------
+
+o The lengthy process of converting sf-active to a PEAR-style, object-
+  oriented architecture is now 98% completed and 100% tested on live 
+  sites. A full explanation of this architecture is forthcoming. Almost
+  all system logic is now shared and extensible. 
+
+o Documentation is more and more up to date, with translations of the
+  docs now for Nederlands, Italian, French, English.
+
+o The administration system has been completely redesigned with a lot
+  of additional functionality added. 
+
+o Complete internationalization is now finished with sf-active
+  dictionaries for English, Spanish, Netherlands, French, Italian,
+  Turkish, Serbian, Catalan (85%), Portuguese (50%), Slovak (50%).
+
+o Internationalization is now shared for easy server-wide updating of
+  many sf-active sites in many different languages. A local directory
+  can override any dictionary file for site-specific customization.
+
+o There is now a preview for publishing that allows you to correct
+  text or html errors before committing an article.
+
+o Supported article types include text, html, PDF document, SMIL
+  file, MP3, Ogg Vorbis, RealAudio, RealVideo, MP3 playlist, MP3
+  stream, Windows Media audio, MPEG video, Quicktime, Windows
+  Media video and AVI video. 
+
+o Almost all SF-specific content has been removed from cvs.
+
+o The SF-specific 'redstone' directory has been replaced by the
+  'sitename' directory.
+
+o User passwords are now encrypted (notice SQL changes and patches
+  to upgrade existing installations).
+
+o Added calendar administration code to manage event types, topics 
+  and locations.
+
+o Hidden articles now have a noindex header to prevent them from
+  being crawled by google. (bug #155)
+
+o Syndication is now implemented for the calendar.
+
+o Various script directories have been consolidated into one.
+
+o Website /features/ are now run out of the database rather than manually
+  created. (bug #50)
+
+o Mailing list pages now use templates and are fully internationalized.
+  (bug #185)
+
+o Fixed blank title publishes with cache_class error. (bug #164)
+
+o Fixed category default template was not being selected. (bug #166)
+
+o Fixed article edit quoting problem. (bug #165)
+
+o Template files and other miscellaneous system files can now be
+  updated through the admin system. (bug #41)
+
+o Calendar now uses the current year as a starting point for drop-down
+  menus. (bug #153)
+
+o Fixed bug with setting theme color in certain contexts producing an
+  error screen. (bug #183)
+
+o Fixed single feature archiving. (bug #144)
+
+o Fixed problems with copying a feature to another category. (bug #178)
+
+o Deleted article_html_handler and article_text_handler files and 
+  subsumed them in shared classes. (bug #122)
+

@@ -1,0 +1,10 @@
+
+<?php
+// Dictionary file - fr - article_regenerate
+
+$local = array(
+	"id_article" => "ID d'article r&eacute;g&eacute;n&eacute;r&eacute;: ",
+	"wrote_to" => "&Eacute;criture sur: "
+              );
+
+?>

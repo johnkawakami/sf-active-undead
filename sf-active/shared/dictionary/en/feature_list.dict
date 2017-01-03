@@ -1,0 +1,10 @@
+<?php
+// Dictionary file - en - event_add
+
+$local = array(
+	"features" => "Features:",
+	"catclass" => "This category is  ",
+	"feature_overview" => "CURRENT ISSUES & ONGOING ACTIONS"
+);
+
+?>

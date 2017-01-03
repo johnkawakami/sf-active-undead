@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - es - admin_cities
+$local = array(
+              "admin_refreshing_cities" =>  "Actualizando listado de sitios de la red.",
+              "cities_unavailable" => "La lista de sitios de la red Indymedia no est&aacute; actualmente disponible. ",
+              "die" => "No se puede abrir la entrada XML",
+              );
+?>

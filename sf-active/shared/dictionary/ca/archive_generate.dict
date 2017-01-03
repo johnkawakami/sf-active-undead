@@ -1,0 +1,22 @@
+<?php
+// Dictionary file - ca - archive_generate
+
+$local = array(
+                "categories" =>                 "Categories",
+                "categoryid" =>                 "Categoria ID",
+                "submit" =>                 "Regenerar",
+                "arc_id" =>                 "ID: ",
+                "arcdatetogen" =>                 "N&uacute;mero de setmanes a regenerar:",
+                "default_weeks" =>                 "(per defecte: 5 setmanes)",
+                "arc_numtogen" =>                 "N&uacute;mero de categories a regenerar:",
+                "admin_archive_id" =>                 "Regenerar arxiu per ID",
+                "admin_archive_date" =>                 "Regenerar arxiu per setmanes",
+                "archive_generate" =>           "Genera l'arxiu",
+                "i_category" =>              "interna",
+                "no_items_for_week" =>          "no existeixen entrades per aquesta setmanak: ",
+				"no_items_for_id" =>            "no s'ha trobat cap entrada amb aquesta id ",
+				"specify_dmy" =>                "Has d'especificar unl dia, mes i any per generar setmanes",
+                "writing" =>                    "text: ",
+                );
+
+?>

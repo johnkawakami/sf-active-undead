@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<!DOCTYPE backslash [ <!ELEMENT backslash (story*)> <!ELEMENT story (title, url, time, author, department, topic, comments, section, image)> <!ELEMENT title (#PCDATA)> <!ELEMENT url (#PCDATA)> <!ELEMENT time (#PCDATA)> <!ELEMENT author (#PCDATA)> <!ELEMENT department (#PCDATA)> <!ELEMENT topic (#PCDATA)> <!ELEMENT comments (#PCDATA)> <!ELEMENT section (#PCDATA)> <!ELEMENT image (#PCDATA)> ]>
+<backslash>
+<story>
+	<title>new test</title>
+	<url>http://localhost/news///24.php</url>
+	<time>2002-04-22 20:07:56</time>
+	<author>blah</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>0</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+<story>
+	<title>fasdfasdf</title>
+	<url>http://localhost/news///18.php</url>
+	<time>2002-04-22 19:54:03</time>
+	<author>safasd</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>1</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+<story>
+	<title>fasdfasdf</title>
+	<url>http://localhost/news///17.php</url>
+	<time>2002-04-22 19:50:36</time>
+	<author>safasd</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>0</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+<story>
+	<title>fasdfasdf</title>
+	<url>http://localhost/news///16.php</url>
+	<time>2002-04-22 19:50:01</time>
+	<author>safasd</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>0</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+<story>
+	<title>fasdfasdf</title>
+	<url>http://localhost/news///15.php</url>
+	<time>2002-04-22 19:48:29</time>
+	<author>safasd</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>0</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+<story>
+	<title>test</title>
+	<url>http://localhost/news///1.php</url>
+	<time>0000-00-00 00:00:00</time>
+	<author>sfdasd</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>0</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+<story>
+	<title>test</title>
+	<url>http://localhost/news///2.php</url>
+	<time>0000-00-00 00:00:00</time>
+	<author>sfdasd</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>0</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+<story>
+	<title>asdfasdf</title>
+	<url>http://localhost/news///3.php</url>
+	<time>0000-00-00 00:00:00</time>
+	<author>dfasfdasfd</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>0</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+<story>
+	<title>fasdfasdf</title>
+	<url>http://localhost/news///4.php</url>
+	<time>0000-00-00 00:00:00</time>
+	<author>safasd</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>0</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+<story>
+	<title>fasdfasdf</title>
+	<url>http://localhost/news///5.php</url>
+	<time>0000-00-00 00:00:00</time>
+	<author>safasd</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>0</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+<story>
+	<title>fasdfasdf</title>
+	<url>http://localhost/news///6.php</url>
+	<time>0000-00-00 00:00:00</time>
+	<author>safasd</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>0</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+<story>
+	<title>fasdfasdf</title>
+	<url>http://localhost/news///7.php</url>
+	<time>0000-00-00 00:00:00</time>
+	<author>safasd</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>0</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+<story>
+	<title>fasdfasdf</title>
+	<url>http://localhost/news///8.php</url>
+	<time>0000-00-00 00:00:00</time>
+	<author>safasd</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>0</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+<story>
+	<title>fasdfasdf</title>
+	<url>http://localhost/news///9.php</url>
+	<time>0000-00-00 00:00:00</time>
+	<author>safasd</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>0</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+<story>
+	<title>fasdfasdf</title>
+	<url>http://localhost/news///10.php</url>
+	<time>0000-00-00 00:00:00</time>
+	<author>safasd</author>
+	<department>text/plain</department>
+	<topic></topic>
+	<comments>0</comments>
+	<section>newswire</section>
+	<image></image>
+</story>
+</backslash>

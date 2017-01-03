@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - nl - file_viewer.dict
+
+$local = array(
+        "file_viewer_info" =>        "Deze pagina kan worden gebruikt om gelijk welke pagina die zich in de cache map bevindt, te bewerken. De bestandsnaam wordt gegeven in de url. De filter toont enkel lijnen die bepaalde sleutelwoorden bevatten en je kan het bestand niet opslaan als je een filter hebt aanstaan. Een lege filter zal de pagina tonen met alle lijnen (Op filter duwen kan dus de pagina herladen terwijl op 'reload' duwen de pagina zou opslaan als je laatste aktie opslaan was). Druk ajb op filter voor je wijzigingen maakt en opslaat. Anders kan het zijn dat je opslaat over andere wijzigingen. (In het geval van logfiles kan dit ervoor zorgen dat alle info die in de logs bijkwam terwijl je aan het werken was verdwijnt).",
+        "filter" => "filter",
+);
+
+?>

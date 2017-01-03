@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - it - css viewer
+
+$local = array(
+	"css_viewer_info" =>        "This page is used to edit style sheet ...........",
+	"filter" => "filter",
+	"search_string" => "Search list",
+	"insertname" => "Insert a name for the new css",
+	"errorcss" => "You have entered an incorrect css name. Try again",
+        "filename_header" => "Create a new css");
+
+
+?>

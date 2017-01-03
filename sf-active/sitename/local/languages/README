@@ -1,0 +1,8 @@
+This directory no longer contains the language dictionaries. These are now
+found in shared/dictionary. If you want to provide local override for any 
+specific language file, you can re-create the directory structure here to
+override. This is not recommended, unless you are running your own sf-active
+server. Please override with care.
+
+-gek, 30 sept 2003
+

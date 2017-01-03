@@ -1,0 +1,17 @@
+<?php
+// Dictionary file - en - admin_index
+
+$local = array(
+              "admin_welcome" =>  "Bem-vindo a administração do site",
+              "admin_subtitle" => "Menu Principal da administração",
+              "admin_user" =>     "Usuários Administradores",
+              "admin_category" => "Administrar Categorias &amp; Editoriais",
+              "admin_calendar" => "Administrar Calendário",
+              "admin_upload" =>   "Enviar Imagens",
+              "admin_article" =>  "Administrar Artigos",
+              "admin_email" =>    "Enviar Boletins Semanais",
+              "admin_spam" =>     "Filtros de Spam",
+              "admin_logoff" =>   "Sair"
+              );
+
+?>

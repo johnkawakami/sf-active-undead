@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - en - disclaimer
+
+$local = array(
+	"privacy" => "Privacitat",
+	"disclaimer" => "Condicions d'us"
+);
+
+?>

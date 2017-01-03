@@ -1,0 +1,21 @@
+<?php
+// Dictionary file - tr - calendar
+
+$local = array(
+                "admin_calendar" =>             "Takvim",
+                "enter_event_id" =>             "Onay kodunu &ouml;&#287;renmek istedi&#287;iniz olay&#305;n ID numaras&#305;n&#305; girin",
+                "hint_event_id" =>              "Olay&#305;n ID numaras&#305;n&#305; &ouml;&#287;renmek i&ccedil;in olay&#305;n adresine bakabilirsiniz.",
+                "event_found" =>                "ID'si girilen olay",
+                "conf_no" =>                    "Onay kodu",
+                "find" =>                       "Arama",
+                "event_up" =>                   "Olaylar g&uuml;ncellendi.",
+                "lookup_conf" =>                "Olay&#305;n onay koduyla arama",
+                "regen_event" =>                "Cache'deki HTML'i yeniden d&uuml;zenle",
+                "location" =>                   "Location",
+                "event_type" =>                 "Event Type",
+                "event_topic" =>                "Event Topic",
+                "enter_event2_id" =>            "Enter the ID-number of the event you want to edit",
+
+                );
+
+?>

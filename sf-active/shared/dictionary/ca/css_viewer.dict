@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - it - css viewer
+
+$local = array(
+	"css_viewer_info" =>        "Aquesta pagina serveix per editar el full d'estils ...........",
+	"filter" => "filtra",
+	"search_string" => "Cercar llista",
+	"insertname" => "Insertar un nom pel nou css",
+	"errorcss" => "Has entrat un nom pel css incorrecte. Torna a provar",
+        "filename_header" => "Crear un nou css");
+
+
+?>

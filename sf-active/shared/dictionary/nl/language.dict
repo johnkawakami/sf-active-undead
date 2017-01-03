@@ -1,0 +1,22 @@
+<?php
+// Dictionary file - nl  - language.inc
+
+$local = array(
+	"languages"	=>  "talen",
+	"show"		=>  "toon",
+	"hide"		=>  "verberg",
+	"language_add"	=>  "voeg een taal toe",
+	"language_code"	=>  "Taalcode",
+	"order_num"	=>  "volgnummer",
+	"display"	=>  "status",
+	"language_name"		=>  "Naam",
+	"language_edit"	=>  "Bewerk een taal",
+	"click_on_language_to_edit" =>	"Klik op een taal om deze te bewerken.",
+        "build_site"    =>  "genereer subsites",
+        "build_info"    =>  "Kies ja als je nieuwslijnen, rss-feeds, middenkolommen, ... voor deze taal wil aanmaken.",
+        "yes"           => "ja",
+        "no"            =>  "nee",
+	"subsite"	=>  "subsite",
+              );
+
+?>

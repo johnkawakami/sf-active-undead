@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - es - printable
+
+$local = array(
+	"prn_orginal_article" => "El art&iacute;culo original est&aacute; en",
+	"prn_print_comments" => "Imprimir comentarios.",
+	"prn_hide_comments" => "Ocultar comentarios.",
+	"prn_no_id" => "ERROR: no se puede mostrar el art&iacute;culo. No tiene identificaci&oacute;n.",
+	"prn_no_comments" => "/* sin comentarios */"
+);
+
+?>

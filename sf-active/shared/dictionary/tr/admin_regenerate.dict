@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - en - admin_regenerate
+
+$local = array(
+              "article_regenerate" =>    "Haberleri d&uuml;zenle",
+              "id" =>                    "ID numaras&#305;",
+              "wrote_to" =>              "G&ouml;nderilen",
+              "regenerated" =>           "Haberler yeniden d&uuml;zenle",
+              "admin_index" =>           "Ana men&uuml;",
+              "admin_article" =>         "Haber b&ouml;l&uuml;m&uuml;",
+              "start_id" =>              "&#304;lk haberin ID numaras&#305;",
+              "max_to_gen" =>            "D&uuml;zenlenecek haberlerin say&#305;s&#305;", 
+              );
+
+?>

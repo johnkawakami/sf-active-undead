@@ -1,0 +1,64 @@
+CSS Documentation
+Some styles are in html but not in the css, and some styles are in the css
+but not in any html - go figure. I have pulled notable styles to the top.
+The only stylistic devices which should be used in html are basic text
+styles - bold, italic, etc.  avoid font, color, bgcolor, etc and use CSS!
+
+*	p, div, li, pre, td, etc. - basic element types are all set in CSS
+*	small - default small text throughout the site
+*	big - default big text - only used in cast_class.inc (display.php
+	headlines) afaik
+*	h1, .h1 - equivalent headers - use div to get rid of bottom margin
+*	h2, .h2 - "
+*	h3, .h3 - "
+*	h4, .h4 - "
+*	h5, .h5 - "
+*	h6, .h6 - "
+*	.bgaccent - this is an accent color for highlighting, as seen on
+	/publish.php and /irc - it controls both text and background color
+*	.bgsearchgrey - for table cells in a listing, such as search results
+*	a.headline-text - this will be implemented in the template for feature
+	headlines
+*	a.navbar - Navbar
+*	a.newswire - links to newswire articles
+*	a.publink - "publish your news" link (and "More news" link) on newswire
+*	small.featurelist - the left column feature list
+*	div.top - to be implemented in the template for lead feature headlines
+*	.hed - features headlines
+*	.hedl - alternative style feature headlines
+*	.blurb - feature blurbs
+*	.hidden - hides "add comment" link from print.php articles
+*	.newswirehead - "Latest Newswire" at top of newswires
+*	.date - dates on newswire
+*	.mast - the top row of the site w/ three images
+*	.bgult - outermost table - thin line
+*	.bgcentercol - center column
+*	.bgnavbar - navbar
+*	.bgnewswire - newswire
+*	.bgleftcol - left column
+*	.bgcities cities list/disclaimer cell
+*	.bgpenult - "normal" background color inside the thin line
+*	.bg3 - both left column and center column
+
+Styles in CSS (currently) but not HTML
+
+*	div.theme - unused
+*	div.mast - unused
+*	.bg9 - unused
+*	.bg00 - unused
+
+Styles in HTML but not (yet?) CSS
+
+*	.heading - article headings
+*	.link - article URLs
+*	.media - article media (image, mp3 link, etc.)
+*	.article - article
+*	.error - error messages
+*	...
+
+OLD STYLES - these aren't in the CSS anymore
+
+*	.bcrumb - top breadcrumb - not set
+*	.dcrumb - bottom bread crumb - not set
+*	.featurebody - old feature page blurbs
+*	...

@@ -1,0 +1,238 @@
+<?php
+// Common dictionary file for eng
+
+$GLOBALS['dict']['imc_network'] =           "Indymedia";
+$GLOBALS['dict']['about_us'] =              "Sobre nosaltres";
+$GLOBALS['dict']['contact_us'] =            "Contacta'ns";
+$GLOBALS['dict']['subscribe_me'] =          "Subscriu-te";
+$GLOBALS['dict']['calendar'] =              "Calendari";
+$GLOBALS['dict']['publish'] =               "Publica";
+$GLOBALS['dict']['button_publish'] =        "Publica";
+$GLOBALS['dict']['search'] =                "Cerca";
+$GLOBALS['dict']['text'] =                  "Texte";
+$GLOBALS['dict']['image'] =                 "Imatge";
+$GLOBALS['dict']['audio'] =                 "&Agrave;udio";
+$GLOBALS['dict']['video'] =                 "Video";
+$GLOBALS['dict']['other'] =                 "Altre";
+$GLOBALS['dict']['all'] =                   "Tot";
+$GLOBALS['dict']['any'] =                   "Qualsevol";
+$GLOBALS['dict']['medium'] =                "Media";
+$GLOBALS['dict']['traducir'] =              "Traduïr";
+$GLOBALS['dict']['refresh_text'] =          "Actualitzar Text...";
+$GLOBALS['dict']['nothing_was_done'] =      "No s'ha fet res!";
+$GLOBALS['dict']['required'] =              "Requerit";
+$GLOBALS['dict']['reorder'] =               "Reordenar";
+$GLOBALS['dict']['current'] =               "Actual";
+$GLOBALS['dict']['archived'] =              "Arxivat";
+$GLOBALS['dict']['action_archive'] =        "Arxiu";
+$GLOBALS['dict']['action_hide'] =           "Amagar";
+$GLOBALS['dict']['action_display'] =        "Ensenyar";
+$GLOBALS['dict']['hidden'] =                "Amagat";
+$GLOBALS['dict']['logon_failed'] =          "Password incorrecta!";
+$GLOBALS['dict']['admin_article'] =         "Administrar Articles";
+$GLOBALS['dict']['admin_index'] =           "Men&uacute; principal";
+$GLOBALS['dict']['edit'] =                  "Editar";
+$GLOBALS['dict']['id'] =                    "N&uacute;mero ID";
+$GLOBALS['dict']['created'] =               "Creat";
+$GLOBALS['dict']['modified'] =              "Modificat";
+$GLOBALS['dict']['title'] =                 "T&iacute;tol";
+$GLOBALS['dict']['author'] =                "Autor";
+$GLOBALS['dict']['email'] =                 "E-mail";
+$GLOBALS['dict']['link'] =                  "URL";
+$GLOBALS['dict']['address'] =               "Adreça";
+$GLOBALS['dict']['phone'] =                 "Tel&egrave;fon";
+$GLOBALS['dict']['category_list'] =         "Llista de categories";
+$GLOBALS['dict']['mimetype'] =              "Tipus Mime";
+$GLOBALS['dict']['textmime'] =              "HTML/Text";
+$GLOBALS['dict']['displaystat'] =           "Estat";
+$GLOBALS['dict']['parent_id'] =             "ID pare";
+$GLOBALS['dict']['mediafile'] =             "Media File";
+$GLOBALS['dict']['summary'] =               "Sumari";
+$GLOBALS['dict']['article'] =               "Article";
+$GLOBALS['dict']['status_hidden'] =         "Amagat";
+$GLOBALS['dict']['status_local'] =          "Local";
+$GLOBALS['dict']['status_display'] =        "Altre";
+$GLOBALS['dict']['status_global'] =         "Global";
+$GLOBALS['dict']['status_both'] =           "Tots";
+$GLOBALS['dict']['user_add'] =              "Afegir usuari";
+$GLOBALS['dict']['delete'] =                "Esborrar";
+$GLOBALS['dict']['username'] =              "Nom d'usuari";
+$GLOBALS['dict']['password'] =              "Password";
+$GLOBALS['dict']['insecure_pass_msg'] =         "Your password is insecure.";
+$GLOBALS['dict']['secure_pass_desc'] =          "A secure password is at least 6 characters long and contains letters, capitals and numbers.";
+$GLOBALS['dict']['secure_pass_desc2'] =         "You have to enter a secure password!";
+$GLOBALS['dict']['first_name'] =            "Nom";
+$GLOBALS['dict']['last_name'] =             "Cognom";
+$GLOBALS['dict']['save'] =                  "Guardar";
+$GLOBALS['dict']['copy'] =                  "Copia";
+$GLOBALS['dict']['order_number'] =          "Order Number";
+$GLOBALS['dict']['comment_pub_one'] =       "PAS 1:ENTRA LA CONFIRMACI&Oacute; DEL COMENTARI";
+$GLOBALS['dict']['comment_pub_two'] =       "PAS 2: ENTRA EL COMENTARI";
+$GLOBALS['dict']['comment_pub_three'] =     "PAS 3: ADJUNTA UN ARXIU";
+$GLOBALS['dict']['optional'] =              "Opcional";
+$GLOBALS['dict']['select_a_category'] =     "Selecciona una categoria";
+// added by blicero fro catclass function -- blicero 20 may 2003
+$GLOBALS['dict']['select_a_thematic_category'] =     "Selecciona una categoria tematica";
+$GLOBALS['dict']['select_a_local_category'] =     "Selecciona una categoria local";
+$GLOBALS['dict']['select_a_internal_category'] = "Select a internal category";
+$GLOBALS['dict']['select_a_event_category'] = "Select a event category";
+$GLOBALS['dict']['select_a_project_category'] = "Select a project category";
+$GLOBALS['dict']['select_a_other_category'] = "Select a other category";
+$GLOBALS['dict']['select_a_hidden_category'] = "Select a hidden category";
+
+// have to include archive stuff here :/
+
+$GLOBALS['dict']['local_information'] = "Aquesta p&agrave;gina enllaça amb l'arxiu dels articles de la columna central.";
+$GLOBALS['dict']['local_click_on_week'] = "Clica en una setmana per anar a l'arxiu d'aquella setmana.";
+$GLOBALS['dict']['archive_id'] = "arxius simples";
+$GLOBALS['dict']['archive_index'] = "arxius complerts";
+$GLOBALS['dict']['archive_week'] = "arxius setmanals";
+$GLOBALS['dict']['archive_date'] = "arxius per data";
+$GLOBALS['dict']['archive_id'] = "arxius simples";
+$GLOBALS['dict']['archive_title2'] = "T&iacute;tol de l'article";
+$GLOBALS['dict']['archive_display_date'] = "Data";
+$GLOBALS['dict']['archive_findweek'] = "Cercar articles antics d'una determinada setmana";
+$GLOBALS['dict']['next_archive_page'] = "p&agrave;gina seg&uuml;ent";
+$GLOBALS['dict']['prev_archive_page'] = "p&agrave;gina anterior";
+$GLOBALS['dict']['prev_archive_week'] = "setmana anterior";
+$GLOBALS['dict']['next_archive_week'] = "setmana seg&Uuml;ent";
+$GLOBALS['dict']['archive_navmonths'] = "navegar per mesos";
+$GLOBALS['dict']['archive_navdate'] = "navegar tot l'arxiu per data";
+$GLOBALS['dict']['archive_navid'] = "navegar per l'arxiu";
+$GLOBALS['dict']['archive_home'] = "p&agrave;gina principal";
+$GLOBALS['dict']['search_by_keyword'] = "paraula clau";
+$GLOBALS['dict']['search_by_author'] = "autor";
+$GLOBALS['dict']['view_article_wo_comment'] = "Veure l'article sense comentaris";
+$GLOBALS['dict']['your_story_is'] = "El teu articles &eacute;s";
+$GLOBALS['dict']['html_article'] = "Article HTML";
+$GLOBALS['dict']['image_file'] = "Arxiu d'imatge";
+$GLOBALS['dict']['pdf_file'] = "Arxiu PDF";
+$GLOBALS['dict']['smil_file'] = "Arxiu SMIL";
+$GLOBALS['dict']['mpeg_video_file'] = "Arxiu de video MPEG";
+$GLOBALS['dict']['realaudio_file'] = "Arxiu RealAudio";
+$GLOBALS['dict']['mp3_stream'] = "Stream MP3";
+$GLOBALS['dict']['mp3_playlist'] = "MP3 Playlist";
+$GLOBALS['dict']['realaudio_metafile'] = "RealAudio Metafile";
+$GLOBALS['dict']['wm_audio_file'] = "Arxiu Windows Media Audio";
+$GLOBALS['dict']['mp3_file'] = "Arxiu MP3";
+$GLOBALS['dict']['realvideo_file'] = "Arxiu RealVideo";
+$GLOBALS['dict']['quicktime_file'] = "Arxiu Quicktime";
+$GLOBALS['dict']['avi_file'] = "Arxiu de video AVI";
+$GLOBALS['dict']['realvideo_metafile'] = "RealVideo Metafile";
+$GLOBALS['dict']['wm_file'] = "Arxiu Windows Media Audio";
+$GLOBALS['dict']['wav_file'] = "Arxiu de Wav";
+$GLOBALS['dict']['error_detected'] = "ERROR DETECTAT -- SIUSPLAU TORNA A PROVAR!";
+$GLOBALS['dict']['fill_out_form_right'] = "Assegura't d'haver emplenat el formulari correctament";
+$GLOBALS['dict']['pub_error_title'] = "No has emplenat el camp de t&iacute;tol.";
+$GLOBALS['dict']['pub_error_author'] = "No has emplenat el camp autor.";
+$GLOBALS['dict']['pub_error_summary'] = "No has emplenat el camp de sumari.";
+$GLOBALS['dict']['pub_error_long_summary'] = "El sumari &eacute;s massa llarg. Siusplau escurça'l.";
+$GLOBALS['dict']['pub_error_upload'] = "Has d'entrar un article o pujar un arxiu.";
+$GLOBALS['dict']['pub_error_long_upload'] = "Nom&eacute;s pots pujar 20 o menys arxius de cop!";
+$GLOBALS['dict']['pub_error_file'] = "El tipus d'arxiu que has pujat no est&agrave; soportat. Torna a provar.";
+$GLOBALS['dict']['pub_error_where_file'] = "No has pujat una imatge..";
+$GLOBALS['dict']['pub_error_select_file'] = "No has emplenat el camp titol per pujar.";
+$GLOBALS['dict']['there_were'] = "Hi ha";
+$GLOBALS['dict']['files_detected'] = "arxiu(s) detectat(s).";
+
+// new words since translation was started
+$GLOBALS['dict']['single_comment'] = "comentari";
+$GLOBALS['dict']['plural_comment'] = "comentaris";
+$GLOBALS['dict']['arttype'] = "Tipus d'article";
+$GLOBALS['dict']['year'] = 'Any';        
+$GLOBALS['dict']['month'] = 'Mes';      
+$GLOBALS['dict']['day'] = 'Dia';
+$GLOBALS['dict']['spam_message']="Degut a l'alt trafic, Spam o un error amb la base de dades; s'ha desactivat l'Error Publishing";
+$GLOBALS['dict']['newswire'] = 'newswire';
+$GLOBALS['dict']['view_current'] = 'veure especials actius';
+$GLOBALS['dict']['regen_article'] = "Regenera el cache d'articles";
+$GLOBALS['dict']['start_id'] = 'Començar Article ID';
+$GLOBALS['dict']['max_to_gen'] = 'Nombre a regenerar';
+$GLOBALS['dict']['regenerate'] = 'Regenerar';
+
+// added by blicero for italy branching :)
+$GLOBALS['dict']['reason'] = 'Ra&oacute; (opcional)';
+$GLOBALS['dict']['additional_reason'] = 'Add a comment for the hiding reason (if any)';
+
+//added bu blicero for admin
+$GLOBALS['dict']['admincategories'] =              "CATEGORIES";
+$GLOBALS['dict']['adminarticles'] =              "ARTICLES";
+$GLOBALS['dict']['admincalendar'] =              "CALENDARI";
+$GLOBALS['dict']['adminupload'] =              "UPLOAD";
+$GLOBALS['dict']['admingraphics'] =              "CSS,INCLUDE, TEMPLATE";
+$GLOBALS['dict']['adminxml'] =              "RSS/XML";
+$GLOBALS['dict']['adminloggedin'] =              "Usuari autentificat com";
+$GLOBALS['dict']['adminlogout'] =              "SORTIR";
+$GLOBALS['dict']['adminusers'] =              "USUARIS";
+$GLOBALS['dict']['adminemail'] =              "EMAIL";
+$GLOBALS['dict']['adminstats'] =              "&Uacute; DEL SITE";
+$GLOBALS['dict']['adminnextip'] =              "IPS BLOQUEJADES";
+$GLOBALS['dict']['adminiplog'] =              "IP LOG";
+$GLOBALS['dict']['adminipblock'] =              "LOG D'IPS BLOQUEJADES";
+$GLOBALS['dict']['adminlatestcomments'] =              "ULTIMS COMENTARIS";
+$GLOBALS['dict']['admincities'] =              "CIUTATS";
+$GLOBALS['dict']['adminsite'] =              "Administraci&oacute; del site";
+$GLOBALS['dict']['adminviewsite'] =              "Veure Site";
+$GLOBALS['dict']['adminspam'] =              "SPAM";
+$GLOBALS['dict']['admindossier'] =              "DOSSIERS";
+$GLOBALS['dict']['adminlanguage'] =         "LANGUAGES";
+
+
+
+// added by blicero for mail2admin
+$GLOBALS['dict']['admin_hiding_message'] = 	"notificaci&oacute; de l'administraci&oacute; d'articles";
+$GLOBALS['dict']['edited_by'] = 	"Editat per";
+
+//added by blicero to show automatically subpage listing
+// some more stuff for index_left, occam
+$GLOBALS['dict']['features'] = "Features";
+$GLOBALS['dict']['latest_news'] = "latest news";
+$GLOBALS['dict']['commentary'] = "commentary";
+$GLOBALS['dict']['syndication'] = "syndication";
+$GLOBALS['dict']['resources'] = "make media";
+$GLOBALS['dict']['participate'] = "participate";
+$GLOBALS['dict']['archives'] = "archives";
+$GLOBALS['dict']['chat'] = "chat";
+$GLOBALS['dict']['donate'] = "donate";
+$GLOBALS['dict']['latest_newswire'] = "Latest Newswire";
+$GLOBALS['dict']['publish_your_news'] = "Publish your news";
+$GLOBALS['dict']['view_latest_comments'] = "View Latest Comments";
+$GLOBALS['dict']['view_hidden_posts'] = "View Hidden Posts";
+
+// added by gek for sfactive website
+$GLOBALS['dict']['download'] = "download";
+$GLOBALS['dict']['documentation'] = "documentation";
+$GLOBALS['dict']['support'] = "support";
+$GLOBALS['dict']['servers'] = "servers";
+$GLOBALS['dict']['bugs'] = "bugs";
+$GLOBALS['dict']['irc'] = "irc";
+$GLOBALS['dict']['links'] = "links";
+
+
+// for syndication index
+$GLOBALS['dict']['art_feat'] = "Articles and features" ;
+
+
+// for i18n of leftcatlisting
+$GLOBALS['dict']['m_category_left'] = "categoria";
+$GLOBALS['dict']['t_category_left'] = "categoria tematic";
+$GLOBALS['dict']['l_category_left'] = "categoria local";
+$GLOBALS['dict']['i_category_left'] = "categoria intern";
+$GLOBALS['dict']['e_category_left'] = "event categories";
+$GLOBALS['dict']['p_category_left'] = "project categories";
+$GLOBALS['dict']['o_category_left'] = "other categories";
+
+// for email validation
+$GLOBALS['dict']['article_validated'] = "(email address validated)";
+$GLOBALS['dict']['article_not_validated'] = "";
+
+// for gallery - resizes
+$GLOBALS['dict']['latest_uploads'] = "latest media";
+
+// admin stuff -- mtoups
+$GLOBALS['dict']['lastlogin'] = "Last Login";
+
+// language stuff
+$GLOBALS['dict']['language'] =   "LANGUAGE";
+$GLOBALS['dict']['select_a_language'] =  "select a language";
+?>

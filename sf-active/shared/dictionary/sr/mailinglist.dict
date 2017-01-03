@@ -1,0 +1,28 @@
+<?php
+// Dictionary file - en - mailinglist
+
+$local = array(
+              "invalid_email" =>        "Ovo nije ispravna email adresa!",
+              "subscribe_thanks" =>     "Hvala na upisivanju. Morate odgovoriti na potvrdni email koji æe biti poslat.",
+              "unsubscribe_thanks" =>   "Ispisani ste. Primiæete potvrdnu email poruku.",
+              "passwd_notsent" =>       "Nismo u moguænosti da vam sada pošaljemo lozinku. Probajte ponovo kasnije.",
+              "passwd_sent" =>          "Vasa lozinka vam je poslata na email.",
+                          "delivery_options" =>         "Opcije isporuke",
+                          "weekly_email" =>                     "Email nedeljnih vesti",
+                          "top_text" =>                         "Nedeljni siže glavnih naslova koji æe biti poslati u obiènom tekstu. Slaæemo vam svake nedelje glavne naslove na email.",
+                          "email_address" =>            "Email adresa",
+                          "subscribe" =>                        "Upiši me",
+                          "password" =>                         "Lozinka (da se ispišeš)",
+                          "unsubscribe" =>                      "Ispiši me",
+                          "email_pass" =>                       "Pošalji mi lozinku na email",
+                          "indy_news" =>                        "Independent Media Vesti",
+                          "list_text" =>                        "Javna mejling lista za independent media vesti, dogaðaje, najave. Proseèni protok pošte. Da bi se upisali, posetite <a href=\"http://lists.indymedia.org/\">stranu sa mejling listama</a>",
+                          "xml_newsfeeds" =>            "XML Newsfeeds za PDAs &amp; Syndication",
+                          "xml_text" =>                         "Sledeæe XML datoteke se održavaju i mogu se koristiti na vašoj prezentaciji, PDA ili desktop applet-u",
+                          "feature_stories" =>          "glavne prièe (centralna kolona)",
+                          "open_newswire" =>            "otvorene vesti (desna kolona)",
+                          "syndication_page" =>         "strana za rašèlanjivanje i pregled (syndication)",
+                          "custom_xml" =>                       "Napravite posebni XML upit",
+              );
+
+?>

@@ -1,0 +1,16 @@
+<?php
+// Dictionary file - it - admin_email
+
+$local = array(
+	"mailing_list_admin" => "Administracija informatora",
+	"date" => "Datum",
+	"subject" => "Tema",
+	"message_body" => "Tekst poruke",
+	"check_here" => "Štiklirajte ovaj kvadrat kada ste spremni",
+	"list_recipients" => "adresa gde se šalje informator",
+	"local_sendto_address" => $GLOBALS['mailing_list_news'],
+	"your_mail_sent" => "vaš mejl je poslat",
+	"your_mail_not_sent" => "vaš mejl nije poslat",
+        "send" => "pošalji");
+
+?>

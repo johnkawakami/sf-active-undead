@@ -1,0 +1,153 @@
+<?php
+// Common dictionary file for eng
+
+$GLOBALS['dict']['imc_network'] =           "Rede Indymedia";
+$GLOBALS['dict']['about_us'] =              "Sobre nós";
+$GLOBALS['dict']['contact_us'] =            "Contato";
+$GLOBALS['dict']['subscribe_me'] =          "Inscreva-se";
+$GLOBALS['dict']['calendar'] =              "Calendário";
+$GLOBALS['dict']['publish'] =               "Publicar";
+$GLOBALS['dict']['button_publish'] =        "Publique";
+$GLOBALS['dict']['search'] =                "Busca";
+$GLOBALS['dict']['text'] =                  "Texto";
+$GLOBALS['dict']['image'] =                 "Imagem";
+$GLOBALS['dict']['audio'] =                 "Audio";
+$GLOBALS['dict']['video'] =                 "Vídeo";
+$GLOBALS['dict']['other'] =                 "Outro";
+$GLOBALS['dict']['all'] =                   "Todos";
+$GLOBALS['dict']['any'] =                   "Qualquer um";
+$GLOBALS['dict']['medium'] =                "Média";
+$GLOBALS['dict']['traducir'] =              "Traduzir";
+$GLOBALS['dict']['refresh_text'] =          "Atualizar Texto...";
+$GLOBALS['dict']['nothing_was_done'] =      "Nada foi feito!";
+$GLOBALS['dict']['required'] =              "Obrigatório";
+$GLOBALS['dict']['reorder'] =               "Reordenar";
+$GLOBALS['dict']['current'] =               "Atual";
+$GLOBALS['dict']['archived'] =              "Arquivado";
+$GLOBALS['dict']['action_archive'] =        "Arquivo";
+$GLOBALS['dict']['action_hide'] =           "Esconder";
+$GLOBALS['dict']['action_display'] =        "Mostrar";
+$GLOBALS['dict']['hidden'] =                "Escondidos";
+$GLOBALS['dict']['logon_failed'] =          "Impossível logar-se. Sua senha está incorreta!";
+$GLOBALS['dict']['admin_article'] =         "Administrar Artigos";
+$GLOBALS['dict']['admin_index'] =           "Menu Principal";
+$GLOBALS['dict']['edit'] =                  "Editar";
+$GLOBALS['dict']['id'] =                    "Número ID";
+$GLOBALS['dict']['created'] =               "Criado";
+$GLOBALS['dict']['modified'] =              "Modificado";
+$GLOBALS['dict']['title'] =                 "Título";
+$GLOBALS['dict']['author'] =                "Autor";
+$GLOBALS['dict']['email'] =                 "E-mail";
+$GLOBALS['dict']['link'] =                  "URL";
+$GLOBALS['dict']['address'] =               "Endereço";
+$GLOBALS['dict']['phone'] =                 "Telefone";
+$GLOBALS['dict']['category_list'] =         "Lista de Categorias";
+$GLOBALS['dict']['mimetype'] =              "Mime Type";
+$GLOBALS['dict']['textmime'] =              "HTML/Texto";
+$GLOBALS['dict']['displaystat'] =           "Mostar Status";
+$GLOBALS['dict']['parent_id'] =             "ID do artigo";
+$GLOBALS['dict']['mediafile'] =             "Arquivo de Mídia";
+$GLOBALS['dict']['summary'] =               "Sumário";
+$GLOBALS['dict']['article'] =               "Artigo";
+$GLOBALS['dict']['status_hidden'] =         "Escondidos";
+$GLOBALS['dict']['status_local'] =          "Local";
+$GLOBALS['dict']['status_display'] =        "Outro";
+$GLOBALS['dict']['status_global'] =         "Global";
+$GLOBALS['dict']['user_add'] =              "Adicionar um Usuário";
+$GLOBALS['dict']['delete'] =                "Deletar";
+$GLOBALS['dict']['username'] =              "Nome de Usuário";
+$GLOBALS['dict']['password'] =              "Senha";
+$GLOBALS['dict']['insecure_pass_msg'] =         "Your password is insecure.";
+$GLOBALS['dict']['secure_pass_desc'] =          "A secure password is at least 6 characters long and contains letters, capitals and numbers.";
+$GLOBALS['dict']['secure_pass_desc2'] =         "You have to enter a secure password!";
+$GLOBALS['dict']['first_name'] =            "Nome";
+$GLOBALS['dict']['last_name'] =             "Último Sobrenome";
+$GLOBALS['dict']['save'] =                  "Salvar";
+$GLOBALS['dict']['copy'] =                  "Copiar";
+$GLOBALS['dict']['order_number'] =          "Número de Ordem";
+$GLOBALS['dict']['comment_pub_one'] =       "PRIMEIRO PASSO: ENTRE COM A INTRODUÇÃO DO COMENTÁRIO";
+$GLOBALS['dict']['comment_pub_two'] =       "SEGUNDO PASSO: ENTRE COM O COMENTÁRIO";
+$GLOBALS['dict']['comment_pub_three'] =     "TERCEIRO PASSO: ANEXAR ARQUIVO(S)";
+$GLOBALS['dict']['optional'] =              "Opcional";
+$GLOBALS['dict']['select_a_category'] =     "Selecione uma categoria";
+
+// have to include archive stuff here :/
+
+$GLOBALS['dict']['local_information'] = "Esta página redireciona para os arquivos da nossa coluna central de editoriais.";
+$GLOBALS['dict']['local_click_on_week'] = "Clique em uma semana para ir aos arquivos desta semana.";
+$GLOBALS['dict']['archive_id'] = "arquivos da coluna central";
+$GLOBALS['dict']['archive_index'] = "arquivos";
+$GLOBALS['dict']['archive_week'] = "arquivos semanais";
+$GLOBALS['dict']['archive_date'] = "arquivos por data";
+$GLOBALS['dict']['archive_id'] = "single feature archives";
+$GLOBALS['dict']['archive_title2'] = "Título do Editorial";
+$GLOBALS['dict']['archive_display_date'] = "Data";
+$GLOBALS['dict']['archive_findweek'] = "Encontre artigos antigos para a semana";
+$GLOBALS['dict']['next_archive_page'] = "próxima página";
+$GLOBALS['dict']['prev_archive_page'] = "página anterior";
+$GLOBALS['dict']['prev_archive_week'] = "semana passada";
+$GLOBALS['dict']['next_archive_week'] = "próxima semana";
+$GLOBALS['dict']['archive_navmonths'] = "navegar usando meses";
+$GLOBALS['dict']['archive_navdate'] = "ver todos os arquivos por data";
+$GLOBALS['dict']['archive_navid'] = "ver todos os artigos da coluna central";
+$GLOBALS['dict']['archive_home'] = "página inicial";
+$GLOBALS['dict']['search_by_keyword'] = "palavra";
+$GLOBALS['dict']['search_by_author'] = "autor";
+$GLOBALS['dict']['view_article_wo_comment'] = "Ver artigo sem os comentários";
+$GLOBALS['dict']['your_story_is'] = "Seu artigo é";
+$GLOBALS['dict']['html_article'] = "Artigo HTML";
+$GLOBALS['dict']['image_file'] = "Arquivo de Imagem";
+$GLOBALS['dict']['pdf_file'] = "Arquivo PDF";
+$GLOBALS['dict']['smil_file'] = "Arquivo SMIL";
+$GLOBALS['dict']['mpeg_video_file'] = "Arquivo MPEG Video";
+$GLOBALS['dict']['realaudio_file'] = "Arquivo RealAudio";
+$GLOBALS['dict']['mp3_stream'] = "MP3 Stream";
+$GLOBALS['dict']['mp3_playlist'] = "MP3 Playlist";
+$GLOBALS['dict']['realaudio_metafile'] = "RealAudio Metafile";
+$GLOBALS['dict']['wm_audio_file'] = "Arquivo Windows Media Audio";
+$GLOBALS['dict']['mp3_file'] = "Arquivo MP3";
+$GLOBALS['dict']['realvideo_file'] = "Arquivo RealVideo";
+$GLOBALS['dict']['quicktime_file'] = "Arquivo Quicktime";
+$GLOBALS['dict']['avi_file'] = "Arquivo AVI Video";
+$GLOBALS['dict']['realvideo_metafile'] = "RealVideo Metafile";
+$GLOBALS['dict']['wm_file'] = "Windows Media Audio";
+$GLOBALS['dict']['wav_file'] = "Wav file";
+$GLOBALS['dict']['error_detected'] = "ERRO DETECTADO -- POR FAVOR TENTE NOVAMENTE!";
+$GLOBALS['dict']['fill_out_form_right'] = "Verifique se você preencheu o formulário corretamente";
+$GLOBALS['dict']['pub_error_title'] = "Você não preencheu o campo Título.";
+$GLOBALS['dict']['pub_error_author'] = "Você não preencheu o campo Autor.";
+$GLOBALS['dict']['pub_error_summary'] = "Você não preencheu o Sumário.";
+$GLOBALS['dict']['pub_error_long_summary'] = "Seu sumário é muito longo, por favor, encurte-o.";
+$GLOBALS['dict']['pub_error_upload'] = "Você deve colocar um artigo ou enviar um arquivo.";
+$GLOBALS['dict']['pub_error_long_upload'] = "Você pode enviar 20 arquivos ou menos em apenas uma vez!";
+$GLOBALS['dict']['pub_error_file'] = "O Tipo the arquivo que você enviou não é suportado. Tente novamente.";
+$GLOBALS['dict']['pub_error_where_file'] = "Você não enviou uma imagem, mas você preencheu que iria enviar.";
+$GLOBALS['dict']['pub_error_select_file'] = "Você não preencheu o campo Título para enviar.";
+$GLOBALS['dict']['there_were'] = "Eles foram";
+$GLOBALS['dict']['files_detected'] = "arquivo(s) detectado(s).";
+
+
+// for i18n of leftcatlisting
+$GLOBALS['dict']['m_category_left'] = "principal";
+$GLOBALS['dict']['h_category_left'] = "inactiu";
+$GLOBALS['dict']['t_category_left'] = "tematic";
+$GLOBALS['dict']['l_category_left'] = "local";
+$GLOBALS['dict']['i_category_left'] = "intern";
+$GLOBALS['dict']['e_category_left'] = "event categories";
+$GLOBALS['dict']['p_category_left'] = "project categories";
+$GLOBALS['dict']['o_category_left'] = "other categories";
+
+// for email validation
+$GLOBALS['dict']['article_validated'] = "(email address validated)";
+$GLOBALS['dict']['article_not_validated'] = "";
+
+// for gallery - resizes
+$GLOBALS['dict']['latest_uploads'] = "latest media";
+
+// admin stuff -- mtoups
+$GLOBALS['dict']['lastlogin'] = "Last Login";
+
+// language stuff
+$GLOBALS['dict']['language'] =   "LANGUAGE";
+$GLOBALS['dict']['select_a_language'] =  "select a language";
+?>

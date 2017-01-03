@@ -1,0 +1,39 @@
+<?
+
+// dossier.dict - en - language file for the dossier code
+
+$local = array (
+		"dossier"					=>		"dossier",
+		"dossier_title"				=>		"Visual page for dossier ".$GLOBALS[current_dossier_name]." van ".$GLOBALS[site_name ],
+		"dossier_list_link"			=>		"Back to dossier list",
+		"dossier_article_link"		=>		"Add an article to a dossier",
+		"dossier_feature_link"		=>		"Add a dossier",
+		"dossier_articlelist"		=>		"List of artiles from this dossier",
+		"update_ok"					=>		"Your article has been updated",
+		"refresh_result"			=>		"All articles are refreshed.",
+		"refresh_work_further"		=>		"You can now work further on the dossier.",
+		"dossier_listpage_title"	=>		"Overview page with dossiers from ".$GLOBALS[site_name ],
+		"dossier_edit_index"		=>		"Edit the general index of a dossier",
+		"dossier_refresh_articles"	=>		"Refresh the articles of this dossier",
+		"dossier_name"				=>		"Dossier name",
+		"dossier_feature_edittitle"	=>		"Administer the index of this dossier",
+		"dossier_feature_newtitle"	=>		"Add a dossier",
+		"dossier_addfeature_error"	=>		"There's an error<br />Your feature has not been published",
+		"dossier_updatefeature_error"	=>	"There's an error<br />Your feature has not been updated",
+		"try_again"					=>		"Try again ...",
+		"dossier_article_add_title"	=>		"Add an article to a dossier",
+		"html_warning"				=>		"Articles must be made in html",
+		"link_to_id"				=>		"Article to which you want to link",
+		"link_to_id_pub"			=>		"In case you want this article in the general index of the dossier, enter '0'. In case you want to add it as a subsection to another article, you need to fill in the article id of the article to which you want to link",
+		"order_num"					=>		"Order number",
+		"order_num_pub"				=>		"This values defines the order in which your article will appear in the index.",
+		"dossier_select"			=>		"Select a dossier",
+		"dossier_article_display_change" =>	"Change the display status of the articles from this dossier",
+		"dossier_adminindex_title"	=>		"Administer dossiers",
+		"status"					=>		"status",
+		"dossier_publish_ok"		=>		"<b>Your article won't appear in the newswires before the dossier is brought online..</b>. It will also not appear on the dossier page until you refreshed the dossier.",
+
+
+
+);
+?>

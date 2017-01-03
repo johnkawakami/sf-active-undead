@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - en - admin_email
+$local = array(
+    "your_mail_sent" => "e-posta g&ouml;nderildi!",
+    "your_mail_not_sent" => "e-posta g&ouml;nderilemedi!",
+    'check_here' => 'Buray&#305; doldurun',
+    'send' => 'G&ouml;nder!',
+    'date' => 'Tarih',
+    'list_recipients' => 'Al&#305;c&#305;n&#305;n adresi',
+    'mailing_list_admin' => 'Mail listesi y&ouml;neticisi',
+    'subject' => 'Konu',
+    'message_body' => '&#304;leti'
+);
+?>

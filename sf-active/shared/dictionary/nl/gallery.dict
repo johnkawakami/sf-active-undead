@@ -1,0 +1,15 @@
+<?
+
+// translation file for gallery - nl
+
+$local = array(
+	"media"		=>	"media",
+	"previous"	=>	"vorige",
+	"next"		=>	"volgende",
+	"view_midsize"	=>	"verkleind",
+	"view_fullsize"	=>	"ware grootte",
+	"read_article"	=>	"lees het artikel",
+	"no_files"	=>	"Er zijn geen dergelijke bestanden gevonden",
+	"download"	=>	"download",
+)
+?>

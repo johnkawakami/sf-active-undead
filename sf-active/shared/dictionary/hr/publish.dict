@@ -1,0 +1,75 @@
+<?php
+// Dictionary file - hr - publish
+
+$local = array(
+              "pub_stepone" =>    "PRVI KORAK: UNESI INFORMACIJE O ÈLANKU",
+              "pub_steptwo" =>    "DRUGI KORAK: UNESI TEKST",
+              "pub_stepthree" =>  "TREÆI KORAK: DODAJ DATOTEKU",
+	      "attach_a_file"=>   "DODAJ DATOTEKU",
+              "pub_author" =>     "Autor",
+              "pub_url" =>        "Web adresa / URL",
+              "pub_artmime" =>    "TEXT ili HTML",
+
+              "pub_optional" =>   "Gornja kontakt polja su opcionalna; une¹ene informacije bit æe jasno vidljive uz tvoj èlanak..",
+              "pub_sum" =>        "Sa¾etak ne mo¾e biti du¾i od 6 linija. U sluèaju audio/video datoteka unesite njihovu du¾inu..",
+
+              "pub_art" =>        "U sluèaju tekstualnih èlanaka, URL-ovi æe biti konvertirani u linkove. U tekstualnim èlancima moguæe je koristiti &lt;a href=&quot;url&quot;&gt;link&lt;/a&gt; (ako ne odabere¹ &quot;html format&quot;, ostali tagovi bit æe ignorirani).",
+              "pub_mime" =>       "Nemoj birati &quot;html format&quot; ukoliko èlanak ne sadr¾i &lt;p&gt; i/ili &lt;br&gt; tagove!!",
+              "pub_cuantofiles" =>"Koliko datoteka ¹alje¹?",
+              "sel_categories" => "Kategorija",
+              "sel_cattema" => "Tematska kategorija",
+              "sel_catlocali" => "Lokalna kategorija",
+              "sel_catinternal" => "internal category",
+              "sel_catevent" => "event category",
+              "sel_catproject" => "project category",
+              "sel_catother" => "other categories",
+              "sel_cathidden" => "hidden category",
+
+// new words since translation was started
+              "select_file" => "Odaberi datoteku",
+              "comment" => "Komentar",
+              "max_upload" => 'Maksimalna velièina datoteke:',
+              "total_limit" => 'ukupni limit',
+              "minutes" => 'minuta za slanje',
+              "accepted_types" => 'Dozvoljeni tipovi datoteka:  '.$GLOBALS['accepted_filetypes'],
+	      // added by bart (for preview & ...)
+	      "preview" => "Pregled",
+              "preview_warning" => "<b>Opciju Pregled koristi prije unosa datoteka za slanje</b>.",
+              "publish_successful" => "<strong>Objavljivanje je uspijelo! Dodali smo tvoju prièu u sekciju vijesti.</strong>",
+              "comment_successful" => "<strong>Komentar dodan!</strong>",
+            // for e-mail validation
+              "validate_email" =>   "EMAIL VALIDATION ?",
+              "validate_form" => "Check this box to have an email sent to yourself so that you can validate that you own this email address.",
+              "pub_validation_email" => "Hello,
+              This email is being sent to you because
+              either you or someone posing as you published
+              a story at SITE_NAME using your email address
+              and requested validation of the email address.
+
+              The story in question can be found here:
+              ARTICLE_URL
+
+              If you are the person who published the story
+              please visit the following url:
+              VALIDATIONURL
+              to validate your story. If you did not make
+              this request and think someone is trying to
+              represent themselves as you, feel free to
+              contact the operators of SITE_NAME at
+              ADMIN_EMAIL.
+
+              If you have any other questions or comments
+              please feel free to contact us
+              here at: PUBLIC_EMAIL ",
+              "pub_validation_email_sub" => "[SITE_NAME] Request for article email validation",
+              "validated_ok" => "your post has been validated",
+              "validated_allready" => "this post was allready validated",
+              "validated_error" => "there went something wrong. Maybe you used the wrong url ?",
+              "validation_email_ok" => "The validation email has been sent.",
+              "validation_email_error" => "There was a problem with sending the validation email. did you enter an email address ?",
+
+            // for language stuff
+              "sel_language"  =>  "Select a language",
+              "pub_error_language" => "You have to select a language for this article",
+              );
+?>

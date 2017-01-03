@@ -1,0 +1,235 @@
+<?php
+// Common dictionary file for eng
+
+$GLOBALS['dict']['imc_network'] =           "Indymedia";
+$GLOBALS['dict']['about_us'] =              "About Us";
+$GLOBALS['dict']['contact_us'] =            "Contact Us";
+$GLOBALS['dict']['subscribe_me'] =          "Subscribe";
+$GLOBALS['dict']['calendar'] =              "Calendar";
+$GLOBALS['dict']['publish'] =               "Publish";
+$GLOBALS['dict']['button_publish'] =        "Publish";
+$GLOBALS['dict']['search'] =                "Search";
+$GLOBALS['dict']['text'] =                  "Text";
+$GLOBALS['dict']['image'] =                 "Image";
+$GLOBALS['dict']['audio'] =                 "Audio";
+$GLOBALS['dict']['video'] =                 "Video";
+$GLOBALS['dict']['other'] =                 "Other";
+$GLOBALS['dict']['all'] =                   "All";
+$GLOBALS['dict']['any'] =                   "Any";
+$GLOBALS['dict']['medium'] =                "Media";
+$GLOBALS['dict']['traducir'] =              "Translate";
+$GLOBALS['dict']['refresh_text'] =          "Refresh Text...";
+$GLOBALS['dict']['nothing_was_done'] =      "Nothing Was Done!";
+$GLOBALS['dict']['required'] =              "Required";
+$GLOBALS['dict']['reorder'] =               "Reorder";
+$GLOBALS['dict']['current'] =               "Current";
+$GLOBALS['dict']['archived'] =              "Archived";
+$GLOBALS['dict']['action_archive'] =        "Archive";
+$GLOBALS['dict']['action_hide'] =           "Hide";
+$GLOBALS['dict']['action_display'] =        "Display";
+$GLOBALS['dict']['hidden'] =                "Hidden";
+$GLOBALS['dict']['logon_failed'] =          "Unable To Login. Your Password Was Incorrect!";
+$GLOBALS['dict']['admin_article'] =         "Administer Articles";
+$GLOBALS['dict']['admin_index'] =           "Main Menu";
+$GLOBALS['dict']['edit'] =                  "Edit";
+$GLOBALS['dict']['id'] =                    "Numero ID";
+$GLOBALS['dict']['created'] =               "Created";
+$GLOBALS['dict']['modified'] =              "Modified";
+$GLOBALS['dict']['title'] =                 "Title";
+$GLOBALS['dict']['author'] =                "Author";
+$GLOBALS['dict']['email'] =                 "E-mail";
+$GLOBALS['dict']['link'] =                  "URL";
+$GLOBALS['dict']['address'] =               "Address";
+$GLOBALS['dict']['phone'] =                 "Telephone";
+$GLOBALS['dict']['category_list'] =         "Category List";
+$GLOBALS['dict']['mimetype'] =              "Mime Type";
+$GLOBALS['dict']['textmime'] =              "HTML/Text";
+$GLOBALS['dict']['displaystat'] =           "Display Status";
+$GLOBALS['dict']['parent_id'] =             "Parent ID";
+$GLOBALS['dict']['mediafile'] =             "Media File";
+$GLOBALS['dict']['summary'] =               "Summary";
+$GLOBALS['dict']['article'] =               "Article";
+$GLOBALS['dict']['status_hidden'] =         "Hidden";
+$GLOBALS['dict']['status_local'] =          "Local";
+$GLOBALS['dict']['status_display'] =        "Other";
+$GLOBALS['dict']['status_global'] =         "Global";
+$GLOBALS['dict']['status_both'] =           "Both";
+$GLOBALS['dict']['user_add'] =              "Add A User";
+$GLOBALS['dict']['delete'] =                "Delete";
+$GLOBALS['dict']['username'] =              "Username";
+$GLOBALS['dict']['password'] =              "Password";
+$GLOBALS['dict']['insecure_pass_msg'] = 	"Your password is insecure.";
+$GLOBALS['dict']['secure_pass_desc'] = 		"A secure password is at least 6 characters long and contains letters, capitals and numbers.";
+$GLOBALS['dict']['secure_pass_desc2'] = 	"You have to enter a secure password!";
+$GLOBALS['dict']['first_name'] =            "First Name";
+$GLOBALS['dict']['last_name'] =             "Last Name";
+$GLOBALS['dict']['save'] =                  "Save";
+$GLOBALS['dict']['copy'] =                  "Copy";
+$GLOBALS['dict']['order_number'] =          "Order Number";
+$GLOBALS['dict']['comment_pub_one'] =       "STEP ONE: ENTER COMMENT INFORMATION";
+$GLOBALS['dict']['comment_pub_two'] =       "STEP TWO: ENTER COMMENT";
+$GLOBALS['dict']['comment_pub_three'] =     "STEP THREE: ATTACH FILE";
+$GLOBALS['dict']['optional'] =              "Optional";
+$GLOBALS['dict']['select_a_category'] =     "Select a category";
+// added by blicero fro catclass function -- blicero 20 may 2003
+$GLOBALS['dict']['select_a_thematic_category'] =     "Select a thematic category";
+$GLOBALS['dict']['select_a_local_category'] =     "Select a local category";
+$GLOBALS['dict']['select_a_internal_category'] = "Select a internal category";
+$GLOBALS['dict']['select_a_event_category'] = "Select a event category";
+$GLOBALS['dict']['select_a_project_category'] = "Select a project category";
+$GLOBALS['dict']['select_a_other_category'] = "Select a other category";
+$GLOBALS['dict']['select_a_hidden_category'] = "Select a hidden category";
+
+// left 
+// have to include archive stuff here :/
+
+$GLOBALS['dict']['local_information'] = "This page links to the archives of our center-column featured stories.";
+$GLOBALS['dict']['local_click_on_week'] = "Click on a week to go to the archives for that week.";
+$GLOBALS['dict']['archive_id'] = "single feature archives";
+$GLOBALS['dict']['archive_index'] = "complete feature archives";
+$GLOBALS['dict']['archive_week'] = "weekly archives";
+$GLOBALS['dict']['archive_date'] = "archives by date";
+$GLOBALS['dict']['archive_title2'] = "Feature Title";
+$GLOBALS['dict']['archive_display_date'] = "Date";
+$GLOBALS['dict']['archive_findweek'] = "Find old archives for a given week";
+$GLOBALS['dict']['next_archive_page'] = "next page";
+$GLOBALS['dict']['prev_archive_page'] = "previous page";
+$GLOBALS['dict']['prev_archive_week'] = "previous week";
+$GLOBALS['dict']['next_archive_week'] = "next week";
+$GLOBALS['dict']['archive_navmonths'] = "navigate using months";
+$GLOBALS['dict']['archive_navdate'] = "browse all archived feature by date";
+$GLOBALS['dict']['archive_navid'] = "browse all single feature archives";
+$GLOBALS['dict']['archive_home'] = "front page";
+$GLOBALS['dict']['search_by_keyword'] = "keyword";
+$GLOBALS['dict']['search_by_author'] = "author";
+$GLOBALS['dict']['view_article_wo_comment'] = "View article without comments";
+$GLOBALS['dict']['your_story_is'] = "Your story is";
+$GLOBALS['dict']['html_article'] = "HTML Article";
+$GLOBALS['dict']['image_file'] = "Image File";
+$GLOBALS['dict']['pdf_file'] = "PDF File";
+$GLOBALS['dict']['smil_file'] = "SMIL File";
+$GLOBALS['dict']['mpeg_video_file'] = "MPEG Video File";
+$GLOBALS['dict']['realaudio_file'] = "RealAudio File";
+$GLOBALS['dict']['mp3_stream'] = "MP3 Stream";
+$GLOBALS['dict']['mp3_playlist'] = "MP3 Playlist";
+$GLOBALS['dict']['realaudio_metafile'] = "RealAudio Metafile";
+$GLOBALS['dict']['wm_audio_file'] = "Windows Media Audio File";
+$GLOBALS['dict']['mp3_file'] = "MP3 File";
+$GLOBALS['dict']['realvideo_file'] = "RealVideo File";
+$GLOBALS['dict']['quicktime_file'] = "Quicktime File";
+$GLOBALS['dict']['avi_file'] = "AVI Video File";
+$GLOBALS['dict']['realvideo_metafile'] = "RealVideo Metafile";
+$GLOBALS['dict']['wm_file'] = "Windows Media Audio File";
+$GLOBALS['dict']['wav_file'] = "Wav file";
+$GLOBALS['dict']['error_detected'] = "ERROR DETECTED -- PLEASE TRY AGAIN!";
+$GLOBALS['dict']['fill_out_form_right'] = "Make sure you have filled out the form correctly";
+$GLOBALS['dict']['pub_error_title'] = "You didn't fill out the Title field.";
+$GLOBALS['dict']['pub_error_author'] = "You didn't fill out the Author field.";
+$GLOBALS['dict']['pub_error_summary'] = "You didn't fill out the Summary field.";
+$GLOBALS['dict']['pub_error_long_summary'] = "Your summary is too long. Please shorten it.";
+$GLOBALS['dict']['pub_error_upload'] = "You must enter an article or upload a file.";
+$GLOBALS['dict']['pub_error_long_upload'] = "You can only upload 20 files or less at one time!";
+$GLOBALS['dict']['pub_error_file'] = "The type of file you uploaded is not supported. Try again.";
+$GLOBALS['dict']['pub_error_where_file'] = "You didn't upload an image, but you said you would.";
+$GLOBALS['dict']['pub_error_select_file'] = "You didn't fill out the title field for upload";
+$GLOBALS['dict']['there_were'] = "There were";
+$GLOBALS['dict']['files_detected'] = "file(s) detected.";
+
+// new words since translation was started
+$GLOBALS['dict']['single_comment'] = "comment";
+$GLOBALS['dict']['plural_comment'] = "comments";
+$GLOBALS['dict']['arttype'] = "Article Type";
+$GLOBALS['dict']['year'] = 'Year';        
+$GLOBALS['dict']['month'] = 'Month';      
+$GLOBALS['dict']['day'] = 'Day';
+$GLOBALS['dict']['spam_message']="Due to High Traffic, Spam or A DB Error Publishing Has Been Disabled At This Time";
+$GLOBALS['dict']['newswire'] = 'newswire';
+$GLOBALS['dict']['view_current'] = 'view current features';
+$GLOBALS['dict']['regen_article'] = 'Regenerate Article Cache';
+$GLOBALS['dict']['start_id'] = 'Starting Article ID';
+$GLOBALS['dict']['max_to_gen'] = 'Number to Regenerate';
+$GLOBALS['dict']['regenerate'] = 'Regenerate';
+
+// added by blicero for italy branching :)
+$GLOBALS['dict']['reason'] = 'Reason (optional)';
+$GLOBALS['dict']['additional_reason'] = 'Add a comment for the hiding reason (if any)';
+
+//added bu blicero for admin
+$GLOBALS['dict']['admincategories'] =              "CATEGORIES";
+$GLOBALS['dict']['adminarticles'] =              "ARTICLES";
+$GLOBALS['dict']['admincalendar'] =              "CALENDAR";
+$GLOBALS['dict']['adminupload'] =              "UPLOAD";
+$GLOBALS['dict']['admingraphics'] =              "CSS,INCLUDE, TEMPLATE";
+$GLOBALS['dict']['adminxml'] =              "RSS/XML";
+$GLOBALS['dict']['adminloggedin'] =              "User logged in as";
+$GLOBALS['dict']['adminlogout'] =              "LOGOUT";
+$GLOBALS['dict']['adminusers'] =              "USERS";
+$GLOBALS['dict']['adminemail'] =              "EMAIL";
+$GLOBALS['dict']['adminstats'] =              "SITE USAGE";
+$GLOBALS['dict']['adminnextip'] =              "IPS BEING BLOCKED";
+$GLOBALS['dict']['adminiplog'] =              "IP LOG";
+$GLOBALS['dict']['adminipblock'] =              "IPS BLOCK LOG";
+$GLOBALS['dict']['adminlatestcomments'] =              "LATEST COMMENTS";
+$GLOBALS['dict']['admincities'] =              "CITIES";
+$GLOBALS['dict']['adminsite'] =              "Site Administration";
+$GLOBALS['dict']['adminviewsite'] =              "View Site";
+$GLOBALS['dict']['adminspam'] =              "SPAM";
+$GLOBALS['dict']['admindossier'] =              "DOSSIERS";
+$GLOBALS['dict']['adminlanguage'] =	    "LANGUAGES";
+
+// added by blicero for mail2admin
+$GLOBALS['dict']['admin_hiding_message'] = 	"notification of article administration";
+$GLOBALS['dict']['edited_by'] = 	"Edited by";
+
+//added by blicero to show automatically subpage listing
+// some more stuff for index_left, occam
+$GLOBALS['dict']['features'] = "Features";
+$GLOBALS['dict']['latest_news'] = "latest news";
+$GLOBALS['dict']['commentary'] = "commentary";
+$GLOBALS['dict']['syndication'] = "syndication";
+$GLOBALS['dict']['resources'] = "make media";
+$GLOBALS['dict']['participate'] = "participate";
+$GLOBALS['dict']['archives'] = "archives";
+$GLOBALS['dict']['chat'] = "chat";
+$GLOBALS['dict']['donate'] = "donate";
+$GLOBALS['dict']['latest_newswire'] = "Latest Newswire";
+$GLOBALS['dict']['publish_your_news'] = "Publish your news";
+$GLOBALS['dict']['view_latest_comments'] = "View Latest Comments";
+$GLOBALS['dict']['view_hidden_posts'] = "View Hidden Posts";
+
+
+// added by gek for sfactive website
+$GLOBALS['dict']['download'] = "download";
+$GLOBALS['dict']['documentation'] = "documentation";
+$GLOBALS['dict']['support'] = "support";
+$GLOBALS['dict']['servers'] = "servers";
+$GLOBALS['dict']['bugs'] = "bugs";
+$GLOBALS['dict']['irc'] = "irc";
+$GLOBALS['dict']['links'] = "links";
+
+// for syndication index
+$GLOBALS['dict']['art_feat'] = "Articles and features" ;
+
+// for i18n of leftcatlisting
+$GLOBALS['dict']['m_category_left'] = "categories";
+$GLOBALS['dict']['t_category_left'] = "thematic categories";
+$GLOBALS['dict']['l_category_left'] = "local collectives";
+$GLOBALS['dict']['i_category_left'] = "process categories";
+$GLOBALS['dict']['e_category_left'] = "event categories";
+$GLOBALS['dict']['p_category_left'] = "project categories";
+$GLOBALS['dict']['o_category_left'] = "other categories";
+
+// for email validation
+$GLOBALS['dict']['article_validated'] = "(email address validated)";
+$GLOBALS['dict']['article_not_validated'] = "";
+
+// for gallery - resizes
+$GLOBALS['dict']['latest_uploads'] = "latest media";
+
+// admin stuff -- mtoups
+$GLOBALS['dict']['lastlogin'] = "Last Login";
+
+// language stuff
+$GLOBALS['dict']['language'] =   "LANGUAGE";
+$GLOBALS['dict']['select_a_language'] =  "select a language";
+?>

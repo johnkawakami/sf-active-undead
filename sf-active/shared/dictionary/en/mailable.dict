@@ -1,0 +1,24 @@
+<?php
+// Dictionary file - en - mailable
+
+$local = array(
+	"prn_original_article" => "Original article is at: ",
+	"original_upload" => "Uploaded file is at: ",
+	"prn_print_comments" => "Mail comments.",
+	"prn_hide_comments" => "Hide comments.",
+	"prn_no_id" => "error: can not display the article. no article id.",
+	"prn_no_comments" => "/* no comments */",
+	"fromaddress" => "From address",
+	"toaddress" => "To address",
+	"subject" => "Subject",
+	"commentmail" => "Comment to introduce the mail",
+	"submit_email" => "Send mail",
+	"from_is_not_mail" => "From address is not valid!",
+	"to_is_not_mail" => "To address is not valid!",
+	"subject_is_too_long" => "Subject is too long!",
+	"subject_is_null" => "You forgot the subject!",
+	"comment_is_too_long" => "Comment are too long!",
+	"notice" => "For copyright and privacy policy refer to: "
+);
+
+?>

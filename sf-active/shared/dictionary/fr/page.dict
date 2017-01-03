@@ -1,0 +1,11 @@
+<?
+
+// error strings for the page_class
+
+$local=array(
+	"string_error" => "L'ID de la page n'est pas une cha&icirc;ne.",
+	"template_error" => "Impossible de trouver le template.",
+	"script_error" => "Impossible de trouver le script.",
+	"class_error" => "Impossible trouver la classe appropri&eacute;e."
+)
+?>

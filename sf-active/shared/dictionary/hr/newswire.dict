@@ -1,0 +1,29 @@
+<?php
+// Dictionary file - hr - comment latest
+$local = array(
+		"category" =>          "Kategorija",
+		"sortby" =>          "Sortiraj po",
+		"newest" =>          "Najnovije",   
+		"reverse" =>          "Obrnuto",
+		"modified" =>         "Promijenjeno",
+		"rank" =>         "Rank",
+// Added after translation
+                "go" => "Kreni!",
+                "keyword" => "Kljuèna rijeè",
+                "comments" => "Komentari",
+                "no_summaries" => "Nema sa¾etaka",
+// ful i18n
+		"no_newswire" => "&#149; ERROR: Ova kategorija ne podr¾ava newswire.<BR>",
+		"newswire_refreshed_for" => "&#149; Newswire je osvje¾en za",
+		"refreshed_all" => "&#149; Svi newswires su osvje¾eni za",
+		"unable_to_determine" => "&#149; Ne mogu odrediti tip sa¾etka.<BR>",
+
+// upgrading some old $lang_
+                "date_warning" => "Pogre¹na pretraga datuma! Potrebno je odabrati dan, mjesec i godinu.",
+                "hidden_warning" => "Samo duplikati, probni i skriveni èlanci",
+                "no_results" => "Nema pronaðenih prièa",
+                "search_suggestion" => "Poku¹aj suziti pretragu na kraæu frazu ili jednu rijeè",
+                "select_a_language" =>  "select a language",
+
+        );
+?>

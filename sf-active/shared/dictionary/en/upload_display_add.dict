@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - es - upload_display_add
+
+$local = array(
+               "upload_subtitle" =>    "Image Upload",
+	       "file_to_upload" =>     "File to upload",
+	       "location_upload" =>    "location to upload",
+	       "over_write" =>         "overwrite file with same name",
+	       "browse_images" =>      "browse images",
+	       "image_exists_error" => "image exists!",
+	       "image_cannot_move" =>  "Cannot move!",
+	       "image_uploaded" =>     "Image uploaded!"
+              );
+
+?>

@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - en - event_display_week
+
+$local = array(
+	"cal_enter_confirm" => "Por favor coloque o número de confirmação para este artigo para deletá-lo",
+	"cal_return_to_event" => "Retornar ao evento",
+	"cal_conf_no" => "Número de confirmação",
+	"cal_delete" => "Apagar",
+	"cal_error_event_id" => "A ID do evento na página é inválida",
+	"cal_error_event_delete" => "Não foi possível deletar o evento, o número de confirmação é inválido"
+);
+

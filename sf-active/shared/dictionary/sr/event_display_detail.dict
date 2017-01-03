@@ -1,0 +1,10 @@
+<?php
+// Dictionary file - en - event_display_week
+
+$local = array(
+	"cal_calendar" => "Kalendar",
+	"cal_return_to_cal" => "Vrati se na kalendar",
+	"cal_update" => "Ažuriraj",
+	"cal_delete" => "Obriši"
+);
+

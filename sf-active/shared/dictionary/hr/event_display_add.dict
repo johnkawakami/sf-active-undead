@@ -1,0 +1,56 @@
+<?php
+// Dictionary file - hr - event_display_week
+
+$local = array(
+	"cal_calendar" => "Kalendar",
+	"cal_week" => "Tjedan",
+	"cal_error_event_add" => "Do¹lo je do pogre¹ke pri dodavanju dogaðaja. Provjeri jesu li ispunjena sva obavezna polja i jesu li datum i vrijeme toèno uneseni.",
+	"cal_error_event_title" => "Tvoj dogaðaj ne mo¾e biti dodan bez naslova. Dakle, upi¹i naslov!",
+	"cal_error_event_delete" => "Ne mogu obrisati dogaðaj, mo¾da je potvrdni broj pogre¹an.",
+	"cal_error_event_id" => "ID eventa u URL-u je netoèan.",
+	"cal_confirm_add_page" => "Potvrdni broj dogaðaja",
+	"cal_your_confirm" => "Tvoj potvrdni broj je",
+	"cal_need_confirm" => "Ovaj broj bit æe ti potreban ako bude¹ ¾elio mijenjati ili obrisati dogaðaj.",
+	
+	"cal_conf_no" => "Potvrdni broj",
+	"cal_title" => "NASLOV",
+	"cal_return_to_calendar" => "Povratak na kalendar",
+
+	"cal_start_date" => "POÈETNI DATUM",
+	"cal_start_time" => "POÈETNO VRIJEME",
+	"cal_duration" => "Trajanje",
+	"cal_location" => "Lokacija",
+	"cal_event_type" => "Tip dogaðaja",
+	"cal_event_topic" => "Tema dogaðaja",
+	"cal_contact_name" => "Kontakt osoba",
+	"cal_contact_email" => "Kontakt e-mail",
+	"cal_contact_phone" => "Kontakt telefon",
+	"cal_description" => "OPIS",
+
+	
+	"cal_update" => "A¾uriraj",
+	"cal_add" => "Dodaj",
+	"cal_location_details" => "Detalji o mjestu",
+	"cal_return_to_event" => "Povratak na detalje o dogaðajma",
+	"cal_enter_confirm" => "Unesi potvrdi broj ovog èlanka da bi ga obrisao/la",
+	"cal_delete" => "Obri¹i",
+	"cal_hours" => "Sati",
+	"cal_end_date" => "Zavr¹ni datum",
+	"cal_display_details" => "Prika¾i detalje",
+	"cal_view_events" => "Pogledaj dogaðaje",
+	"cal_previous_week" => "Prethodni tjedan",
+	"cal_next_week" => "Sljedeæi tjedan",
+	"cal_week_of" => "Tjedan o(d)",
+	"cal_add_an_event" => "Dodaj dogaðaj",
+	"cal_view_all_months" => "Pogledaj sve mjesece",
+	"cal_list_future_events" => "Prika¾i buduæe dogaðaje",
+	"cal_filter_by_topic" => "Filtriraj po temi",
+	"cal_filter" => "Filter",
+	"cal_no_events" => "Ne postoji ni jedan dogaðaj u ovom tjednu.",
+	"cal_error_event_update_title" => "Dogaðaj mora imati naslov da bi bio unesen",
+	"cal_error_event_update" => "Ne mogu a¾urirati dogaðaj, mo¾da je potvrdni broj pogre¹an",
+        "language" =>   "LANGUAGE",
+        "select_a_language" =>  "select a language",
+        "cal_error_language" => "you have to choose a language for your event",
+
+);

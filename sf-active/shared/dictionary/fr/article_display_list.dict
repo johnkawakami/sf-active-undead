@@ -1,0 +1,16 @@
+<?php
+// Dictionary file - fr - admin_index
+
+$local = array(
+
+"articles_edit_list" =>   "Administrer les articles",
+"enter_article_id" =>  "ID de l'article &agrave; &eacute;diter",
+"enter_comment_id" => "ID de l'article parent des commentaires &agrave; &eacute;diter:",
+"comment_edit" => 	"&Eacute;diter un commentaire",
+"click_on_article_to_edit" => "Administrer les articles",
+"save" => "Enregistrer",
+                "promote_to_feature"  => "mettre cet article en feature",
+		
+);
+
+?>

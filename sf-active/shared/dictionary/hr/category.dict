@@ -1,0 +1,50 @@
+<?php
+// Dictionary file - hr - category
+
+$local = array(
+                "categories" =>                 "Kategorije",
+                "category_add" =>               "Dodaj kategoriju",
+                "archive_generate" =>           "Generiraj arhive",
+                "click_on_category_to_edit" =>  "(Klikni na naslov za editiranje kategorije; klinki na 'Administriraj prièe' za dministriranje prièa u svakoj od kategorija.)",
+                "story_list" =>                 "Promijeni èlanke",
+                "no_center_column" =>           "Nema centralne kolone",
+		"updated_site" =>               "Site je osvje¾en",
+		"feature_list" =>               "Lista tekstova za kategoriju",
+		"category_pushto" =>		"Objavi",
+                "category_shortname" =>         "Kratko ime kategorije",
+                "category_name" =>              "Ime kategorije",
+                "category_summarylength" =>     "Du¾ina sa¾etka",
+                "template_name" =>              "Ime predlo¹ka",
+                "default_template" =>           "Primarni predlo¾ak",
+                "newswire_type" =>              "Tip vijesti",
+                "centercolumn_type" =>          "Tip srednjeg stupca",
+                "category_description" =>       "Opis kategorije",
+                "n_newswire" =>                 "Bez vijesti",
+                "s_newswire" =>                 "Standardne vijesti",
+                "a_newswire" =>                 "Sve vijesti",
+		"f_newswire" =>                 "Filtered Newswire",
+                "no_centercolumn" =>            "Bez srednjeg stupca",
+                "standard_centercolumn" =>      "Standardni srednji stupac",
+                "ordernum" =>                   "Redni broj",
+                "category_add" =>               "Dodaj kategoriju",
+                "category_edit" =>              "Editiraj kategoriju",
+                "catclass_type" =>          "Vrsta kategorije",
+                "m_category_left" =>              "Kategorije",
+                "t_category_left" =>              "tematske kategorije",
+                "l_category_left" =>              "lokalni kolektivi",
+                "i_category_left" =>              "interne kategorije",
+                 "m_category" =>              "glavna",
+                "h_category" =>              "skrivena",
+                "t_category" =>              "tematska",
+                "l_category" =>              "lokalna",
+                "i_category" =>              "interna",
+                "o_category" =>             "other",
+                "e_category" =>             "event",
+                "p_category" =>             "project",
+		"recache"    =>		     "Oznaèi ako ¾eli¹ re-ke¹irati indeks direktorija kategorije (kod dodavanja kategorije radi automatski)",
+		// 07 sep 03
+		"no_feature_template_defined" => "<br><h3>Nije definiran predlo¾ak za ovaj tekst><br>",
+                "no_category_template_defined" =>  "<br><h3>Nije definiran predlo¾ak za ovu kategoriju<h3><br>"
+
+                );
+?>

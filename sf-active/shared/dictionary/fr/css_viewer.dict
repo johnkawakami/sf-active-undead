@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - fr - css viewer
+
+$local = array(
+	"css_viewer_info" =>        "Cette page est utilis&eacute;e pour &eacute;diter une feuille de style ...........",
+	"filter" => "Filtre",
+	"search_string" => "Chercher la cha&icirc;ne",
+	"insertname" => "Nom du nouveau css",
+	"errorcss" => "Nom de css incorrect. Merci de r&eacute;essaier.",
+        "filename_header" => "Cr&eacute;er un nouveau css");
+
+
+?>

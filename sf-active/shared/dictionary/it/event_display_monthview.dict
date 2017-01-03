@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - en - event_display_list
+
+$local = array(
+	"CALENDAR_LOCAL_INFORMATION" => "Calendario: Naviga per mese",
+	"CALENDAR_LOCAL_CLICK_ON_WEEK" => "Clicca su una settimana per vedere gli appuntamenti postati per quella settimana"
+);
+

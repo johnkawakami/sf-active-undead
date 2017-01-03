@@ -1,0 +1,7 @@
+Here is some basic info on the subdirectories you'll find in this install directory.
+
+Subdirectories with names from (indymedia)codebases contain scripts you can use to convert your site from that particular codebase to sf-active.
+Information on how to use these scripts is given in chapter 4 (Setup) of the Documentation.
+
+in dev_scripts you'll find some scripts that can assist you in development of the code.
+

@@ -1,0 +1,8 @@
+
+RewriteEngine on
+RewriteRule ^ar/(.+)/(.+)$ /archives/archive_by_id.php?id=$1&category_id=$2 [R]
+RewriteRule ^display.php3$ /display.php [R]
+
+ErrorDocument 404 /errors/404error.php
+
+Header set Cache-Control "max-age=972800, public"

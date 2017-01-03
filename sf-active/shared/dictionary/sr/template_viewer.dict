@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - it - template viewer
+
+$local = array(
+	"template_viewer_info" =>        "Ova strana se koristi za menjanje template (šablona)...........",
+	"filter" => "filter",
+	"search_string" => "Lista za pretragu",
+	"insertname" => "Upišite ime za novi template (šablon)",
+	"errortpl" => "Uneli ste loše template (šablon) ime. Probajte ponovo",
+        "filename_header" => "Napravi novi template (šablon)");
+
+?>
