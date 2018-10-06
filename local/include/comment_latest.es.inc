@@ -16,5 +16,5 @@ include(SF_CACHE_PATH . '/comments_latest.inc');
 
 </table>
 
-<p><small>Ultima actualizaci&#243;n <? echo date("r",filemtime("$local_cache_path/comments_latest.inc")); ?>.</small></p>
+<p><small>Ultima actualizaci&#243;n <?php echo date("r",filemtime("$local_cache_path/comments_latest.inc")); ?>.</small></p>
 

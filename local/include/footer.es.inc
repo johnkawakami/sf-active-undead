@@ -26,6 +26,6 @@ include (SF_INSTALL_PATH . '/local/include/disclaimer.inc');
 ?>
 </small></td></tr></table></td></tr></table></td></tr></table>
 
-<? if ($dev_environment==true) { echo "<br /><center><a href=\"http://validator.w3.org/check/referer\">validate html</a> | <a href=\"http://jigsaw.w3.org/css-validator/validator?uri=http://".$HTTP_HOST.$REQUEST_URI."\">validate css</a></center>"; } ?>
+<?php if ($dev_environment==true) { echo "<br /><center><a href=\"http://validator.w3.org/check/referer\">validate html</a> | <a href=\"http://jigsaw.w3.org/css-validator/validator?uri=http://".$HTTP_HOST.$REQUEST_URI."\">validate css</a></center>"; } ?>
 
 </body></html>

@@ -19,4 +19,4 @@ include(SF_CACHE_PATH . '/comments_latest.inc');
 
 <p align="right"><a href="/news/?page=5&amp;sort=modified">Browse older threads&gt;&gt;</a></p>
 
-<p><small>Last updated <? echo date("r",filemtime("$local_cache_path/comments_latest.inc")); ?>.</small></p>
+<p><small>Last updated <?php echo date("r",filemtime("$local_cache_path/comments_latest.inc")); ?>.</small></p>

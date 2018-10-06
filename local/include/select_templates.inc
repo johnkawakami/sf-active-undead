@@ -1,4 +1,4 @@
-<?
+<?php
         $temp_options = array(
                             "html_only" => "HTML (no &lt;br /&gt;)",
                             "html_row" => "HTML (&lt;br /&gt; only)",

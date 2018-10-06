@@ -63,7 +63,7 @@ class Language extends \Page
     $db = new \SFACTIVE\DB;
 	$sql = "select name, id from language where display = 't' order by order_num asc";
 	$result = $db->query($sql);
-	$file = "<?\n $"."language_options = array(\n";
+	$file = "<?php\n $"."language_options = array(\n";
 	while($row = array_pop($result))
 	{
 	  $file .= "  ".$row['id']." => \"".$row["name"]."\",\n";
@@ -97,7 +97,7 @@ class Language extends \Page
 	$db = new \SFACTIVE\DB ;
 	$query = "select id, name from language where display = 't' and build = 'y' order by order_num asc";
         $result = $db->query($query);
-        $file = "<?\n";
+        $file = "<?php\n";
         while($row = array_pop($result))
         {
             $language_id = $row['id'];
@@ -114,7 +114,7 @@ class Language extends \Page
         $db = new \SFACTIVE\DB ;
         $query = "select id, language_code from language where display = 't' order by order_num asc";
         $result = $db->query($query);
-        $file = "<?\n";
+        $file = "<?php\n";
         while($row = array_pop($result))
         {
             $file .= "\t$".'language_codes[$row[\'id\']]'." = \"".$row['language_code']."\";\n";

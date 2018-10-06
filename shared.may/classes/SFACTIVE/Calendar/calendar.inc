@@ -394,7 +394,7 @@ class Calendar
 		$query = "select location_id, name from location";
 		$result = $db->query($query);
 
-		$file = "<?\n\n";
+		$file = "<?php\n\n";
 
         while($row = array_pop($result))
         {
@@ -411,7 +411,7 @@ class Calendar
         $query = "select event_topic_id, name from event_topic";
         $result = $db->query($query);
 
-        $file = "<?\n\n";
+        $file = "<?php\n\n";
 
         while($row = array_pop($result))
         {
@@ -428,7 +428,7 @@ class Calendar
         $query = "select event_type_id, name from event_type";
         $result = $db->query($query);
 
-        $file = "<?\n\n";
+        $file = "<?php\n\n";
 
         while($row = array_pop($result))
         {
