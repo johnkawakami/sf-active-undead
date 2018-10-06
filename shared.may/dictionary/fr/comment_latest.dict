@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - fr - comment latest
+
+$local = array(
+"latest_comment_text" => "Voici la liste des derniers commentaires post&eacute;es sur le site. Consulter &eacute;galement les ",
+"most_commented" => "articles les plus comment&eacute;s",
+"latest_article_name" => "ARTICLES",
+"latest_author" => "AUTEUR LE PLUS R&Eacute;CENT",
+"posted_at" => "POST&Eacute; LE",
+"browse_older_threads" => "Parcourir les discussions pr&eacute;c&eacute;dentes &gt;&gt;",
+// Added after translation
+        "thread" =>          "FIL DE DISCUSSION"
+ );
+
+?>

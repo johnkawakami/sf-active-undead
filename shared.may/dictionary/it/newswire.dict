@@ -1,0 +1,30 @@
+<?php
+// Dictionary file - en - comment latest
+$local = array(
+		"category" =>          "Categoria",
+		"sortby" =>          "Ordina per",
+		"newest" =>          "il piu' recente",   
+		"reverse" =>          "per ordine inverso",
+		"modified" =>         "per data modifica",
+		"rank" =>         "numero di commenti",
+// Added after translation
+                "go" => "Vai!",
+                "keyword" => "Parola chiave",
+                "comments" => "Commenti",
+                "no_summaries" => "Senza sommari",
+// ful i18n
+		"no_newswire" => "&#149; ERROR: Questa categoria non prevede nessun newswire.<br>",
+		"newswire_refreshed_for" => "&#149; Newswire rigenerato per ",
+		"refreshed_all" => "&#149; Tutti i newswire rigenerati per ",
+		"unable_to_determine" => "&#149; Impossibile determinare il tipo di newswire.<BR>",
+
+// upgrading some old $lang_
+                "date_warning" => "Ricerca per data non valida! devi scegliere un anno, un mese e un giorno",
+                "hidden_warning" => "Articoli di test, duplicati o nascosti.",
+                "no_results" => "Nessun risultato trovato!",
+                "search_suggestion" => "Cerca di restringere la ricerca a una frase piu' corta o a una singola parola.",
+		"more_stories" =>       "more stories",
+		"newer_stories" =>      "newer stories",
+                "select_a_language" =>  "select a language",
+        );
+?>

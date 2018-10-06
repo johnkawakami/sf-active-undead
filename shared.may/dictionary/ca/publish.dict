@@ -1,0 +1,75 @@
+<?php
+// Dictionary file - ca - publish
+
+$local = array(
+              "pub_stepone" =>    "PAS 1: ENTRA LA INFORMACIÓ DE L'ARTICLE",
+              "pub_steptwo" =>    "PAS 2: ENTRA EL TEXT",
+              "pub_stepthree" =>  "PAS 3: ADJUNTA UN ARXIU",
+              "attach_a_file"=>   "ADJUNTA UN ARXIU",
+              "pub_author" =>     "Autor",
+              "pub_url" =>        "Adreça URL",
+              "pub_artmime" =>    "TEXT o HTML",
+
+              "pub_optional" =>   "Els camps de contacte superiors són opcionals i seràn públicament visibles en el teu article",
+              "pub_sum" =>        "El sumari no ha de ser més llarg que 6 línies. Siusplau inclou la duració de les peçes d'audio/video.",
+              "pub_art" =>        "Pels articles de text, les URL seràn convertides a links. També pots fer servir &lt;a href=&quot;url&quot;&gt;link&lt;/a&gt; en articles de text pla (les altres etiquetes seràn ignorades mentre no seleccionis &quot;format html&quot;).",
+              "pub_mime" =>       "No seleccionis &quot;format html&quot; si no incloeixes les etiquetes &lt;p&gt; i/o &lt;br&gt;",
+              "pub_cuantofiles" =>"Quants fitxer vols pujar?",
+              "sel_categories" => "Categoria",
+              "sel_cattema" => "Categoria temàtica",
+              "sel_catlocali" => "Categoria local",
+              "sel_catinternal" => "internal category",
+              "sel_catevent" => "event category",
+              "sel_catproject" => "project category",
+              "sel_catother" => "other categories",
+              "sel_cathidden" => "hidden category",
+
+// new words since translation was started
+              "select_file" => "Selecciona arxiu",
+              "comment" => "Comenta",
+              "max_upload" => "Tamany màxim d'arxiu:",
+              "total_limit" => 'límit total:',
+              "minutes" => 'minuts de pujada',
+              "accepted_types" => "Tipus d'arxiu acceptats:  ".$GLOBALS['accepted_filetypes'],
+              // added by bart (for preview & ...)
+              "preview" => "Vista prèvia",
+              "preview_warning" => "<b>Si vols veure la vista prèvia, fes-ho abans que entris els arxius per pujar</b>.",
+              "publish_successful" => "<strong>Hem afegit la teva història al newswire.</strong>",
+              "comment_successful" => "<strong>Comentari afegit!</strong>",
+            // for e-mail validation
+              "validate_email" =>   "EMAIL VALIDATION ?",
+              "validate_form" => "Check this box to have an email sent to yourself so that you can validate that you own this email address.",
+              "pub_validation_email" => "Hello,
+              This email is being sent to you because
+              either you or someone posing as you published
+              a story at SITE_NAME using your email address
+              and requested validation of the email address.
+
+              The story in question can be found here:
+              ARTICLE_URL
+
+              If you are the person who published the story
+              please visit the following url:
+              VALIDATIONURL
+              to validate your story. If you did not make
+              this request and think someone is trying to
+              represent themselves as you, feel free to
+              contact the operators of SITE_NAME at
+              ADMIN_EMAIL.
+
+              If you have any other questions or comments
+              please feel free to contact us
+              here at: PUBLIC_EMAIL ",
+              "pub_validation_email_sub" => "[SITE_NAME] Request for article email validation",
+              "validated_ok" => "your post has been validated",
+              "validated_allready" => "this post was allready validated",
+              "validated_error" => "there went something wrong. Maybe you used the wrong url ?",
+              "validation_email_ok" => "The validation email has been sent.",
+              "validation_email_error" => "There was a problem with sending the validation email. did you enter an email address ?",
+
+            // for language stuff
+              "sel_language"  =>  "Select a language",
+              "pub_error_language" => "You have to select a language for this article",
+
+              );
+?>

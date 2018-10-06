@@ -1,0 +1,76 @@
+<?php
+// Dictionary file - en - publish
+
+$local = array(
+              "pub_stepone" =>    "PRVI KORAK: UNESI INFORMACIJE O ÈLANKU",
+              "pub_steptwo" =>    "DRUGI KORAK: UNESI TEKST",
+              "pub_stepthree" =>  "TREÆI KORAK: PRIKAÈI DATOTEKU",
+              "attach_a_file"=>   "PRIKAÈI DATOTEKU",
+              "pub_author" =>     "Autor",
+              "pub_url" =>        "Web adresa / URL",
+              "pub_artmime" =>    "TEKST ili HTML",
+
+              "pub_optional" =>   "Gornja polja za kontakt su opciona i biæe javno vidljiva sa vašim èlankom.",
+              "pub_sum" =>        "Siže ne bi smeo da bude duži od 6 linija. Molim unesite i dužinu audio/video dodataka.",
+
+              "pub_art" =>        "U sluèaju tekstualnih èlanka, URL-ovi æe biti promenjeni u linkove. Takoðe možete koristiti &lt;a href=&quot;url&quot;&gt;link&lt;/a&gt; (ostali tagovi æe biti ignorisani osim ako ne izberete &quot;html format&quot;).",
+              "pub_mime" =>       "Nemojte birati &quot;html format&quot; osim ako ne ukljuèite &lt;p&gt; i/ili &lt;br&gt; tagove!!",
+              "pub_cuantofiles" =>"Koliko datoteka šaljete?",
+              "sel_categories" => "Kategorija",
+              "sel_cattema" => "Tematska kategorija",
+              "sel_catlocali" => "Lokalna Kategorija",
+              "sel_catinternal" => "interna kategorija",
+              "sel_catevent" => "kategorija dogaðaja",
+              "sel_catproject" => "kategorija projekta",
+              "sel_catother" => "ostalo",
+              "sel_cathidden" => "sakrivena kategorija",
+
+// new words since translation was started
+              "select_file" => "Izaberi datoteku",
+              "comment" => "Komentar",
+              "max_upload" => 'Maksimalna velièina datoteke:',
+              "total_limit" => 'Granica totalne velièine:',
+              "minutes" => 'minuta za slanje',
+              "accepted_types" => 'Prihvatljivi tipovi datoteka:  '.$GLOBALS['accepted_filetypes'],
+
+              // added by bart (for preview & ...)
+              "preview" => "Pogledaj",
+              "preview_warning" => '<b>Ako želite da koristite "Pogledaj", onda to uradite pre nego što pošaljete propratne datoteke.</b>.',
+              "publish_successful" => "<strong>Objavljivanje je uspelo! Dodali smo vašu prièu u vesti posetilaca.</strong>",
+              "comment_successful" => "<strong>Komentar dodat!</strong>",
+            // for e-mail validation
+              "validate_email" =>   "PROVERA IMEJLA ?",
+              "validate_form" => "Izaberite ovo polje, kako bi Vam se poslao imejl za proveru Vaše adrese.",
+              "pub_validation_email" => "Pozdrav,
+              Ovaj imejl Vam je poslat zato
+              što je neko ili Vi dok je objavljivao
+              èlanak na SITE_NAME koristio Vašu imejl adresu
+              i tražio njenu proveru.
+
+              Èlank se može naæi na sledeæoj adresi:
+              ARTICLE_URL
+
+              Ako ste Vi objavili prièu
+              molimo Vas da posetite sledeæu adresu:
+              VALIDATIONURL
+              da potvrdite Vašu prièu. Ako pak niste
+              Vi objavili ovaj èlanak i mislite da se
+              neko predstavlja lažno kao Vi, slobodno
+              kontaktirajte operatere SITE_NAME na
+              ADMIN_EMAIL.
+
+              Ako imate neka druga pitanja
+              kontaktirajte nas na
+              PUBLIC_EMAIL ",
+              "pub_validation_email_sub" => "[SITE_NAME] Zahtev za proveru imejla èlanka",
+              "validated_ok" => "Vaš èlanak je potvrðen",
+              "validated_allready" => "ovaj èlanak je veæ potvrðen",
+              "validated_error" => "nešto je loše. Možda ste koristili pogrešnu adresu (url) ?",
+              "validation_email_ok" => "Potvrðujuæi mejl je poslat.",
+              "validation_email_error" => "Postoji problem oko slanja potvrðujuæeg mejla. Da li ste uneli pravilno adresu ?",
+
+            // for language stuff
+              "sel_language"  =>  "Izaberite jezik",
+              "pub_error_language" => "Izabrali ste jezik za ovaj èlanak",
+              );
+?>

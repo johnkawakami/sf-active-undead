@@ -1,4 +1,5 @@
 <?php
+include 'shared/vendor/autoload.php';
 	
 $display=true;
 include('shared/global.cfg');
@@ -15,9 +16,9 @@ if (strpos($_SERVER['HTTP_REFERER'],'http://la.indymedia.org/admin/qc/spam.php')
 
 if ($_SESSION['delete'] != 'user can delete') die('bad session');
 
-$db = new DB();
+$db = new SFACTIVE\DB();
 
-$db->execute_statement("DELETE LOW_PRIORITY FROM webcast WHERE id=$id");
+$db->execute("DELETE LOW_PRIORITY FROM webcast WHERE id=$id");
 
 print "$id was deleted";
 print "<p><a href=/admin/qc/spam.php>continue</a></p>";
@@ -32,4 +33,3 @@ print "<p><a href=/admin/qc/spam.php>continue</a></p>";
 //-----------------------------------------
 include('../admin_footer.inc');
 
-?>

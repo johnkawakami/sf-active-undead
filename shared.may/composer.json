@@ -1,0 +1,12 @@
+{
+    "name": "johnk/sf-active",
+    "authors": [
+        {
+            "name": "john k",
+            "email": "johnk@riceball.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.23"
+    }
+}

@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - fr - upload_display_add
+
+$local = array(
+               "upload_subtitle" =>    "Transmission d'une image",
+	       "file_to_upload" =>     "Fichier &agrave; transmettre",
+	       "location_upload" =>    "R&eacute;pertoire de destination du fichier",
+	       "over_write" =>         "&Eacute;craser tout fichier de m&ecirc;me nom",
+	       "browse_images" =>      "Parcourir les images",
+	       "image_exists_error" => "L'image existe d&eacute;j&agrave;!",
+	       "image_cannot_move" =>  "D&eacute;placement impossible!",
+	       "image_uploaded" =>     "Image transmise!"
+              );
+
+?>

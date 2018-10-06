@@ -1,0 +1,19 @@
+<?php
+// Dictionary file - en - event_display_event
+
+$local = array(
+	"cal_start_date" => "BA&#350;LANGI&Ccedil; TAR&#304;H&#304;",
+	"cal_start_time" => "BA&#350;LAMA SAAT&#304;",
+	"cal_duration" => "S&uuml;re",
+	"cal_hours" => "Saatler",
+	"cal_location" => "Yer",
+	"cal_location_details" => "Mekan detaylar&#305;",
+	"cal_event_type" => "Eylem/etkinlik t&uuml;r&uuml;",
+	"cal_event_topic" => "Eylem/etkinlik ba&#351;l&#305;&#287;&#305;",
+	"cal_contact_name" => "&#304;rtibat",
+	"cal_contact_email" => "&#304;rtibat e-posta adresi",
+	"cal_contact_phone" => "&#304;rtibat telefonu",
+	"cal_description" => "A&Ccedil;IKLAMA"
+);
+
+?>

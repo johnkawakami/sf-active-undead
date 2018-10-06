@@ -1,7 +1,7 @@
-<? if (isset($left) && ($left != "noleft")) 
+<?php if ($left != "noleft") 
 { 
     ?></td>
-    <td width="150" valign="top" style="padding: 3px;"><? 
+    <td width="150" valign="top" style="padding: 3px;"><?php
     if (preg_match('/news/',$_SERVER['REQUEST_URI']))
           {
 	       include(SF_CACHE_PATH . '/summaries.html');

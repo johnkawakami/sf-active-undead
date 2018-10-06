@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - es - admin_index
+
+$local = array(
+               "articles_edit_list" => "Spravovanie èlánkov",
+               "enter_article_id" =>    "Identifikaèné èíslo èlánku pre editovanie:",
+               "click_on_article_to_edit" =>    "Spravovanie èlánkov",
+               "save" =>    "Ulož",
+	        "promote_to_feature"  => "make this article a feature",			       
+              );
+
+?>

@@ -1,0 +1,24 @@
+<?php
+// Dictionary file - en - mailable
+
+$local = array(
+	"prn_original_article" => "Originalni èlanak je na: ",
+	"original_upload" => "Dodatna datoteka je na: ",
+	"prn_print_comments" => "Pošalji komentare.",
+	"prn_hide_comments" => "Sakri komentare.",
+	"prn_no_id" => "greška: èlanak se ne može prikazati. Nema ID èlanka.",
+	"prn_no_comments" => "/* bez komentara */",
+	"fromaddress" => "Adresa pošiljaoca",
+	"toaddress" => "Adresa primaoca",
+	"subject" => "Tema",
+	"commentmail" => "Uvodni komentar za mejl",
+	"submit_email" => "Pošalji mejl",
+	"from_is_not_mail" => "Adresa pošiljaoca nije ispravna!",
+	"to_is_not_mail" => "Adresa primaoca nije ispravna!",
+	"subject_is_too_long" => "Tema je predugaèka!",
+	"subject_is_null" => "Zaboravili ste temu!",
+	"comment_is_too_long" => "Komentar je predugaèak!",
+	"notice" => "Za copyright i privacy politiku pogledajte na: "
+);
+
+?>

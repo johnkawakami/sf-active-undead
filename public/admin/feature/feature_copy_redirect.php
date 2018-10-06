@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 // Copies a feature from one category to another
 
 $display = false;

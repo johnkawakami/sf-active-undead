@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - es - page viewer
+
+$local = array(
+        "page_viewer_info" =>        "Esta p&aacute;gina es para editar las p&aacute;ginas normales...",
+        "filter" => "filtro",
+        "search_string" => "Lista de b&uacute;squeda",
+        "insertname" => "Escribe el nombre de la nueva p&aacute;gina",
+        "errorpage" => "Has escrito un nombre de p&aacute;gina incorrecto. Intenta nuevamente",
+        "filename_header" => "Crear una nueva p&aacute;gina");
+
+
+?>

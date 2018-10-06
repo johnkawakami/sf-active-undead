@@ -1,0 +1,35 @@
+the semrush bot is stupid and killing this feature.
+
+a workaround would be to cache the lists of articles.
+
+defer all tag processing and list making.
+
+each page can be in two states:
+
+  - first time it's being indexed, displaying a refresh in 5 minutes message
+  - displaying old results, and possibly requesting a re-index if the cache is old
+
+a process will run that is always re-indexing by pulling tasks off the queue, and
+running them.  it should always pop the top item off the stack, because the
+most recent visitor is likely to refresh the page.
+
+requests from bots should be identified, and given a lower priority.
+
+the queue should be preened to delete duplicate requests.  that seems to be
+one of the problems with semrush, that it requests the same page twice
+in a row.
+
+tasks must be abstracted away from raw sql code. we don't want this to become
+a vector for an sql injection attack.
+
+this should be run by daemontools, so it's always running and processing
+
+
+
+## Some preening queries
+
+-- deletes hidden articles from tags_articles
+delete a FROM tags_articles a INNER JOIN  `webcast` w ON w.id=a.article_id WHERE w.display='f'
+
+-- deletes ignored tags from tags_articles
+delete ta FROM `tags_articles` ta join tags t on t.id=ta.tag_id WHERE t.ignore=1

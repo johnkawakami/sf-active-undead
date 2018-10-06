@@ -1,0 +1,52 @@
+<?php
+// Dictionary file - es - category
+
+$local = array(
+                "categories" =>                 "Categor&iacute;as",
+                "category_add" =>               "Crear una Categor&iacute;a",
+                "archive_generate" =>           "Generar archivos",
+                "click_on_category_to_edit" =>  "(Cliquea en el t&iacute;tulo para editar la categor&iacute;a,  cliquea en 'Listado de destaques' para crear y editar destaques de la categor&iacute;a.)",
+                "story_list" =>                 "Listado de destaques",
+                "no_center_column" =>           "Sin columna central",
+                "updated_site" =>               "El sitio fue actualizado",
+                "feature_list" =>               "Lista de destaques",
+                "category_pushto" =>            "Publicar",
+                "category_shortname" =>         "Nombre corto",
+                "category_name" =>              "Nombre de la categor&iacute;a",
+                "category_summarylength" =>     "Cantidad de art&iacute;culos",
+                "template_name" =>              "Nombre de la Plantilla",
+                "default_template" =>           "Plantilla predeterminada",
+                "newswire_type" =>              "Tipo de Newswire",
+                "centercolumn_type" =>          "Tipo de Columna Central",
+                "category_description" =>       "Descripci&oacute;n de la categor&iacute;a",
+                "n_newswire" =>                 "Sin Newswire",
+                "s_newswire" =>                 "Newswire Normal",
+                "a_newswire" =>                 "Newswire Completo",
+		"f_newswire" =>                 "Filtered Newswire",
+                "no_centercolumn" =>            "Sin Columna Central",
+                "standard_centercolumn" =>      "Columna Central normal",
+                "ordernum" =>                   "Orden",
+                "category_add" =>               "Crear una Categor&iacute;a",
+                "category_edit" =>              "Editar una Categor&iacute;a",
+                "catclass_type" =>              "Clase de Categor&iacute;a",
+                "m_category_left" =>            "categor&iacute;a",
+                "t_category_left" =>            "tem&aacute;ticas",
+                "l_category_left" =>            "colectivos locales",
+                "i_category_left" =>            "Interna",
+                 "m_category" =>              "principal",
+                "h_category" =>              "inactiva",
+                "t_category" =>              "tem&aacute;tica",
+                "l_category" =>              "local",
+                "i_category" =>              "interna",
+                "o_category" =>             "otra",
+                "e_category" =>             "evento",
+                "p_category" =>             "proyecto",
+                "recache"    =>              "Cliquea aqu&iacute; si quieres regenerar el cache (es automático cuando agregas una categor&iacute;a nueva)",
+                "no_feature_template_defined" => "<br><h3>Ninguna plantilla fue definida para este destaque</h3><br>",
+                "no_category_template_defined" => "<br><h3>Ninguna plantilla fue definida para esta categor&iacute;a</h3><br>",
+		"refresh_newswire"      =>  "actualizar la columna derecha",
+
+
+                );
+
+?>

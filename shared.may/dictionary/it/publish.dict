@@ -1,0 +1,114 @@
+<?php
+// Dictionary file - it - publish
+
+$local = array(
+              "pub_stepone" =>    "FASE 1: INSERISCI L'INTESTAZIONE DELL'ARTICOLO",
+              "pub_steptwo" =>    "FASE 2: INSERISCI IL TESTO",
+              "pub_stepthree" =>  "FASE 3: INSERISCI IL FILE DA ALLEGARE",
+	      "attach_a_file"=>	    "INSERISCI IL FILE DA ALLEGARE",
+              "pub_author" =>     "Autore",
+              "pub_url" =>        "Indirizzo web",
+              "pub_artmime" =>    "TESTO SEMPLICE o HTML",
+
+              "pub_optional" =>   "I campi di contatto qui sopra sono opzionali e saranno pubblicamente visibili insieme al tuo articolo.",
+              "pub_sum" =>        "Il sommario non dovrebbe essere piu' lungo di 6 righe. Includi anche la durata dei tuoi pezzi video o audio.",
+
+              "pub_art" =>        "Per gli articoli in solo testo, gli indirizzi web verranno automaticamente convertiti in link cliccabili. Puoi anche usare &lt;a href=&quot;indirizzo&quot;&gt;link&lt;/a&gt; in articoli solo testo (altri tag html verranno ignorati a meno che selezioni &quot;html format&quot;).",
+              "pub_mime" =>       "Non selezionare &quot;html format&quot; a meno che non includa tag &lt;p&gt; e/o &lt;br&gt; !!",
+              "pub_cuantofiles" =>"Quanti file devi allegare ?",
+              "sel_categories" => "Categoria",
+              "sel_cattema" => "Categoria tematica",
+              "sel_catlocali" => "Categoria locale",
+              "sel_catinternal" => "internal category",
+              "sel_catevent" => "event category",
+              "sel_catproject" => "project category",
+              "sel_catother" => "other categories",
+              "sel_cathidden" => "hidden category",
+
+// new words since translation was started
+              "select_file" => "Seleziona il file",
+              "comment" => "Commento",
+              "max_upload" => 'Dimensione max file:',
+              "total_limit" => 'Limite totale di dimensioni:',
+              "minutes" => 'tempo di upload in minuti',
+              "accepted_types" => 'Tipi di file accettati:  '.$GLOBALS['accepted_filetypes'],
+              // added by bart (for preview & ...)
+              "preview" => "Anteprima",
+              "preview_warning" => "<b>Se volete visualizzare l'anteprima del vostro articolo, fatelo prima di inserire gli allegati multimediali</b>.",
+              "publish_successful" => 'Il newswire e\' uno spazio a pubblicazione aperta, ma e\' sottoposto ad
+una <a href="http://italy.indymedia.org/news/2002/07/64468.php">Policy</a>:
+un repertorio di limiti che abbiamo stabilito attraverso un
+processo decisionale collettivo e che continuiamo ad aggiornare mentre
+Indymedia cresce. <br>   
+Vogliamo che il newswire resti uno spazio di comunicazione
+aperto a tutt*, per fare informazione indipendente. Se volete proporre una
+discussione o un dibattito alle altre persone che frequentano e fanno
+Indymedia, potete farlo nel <a
+href="http://italy.indymedia.org/index_forum.php">forum</a>.<br><br>   
+
+<b>vengono nascosti</b>:<br>
+- post razzisti, fascisti, sessisti<br>
+- la propaganda commerciale, partitica e istituzionale <br>
+- gli insulti e le provocazioni<br>- i messaggi personali<br>
+- post privi di contenuto informativo: che non aggiungono nessun contributo
+di analisi, informazione, comunicazione<br>
+- i post multipli o vuoti<br>
+- le notizie postate uguali piu\' volte<br><br>
+
+<b> se il contributo che hai appena postato rientra in una di queste
+categorie, probabilmente verra\' nascosto. </b></br><br>
+
+Indymedia si basa sul lavoro volontario e non sempre riusciamo a seguire
+tutto quello che succede sul sito: potete segnalare un post che secondo voi
+deve essere nascosto o reintegrato a: italy-notify@lists.indymedia.org.<br>
+segnalateci i post che meritano di essere linkati nella colonna centrale a:
+italy-editorial@lists.indymedia.org.
+<br><br>
+
+I post nascosti sono sempre consultabili all\'apposito <a
+href="http://italy.indymedia.org/news/?display=f">indirizzo</a>.<br>
+I dati personali vengono editati: abbiamo rispetto della privacy di tutt* e
+copriamo con delle X numeri di telefono, indirizzi privati, etc.
+<br><br>
+
+<a href="http://italy.indymedia.org/news/2002/08/69456.php">partecipa a
+indymedia italia</a><br><br>
+<a href="http://italy.indymedia.org/features/process/">Come funziona indymedia italia</a><bR><br>',
+              "comment_successful" => "<strong>Commento pubblicato!</strong>",
+
+            // for e-mail validation
+              "validate_email" =>   "EMAIL VALIDATION ?",
+              "validate_form" => "Check this box to have an email sent to yourself so that you can validate that you own this email address.",
+              "pub_validation_email" => "Hello,
+              This email is being sent to you because
+              either you or someone posing as you published
+              a story at SITE_NAME using your email address
+              and requested validation of the email address.
+
+              The story in question can be found here:
+              ARTICLE_URL
+
+              If you are the person who published the story
+              please visit the following url:
+              VALIDATIONURL
+              to validate your story. If you did not make
+              this request and think someone is trying to
+              represent themselves as you, feel free to
+              contact the operators of SITE_NAME at
+              ADMIN_EMAIL.
+
+              If you have any other questions or comments
+              please feel free to contact us
+              here at: PUBLIC_EMAIL ",
+              "pub_validation_email_sub" => "[SITE_NAME] Request for article email validation",
+              "validated_ok" => "your post has been validated",
+              "validated_allready" => "this post was allready validated",
+              "validated_error" => "there went something wrong. Maybe you used the wrong url ?",
+              "validation_email_ok" => "The validation email has been sent.",
+              "validation_email_error" => "There was a problem with sending the validation email. did you enter an email address ?",
+
+            // for language stuff
+              "sel_language"  =>  "Select a language",
+              "pub_error_language" => "You have to select a language for this article",
+              );
+?>

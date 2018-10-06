@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - hr - comment latest
+
+$local = array(
+	"file_viewer_info" =>        "Ova stranica slu¾i za pregledavanje i editiranje datoteka u ke¹ folderu. File name je zadat kroz URL. Filter pokazuje samo linije koje sadr¾e zadane kljuène rijeèi; ako je filter ukljuèen nije moguæe snimiti dokument. Prazni filter æe osvje¾iti stranicu i prikazati sve linije (dakle, klik na filter mo¾e se koristiti za osvje¾avanje stranice, a klik na 'refresh' mo¾e zapisati dokument ako je zapisivanje bila tvoja zadnja komanda). Klikni na filter prije uno¹enja izmjena i snimanja jer u protivnom mo¾e¹ pesnimiti preko drugih promjena (u sluèaju log datoteke ovo mo¾e obrisati bilo ¹to ¹to je logirano u vremenu dok si gledao/la stranicu)",
+	"filter" => "filter"
+        );
+
+?>

@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - en - printable
+
+$local = array(
+	"prn_orginal_article" => "Original article is at",
+	"prn_print_comments" => "Print comments.",
+	"prn_hide_comments" => "Hide comments.",
+	"prn_no_id" => "error: can not display the article. no article id.",
+	"prn_no_comments" => "/* no comments */"
+);
+
+?>

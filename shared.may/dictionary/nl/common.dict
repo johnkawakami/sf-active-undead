@@ -1,0 +1,235 @@
+<?php
+// Common dictionary file for eng
+
+$GLOBALS['dict']['imc_network'] = "Indymedia Netwerk";
+$GLOBALS['dict']['about_us'] = "Over ons";
+$GLOBALS['dict']['contact_us'] = "Contacteer ons";
+$GLOBALS['dict']['subscribe_me'] = "Schrijf me in";
+$GLOBALS['dict']['calendar'] = "Agenda";
+$GLOBALS['dict']['publish'] = "Publiceer";
+$GLOBALS['dict']['button_publish'] = "Publiceer";
+$GLOBALS['dict']['search'] = "Zoek";
+$GLOBALS['dict']['text'] = "Tekst";
+$GLOBALS['dict']['image'] = "Afbeelding";
+$GLOBALS['dict']['audio'] = "Audio";
+$GLOBALS['dict']['video'] = "Video";
+$GLOBALS['dict']['other'] = "Andere";
+$GLOBALS['dict']['all'] = "Alle";
+$GLOBALS['dict']['any'] = "Gelijk welke";
+$GLOBALS['dict']['medium'] = "Media";
+$GLOBALS['dict']['traducir'] = "Vertaal";
+$GLOBALS['dict']['refresh_text'] = "Ververs tekst";
+$GLOBALS['dict']['nothing_was_done'] = "Er is niets gebeurd!";
+$GLOBALS['dict']['required'] = "Vereist";
+$GLOBALS['dict']['reorder'] = "Rangschik";
+$GLOBALS['dict']['current'] = "Huidig";
+$GLOBALS['dict']['archived'] = "Opgenomen in archief";
+$GLOBALS['dict']['action_archive'] = "Archief";
+$GLOBALS['dict']['action_hide'] = "Verberg";
+$GLOBALS['dict']['action_display'] = "Toon";
+$GLOBALS['dict']['hidden'] = "Verborgen";
+$GLOBALS['dict']['logon_failed'] = "Je paswoord was verkeerd! Je bent niet ingelogd";
+$GLOBALS['dict']['admin_article'] = "Beheer artikels";
+$GLOBALS['dict']['admin_index'] = "Hoofdmenu";
+$GLOBALS['dict']['edit'] = "Wijzig";
+$GLOBALS['dict']['id'] = "ID nummer";
+$GLOBALS['dict']['created'] = "Aangemaakt";
+$GLOBALS['dict']['modified'] = "Gewijzigd";
+$GLOBALS['dict']['title'] = "Titel";
+$GLOBALS['dict']['author'] = "Auteur";
+$GLOBALS['dict']['email'] = "E-mail";
+$GLOBALS['dict']['link'] = "URL";
+$GLOBALS['dict']['address'] = "Adres";
+$GLOBALS['dict']['phone'] = "Telefoon";
+$GLOBALS['dict']['category_list'] = "Overzicht categorie&euml;n";
+$GLOBALS['dict']['mimetype'] = "Mime type";
+$GLOBALS['dict']['textmime'] = "HTML/Tekst";
+$GLOBALS['dict']['displaystat'] = "Toon status";
+$GLOBALS['dict']['parent_id'] = "Parent ID";
+$GLOBALS['dict']['mediafile'] = "Mediabestand";
+$GLOBALS['dict']['summary'] = "Samenvatting";
+$GLOBALS['dict']['article'] = "Artikel";
+$GLOBALS['dict']['status_hidden'] = "Verborgen"; 
+$GLOBALS['dict']['status_local'] = "Lokaal";
+$GLOBALS['dict']['status_display'] = "Andere";
+$GLOBALS['dict']['status_global'] = "Globaal";
+$GLOBALS['dict']['status_both'] = "Lokaal & globaal";
+$GLOBALS['dict']['user_add'] = "Voeg gebruiker toe";
+$GLOBALS['dict']['delete'] = "Verwijder";
+$GLOBALS['dict']['username'] = "Gebruikersnaam";
+$GLOBALS['dict']['password'] = "Wachtwoord";
+$GLOBALS['dict']['insecure_pass_msg'] = "Jouw wachtwoord is onveilig.";
+$GLOBALS['dict']['secure_pass_desc'] = "Een veilig wachtwoord is minstens 6 karakters lang en bevat zowel letters, hoofletters als cijfers";
+$GLOBALS['dict']['secure_pass_desc2'] = "Je bent verplicht een veilig wachtwoord in te voeren";
+$GLOBALS['dict']['first_name'] = "Voornaam";
+$GLOBALS['dict']['last_name'] = "Naam";
+$GLOBALS['dict']['save'] = "Bewaar";
+$GLOBALS['dict']['copy'] = "Kopieer";
+$GLOBALS['dict']['order_number'] = "Nummer volgorde";
+$GLOBALS['dict']['comment_pub_one'] = "STAP EEN: VUL INFORMATIE IN";
+$GLOBALS['dict']['comment_pub_two'] = "STAP TWEE: VUL REACTIE IN";
+$GLOBALS['dict']['comment_pub_three'] = "STAP DRIE: VOEG BESTAND TOE";
+$GLOBALS['dict']['optional'] = "Optioneel"; 
+$GLOBALS['dict']['select_a_category'] = "Selecteer een categorie";
+$GLOBALS['dict']['select_a_local_category'] = "Selecteer een lokale categorie";
+$GLOBALS['dict']['select_a_thematic_category'] = "Selecteer een thematische categorie";
+$GLOBALS['dict']['select_a_internal_category'] = "Selecteer een interne categorie";
+$GLOBALS['dict']['select_a_event_category'] = "Selecteer een evenementscategorie";
+$GLOBALS['dict']['select_a_project_category'] = "Selecteer een project categorie";
+$GLOBALS['dict']['select_a_other_category'] = "Selecteer een andere categorie";
+$GLOBALS['dict']['select_a_hidden_category'] = "Selecteer een verborgen categorie";
+
+
+
+// have to include archive stuff here :
+$GLOBALS['dict']['local_information'] = "Deze pagina is gelinkt aan het archief met middenkolom-features.";
+$GLOBALS['dict']['local_click_on_week'] = "Kies een week om het archief van die week te zien.";
+$GLOBALS['dict']['archive_id'] = "single feature archives";
+$GLOBALS['dict']['archive_index'] = "volledige feature-archieven";
+$GLOBALS['dict']['archive_week'] = "wekelijkse archieven";
+$GLOBALS['dict']['archive_date'] = "archieven geordend op datum";
+$GLOBALS['dict']['archive_id'] = "single feature archiven";
+$GLOBALS['dict']['archive_title2'] = "Titel van feature";
+$GLOBALS['dict']['archive_display_date'] = "Datum";
+$GLOBALS['dict']['archive_findweek'] = "Vind oudere archieven voor een bepaalde week";
+$GLOBALS['dict']['next_archive_page'] = "volgende pagina";
+$GLOBALS['dict']['prev_archive_page'] = "vorige pagina";
+$GLOBALS['dict']['prev_archive_week'] = "vorige week";
+$GLOBALS['dict']['next_archive_week'] = "volgende week";
+$GLOBALS['dict']['archive_navmonths'] = "browse per maand";
+$GLOBALS['dict']['archive_navdate'] = "browse door alle features geordent op datum";
+$GLOBALS['dict']['archive_navid'] = "browse door alle single feature-archieven";
+$GLOBALS['dict']['archive_home'] = "voorpagina";
+$GLOBALS['dict']['search_by_keyword'] = "trefwoord";
+$GLOBALS['dict']['search_by_author'] = "auteur";
+$GLOBALS['dict']['view_article_wo_comment'] = "Bekijk artikel zonder reacties";
+$GLOBALS['dict']['your_story_is'] = "Jouw verhaal is";
+$GLOBALS['dict']['html_article'] = "HTML artikel";
+$GLOBALS['dict']['image_file'] = "Afbeelding bestand";
+$GLOBALS['dict']['pdf_file'] = "PDF bestand";
+$GLOBALS['dict']['smil_file'] = "SMIL bestand";
+$GLOBALS['dict']['mpeg_video_file'] = "MPEG video bestand";
+$GLOBALS['dict']['realaudio_file'] = "RealAudio bestand";
+$GLOBALS['dict']['mp3_stream'] = "MP3 stream";
+$GLOBALS['dict']['mp3_playlist'] = "MP3 Afspeellijst";
+$GLOBALS['dict']['realaudio_metafile'] = "RealAudio metabestand";
+$GLOBALS['dict']['wm_audio_file'] = "Windows Media Audio bestand";
+$GLOBALS['dict']['mp3_file'] = "MP3 bestand";
+$GLOBALS['dict']['realvideo_file'] = "RealVideo bestand";
+$GLOBALS['dict']['quicktime_file'] = "Quicktime bestand";
+$GLOBALS['dict']['avi_file'] = "AVI Video bestand";
+$GLOBALS['dict']['realvideo_metafile'] = "RealVideo metabestand";
+$GLOBALS['dict']['wm_file'] = "Windows Media Audio bestand";
+$GLOBALS['dict']['wav_file'] = "Wav bestand";
+$GLOBALS['dict']['error_detected'] = "ER GING IETS FOUT -- PROBEER HET NOG EEN KEER";
+$GLOBALS['dict']['fill_out_form_right'] = "Ga na of je het formulier correct hebt ingevuld";
+$GLOBALS['dict']['pub_error_title'] = "Je hebt het titelveld niet ingevuld";
+$GLOBALS['dict']['pub_error_author'] = "Je hebt het auteursveld niet ingevuld";
+$GLOBALS['dict']['pub_error_summary'] = "Je hebt het samenvattingsveld niet ingevuld";
+$GLOBALS['dict']['pub_error_long_summary'] = "Je samenvatting is te lang -- kort het wat in";
+$GLOBALS['dict']['pub_error_upload'] = "Je moet een artikel invoeren of een mediabestand uploaden";
+$GLOBALS['dict']['pub_error_long_upload'] = "Je kan maximaal 20 bestanden per keer uploaden!";
+$GLOBALS['dict']['pub_error_file'] = "Het type bestand dat uploadde; wordt niet ondersteund -- probeer het nog een keer";
+$GLOBALS['dict']['pub_error_where_file'] = "Je hebt geen afbeelding geupload";
+$GLOBALS['dict']['pub_error_select_file'] = "Je hebt het titelveld voor de upload niet ingevuld";
+$GLOBALS['dict']['there_were'] = "Er werden";
+$GLOBALS['dict']['files_detected'] = "bestand(en) gevonden";
+
+// new words since translation was started
+$GLOBALS['dict']['single_comment'] = "commentaar";
+$GLOBALS['dict']['plural_comment'] = "commentaren";
+$GLOBALS['dict']['arttype'] = "Soort artikel";
+$GLOBALS['dict']['year'] = 'Jaar';        
+$GLOBALS['dict']['month'] = 'Maand';      
+$GLOBALS['dict']['day'] = 'Dag';
+$GLOBALS['dict']['spam_message']= "Je kan op dit moment niet publiceren wegens een hoge belasting van de server, een database probleem of vanwege spam";
+$GLOBALS['dict']['newswire'] = 'nieuwslijn';
+$GLOBALS['dict']['view_current'] = 'Bekijk de huidige features';
+$GLOBALS['dict']['regen_article'] = 'Herschrijf de gecachte artikels';
+$GLOBALS['dict']['start_id'] = 'ID van het eerste artikel';
+$GLOBALS['dict']['max_to_gen'] = 'Aantal te herschrijven';
+$GLOBALS['dict']['regenerate'] = 'Herschrijf';
+
+// added by blicero for italy branching :)
+$GLOBALS['dict']['reason'] = 'Reden';
+$GLOBALS['dict']['additional_reason'] = 'Voeg commentar toe bij de reden om te verijwderen (als je die hebt)';
+
+//added bu blicero for admin
+$GLOBALS['dict']['admincategories'] =              "CATEGORIE&Euml;N";
+$GLOBALS['dict']['adminarticles'] =              "ARTIKELS";
+$GLOBALS['dict']['admincalendar'] =              "KALENDER";
+$GLOBALS['dict']['adminupload'] =              "UPLOAD";
+$GLOBALS['dict']['admingraphics'] =              "CSS, INCLUDE, TEMPLATE, PAGES";
+$GLOBALS['dict']['adminxml'] =              "RSS / XML";
+$GLOBALS['dict']['adminloggedin'] =              "Gebruiker ingelogd als";
+$GLOBALS['dict']['adminlogout'] =              "UITLOGGEN";
+$GLOBALS['dict']['adminusers'] =              "GEBRUIKERS";
+$GLOBALS['dict']['adminemail'] =              "EMAIL";
+$GLOBALS['dict']['adminstats'] =              "SITE GEBRUIK";
+$GLOBALS['dict']['adminnextip'] =              "IPS DIE GEBLOKKEERD WORDEN";
+$GLOBALS['dict']['adminiplog'] =              "IP LOG";
+$GLOBALS['dict']['adminipblock'] =              "GEBLOKKEERDE IP'S LOG";
+$GLOBALS['dict']['adminlatestcomments'] =              "RECENSTE COMMENTAREN";
+$GLOBALS['dict']['admincities'] =              "STEDEN";
+$GLOBALS['dict']['adminsite'] =              "Beheer de site";
+$GLOBALS['dict']['adminviewsite'] =              "Bekijk de site";
+$GLOBALS['dict']['adminspam'] =              "SPAM";
+$GLOBALS['dict']['admindossier'] =              "DOSSIERS";
+$GLOBALS['dict']['adminlanguage'] =	    "TALEN";
+
+// added by blicero for mail2admin
+$GLOBALS['dict']['admin_hiding_message'] =      "melding van wijziging status artikel";
+$GLOBALS['dict']['edited_by'] =         "Bewerkt door";
+
+//added by blicero to show automatically subpage listing
+$GLOBALS['dict']['features'] = "Features";
+$GLOBALS['dict']['latest_news'] = "Recentste nieuws";
+$GLOBALS['dict']['commentary'] = "commentaren";
+$GLOBALS['dict']['syndication'] = "syndication";
+$GLOBALS['dict']['resources'] = "Maak media";
+$GLOBALS['dict']['participate'] = "participeer";
+$GLOBALS['dict']['archives'] = "archieven";
+$GLOBALS['dict']['chat'] = "chat";
+$GLOBALS['dict']['donate'] = "doneer";
+$GLOBALS['dict']['latest_newswire'] = "Recenste nieuwslijn";
+$GLOBALS['dict']['publish_your_news'] = "Publiceer !!";
+$GLOBALS['dict']['view_latest_comments'] = "Recenste commentaren";
+$GLOBALS['dict']['view_hidden_posts'] = "Verborgen artikels";
+
+// added by gek for sfactive website
+$GLOBALS['dict']['download'] = "download";
+$GLOBALS['dict']['documentation'] = "documentatie";
+$GLOBALS['dict']['support'] = "ondersteuning";
+$GLOBALS['dict']['servers'] = "servers";
+$GLOBALS['dict']['bugs'] = "bugs";
+$GLOBALS['dict']['irc'] = "irc";
+$GLOBALS['dict']['links'] = "links";
+
+
+// for syndication index
+$GLOBALS['dict']['art_feat'] = "Artikels en features" ;
+
+// for i18n of leftcatlisting
+$GLOBALS['dict']['m_category_left'] = "categorie&euml;n";
+$GLOBALS['dict']['t_category_left'] = "tematische categorie&euml;n";
+$GLOBALS['dict']['l_category_left'] = "lokale collectieven";
+$GLOBALS['dict']['i_category_left'] = "process categorie&euml;n";
+$GLOBALS['dict']['e_category_left'] = "evenements categorie&euml;n";
+$GLOBALS['dict']['p_category_left'] = "project categorie&euml;n";
+$GLOBALS['dict']['o_category_left'] = "andere categorie&euml;n";
+
+// for email validation
+$GLOBALS['dict']['article_validated'] = "(email adress bevestigd)";
+$GLOBALS['dict']['article_not_validated'] = "";
+
+// for gallery - resizes
+$GLOBALS['dict']['latest_uploads'] = "recenste multimedia";
+
+// admin stuff -- mtoups
+$GLOBALS['dict']['lastlogin'] = "Last Login";
+
+// language stuff
+$GLOBALS['dict']['language'] =   "TAAL";
+$GLOBALS['dict']['select_a_language'] =  "kies een taal";
+
+?>

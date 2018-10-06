@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - it - disclaimer
+
+$local = array(
+	"privacy" => "Privacy",
+	"disclaimer" => "Disclaimer"
+);
+
+?>

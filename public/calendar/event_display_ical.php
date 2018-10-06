@@ -1,4 +1,5 @@
 <?php
+include 'shared/vendor/autoload.php';
 
 include_once("shared/global.cfg");
 

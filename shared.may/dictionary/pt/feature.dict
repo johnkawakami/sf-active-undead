@@ -1,0 +1,39 @@
+<?php
+// Dictionary file - es - feature
+
+$local = array(
+                "no_features_to_edit" =>    "Não há Editoriais para editar!",
+                "features_edit" =>          "Editar este Editorial",
+                "feature_story_edit" =>     "Editar esta sinopse",
+                "feature_story_add" =>      "Adicionar Artigo",
+                "feature_title1" =>         "Pequeno Título de Link",
+                "feature_title2" =>         "Título Maior a ser mostrado",
+                "template_name" =>          "Nome do Modelo",
+                "order_num" =>              "Número da Ordem",
+                "status" =>                 "Status",
+                "feature_list" =>           "Lista de sinopses",
+                "feature_all_versions" =>   "Ver artigo desta sinopse",
+		"feature_history" =>        "Artigo deste Editorial",
+                "feature_history_inst" =>   "Clique em uma versão para editar e and coloque novamente a versão antiga.",
+                "feature_modifier" =>       "Última modificação",
+                "feature_test" =>           "Ver Página de Teste",
+                "feature_preview" =>        "Previsão de como ficará e Editorial (contém link para salvar)",
+                "story_version_id" =>       "ID da versão da Sinopse",
+                "feature_version_num" =>    "Número da Versão",
+                "feature_display_date" =>   "Mostrar Data",
+                "feature_image_url" =>      "URL da Imagem",
+                "feature_alt_tag" =>        "Alt Tag",
+                "story_index_for" =>        "Index para",
+                "story_index_inst" =>       "Clique no título para editar um artigo existente",
+                "feature_id_number" =>      "Número da ID",
+                // 07 sep 03
+                "no_template_defined" =>    "<br><h3>No template was defined for this feature</h3><br>",
+		"test"              =>      "test",
+
+                // language stuff
+                "language"          =>      "language",
+                "select_a_language" =>      "select a language",
+
+                );
+
+?>

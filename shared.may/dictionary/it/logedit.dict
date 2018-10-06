@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - it - logedit
+
+$local = array(
+	"logedit" => "Gestione grafica sito",
+	"logedit_info" =>        "Questa pagina serve a scegliere quale include, template o css editare o visualizzare, e per creare nuovi template, include e css. Utilizzare con cautela.",
+	"filter" => "filtra",
+	"include_create" => "crea un nuovo include",
+	"template_create" => "crea un nuovo template",
+	"css_create" => "crea un nuovo css",
+        "page_create" => "Crea una nuova pagina per al sezione process",
+	"submit_include" => "crea"	
+        );
+
+?>

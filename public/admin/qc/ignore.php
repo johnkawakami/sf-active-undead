@@ -1,4 +1,5 @@
 <?php
+include 'shared/vendor/autoload.php';
 	
 $display=true;
 include('shared/global.cfg');
@@ -14,11 +15,11 @@ if (!filter_var($ip,FILTER_VALIDATE_INT)) {
 }
 
 
-$db = new DB();
+$db = new SFACTIVE\DB();
 
-$db->execute_statement("INSERT INTO qcrank (ip,score,lastIgnoreDate) VALUES ($ip,-1,NOW()) ON DUPLICATE KEY UPDATE score=score-1,lastIgnoreDate=NOW()");
-$db->execute_statement("DELETE FROM qc WHERE id=$id");
-$db->execute_statement("INSERT INTO qcok (id) VALUES ($id)");
+$db->execute("INSERT INTO qcrank (ip,score,lastIgnoreDate) VALUES ($ip,-1,NOW()) ON DUPLICATE KEY UPDATE score=score-1,lastIgnoreDate=NOW()");
+$db->execute("DELETE FROM qc WHERE id=$id");
+$db->execute("INSERT INTO qcok (id) VALUES ($id)");
 
 print "reports for $id are now ignored";
 
@@ -34,4 +35,3 @@ print "<p><a href=/admin/qc>continue</a></p>";
 //-----------------------------------------
 include('../admin_footer.inc');
 
-?>

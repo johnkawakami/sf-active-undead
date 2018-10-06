@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 // displays a list of features for a given category
 
 $display=true;

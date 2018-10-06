@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 // This reorders the languages in the table language.
 // The select_language.inc file is ordered on the ordernumbers.
 

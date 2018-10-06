@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include('shared/vendor/autoload.php');
+
 include_once("shared/global.cfg");
 include_once(SF_CLASS_PATH."/spamc_class.inc");
 define("TAGS_CACHE_PATH", SF_CACHE_PATH.'/tags/');
@@ -28,15 +30,15 @@ function build_tags_list($article) {
 }
 function insert_tag_article($word,$article_id,$density) {
 	global $db;
-	$word = $db->quote($word);
-	$tags = $db->query("SELECT id FROM tags WHERE name=$word");
-	if ($tags[0]['id']===NULL) {
-		$db->execute_statement("INSERT INTO tags (name) VALUES ($word)");
-		$tags = $db->query("SELECT id FROM tags WHERE name=$word");
+	$tag_id = $db->queryFetchOne("SELECT id FROM tags WHERE name=:word", [':word'=>$word] );
+	if ($tag_id===NULL) {
+		$db->insert("INSERT INTO tags (name) VALUES (:word)", [':word'=>$word] );
+		$tags = $db->query("SELECT id FROM tags WHERE name=:word", [':word'=>$word] );
 	}
-	$tag_id = $tags[0]['id'];
-	$db->execute_statement("INSERT INTO tags_articles (tag_id,article_id,density) VALUES ($tag_id,$article_id,$density)");
+	$db->insert("INSERT INTO tags_articles (tag_id,article_id,density) VALUES (:tag_id,:article_id,:density)", 
+		    [':tag_id'=>$tag_id, ':article_id'=>$article_id, ':density'=>$density] );
 }
+
 function get_tags_for_article($id) {
   global $db;
   if (!preg_match('/^[0-9]{1,7}$/', $id)) die();
@@ -69,7 +71,7 @@ function get_tag_by_name($name) {
   if (!preg_match('/^[a-z0-9 ]+$/i', $name)) die(); //matches only alphanumerics and space
   $tag = $db->query("SELECT id, tags.name AS tag, tags.ignore AS ig, tags.synonym AS syn FROM tags WHERE tags.name='$name'");
 	if (count($tag)==0) {
-	    $db->execute_statement("INSERT INTO tags (name) VALUES ('$name')");
+	    $db->insert("INSERT INTO tags (name) VALUES ('$name')");
         $tag = $db->query("SELECT id, tags.name AS tag, tags.ignore AS ig, tags.synonym AS syn FROM tags WHERE tags.name='$name'");
 	}
 	return $tag[0];

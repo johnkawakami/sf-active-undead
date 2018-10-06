@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - en - page viewer
+
+$local = array(
+	"page_viewer_info" =>        "Ova strana se koristi za promenu process-a ...........",
+	"filter" => "filter",
+	"search_string" => "Lista za pretragu",
+	"insertname" => "Unesite ime za novi css",
+	"errorpage" => "Uneli ste loš naziv za stranu. Probajte ponovo",
+        "filename_header" => "Napravite novi process pagecss");
+
+
+?>

@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - en - event_add
+
+$local = array(
+	"cal_calendar" => "Calendário",
+	"cal_spam_block" => "Você foi banido deste site por spam",
+	"cal_error_event_add" => "Ocorreu um erro ao adicionar seu evento. Confira se todos os campos obrigatórios estão preenchidos e se a data e hora são válidos",
+	"cal_error_event_title" => "Sem um título, seu evento não pode ser adicionado. Coloque um!",
+	"cal_error_event_delete" => "Não foi possível deletar o evento, seu número de confirmação é inválido",
+	"cal_error_event_id" => "A ID do evento na página é inválida"
+);
+
+?>

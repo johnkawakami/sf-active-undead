@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - es - upload_display_add
+
+$local = array(
+               "upload_subtitle" =>    "subir im&aacute;genes",
+               "file_to_upload" =>     "elige el archivo",
+               "location_upload" =>    "elegir ubicación",
+               "over_write" =>         "reemplazar archivos con el mismo nombre",
+               "browse_images" =>      "buscar im&aacute;genes",
+               "image_exists_error" => "¡la imagen ya existe!",
+               "image_cannot_move" =>  "¡no se pudo mover!",
+               "image_uploaded" =>     "¡imagen subida al servidor!"
+              );
+
+?>

@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - en - page viewer
+
+$local = array(
+	"page_viewer_info" =>        "Questa pagina e' usata per editare una pagina della sezione process ...........",
+	"filter" => "Filtra",
+	"search_string" => "Parole chiave",
+	"insertname" => "Inserisci un nome per la nuova pagina",
+	"errorpage" => "Hai inserito un nome non valido. Riprova.",
+        "filename_header" => "Crea una nuova pagina per la sezione process");
+
+
+?>

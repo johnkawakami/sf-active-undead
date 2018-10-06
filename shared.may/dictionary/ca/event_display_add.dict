@@ -1,0 +1,56 @@
+<?php
+// Dictionary file - ca - event_display_week
+
+$local = array(
+	"cal_calendar" => "Calendari",
+	"cal_week" => "Setmana",
+	"cal_error_event_add" => "Hi ha hagut un error afegint l'event. Assegura't d'haver emplenat tots els camps i que la data sigui vàlida",
+	"cal_error_event_title" => "Sense el títol no es pot afegir l'event.",
+	"cal_error_event_delete" => "No podem esborrar l'event, potser el número de confirmació no és vàlid",
+	"cal_error_event_id" => "L'id de l'event a la url és invàlid",
+	"cal_confirm_add_page" => "Confirmació afegir pàgina",
+	"cal_your_confirm" => "El teu número de confirmació és",
+	"cal_need_confirm" => "Necessitaràs aquest número per actualitzar o esborrar aquest event.",
+	
+	"cal_conf_no" => "Número de confirmació",
+	"cal_title" => "TÍTOL",
+	"cal_return_to_calendar" => "Retornar al calendari",
+
+	"cal_start_date" => "DATA D'INICI",
+	"cal_start_time" => "HORA D'INICI",
+	"cal_duration" => "Duració",
+	"cal_location" => "Lloc",
+	"cal_event_type" => "Tipus d'event",
+	"cal_event_topic" => "Tema de l'event",
+	"cal_contact_name" => "Nom de contacte",
+	"cal_contact_email" => "Email de contacte",
+	"cal_contact_phone" => "Telèfon de contacte",
+	"cal_description" => "DESCRIPCIÓ",
+
+	
+	"cal_update" => "Actualització",
+	"cal_add" => "Afegir",
+	"cal_location_details" => "Detalls de localització",
+	"cal_return_to_event" => "Retornar als detalls de l'event",
+	"cal_enter_confirm" => "Siusplau entra el número de confirmació per aquest event per esborrar-lo",
+	"cal_delete" => "Esborrar",
+	"cal_hours" => "Hores",
+	"cal_end_date" => "Data final",
+	"cal_display_details" => "Mostra detalls",
+	"cal_view_events" => "Veure events",
+	"cal_previous_week" => "Setmana anterior",
+	"cal_next_week" => "Propera setmana",
+	"cal_week_of" => "Setmana de",
+	"cal_add_an_event" => "Afegir un event",
+	"cal_view_all_months" => "Veure tots els mesos",
+	"cal_list_future_events" => "Llistar events futurs",
+	"cal_filter_by_topic" => "Filtrar per topic",
+	"cal_filter" => "Filtrar",
+	"cal_no_events" => "No hi ha events per aquesta setmana.",
+	"cal_error_event_update_title" => "Els events han de tenir un títol per poder-los desar",
+	"cal_error_event_update" => "No es pot actualitzar l'event, potser el teu número de confirmació és invàlid",
+        "language" =>   "LANGUAGE",
+        "select_a_language" =>  "select a language",
+        "cal_error_language" => "you have to choose a language for your event",
+
+);

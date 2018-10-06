@@ -1,0 +1,61 @@
+<?php
+// Dictionary file - pt - publish
+
+$local = array(
+              "pub_stepone" =>    "Primeiro Passo: Coloque uma introdução do Artigo",
+              "pub_steptwo" =>    "Segundo Passo: Coloque o texto do Artigo",
+              "pub_stepthree" =>  "Terceiro Passo: Enviar arquivo(s)",
+	      "attach_a_file"=>   "Enviar arquivo(s)",
+              "pub_author" =>     "Autor/Produtor",
+              "pub_url" =>        "Endereço Web",
+              "pub_artmime" =>    "Texto ou HTML",
+              "pub_optional" =>   "opcional",
+              "pub_sum" =>        "A introdução não deve ter mais de 6 linhas. Por favor inclua a duração de arquivos de audio/vídeo.",
+              "pub_art" =>        'Para os artigos em texto normal, as urls vão serconvertidas a links que podem ser "clickados". Você pode igualmente usar &lt;a href=&quot;URL&quot;&gt;LINK&lt;/a&gt; em artigos de texto normal (outras tags vão ser ignoradas a menos que selecciones &quot;html format&quot;).',
+              "pub_mime" =>       "Não selecione &quot;html format&quot; ao menos que você tenha incluido &lt;p&gt; e/our &lt;br&gt; tags!!",
+              "pub_cuantofiles" =>"Quantos arquivos você vai enviar?",
+              "sel_categories" => "Categoria",
+
+              // added by bart (for preview & ...)
+              "preview" => "Preview",
+              "preview_warning" => "<b>If you wish to use the preview, do it before you enter the uploads</b>.",
+              "publish_successful" => "<strong>Publish successful! We have added your story to the newswire.</strong>",
+              "comment_successful" => "<strong>Comment added!</strong>",
+
+            // for e-mail validation
+              "validate_email" =>   "EMAIL VALIDATION ?",
+              "validate_form" => "Check this box to have an email sent to yourself so that you can validate that you own this email address.",
+              "pub_validation_email" => "Hello,
+              This email is being sent to you because
+              either you or someone posing as you published
+              a story at SITE_NAME using your email address
+              and requested validation of the email address.
+
+              The story in question can be found here:
+              ARTICLE_URL
+
+              If you are the person who published the story
+              please visit the following url:
+              VALIDATIONURL
+              to validate your story. If you did not make
+              this request and think someone is trying to
+              represent themselves as you, feel free to
+              contact the operators of SITE_NAME at
+              ADMIN_EMAIL.
+
+              If you have any other questions or comments
+              please feel free to contact us
+              here at: PUBLIC_EMAIL ",
+              "pub_validation_email_sub" => "[SITE_NAME] Request for article email validation",
+              "validated_ok" => "your post has been validated",
+              "validated_allready" => "this post was allready validated",
+              "validated_error" => "there went something wrong. Maybe you used the wrong url ?",
+              "validation_email_ok" => "The validation email has been sent.",
+              "validation_email_error" => "There was a problem with sending the validation email. did you enter an email address ?",
+
+            // for language stuff
+              "sel_language"  =>  "Select a language",
+              "pub_error_language" => "You have to select a language for this article",
+              );
+
+?>

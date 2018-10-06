@@ -1,0 +1,21 @@
+<?php
+// Dictionary file - en - calendar
+
+$local = array(
+                "admin_calendar" =>             "Spravovanie kalendára",
+                "enter_event_id" =>             "Identifikaèné èíslo udalosti pre ktorú potrebuješ konfirmaèné èíslo",
+                "hint_event_id" =>              "Identifikaèné èíslo udalosti môže by nájdené v jej URL",
+                "event_found" =>                "Udalos nájdené pre identifikaèné èíslo udalosti",
+                "conf_no" =>                    "Konfirmaèné èíslo",
+                "find" =>                       "vyhladanie",
+                "event_up" =>                   "Udalosti boli obnovené.",
+                "lookup_conf" =>                "Vyhladaj identifikaèné èíslo udalosti",
+                "regen_event" =>                "Obnov cached (uložené) HTML",
+                "location" =>                   "Location",
+                "event_type" =>                 "Event Type",
+                "event_topic" =>                "Event Topic",
+                "enter_event2_id" =>            "Enter the ID-number of the event you want to edit",
+
+                );
+
+?>

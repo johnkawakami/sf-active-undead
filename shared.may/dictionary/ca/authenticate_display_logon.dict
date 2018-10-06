@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - es - authenticate_display_logon
+
+$local = array(
+              "admin_enter" =>    "Entrada al panell d'Administració",
+              "return_to_site" => "Retorna al site"
+              );
+?>

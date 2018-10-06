@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - hr - comment latest
+
+$local = array(
+	"latest_comment_text" =>        "Ovo je popis poslijednjih komentara ostavljenih na stranicama. Postavljena je kako bi olak¹ao sudjelovanje u komentiranju èlanaka i nastavljanju veæ zapoèete diskusije. Pogledaj i ",
+	"most_commented" =>        "najèe¹æe komentirane èlanke",
+        "latest_author" =>     "POSLIJEDNJI AUTOR",
+        "posted_at" =>   "POSLANO U",
+	"browse_older_threads" =>        "Pregledaj starije rasprave &gt;&gt;",
+// Added after translation
+        "thread" =>          "RASPRAVA"
+        );
+
+?>

@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - en - printable
+
+$local = array(
+	"prn_orginal_article" => "Haberin adresi: ",
+	"prn_print_comments" => "Yorumlar&#305; yazd&#305;r.",
+	"prn_hide_comments" => "Yorumlar&#305; gizle.",
+	"prn_no_id" => "hata: haber g&ouml;r&uuml;nt&uuml;lenemiyor.",
+	"prn_no_comments" => "/* yorum yok */"
+);
+
+?>

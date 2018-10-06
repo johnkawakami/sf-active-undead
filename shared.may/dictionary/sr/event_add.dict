@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - en - event_add
+
+$local = array(
+	"cal_calendar" => "Kalendar",
+	"cal_spam_block" => "Èini mi se da ste blokirani na ovom sajtu zbog spemiranja",
+	"cal_error_event_add" => "Postoji greška u vašem dogaðaju. Proverite da li ste uneli sva polja korektno.",
+	"cal_error_event_title" => "Bez naslova ne možete uneti dogaðaj. Dodajte naslov!",
+	"cal_error_event_delete" => "Ne mogu da obrišem dogaðaj, možda je vaš potvrdni broj pogrešan",
+	"cal_error_event_id" => "ID dogadjaja u URL adresi je netaèan"
+);
+
+?>

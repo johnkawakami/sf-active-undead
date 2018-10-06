@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 //This file is responsible for accepting a submission
 //from the logon form and redirecting depending on success
 //The includes for this file are not the standard includes for

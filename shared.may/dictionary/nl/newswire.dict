@@ -1,0 +1,32 @@
+<?php
+// Dictionary file - nl - newswire
+$local = array(
+		"category" =>          "Categorie",
+		"sortby" =>          "Sorteer op",
+		"newest" =>          "Nieuwste",   
+		"reverse" =>          "Omgekeerd",
+		"modified" =>         "Bewerkt",
+		"rank" =>         "Rangschik",
+// Added after translation
+                "go" => "Go!",
+                "keyword" => "Sleutelwoord",
+                "comments" => "Commentaren",
+                "no_summaries" => "Geen samenvattingen",
+// ful i18n
+		"no_newswire" => "&#149; FOUT: Deze category is niet ingesteld om nieuwslijnen te bevatten<br />",
+		"newswire_refreshed_for" => "&#149; Standaard nieuwslijn ververst voor categorie ",
+		"refreshed_all" => "&#149; Alle nieuwslijnen ververst voor categorie ",
+		"unable_to_determine" => "&#149; Onmogelijk om het type te bepalen.<br />",
+
+// upgrading some old $lang_
+                "date_warning" => "Ongeldige datum zoekopdracht! Je moet een dag, een maand en een jaar specifi&euml;ren", 
+                "hidden_warning" => "Dubbele, test en verborgen artikels",
+                "no_results" => "Geen artikels gevonden!",
+                "search_suggestion" => "Probeer je zoekopdracht te beperken tot een kortere zin of &eacute;&eacute;n enkel woord.",
+		"more_stories" =>       "meer artikels",
+		"newer_stories" =>      "recentere artikels",
+		"select_a_language" =>	"selecteer een taal",
+					 
+
+        );
+?>

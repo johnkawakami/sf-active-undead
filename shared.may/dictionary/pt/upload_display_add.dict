@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - es - upload_display_add
+
+$local = array(
+               "upload_subtitle" =>    "Enviar Imagem",
+	       "file_to_upload" =>     "Arquivo para enviar",
+	       "location_upload" =>    "Endereço URL",
+	       "over_write" =>         "sobrepor arquivo com o mesmo nome",
+	       "browse_images" =>      "mudar imagens",
+	       "image_exists_error" => "imagem existe!",
+	       "image_cannot_move" =>  "Não foi possível mover!",
+	       "image_uploaded" =>     "Imagem enviada!"
+              );
+
+?>

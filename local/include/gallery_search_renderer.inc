@@ -34,6 +34,6 @@ $GLOBALS['dropdown_max_year']=date(Y)+1;
         $search_month .= $event_renderer->create_dropdown($date_renderer->get_months(),$month);
         $search_month .= "</select>";
 ?>
-<form method="get" action="<? echo(SF_UPLOAD_URL.'/') ; ?>">
-    <? echo($search_year." ".$search_month." ".$search_medium." ".$search_category); ?> <input type="submit" name="submit" value="<? echo($sftr->trans('go')); ?>" />
+<form method="get" action="<?php echo(SF_UPLOAD_URL.'/') ; ?>">
+    <?php echo($search_year." ".$search_month." ".$search_medium." ".$search_category); ?> <input type="submit" name="submit" value="<?php echo($sftr->trans('go')); ?>" />
 </form>

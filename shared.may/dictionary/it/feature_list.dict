@@ -1,0 +1,10 @@
+<?php
+// Dictionary file - it - feature_update
+
+$local = array(
+	"features" => "Categorie:",
+	"catclass" => "Questa categoria e' una categoria  ",
+	"feature_overview" => "Elenco delle categorie attive al momento"
+);
+
+?>

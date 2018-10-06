@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - ca - comment latest
+
+$local = array(
+	"file_viewer_info" =>        "Aquesta pàgina serveix per veure i editar un arxiu del directori cache. El no de l'arxiu es dóna a través de la url. El filtre només ensenya línies que contenen les paraules que es donen i no pots grabar si hi ha un filtre aplicat. Un filtre buit refrescerà la pàgina ensenyant tota la pàgina",
+	"filter" => "filtrar"
+        );
+
+?>

@@ -1,0 +1,56 @@
+<?php
+// Dictionary file - en - event_display_week
+
+$local = array(
+	"cal_calendar" => "Kalendár",
+	"cal_week" => "Týžden",
+	"cal_error_event_add" => "Vyskytla sa chyba pri pridávaní udalosti. Skontroluj všetky políèka formulára a správnost dátumu a èasu",
+	"cal_error_event_title" => "Udalost nemôže byt zobrazená bez názvu. Pridaj názov!",
+	"cal_error_event_delete" => "Udalost nemôše by vymazaná, možno že konfirmaèné èíslo je neplatné",
+	"cal_error_event_id" => "Neplatné identifikaèné èíslo udalosti v jej URL",
+	"cal_confirm_add_page" => "Konfirmácia",
+	"cal_your_confirm" => "Tvoje konfirmaèné èíslo je",
+	"cal_need_confirm" => "Toto èíslo je požadované pre editovanie a vymazanie udalosti z kalendára.",
+	
+	"cal_conf_no" => "Konfirmaèné èíslo",
+	"cal_title" => "NÁZOV",
+	"cal_return_to_calendar" => "Návrat do kalendára",
+
+	"cal_start_date" => "Zaèiatoèný dátum",
+	"cal_start_time" => "Zaèiatoèný èas",
+	"cal_duration" => "Trvanie",
+	"cal_location" => "Miesto",
+	"cal_event_type" => "Typ udalosti",
+	"cal_event_topic" => "Téma udalosti",
+	"cal_contact_name" => "Kontakt - meno",
+	"cal_contact_email" => "Kontakt - email",
+	"cal_contact_phone" => "Kontakt - telefón",
+	"cal_description" => "POPIS",
+
+	
+	"cal_update" => "Obnov",
+	"cal_add" => "Pridaj",
+	"cal_location_details" => "Miesto konania",
+	"cal_return_to_event" => "Návrat do popisu udalosti",
+	"cal_enter_confirm" => "Prosím konfirmaèné èíslo pre vymazanie tejto udalosti z kalendára",
+	"cal_delete" => "Vymaž",
+	"cal_hours" => "Hodiny",
+	"cal_end_date" => "Koncový dátum",
+	"cal_display_details" => "Zobraz detaily",
+	"cal_view_events" => "Zobraz udalosti",
+	"cal_previous_week" => "predchádzajúci týžden",
+	"cal_next_week" => "další týžden",
+	"cal_week_of" => "Týžden",
+	"cal_add_an_event" => "Pridaj udalos",
+	"cal_view_all_months" => "Zobraz všetky mesiace ",
+	"cal_list_future_events" => "Zobraz budúce udalosti",
+	"cal_filter_by_topic" => "Filtruj podla témy",
+	"cal_filter" => "Filter",
+	"cal_no_events" => "Ziadne udalosti neboli pridané na tento tížden.",
+	"cal_error_event_update_title" => "Udalosti musia ma názov aby boli uložené",
+	"cal_error_event_update" => "Udalost nemôše by obnovená, možno že konfirmaèné èíslo je neplatné",
+        "language" =>   "LANGUAGE",
+        "select_a_language" =>  "select a language",
+        "cal_error_language" => "you have to choose a language for your event",
+
+);

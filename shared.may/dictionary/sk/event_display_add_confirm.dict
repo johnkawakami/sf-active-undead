@@ -1,0 +1,11 @@
+<?php
+// Dictionary file - en - event_display_add_confirm
+
+$local = array(
+	"cal_calendar" => "Kalendár",
+	"cal_confirm_add_page" => "Konfirmácia",
+	"cal_your_confirm" => "Tvoje konfirmaèné èíslo je",
+	"cal_need_confirm" => "Toto èíslo je požadované pre editovanie a vymazanie udalosti z kalendára.",
+	"cal_return_to_calendar" => "Návrat do kalendára"
+);
+

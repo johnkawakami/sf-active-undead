@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - it - css viewer
+
+$local = array(
+	"css_viewer_info" =>        "Bu sayfada css leri d&uuml;zenleyebilirsiniz...",
+	"filter" => "filtre",
+	"search_string" => "Arama listesi",
+	"insertname" => "Yeni css i&ccedil;in bir isim girin",
+	"errorcss" => "Yanl&#305;&#351; bir css ismi girdiniz. Tekrar deneyin.",
+        "filename_header" => "Yeni css olu&#351;tur");
+
+
+?>

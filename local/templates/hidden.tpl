@@ -14,7 +14,11 @@
 			<p class="media">M_EDIA</p>
 			<p class="article">A_RTICLE</p>
 			<p class="link"><a href="L_INK">C_ROPURL</a></p>
-			<p class="addcomment"><a href="/comment.php?top_id=A_RTID">add your comments</a></p>
+		    <form action="/comment.php" method="get" class="addcomment">
+		     <button>add your comments</button>
+		     <input type="hidden" name="top_id" value="A_RTID" />
+		    </form><br />
+
 	<?php endif; ?>
 </div><br />
 <!-- /TEMPLATE -->

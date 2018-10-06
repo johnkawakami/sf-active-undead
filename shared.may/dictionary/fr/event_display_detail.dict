@@ -1,0 +1,10 @@
+<?php
+// Dictionary file - fr - event_display_week
+
+$local = array(
+	"cal_calendar" => "Calendrier",
+	"cal_return_to_cal" => "Retour au calendrier",
+	"cal_update" => "Modifier",
+	"cal_delete" => "Supprimer"
+);
+

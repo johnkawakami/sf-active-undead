@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - it - template viewer
+
+$local = array(
+	"template_viewer_info" =>        "Ova stranica se koristi za editiranje predlo¾aka ...........",
+	"filter" => "filter",
+	"search_string" => "Lista za pretragu",
+	"insertname" => "Unesi ime novog predlo¹ka",
+	"errortpl" => "Une¹eno ime za predlo¾ak je neodgovarajuæe. Poku¹aj ponovo",
+        "filename_header" => "Kreiraj novi predlo¾ak");
+
+?>

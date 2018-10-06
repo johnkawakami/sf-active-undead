@@ -7,22 +7,15 @@ $isMobile = false;
 $isBot = false;
 $isWap = false;
 
-$server = array_merge($_SERVER, array(
-	'HTTP_X_OPERAMINI_PHONE' => null,
-	'HTTP_USER_AGENT' => null,
-	'HTTP_ACCEPT' => null,
-	'REMOTE_ADDR' => null,
-));
-
-$op = strtolower($server['HTTP_X_OPERAMINI_PHONE']);
-$ua = strtolower($server['HTTP_USER_AGENT']);
-$ac = strtolower($server['HTTP_ACCEPT']);
+$op = strtolower($_SERVER['HTTP_X_OPERAMINI_PHONE']);
+$ua = strtolower($_SERVER['HTTP_USER_AGENT']);
+$ac = strtolower($_SERVER['HTTP_ACCEPT']);
 $ip = $_SERVER['REMOTE_ADDR'];
 
-$isWap = preg_match('/wap/', $ua) || (isset($_GET['wap']) && $_GET['wap']==1);
+$isWap = preg_match('/wap/', $ua) || $_GET['wap']==1;
 
 $isMobile = $isWap 
-|| (isset($_GET['mobile']) && $_GET['mobile']==1)
+|| $_GET['mobile']==1
 || strpos($ac, 'application/vnd.wap.xhtml+xml') !== false
 || $op != ''
 || strpos($ua, 'sony') !== false 
@@ -92,6 +85,5 @@ $isBot =  $ip == '66.249.65.39'
 || strpos($ua, 'chtml generic') !== false
 || strpos($ua, 'nokia6230i/. fast crawler') !== false;
 
-$_GET['mobile'] = isset($_GET['mobile']) ? $_GET['mobile'] : '0';
 if ($_GET['mobile']=='0') $isMobile=false;
 if ($_GET['mobile']=='1') $isMobile=true;

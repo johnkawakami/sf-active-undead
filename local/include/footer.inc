@@ -1,9 +1,6 @@
 <?php if (!$GLOBALS['isMobile']) { ?><!-- footer.inc -->
 <?php 
 
-$left = isset($left) ? $left : '';
-$dev_environment = isset($dev_environment) ? $dev_environment : '';
-
 if ($left=="noleft") {
     echo "<table class=\"bgult\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"> <tr><td><table 
           cellpadding=\"0\" cellspacing=\"1\" border=\"0\">";
@@ -23,6 +20,6 @@ if ($left=="noleft") {
 </small>
 </td></tr></table><!-- </td></tr></table> -->
 
-<? if ($dev_environment==true) { echo "<br /><center><a href=\"http://validator.w3.org/check/referer\">validate html</a> | <a href=\"http://jigsaw.w3.org/css-validator/validator?uri=http://".$HTTP_HOST.$REQUEST_URI."\">validate css</a></center>"; } ?>
+<?php if ($dev_environment==true) { echo "<br /><center><a href=\"http://validator.w3.org/check/referer\">validate html</a> | <a href=\"http://jigsaw.w3.org/css-validator/validator?uri=http://".$HTTP_HOST.$REQUEST_URI."\">validate css</a></center>"; } ?>
 
 </body></html><!-- end footer.inc --><?php } //!isMobile ?>

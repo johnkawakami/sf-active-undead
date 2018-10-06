@@ -1,0 +1,11 @@
+
+<?php
+// Dictionary file - en  - feature_display_copy
+
+$local = array(
+	"copy_action" => "Kopyala",
+	"localsubtitle" => "Bu b&ouml;l&uuml;m&uuml; kopyala",
+	"feature_copy_blurb" => "B&ouml;l&uuml;m&uuml; kopyalayaca&#287;&#305;n&#305;z kategoriyi se&ccedil;iniz:"
+);
+
+?>

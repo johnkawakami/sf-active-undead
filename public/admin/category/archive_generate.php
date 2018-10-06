@@ -1,4 +1,5 @@
-<?
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
 // This file is used to regenerate archived features
 $display=true;
 include('shared/global.cfg');

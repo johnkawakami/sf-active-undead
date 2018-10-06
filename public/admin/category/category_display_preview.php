@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 //This page displays an exmaple page of what the feature will look liek when pushed live
 //this page also includes the link to push the page live
 

@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - en - admin_cities
+$local = array(
+              "admin_refreshing_cities" =>  "Osveži NIMC adrese.",
+              "cities_unavailable" => "Spisak Nezavisnih medijskih centara (IMC) je trenutno iskljuèen.",
+              "die" => "Ne mogu da otvorim XML ulaz",
+              );
+?>

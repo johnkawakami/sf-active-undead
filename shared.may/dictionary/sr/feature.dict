@@ -1,0 +1,38 @@
+<?php
+// Dictionary file - es - feature
+
+$local = array(
+                "no_features_to_edit" =>    "Nema tekstova za promenu!",
+                "features_edit" =>          "Promeni tekstove u kategoriji",
+                "feature_story_edit" =>     "Promeni ovu prièu",
+                "feature_story_add" =>      "Dodaj prièu",
+                "feature_title1" =>         "Skraæeni naslov za link",
+                "feature_title2" =>         "Dugaèki naslov za prikaz",
+                "template_name" =>          "Ime šablona",
+                "order_num" =>              "Broj u redosledu",
+                "status" =>                 "Status",
+                "feature_list" =>           "Lista èlanaka u kategoriji",
+                "feature_all_versions" =>   "Pogledaj sve verzije ovog èlanka",
+		"feature_history" =>        "Istorija ovog èlanka",
+                "feature_history_inst" =>   "Klikni na verziju da je promeniš i povratiš staru verziju.",
+                "feature_modifier" =>       "Poslednji put menjano",
+                "feature_test" =>           "Pogledaj test stranu",
+                "feature_preview" =>        ">>Finalno pregledaj izgled kategorije (SADRŽI LINK ZA OBJAVLJIVANJE NA SAJT!)<<",
+                "story_version_id" =>       "ID verzija prièe",
+                "feature_version_num" =>    "Broj verzije",
+                "feature_display_date" =>   "Prikaži datum",
+                "feature_image_url" =>      "URL slika",
+                "feature_alt_tag" =>        "Alt Tag",
+                "story_index_for" =>        "Indeks za",
+                "story_index_inst" =>       "Klikni na naslov da promeniš postojeæu prièu",
+                "feature_id_number" =>      "ID broj",
+                // 07 sep 03
+                "no_template_defined" =>    "<br><h3>Ni jedan šablon nije definisan za ovaj tekst</h3><br>",
+		"test"              =>      "test",
+                // language stuff
+                "language"          =>      "jezik",
+                "select_a_language" =>      "izaberi jezik",
+
+                );
+
+?>

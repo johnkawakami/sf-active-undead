@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - es - disclaimer
+
+$local = array(
+        "privacy" => "Pol&iacute;tica de privacidad",
+        "disclaimer" => "Declaraci&oacute;n"
+);
+
+?>

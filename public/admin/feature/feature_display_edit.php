@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 //This page displays the HTML for editing or adding a story to a feature.
 //If the id is missing it is an "add" and if it is passed into this page
 //it is an "update"

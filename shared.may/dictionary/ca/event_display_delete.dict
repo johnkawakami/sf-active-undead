@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - ca - event_display_week
+
+$local = array(
+	"cal_enter_confirm" => "Siusplau entra el número de confirmaicó per esborrar aquest article",
+	"cal_return_to_event" => "Retorna al detall de l'event",
+	"cal_conf_no" => "Número de confirmació",
+	"cal_delete" => "Esborrar",
+	"cal_error_event_id" => "L'id de l'vent és invàlid",
+	"cal_error_event_delete" => "No es pot esborrar l'event, potser el teu número de confirmació és invàlid"
+);
+

@@ -1,0 +1,24 @@
+<?php
+// Dictionary file - ca - mailable
+
+$local = array(
+	"prn_original_article" => "L'article original &eacute;s a: ",
+	"original_upload" => "L'arxiu pujat &eacute;s a: ",
+	"prn_print_comments" => "Ensenya comentaris.",
+	"prn_hide_comments" => "Amaga comentaris.",
+	"prn_no_id" => "error: no es pot mostrar l'article. ID incorrecte",
+	"prn_no_comments" => "/* sense comentaris */",
+	"fromaddress" => "Direcci&oacute; origen",
+	"toaddress" => "Direcci&oacute; dest&iacute;",
+	"subject" => "Assumpte",
+	"commentmail" => "Comentari d'introducci&oacute;",
+	"submit_email" => "Enviar correu",
+	"from_is_not_mail" => "Adre&ccedil;a origen invalida!",
+	"to_is_not_mail" => "Adre&ccedil;a dest&iacute; invalida!",
+	"subject_is_too_long" => "Assumpte massa llarg!",
+	"subject_is_null" => "Has d'escriure l'assumpte!",
+	"comment_is_too_long" => "Comentari massa llarg!",
+	"notice" => "Per copyright i pol&iacute;tica de priva&ccedil;itat escriure a: "
+);
+
+?>

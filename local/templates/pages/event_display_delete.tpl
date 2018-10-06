@@ -6,7 +6,7 @@
 <p>
 	TPL_CAL_LANG_ENTER_CONFIRM
 </p>
-<p>
+<p class="error">
 	TPL_CAL_ERROR_MSG
 </p>
 <form action="event_display_delete.php" method="post">

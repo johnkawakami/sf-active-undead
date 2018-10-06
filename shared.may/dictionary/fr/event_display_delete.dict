@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - fr - event_display_week
+
+$local = array(
+	"cal_enter_confirm" => "Pour supprimer cet article, merci d'indiquer son num&eacute;ro de confirmation",
+	"cal_return_to_event" => "Retour aux d&eacute;tails de l'&eacute;v&eacute;nement",
+	"cal_conf_no" => "Num&eacute;ro de confirmation",
+	"cal_delete" => "Supprimer",
+	"cal_error_event_id" => "L'ID d'&eacute;v&eacute;nement dans l'URL &eacute;tait invalide",
+	"cal_error_event_delete" => "Cet &eacute;v&eacute;nement n'a pas pu &ecirc;tre supprim&eacute;. Le num&eacute;ro de confirmation est peut-&ecirc;tre invalide."
+);
+

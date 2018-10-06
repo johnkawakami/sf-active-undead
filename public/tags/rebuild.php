@@ -1,5 +1,9 @@
 <?php
+namespace SFACTIVE;
+
+include('shared/vendor/autoload.php');
 include_once("tags.lib.php");
+
 
 $id = $_GET['id'];
 if (!preg_match('/^[0-9]{1,7}$/', $id)) { 

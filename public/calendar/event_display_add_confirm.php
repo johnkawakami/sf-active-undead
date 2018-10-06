@@ -1,4 +1,5 @@
 <?php
+include 'shared/vendor/autoload.php';
 
 // Add and Update a Event
 

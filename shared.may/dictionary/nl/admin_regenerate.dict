@@ -1,0 +1,16 @@
+<?php
+// Dictionary file - en - admin_regenerate
+
+$local = array(
+"article_regenerate" => "Maak artikel aan",
+"id" =>   "ID nummer", 
+"wrote_to" =>  "Schreef naar",
+"regenerated" => "Artikel aangemaakt",
+"admin_index" => "Hoofdmenu",
+"admin_article" => "Beheer artikels", 
+"start_id" => "Start artikel ID",
+"max_to_gen" => "Aantal artikels aan te maken", 
+);
+
+?>
+

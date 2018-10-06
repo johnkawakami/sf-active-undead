@@ -1,0 +1,39 @@
+<?php
+// Dictionary file - fr - calendar
+
+$local = array(
+"admin_calendar" => "Administrer l'agenda",
+"enter_event_id" => "ID de l'&eacute;v&eacute;nement dont vous cherchez le num&eacute;ro de confirmation",
+"hint_event_id" => "L'ID est donn&eacute;e dans l'URL de l'&eacute;v&eacute;nement",
+"event_found" => "&Eacute;v&eacute;nement trouv&eacute; pour l'ID d'&eacute;v&eacute;nement", 
+"conf_no" => "Num&eacute;ro de confirmation", 
+"find" =>  "Chercher",
+"event_up" =>  "&Eacute;v&eacute;nements rafra&icirc;chis.",
+"lookup_conf" => "Chercher le num&eacute;ro de confirmation de l'&eacute;v&eacute;nement",
+"regen_event" => "R&eacute;g&eacute;n&eacute;rer le HTML en cache", 
+            "topic_menu" => "G&eacute;rer les th&egrave;mes",
+            "type_menu" => "G&eacute;rer les types d'&eacute;v&eacute;nement",
+            "location_menu" => "G&eacute;rer les lieux",
+            "locations" => "Lieux",
+            "event_types" => "Types d'&eacute;v&eacute;nement",
+            "event_topics" => "Th&egrave;mes",
+            "click_on_location_to_edit" => "Cliquer sur un lieu pour l'&eacute;diter",
+            "click_on_topic_to_edit" => "Cliquer sur un th&egrave;me pour l'&eacute;diter",
+            "click_on_type_to_edit" => "Cliquer sur un type d'&eacute;v&eacute;nement pour l'&eacute;diter",
+            "location_edit" => "&Eacute;diter un lieu",
+            "event_type_edit" => "&Eacute;diter un type d'&eacute;v&eacute;nement",
+            "event_topic_edit" => "&Eacute;diter un th&egrave;me",
+            "location_add" => "Cr&eacute;er un nouveau lieu",
+            "event_type_add" => "Cr&eacute;er un nouveau type d'&eacute;v&eacute;nement",
+            "event_topic_add" => "Cr&eacute;er un nouveau th&egrave;me",
+            "location_name" => "Nom du lieu",
+            "event_type_name" => "Nom du type d'&eacute;v&eacute;nement",
+            "event_topic_name" => "Nom du th&egrave;me",
+                "location" =>                   "Lieu",
+                "event_type" =>                 "Type d'&eacute;v&eacute;nement",
+                "event_topic" =>                "Th&egrave;me de l'&eacute;v&eacute;nement",
+                "enter_event2_id" =>            "Entrer le num&eacute;ro d'ID de  l'&eacute;v&eacute;nement &agrave; &eacute;diter",
+
+);
+
+?>

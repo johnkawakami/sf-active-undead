@@ -1,0 +1,10 @@
+<?php
+// Dictionary file - en  - feature_display_copy
+
+$local = array(
+	"copy_action" => "kopiraj",
+	"localsubtitle" => "Kopiraj ovaj tekst",
+	"feature_copy_blurb" => "Izaberite kategoriju gde bi ste da kopirate tekst:"
+);
+
+?>

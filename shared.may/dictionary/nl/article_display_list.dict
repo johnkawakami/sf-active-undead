@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - es - admin_index
+
+$local = array(
+               "articles_edit_list" => "Beheer artikels",
+               "enter_article_id" =>    "Typ het ID in van het artikel dat je wil wijzigen:",
+               "enter_comment_id" =>    "Typ het ID in van het artikel waarvan je de commentaren wil bewerken:",
+		"comment_edit" => 	"Commentaar_EDIT",
+               "click_on_article_to_edit" =>    "Beheer artikels",
+               "save" =>    "Opslaan",
+	       "promote_to_feature"  =>	"maak van artikel een feature",
+              );
+
+?>

@@ -55,7 +55,7 @@ if ($GLOBALS['time_diff'] > 0)
 
 
 <TR> 
-<TD BGCOLOR="#e0e0e0"><A CLASS="nav" HREF="/admin/category/category_display_list.php"><?php echo $sftr->trans('admincategories'); ?></A></TD>
+<TD BGCOLOR="#e0e0e0"><A CLASS="nav" HREF="/admin/category/category_display_list.php">FEATURES</A></TD>
 </TR>
 
 <tr>
@@ -71,27 +71,19 @@ if ($GLOBALS['time_diff'] > 0)
 </TR>
 
 <TR>
-<TD BGCOLOR="#e0e0e0"><A CLASS="nav" HREF="/admin/calendar/"><?php echo $sftr->trans('admincalendar'); ?></A></TD>
+<TD BGCOLOR="#e0e0e0"><A CLASS="nav" HREF="/admin/redirect/">REDIRECTS</A></TD>
 </TR>
 
 <TR>
-<TD BGCOLOR="#e0e0e0"><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="-2"><?php echo $sftr->trans('adminxml'); ?></FONT></TD>
+<TD BGCOLOR="#e0e0e0"><A CLASS="nav" HREF="/admin/calendar/"><?php echo $sftr->trans('admincalendar'); ?></A></TD>
 </TR>
 
 <TR> 
 <TD BGCOLOR="#e0e0e0"><A CLASS="nav" HREF="/admin/upload/upload_display_add.php"><?php echo $sftr->trans('adminupload'); ?></A></TD>
 </TR>
 
-<tr>
-<td bgcolor="#e0e0e0"><a class="nav" href="/admin/dossier/index.php"><? echo $sftr->trans('admindossier'); ?></a></td>
-</tr>
-
 <TR>
 <TD BGCOLOR="#e0e0e0"><A CLASS="nav" HREF="/admin/user/user_display_list.php"><?php echo $sftr->trans('adminusers'); ?></A></TD>
-</TR>
-
-<TR>
-<TD BGCOLOR="#e0e0e0"><A CLASS="nav" HREF="/admin/email/admin_email.php"><?php echo $sftr->trans('adminemail'); ?></A></TD>
 </TR>
 
 <TR> 
@@ -105,12 +97,6 @@ if ($GLOBALS['time_diff'] > 0)
 <TR> 
 <TD BGCOLOR="#e0e0e0"><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="-2"><A class="nav" href="/admin/spam/"><?php echo $sftr->trans('adminspam'); ?></A></FONT></TD>
 </TR>
-
-<TR>
-<TD BGCOLOR="#e0e0e0"><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="-2"><A class="nav" href="/admin/log/file_viewer.php?filename=comments_latest.inc"><?php echo $sftr->trans('adminlatestcomments'); ?></A></FONT></TD>
-</TR>
-
-<tr><td bgcolor="#e0e0e0"><a class="nav" href="/admin/cities/"><?php echo $sftr->trans('admincities'); ?></a></td></tr>
 
 <TR>
 <TD BGCOLOR="#e0e0e0"><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="-2">

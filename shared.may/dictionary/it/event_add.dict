@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - it - event_add
+
+$local = array(
+	"cal_calendar" => "Calendario",
+	"cal_spam_block" => "Sembra che tu sia stato bandito da questo sito per spamming",
+	"cal_error_event_add" => "Si e' verificato un errore nel pubbloicare il tuo appuntamento. Assicurati di aver inserito tutti i campi richiesti e che la data e l'ora siano in un formato valido ",
+	"cal_error_event_title" => "Senza titolo e' mipossibile inserire il tuo appuntamento. Mettine uno!",
+	"cal_error_event_delete" => "Non ho potuto cancellare l'appuntamento. Forse il tuo numero di conferma non e' corretto.",
+	"cal_error_event_id" => "L'ID dell'appuntamento nell'indirizzo che hai richiesto non e' corretto."
+);
+
+?>

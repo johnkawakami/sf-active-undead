@@ -1,0 +1,17 @@
+
+<?php
+// Dictionary file - it - admin_email
+
+$local = array(
+    	"your_mail_sent" => "Il tuo messaggio e' stato inviato!",
+    	"your_mail_not_sent" => "Il tuo messaggio NON e' stato inviato!",
+	"mailing_list_admin" => "Amministrazione newsletter",
+	"date" => "Data Odierna",
+	"subject" => "Oggetto",
+	"message_body" => "Corpo del messaggio",
+	"check_here" => "Checca qui quando sei COMPLETAMENTE sicur* e pront* per mandare la newsletter.  Ricordati che se checchi qui e poi pigi SEND \"scomodi\" più di 3000 persone. LEGGI quindi due volte prima ;)))) Sicur*? allora checca pure e manda :))) ",
+	"list_recipients" => "INDIRIZZO A CUI MANDA, E RELATIVI ISCRITT*",
+	"local_sendto_address" => $GLOBALS['mailing_list_news'],
+        "send" => "invia");
+
+?>

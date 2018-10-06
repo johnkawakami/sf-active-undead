@@ -1,0 +1,11 @@
+<?php
+// Dictionary file - en - syndication_index
+
+$local = array(
+        "syndication_page" => "Sendikasyon",
+        "features" => "b&ouml;l&uuml;mler",
+        "all_features" => "t&uuml;m kategorilerden b&ouml;l&uuml;mler"
+);
+
+?>
+

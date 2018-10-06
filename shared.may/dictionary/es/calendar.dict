@@ -1,0 +1,39 @@
+<?php
+// Dictionary file - es - calendar
+
+$local = array(
+                "admin_calendar" =>             "Administrar el Calendario",
+                "enter_event_id" =>             "Ingresa el n&uacute;mero ID de la actividad del cual necesitas el n&uacute;mero de confirmaci&oacute;n",
+                "hint_event_id" =>              "Para obtener el n&uacute;mero ID del evento mira la URL de la actividad.",
+                "event_found" =>                "Actividad encontrada por este ID",
+                "conf_no" =>                    "N&uacute;mero de confirmaci&oacute;n",
+                "find" =>                       "recuperar",
+                "event_up" =>                   "Actividades regeneradas.",
+                "lookup_conf" =>                "Recuperar n&uacute;mero de confirmaci&oacute;n",
+                "regen_event" =>                "Regenerar el Cache HTML",
+                "topic_menu" =>                 "Editar temas",
+                "type_menu" =>                  "Editar tipos",
+                "location_menu" =>              "Editar ubicaciones",
+                "locations" =>                  "Ubicaci&oacute;n",
+                "event_types" =>                "Tipos",
+                "event_topics" =>               "Tema",
+                "click_on_location_to_edit" =>  "Cliquea en una ubicaci&oacute; para editarla",
+                "click_on_topic_to_edit" =>     "Cliquea en un tema para editarlo",
+                "click_on_type_to_edit" =>      "Cliquea en un tipo para editarlo",
+                "location_edit" =>              "Editar una ubicaci&oacute;n",
+                "event_type_edit" =>            "Editar un tipo de actividad",
+                "event_topic_edit" =>           "Editar una tema",
+                "location_add" =>               "Agregar una ubicaci&oacute;n",
+                "event_type_add" =>             "Agregar un tipo",
+                "event_topic_add" =>            "Agregar una tema",
+                "location_name" =>              "Nombre de la ubicaci&oacute;n",
+                "event_type_name" =>            "Nombre del tipo de actividad",
+                "event_topic_name" =>           "Nombre del tema",
+                "location" =>                   "Ubicaci&oacute;n",
+                "event_type" =>                 "Tipo de actividad",
+                "event_topic" =>                "Tema",
+                "enter_event2_id" =>            "Escribe el n&uacute;mero de confirmaci&oacute;n de la actividad que quieras editar",
+
+                );
+
+?>

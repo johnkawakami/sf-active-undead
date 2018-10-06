@@ -1,0 +1,52 @@
+<?php
+// Dictionary file - fr - event_display_week
+
+$local = array(
+	"cal_calendar" => "Calendrier",
+	"cal_week" => "Semaine",
+	"cal_error_event_add" => "Une erreur s'est produite lors de l'ajout de l'&eacute;v&eacute;nement. Veuillez v&eacute;rifier que tous les champs obligatoires sont remplis et que la date et l'heure sont exactes.",
+	"cal_error_event_title" => "Il n'est pas possible d'ajouter un &eacute;v&eacute;nement sans titre. Merci de lui en donner un!",
+	"cal_error_event_delete" => "Cet &eacute;v&eacute;nement n'a pas pu &ecirc;tre supprim&eacute;. Le num&eacute;ro de confirmation est peut-&ecirc;tre invalide.",
+	"cal_error_event_id" => "L'ID d'&eacute;v&eacute;nement dans l'URL &eacute;tait invalide.",
+	"cal_confirm_add_page" => "Confirmer l'ajout de la page",
+	"cal_your_confirm" => "Num&eacute;ro de confirmation: ",
+	"cal_need_confirm" => "Ce num&eacute;ro est n&eacute;cessaire pour modifier ou supprimer l'&eacute;v&eacute;nement.",
+
+	"cal_conf_no" => "Num&eacute;ro de confirmation",
+	"cal_title" => "TITRE",
+	"cal_return_to_calendar" => "Retour au calendrier",
+
+	"cal_start_date" => "DATE DE D&Eacute;BUT",
+	"cal_start_time" => "HEURE DE D&Eacute;BUT",
+	"cal_duration" => "Dur&eacute;e",
+	"cal_location" => "Lieu",
+	"cal_event_type" => "Type d'&eacute;v&eacute;nement",
+	"cal_event_topic" => "Th&egrave;me de l'&eacute;v&eacute;nement",
+	"cal_contact_name" => "Nom de la personne de contact",
+	"cal_contact_email" => "E-mail de la personne de contact",
+	"cal_contact_phone" => "T&eacute;l&eacute;phone de la personne de contact",
+	"cal_description" => "DESCRIPTION",
+
+
+	"cal_update" => "Modifier",
+	"cal_add" => "Ajouter",
+	"cal_location_details" => "Informations sur le lieu",
+	"cal_return_to_event" => "Retour aux d&eacute;tails de l'&eacute;v&eacute;nement",
+	"cal_enter_confirm" => "Pour supprimer cet article, merci d'indiquer son num&eacute;ro de confirmation.",
+	"cal_delete" => "Supprimer",
+	"cal_hours" => "Heures",
+	"cal_end_date" => "Date de fin",
+	"cal_display_details" => "Montrer les d&eacute;tails",
+	"cal_view_events" => "Afficher les &eacute;v&eacute;nements",
+	"cal_previous_week" => "Semaine pr&eacute;c&eacute;dente",
+	"cal_next_week" => "Semaine suivante",
+	"cal_week_of" => "Semaine du ",
+	"cal_add_an_event" => "Ajouter un &eacute;v&eacute;nement",
+	"cal_view_all_months" => "Afficher tous les mois",
+	"cal_list_future_events" => "Liste des &eacute;v&eacute;nements &agrave; venir",
+	"cal_filter_by_topic" => "Filtrer par th&egrave;me",
+	"cal_filter" => "Filtrer",
+	"cal_no_events" => "Il n'y a pas d'&eacute;v&eacute;nement pour cette semaine.",
+	"cal_error_event_update_title" => "Pour pouvoir &ecirc;tre enregistr&eacute;s, les &eacute;v&eacute;nements doivent avoir un titre.",
+	"cal_error_event_update" => "Cet &eacute;v&eacute;nement n'a pas pu &ecirc;tre modifi&eacute;. Le num&eacute;ro de confirmation est peut-&ecirc;tre invalide."
+);

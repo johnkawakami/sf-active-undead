@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - fr - comment latest
+
+$local = array(
+	"file_viewer_info" =>        "Cette page peut &ecirc;tre utilis&eacute;e pour &eacute;diter toute page du r&eacute;pertoire cache. Le nom de fichier est donn&eacute; dans l'URL. Le filtre montre uniquement les lignes qui contiennent les mots cl&eacute;s sp&eacute;cifi&eacute;s. Un fichier ne peut pas &ecirc;tre enregistr&eacute; si un filtre est d&eacute;fini. Un filtre vide montrera la page avec toutes les lignes. (Cliquer sur Filtrer permet donc de recharger la page, tandis que cliquer sur 'reload' enregistre la page si la derni&egrave;re action &eacute;tait un enregistrement). Merci de cliquer sur Filtrer avant d'effectuer et d'enregistrer des modifications. &Agrave; d&eacute;faut, d'autres modifications risquent d'&ecirc;tre &eacute;cras&eacute;es. (Dans le cas de fichiers journaux, ceci peut entra&icirc;ner la perte de toutes les informations entr&eacute;es dans les journaux pendant la session de travail).",
+        "filter" => "Filtrer"
+        );
+
+?>

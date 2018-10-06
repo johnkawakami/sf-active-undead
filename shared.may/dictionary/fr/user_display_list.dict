@@ -1,0 +1,10 @@
+<?php
+// Dictionary file - fr - user_display_list
+
+$local = array(
+	"by_id" => "sortir par utilisateur",
+	"by_login" =>	"sortir par moment du dernier login",
+	"by_username" => "sortir par nom d'utilisateur",
+              );
+
+?>

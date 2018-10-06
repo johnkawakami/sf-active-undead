@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 //This page displays the history of a given story
 //(that is all versions of it stored in the DB)
 

@@ -1,0 +1,12 @@
+
+<?php
+// Dictionary file - fr - calendar
+
+$local = array(
+                "admin_calendar" =>             "Administration du calendrier",
+                "refresh_event" =>             "Rafra&icirc;chir les &eacute;v&egrave;nements pour la semaine:  ",
+                "event_up" =>             "Cache rafra&icirc;chi",
+                "admin_index" =>                "Administration du site"
+                );
+
+?>

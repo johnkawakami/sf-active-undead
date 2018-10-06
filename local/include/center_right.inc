@@ -1,13 +1,11 @@
 <?php 
-$GLOBALS['category_id'] = isset($GLOBALS['category_id']) ? $GLOBALS['category_id'] : '';
-$feature_name = isset($feature_name) ? $feature_name : '';
 if (!$GLOBALS['isMobile']) {
 ?><!-- center_right.inc -->
 
 </td>
 <td width="150" class="bgnewswire" valign="top" style="padding: 3px; border-left: 1px solid black;">
 
-<? // comment the following line out if you don't want minicalendar support
+<?php // comment the following line out if you don't want minicalendar support
 if ( '/'==$_SERVER['REQUEST_URI']) 
 {
      include(SF_CACHE_PATH.'/calendar/minical.html');

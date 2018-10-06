@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - it - include viewer
+
+$local = array(
+	"include_viewer_info" =>        "Deze pagina wordt gebruikt om include ........... te bewerken",
+	"filter" => "filter",
+	"search_string" => "Zoeklijst",
+	"insertname" => "Vul een naam in voor de nieuwe include",
+	"errortpl" => "Je hebt een foute include naam ingevuld. Probeer opnieuw",
+        "filename_header" => "Maak een nieuwe include");
+
+?>

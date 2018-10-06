@@ -1,4 +1,5 @@
 <?php
+include 'shared/vendor/autoload.php';
 	
 $display=true;
 include('shared/global.cfg');
@@ -14,7 +15,7 @@ if (!filter_var($ip,FILTER_VALIDATE_INT)) {
 	exit;
 }
 
-$article_obj = new Article;
+$article_obj = new SFACTIVE\Article;
 $article_obj->update_article_status($id, 'f');
 
 print "$id was hidden";
@@ -28,12 +29,12 @@ print "<p><a href=/admin/qc>continue</a></p>";
 <?
 
 // clear out the reports (to keep table clean)
-$db = new DB();
+$db = new SFACTIVE\DB();
 
-$db->execute_statement("DELETE FROM qc WHERE id=$id");
+$db->execute("DELETE FROM qc WHERE id=$id");
 
 // upgrade this ip's rank
-$db->execute_statement("INSERT INTO qcrank (ip,score,lastIgnoreDate) VALUES ($ip,1,NOW()) ON DUPLICATE KEY UPDATE score=score+1,lastIgnoreDate=NOW()");
+$db->execute("INSERT INTO qcrank (ip,score,lastIgnoreDate) VALUES ($ip,1,NOW()) ON DUPLICATE KEY UPDATE score=score+1,lastIgnoreDate=NOW()");
 
 
 //-----------------------------------------

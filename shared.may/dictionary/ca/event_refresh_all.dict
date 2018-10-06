@@ -1,0 +1,12 @@
+
+<?php
+// Dictionary file - ca - calendar
+
+$local = array(
+                "admin_calendar" =>             "Calendari d'Admin",
+                "refresh_event" =>             "Refrescant events per setmana:  ",
+                "event_up" =>             "Cache refrescada",
+                "admin_index" =>                "Administraci&oacute; del Site"
+                );
+
+?>

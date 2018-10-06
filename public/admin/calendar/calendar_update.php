@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 //This page displays the main list of calendar admin options
 
 $display=false;
@@ -15,4 +17,3 @@ if ($page->get_error())
 }
 include("../admin_footer.inc"); 
 
-?>

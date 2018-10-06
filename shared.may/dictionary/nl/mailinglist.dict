@@ -1,0 +1,29 @@
+<?php
+// Dictionary file - en - mailinglist
+
+$local = array(
+              "invalid_email" =>        "Dit is een ongeldig email adres!",
+              "subscribe_thanks" =>     "Bedankt om in te schrijven. Je moet enkel nog antwoorden op de bevestigingsmail die je wordt toegestuurd.",
+              "unsubscribe_thanks" =>   "Je bend nu uitgeschreven. Je krijgt een bevestigingsmail hiervan.",
+              "passwd_notsent" =>       "Het is ons niet gelukt nu je wachtwoord te sturen. Probeer later eens opnieuw.",
+              "passwd_sent" =>          "Het wachtwoord werd je in een email toegestuurd.",
+			  "weekly_email" =>			"Wekelijkse nieuws e-mail",
+			  "delivery_options" =>		"Mailinglijst opties",
+			  "top_text" =>				"Wij verzenden wekelijks een samenvatting van de features in plain-text formaat. ",
+			  "email_address" =>		"e-mail adres",
+			  "subscribe" =>			"Inschrijven",
+			  "password" =>				"wachtwoord (om uit te schrijven)",
+			  "unsubscribe" =>			"Uitschrijven",
+			  "email_pass" =>			"e-mail m'n wachtwoord",
+			  "indy_news" =>			"Onafhankelijk media nieuws",
+			  "list_text" =>			"Publieke mailinglijst voor onafhankelijke media nieuws, evenementen, aankondigingen,. Beperkt aantal emails. Schrijf je in via de <a href=\"http://lists.indymedia.org/\">mailing lijst pagina</a>",
+			  "xml_newsfeeds" =>		"XML Newsfeeds voor PDAs &amp; Syndication",
+			  "xml_text" =>				"De volgende XML-bestanden worden onderhouden en je kan deze gebruiken op jouw website, PDA of desktop applet",
+			  "feature_stories" =>		"features",
+			  "open_newswire" =>		"open nieuwslijn",
+			  "syndication_page" =>		"syndication overzichts pagina",
+			  "custom_xml" =>			"Genereer een persoonlijke XML-query",
+
+              );
+
+?>

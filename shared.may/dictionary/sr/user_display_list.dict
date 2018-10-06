@@ -1,0 +1,10 @@
+<?php
+// Dictionary file - sr - user_display_list
+
+$local = array(
+	"by_id" => "sortiraj korisnike po identifikaciji korisnika",
+	"by_login" =>	"sortiraj po vremenu kada su se zadnji put ulogovali",
+	"by_username" => "sortiraj po korisnièkom imenu",
+              );
+
+?>

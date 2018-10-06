@@ -1,0 +1,22 @@
+<?php
+// Dictionary file - nl  - language.inc
+
+$local = array(
+	"languages"	=>  "jezici",
+	"show"		=>  "prikaži",
+	"hide"		=>  "sakri",
+	"language_add"	=>  "dodaj jezik",
+	"language_code"	=>  "Šifra jezika",
+	"order_num"	=>  "Broj u redosledu",
+	"display"	=>  "pokaži",
+	"language_name"		=>  "Ime",
+	"language_edit"	=>  "Izmeni podatke o jeziku",
+	"click_on_language_to_edit" =>	"Klikni na jezik da bi ga izmenio.",
+        "build_site"    =>  "napravi podsajt",
+        "build_info"    =>  "pritisnite DA ako želite napravite vesti, tekstove centralne kolone, kategorije... za ovaj jezik",
+        "yes"           => "da",
+        "no"            =>  "ne",
+	"subsite"	=>  "podsajt",
+              );
+
+?>

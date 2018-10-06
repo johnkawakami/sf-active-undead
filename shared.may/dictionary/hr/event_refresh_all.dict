@@ -1,0 +1,12 @@
+
+<?php
+// Dictionary file - hr - calendar
+
+$local = array(
+                "admin_calendar" =>             "Administracija kalendara",
+                "refresh_event" =>             "Osvje¾avam dogaðaje za tjedan:  ",
+                "event_up" =>             "Ke¹ je osvje¾en",
+                "admin_index" =>                "Admninistracija sajta"
+                );
+
+?>

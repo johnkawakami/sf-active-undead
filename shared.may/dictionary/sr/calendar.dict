@@ -1,0 +1,39 @@
+<?php
+// Dictionary file - en - calendar
+
+$local = array(
+                "admin_calendar" =>             "Administracija kalendara",
+                "enter_event_id" =>             "Unesi ID dogaðaja za koji ti treba potvrðujuæi broj",
+                "hint_event_id" =>              "Da dobiješ ID dogaðaja vidi URL dogaðaja.",
+                "event_found" =>                "Dogaðaj je pronaðen za ID dogaðaja",
+                "conf_no" =>                    "Potvrðujuæi broj",
+                "find" =>                       "potraži",
+                "event_up" =>                   "Dogaðaji su osveženi.",
+                "lookup_conf" =>                "Potvrðujuæi broj za pretragu dogaðaja",
+                "regen_event" =>                "Regeneriši keširani HTML",
+				"topic_menu" => 				"Promeni teme",
+				"type_menu" => 					"Promeni tipove",
+				"location_menu" => 				"Promeni lokacije",
+				"locations" => 					"Lokacije",
+				"event_types" => 				"Tipovi",
+				"event_topics" => 				"Teme",
+				"click_on_location_to_edit" => 	"Klikni na lokaciju da je promeniš",
+				"click_on_topic_to_edit" => 	"Klikni na temu da je promeniš",
+				"click_on_type_to_edit" => 		"Klikni na tip da ga promeniš",
+				"location_edit" => 				"Promeni lokaciju",
+				"event_type_edit" => 			"Promeni tip dogaðaja",
+				"event_topic_edit" => 			"Promeni temu dogaðaja",
+				"location_add" => 				"Dodaj lokaciju",
+				"event_type_add" => 			"Dodaj tip",
+				"event_topic_add" => 			"Dodaj temu",
+				"location_name" => 				"Ime lokacije",
+				"event_type_name" => 			"Ime tipa",
+				"event_topic_name" => 			"Ime teme",
+                "location" =>                   "Lokacija",
+                "event_type" =>                 "Tip dogaðaja",
+                "event_topic" =>                "Tema dogaðaja",
+                "enter_event2_id" =>            "Unesite ID dogaðaja koji želite da promenite",
+
+                );
+
+?>

@@ -1,0 +1,11 @@
+<?
+
+// error strings for the page_class
+
+$local=array(
+	"string_error" => "ID stranica nije tekstualnog tipa.",
+	"template_error" => "Ne mogu pronaæi datoteku s predlo¹kom.",
+	"script_error" => "Ne mogu pronaæi script datoteku.",
+	"class_error" => "Ne mogu pronaæi odgovorajuæu klasu."
+)
+?>

@@ -1,0 +1,31 @@
+<?php
+// Dictionary file - es - newswire
+$local = array(
+                "category" =>    "Categor&iacute;a",
+                "sortby" =>      "ordenado por",
+                "newest" =>      "Recientes",
+                "reverse" =>     "Inversa",
+                "modified" =>    "Modificados",
+                "rank" =>        "Ranking",
+// Added after translation
+                "go" => "¡Ya!",
+                "keyword" => "Palabra",
+                "comments" => "Comentarios",
+                "no_summaries" => "Sin resumen",
+// ful i18n
+                "no_newswire" => "&#149; ERROR: Esta categor&iacute;a no contiene newswires.<BR>",
+                "newswire_refreshed_for" => "&#149; Newswire estandar regenerado para",
+                "refreshed_all" => "&#149; Todos los newswires regenerados para",
+                "unable_to_determine" => "&#149; Imposible de determinar el tipo de sumario.<BR>",
+
+// upgrading some old $lang_
+                "date_warning" => "¡Fecha inv&aacute;lida! Debes seleccionar un mes, un d&iacute;a y un año",
+                "hidden_warning" => "Solamente art&iacute;culos duplicados, pruebas y removidos.",
+                "no_results" => "No se ha encontrado ning&uacute;n art&iacute;culo",
+                "search_suggestion" => "Intenta acortando tu b&uacute;squeda con una palabra sola.",
+		"more_stories" =>       "m&aacute;s noticias",
+		"newer_stories" =>      "&uacute;ltimas noticias",
+                "select_a_language" =>  "selecciona un idioma",
+
+        );
+?>

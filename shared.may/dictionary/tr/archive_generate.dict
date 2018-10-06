@@ -1,0 +1,22 @@
+<?php
+// Dictionary file - tr - archive_generate
+
+$local = array(
+                "categories" =>                 "B&ouml;l&uuml;mler",
+                "categoryid" =>                 "Kategori ID",
+                "submit" =>                 "D&uuml;zenle",
+                "arc_id" =>                 "ID:",
+                "arcdatetogen" =>                 "D&uuml;zenlenecek hafta say&#305;s&#305;",
+                "default_weeks" =>                 "(varsay&#305;lan: 5 hafta)",
+                "arc_numtogen" =>                 "d&uuml;zenlenecek b&ouml;l&uuml;m say&#305;s&#305;",
+                "admin_archive_id" =>                 "Ar&#351;ivi ID numaras&#305;na g&ouml;re d&uuml;zenle",
+                "admin_archive_date" =>                 "Ar&#351;ivi haftalara g&ouml;re d&uuml;zenle",
+                "archive_generate" =>           "Ar&#351;ivleri a&ccedil;",
+                "i_category" =>              "Dahili",
+                "no_items_for_week" =>          "no items existed for week: ",
+				 "no_items_for_id" =>                    "no featuure found for id: ",
+                "specify_dmy" =>                "You must specify a day month and year to generate weeks",
+                "writing" =>                    "writing: ",
+                );
+
+?>

@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - en - event_display_week
+
+$local = array(
+	"cal_enter_confirm" => "Prosím konfirmaèné èíslo pre vymazanie tejto udalosti z kalendára",
+	"cal_return_to_event" => "Návrat do popisu udalosti",
+	"cal_conf_no" => "Konfirmaèné èíslo",
+	"cal_delete" => "Vyma",
+	"cal_error_event_id" => "Neplatné identifikaèné èíslo udalosti v jej URL",
+	"cal_error_event_delete" => "Udalost nemôše by vymazaná, mono e konfirmaèné èíslo je neplatné"
+);
+

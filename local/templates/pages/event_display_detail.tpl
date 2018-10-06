@@ -13,14 +13,16 @@
 	</big> 
 	&nbsp; 
 	&nbsp; 
-	<a href="event_display_edit.php?event_id=TPL_CAL_EVENT_ID">
-		TPL_CAL_LANG_UPDATE
-	</a> 
+    <form action="event_display_edit.php" method="post" style="display: inline">
+		<input type="hidden" name="event_id" value="TPL_CAL_EVENT_ID">
+        <button>Edit</button>
+    </form>
 	&nbsp; 
 	&nbsp; 
-	<a href="event_display_delete.php?event_id=TPL_CAL_EVENT_ID">
-		TPL_CAL_LANG_DELETE
-	</a>
+    <form action="event_display_delete.php" method="post" style="display: inline">
+		<input type="hidden" name="event_id" value="TPL_CAL_EVENT_ID">
+        <button>Delete</button>
+    </form>
 </div>
 
 TPL_CAL_CACH_FILE

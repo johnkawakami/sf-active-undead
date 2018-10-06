@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - en - comment latest
+
+$local = array(
+"latest_comment_text" => "Dit is een lijst van de laatste reacties die werden gepost op de site. Deze lijst staat er
+zodat je makkelijker zelf reacties kan posten en kan deelnemen aan discussies. Bekijk ook de ",
+"most_commented" => "artikels met de meeste reacties",
+"latest_article_name" => "ARTIKELS", 
+"latest_author" => "RECENSTE AUTEUR",
+"posted_at" => "GEPOST OP", 
+"browse_older_threads" => "Doorzoek oudere threads &gt;&gt;",
+        "thread" =>          "DRAAD",
+ );
+?>

@@ -1,0 +1,11 @@
+<?php
+// Dictionary file - fr - event_display_add_confirm
+
+$local = array(
+	"cal_calendar" => "Calendrier",
+	"cal_confirm_add_page" => "Confirmer l'ajout",
+	"cal_your_confirm" => "Num&eacute;ro de confirmation: ",
+	"cal_need_confirm" => "Ce num&eacute;ro est n&eacute;cessaire pour modifier ou supprimer l'&eacute;v&eacute;nement.",
+	"cal_return_to_calendar" => "Retour au calendrier"
+);
+

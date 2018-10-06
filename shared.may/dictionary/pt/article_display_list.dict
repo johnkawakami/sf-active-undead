@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - es - admin_index
+
+$local = array(
+               "articles_edit_list" => "Administrar Artigos",
+               "enter_article_id" =>    "Digite uma ID de artigo para editar:",
+               "click_on_article_to_edit" =>    "Administrar Artigo(s)",
+               "save" =>    "Salvar",
+	        "promote_to_feature"  => "make this article a feature",
+              );
+
+?>

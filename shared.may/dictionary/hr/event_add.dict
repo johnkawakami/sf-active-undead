@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - hr - event_add
+
+$local = array(
+	"cal_calendar" => "Kalendar",
+	"cal_spam_block" => "Izgleda da si zbog spamanja blokiran na ovom sajtu",
+	"cal_error_event_add" => "Do¹lo je do pogre¹ke pri dodavanju dogaðaja. Provjeri jesu li ispunjena sva obavezna polja i jesu li datum i vrijeme toèno uneseni.",
+	"cal_error_event_title" => "Tvoj dogaðaj ne mo¾e biti dodan bez naslova. Dakle, upi¹i naslov!",
+	"cal_error_event_delete" => "Ne mogu obrisati dogaðaj, mo¾da je potvrdni broj pogre¹an.",
+	"cal_error_event_id" => "ID eventa u URL-u je netoèan."
+);
+
+?>

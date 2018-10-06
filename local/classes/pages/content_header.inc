@@ -4,8 +4,11 @@
 // Class for the Content Header Local Page
 class content_header extends LocalPage {
 
-    function content_header () {
-        // Class constructor, does nothing
+    function content_header($settings = null) {
+	if ($settings==null) $settings = array();
+	// fixme - validate names
+	// $valid = array('noindex');
+	$this->settings = $settings;
         return 1;
     }
 
@@ -39,11 +42,18 @@ class content_header extends LocalPage {
 			} 
 
 		// Robot Meta Tag
-		if ( ($GLOBALS['page_display']=='f') or ($_GET['display']=='f') ) 
+		if ( ($GLOBALS['page_display']=='f') or ($_GET['display']=='f') or ($this->settings['noindex']) 
 		{ 
 			$this->tkeys['META_ROBOT'] = '<meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />';
 		} else {
 			$this->tkeys['META_ROBOT'] = "";
+		}
+
+		// Canonical URL
+		if ($this->settings['canonical']) {
+			$this->tkeys['CANONICAL'] = '<link rel="canonical" href="'.$this->settings['canonical'].'" />';
+		} else {
+			$this->tkeys['CANONICAL'] = '';
 		}
 
 		
@@ -126,10 +136,3 @@ class content_header extends LocalPage {
 	}
 	
 }
-
-?>
-
-
-
-
-

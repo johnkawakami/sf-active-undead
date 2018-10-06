@@ -5,8 +5,8 @@ body { font-family: verdana; background-color: #ffffff; color: #000000; margin: 
 address, caption, div, dl, li, ol, p, ul { font-family: verdana; font-size: 12px }
 td, th { font-family: verdana; font-size: 12px; color: #000000; }
 input, select, option, textarea { font-family: verdana; font-size: 12px }
-a:link { color: #0000cc }
-a:visited { color: #440088 }
+a:link { color: #771111 }
+a:visited { color: #440044 }
 a:hover { }
 a:active { text-decoration: none; background-color: #eee; }
 a.left:link { text-decoration: underline; font-size: 10px } 
@@ -21,10 +21,8 @@ a.navbar:link { font-family: verdana; font-size: 13px; text-decoration: none; co
 a.navbar:visited { font-family: verdana; font-size: 13px; text-decoration: none; color: #cccccc }
 a.navbar:hover { font-family: verdana; font-size: 13px; text-decoration: underline; color: #ffffff } 
 a.navbar:active { font-family: verdana; font-size: 13px; }
-a.newswire:link { font-family: verdana; 
-text-decoration: none; color: #990000 } 
-a.newswire:visited { font-family: verdana; 
-text-decoration: none; color: #dd0000 }
+a.newswire:link { font-family: verdana; text-decoration: none; color: #771111 } 
+a.newswire:visited { font-family: verdana; text-decoration: none; color: #440044; }
 a.newswire:hover { font-family: verdana; 
 text-decoration: underline; }
 a.newswire:active { font-family: verdana; 
@@ -53,12 +51,12 @@ h6, div.h6 { font-family: verdana; font-size: 10px; font-weight: bold }
 .newswirehead { color: #000000; font-family: verdana; }
 .mast { background-color: #ffffff; }
 .bgaccent { color: #000000; background-color: #999999; }
-.bg3 { background-color: #ffffff }
+.bg3 { background-color: #eeeeee; }
 .bgult { background-color: #ddd; }
-.bgcentercol { background-color: #ffffee }
+.bgcentercol { background-color: #ffffff; padding-left: 30px !important; border-right: 1px solid black; }
 .bgnavbar { background-color: #666666 }
-.bgnewswire { background-color: #ffd }
-.bgleftcol { background-color: #fffff5; }
+.bgnewswire { background-color: #eeeeee; padding: 10px; }
+.bgleftcol { background-color: #eeeeee }
 .bgcities { background-color: #dddddd; line-height: 1.5em; }
 .bgpenult { background-color: #ffffff; color: #333333 }
 .bg9 { background-color: #666666 }
@@ -66,9 +64,9 @@ h6, div.h6 { font-family: verdana; font-size: 10px; font-weight: bold }
 .bgsearchgrey { background-color: #eeeeee }
 .date { color: #cc3333; font-family: verdana, "MS Sans Serif", verdana; font-size: 10px }
 p.heading { font-size: 1.25em; font-family: "Bodoni MT Black", Georgia, Verdana; }
-strong.heading { font-size: 2.25em; }
-blockquote.summary { margin-left: 60px;  padding-left: margin-right: 40px; 0px; font-style: italic; font-size: 1.25em; }
-div.article { margin-left: 60px; margin-right: 40px; line-height: 1.5; }
+strong.heading { font-size: 1.5em; }
+blockquote.summary { margin-left: 0px;  padding-left: margin-right: 40px; 0px; font-style: italic; font-size: 1em; }
+div.article { margin-left: 0px; margin-right: 40px; line-height: 1.5; }
 p.media { text-align: center; }
 p.media img { padding: 5px; border: 1px solid #ddd; margin: 0 auto 0 auto; }
 p.newswire { margin-bottom: 2em; }

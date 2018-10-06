@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - en - event_display_week
+
+$local = array(
+	"cal_enter_confirm" => "Bu duyuruyu silmek i&ccedil;in l&uuml;tfen onay kodunu girin",
+	"cal_return_to_event" => "Duyuru detaylar&#305;na d&ouml;n",
+	"cal_conf_no" => "Onay numaras&#305;",
+	"cal_delete" => "Sil",
+	"cal_error_event_id" => "Duyuru bulunamad&#305;.",
+	"cal_error_event_delete" => "Silinemedi, onay kodunuzu kontrol edin."
+);
+
+?>

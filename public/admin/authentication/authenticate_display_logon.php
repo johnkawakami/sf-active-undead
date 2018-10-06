@@ -1,13 +1,15 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 // This is the login page
 $display=true;
 $display_logon=true;
 include("shared/global.cfg");
 
 // code to logout.  i'm putting it here for now.
-ini_set('session.save_path', SF_SESSIONS_PATH);
-session_start();
-session_destroy();
+            ini_set('session.save_path', SF_SESSIONS_PATH);
+            session_start();
+            session_destroy();
 
 $page = new Page('authenticate_display_logon');
 

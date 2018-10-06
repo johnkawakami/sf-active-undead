@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 //This file is used for wqriting out a cached file from teh stories for a feature in the DB
 
 $display=false;

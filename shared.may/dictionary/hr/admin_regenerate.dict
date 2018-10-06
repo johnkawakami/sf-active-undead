@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - hr - admin_regenerate
+
+$local = array(
+              "article_regenerate" =>    "Regeneriraj èlanke",
+              "id" =>                    "ID broj",
+              "wrote_to" =>              "Napisano za",
+              "regenerated" =>           "Regeneriranje zavr¹eno",
+              "admin_index" =>           "Osnovni meni",
+              "admin_article" =>         "Administriraj èlanke",
+              "start_id" =>              "Poèetni ID broj èlanka",
+              "max_to_gen" =>            "Broj èlanaka za regeneraciju", 
+              );
+
+?>

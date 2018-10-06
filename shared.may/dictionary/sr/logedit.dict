@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - it - logedit
+
+$local = array(
+	"logedit" => "Include, css, template ažuriranje",
+	"logedit_info" =>        "Ova strana služi da se menjaju include, template i css ili da se naprave novi. Budite pažljivi šta radite..",
+	"filter" => "filter",
+	"include_create" => "Napravi novi include",
+	"template_create" => "Napravi novi template (šablon)",
+	"css_create" => "Napravi novi style sheet",
+        "page_create" => "Napravi novu stranu za obradu",
+	"submit_include" => "napravi"	
+        );
+
+?>

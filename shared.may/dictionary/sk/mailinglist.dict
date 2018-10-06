@@ -1,0 +1,29 @@
+<?php
+// Dictionary file - en - mailinglist
+
+$local = array(
+              "invalid_email" =>        "To je neplatná emailová adresa!",
+              "subscribe_thanks" =>     "Dakujeme za prihlásenie. Musíš odpoveda na konfirmaènı email, ktorı Ti bol poslanı.",
+              "unsubscribe_thanks" =>   "Bol si prihlásenı. Konfirmaènı email Ti bol zaslanı.",
+              "passwd_notsent" =>       "Neboli sme schopní Ti posla heslo. Skús opä neskôr.",
+              "passwd_sent" =>          "Tvoje heslo Ti bolo poslané emailom.",
+                          "delivery_options" =>         "Delivery Options",
+                          "weekly_email" =>                     "Weekly News Email",
+                          "top_text" =>                         "A weekly summary of featured headlines sent in plain-text. We'll send you each week's feature headlines in an email.",
+                          "email_address" =>            "Email address",
+                          "subscribe" =>                        "Subscribe",
+                          "password" =>                         "Password (to unsubscribe)",
+                          "unsubscribe" =>                      "Unsubscribe",
+                          "email_pass" =>                       "Email my password",
+                          "indy_news" =>                        "Independent Media News",
+                          "list_text" =>                        "Public mailing list for independent media news, events, announcements. Moderate traffic. To subscribe, visit the <a href=\"http://lists.indymedia.org/\">mailing list page</a>",
+                          "xml_newsfeeds" =>            "XML Newsfeeds for PDAs &amp; Syndication",
+                          "xml_text" =>                         "The following XML files are maintained and may be used on your website, PDA or desktop applet",
+                          "feature_stories" =>          "feature stories",
+                          "open_newswire" =>            "open newswire",
+                          "syndication_page" =>         "syndication overview page",
+                          "custom_xml" =>                       "Generate custom XML query",
+
+              );
+
+?>

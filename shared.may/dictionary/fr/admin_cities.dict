@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - fr - admin_cities
+$local = array(
+              "admin_refreshing_cities" =>  "Rafra&icirc;chir la liste des villes.",
+              "cities_unavailable" => "La liste des IMC est actuellement indisponible.",
+              "die" => "Impossible d'ouvrir le fichier XML",
+              );
+?>

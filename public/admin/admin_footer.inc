@@ -3,4 +3,3 @@
 
 if ($display) include(SF_INCLUDE_PATH . '/admin-footer.inc'); 
 
- ?>

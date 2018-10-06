@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - ca - admin_index
+
+$local = array(
+               "articles_edit_list" => "Administrar articles",
+               "enter_article_id" =>    "Escriu l'ID de l'article a editar:",
+               "enter_comment_id" =>    "Escriu l'ID de l'article que conté el comentari que vols editar:",
+		"comment_edit" => 	"EDITAR_Comentari",
+               "click_on_article_to_edit" =>    "Clica l'article a editar",
+               "save" =>    "Guardar",
+		"promote_to_feature" => "Publicar al centre",
+              );
+
+?>

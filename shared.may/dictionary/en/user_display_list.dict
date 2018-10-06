@@ -1,0 +1,10 @@
+<?php
+// Dictionary file - en - user_display_list
+
+$local = array(
+	"by_id" => "sort by user id",
+	"by_login" =>	"sort by time of last login",
+	"by_username" => "sorteer by username",
+              );
+
+?>

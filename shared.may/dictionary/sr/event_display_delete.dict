@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - en - event_display_week
+
+$local = array(
+	"cal_enter_confirm" => "Molim unesite potvrdni broj da bi obrisali ovaj dogaðaj",
+	"cal_return_to_event" => "Vrati se na detalje o dogaðajima",
+	"cal_conf_no" => "Potvrdni broj",
+	"cal_delete" => "Obriši",
+	"cal_error_event_id" => "ID dogaðaja u URL adresi je netaèan",
+	"cal_error_event_delete" => "Ne mogu da obrišem dogaðaj, možda je vaš potvrdni broj pogrešan"
+);
+

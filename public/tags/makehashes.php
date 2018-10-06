@@ -10,16 +10,19 @@
  * to load new article_ids into the article_content_hash table, but this
  * probably fails.
  */
+include('shared/vendor/autoload.php');
 session_start();
 include_once("tags.lib.php");
 
-$db = new DB();
+$footer = "<hr><a href='listdupe.php'>List Dupes</a>";
+
+$db = new SFACTIVE\DB();
 $c = $db->query("select article_id from article_content_hash where content_hash is null LIMIT 50");
 
 if (count($c)==0) {
         echo "Loading the article_content_hash table.\n";
         echo "<p>Give it ten minutes and reload.</p>";
-        ob_flush_clean();
+	echo $footer;
         $db->query("INSERT IGNORE INTO article_content_hash (article_id) SELECT
  id FROM webcast WHERE parent_id=0 AND id > 260000");
         exit();
@@ -39,7 +42,7 @@ ob_start();
 <? 
 	foreach($c as $row) {
 		$id = $row['article_id'];
-		$article = new Article($id);
+		$article = new SFACTIVE\Article($id);
 		$title = $article->article['heading'];
 		$text = $article->article['heading']. '  ';
 		$text .= $article->article['summary'] . '  ';
@@ -55,6 +58,7 @@ ob_start();
 		$db->query("UPDATE article_content_hash SET content_hash='$hash' WHERE article_id=$id");
 	}
 ?>
+<?= $footer ?>
 </body>
 </html>
 <?

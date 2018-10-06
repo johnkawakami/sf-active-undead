@@ -1,10 +1,10 @@
 <?php
+include 'shared/vendor/autoload.php';
 //This page adds a user
 
 $display=true;
 include('shared/global.cfg');
 include('../admin_header.inc');
-include(SF_SHARED_PATH . '/classes/user_class.inc');
 $page = new Page('user_display_edit');
 if ($page->get_error())
 {

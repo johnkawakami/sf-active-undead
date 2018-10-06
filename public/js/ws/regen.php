@@ -92,7 +92,7 @@ $etag = md5($output);
 header('ETag: ' . $etag);
 
 // check if-none-match header to see if it matches the etag.
-if (isset($_SERVER['HTTP_IF_NONE_MATCH']) && ($_SERVER['HTTP_IF_NONE_MATCH'] == $etag)) {
+if ($_SERVER['HTTP_IF_NONE_MATCH'] == $etag) {
     header('HTTP/ 304 Not Modified');
     exit();
 }
@@ -443,7 +443,7 @@ function read_cache_file( $file ) {
 
 function write_cache_file( $file, $data ) {
 	global $cache_path;
-	@mkdir( $cache_path, 0777, TRUE );
+	mkdir( $cache_path, 0777, TRUE );
 	$result = file_put_contents( $file, serialize($data), LOCK_EX );
 	if ($result === FALSE) die();
 }

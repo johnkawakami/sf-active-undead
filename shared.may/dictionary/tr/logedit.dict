@@ -1,0 +1,17 @@
+
+<?php
+// Dictionary file - it - logedit
+
+$local = array(
+	"logedit" => "Ekleme (include), css, &#351;ablon (template) d&uuml;zenleme",
+	"logedit_info" =>        "Bu sayfa Ekleme (include), css, &#351;ablon (template) olu&#351;turmak ve d&uuml;zenlemek
+i&ccedil;in kullan&#305;l&#305;r. [Teknik b&ouml;l&uuml;m]",
+	"filter" => "filtre",
+	"include_create" => "Yeni ekleme (include) olu&#351;tur",
+	"template_create" => "Yeni &#351;ablon (template) olu&#351;tur",
+	"css_create" => "Yeni css olu&#351;tur",
+        "page_create" => "Create a new process page",
+	"submit_include" => "olu&#351;tur"	
+        );
+
+?>

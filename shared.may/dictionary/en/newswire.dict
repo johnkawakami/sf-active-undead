@@ -1,0 +1,31 @@
+<?php
+// Dictionary file - en - comment latest
+$local = array(
+		"category" =>          "Category",
+		"sortby" =>          "Sort By",
+		"newest" =>          "Newest",   
+		"reverse" =>          "Reverse",
+		"modified" =>         "Modified",
+		"rank" =>         "Rank",
+		"rating" =>         "Rating",
+// Added after translation
+                "go" => "Go!",
+                "keyword" => "Keyword",
+                "comments" => "Comments",
+                "no_summaries" => "No Summaries",
+// ful i18n
+		"no_newswire" => "&#149; ERROR: This category is not set up to support newswires.<BR>",
+		"newswire_refreshed_for" => "&#149; Standard newswire refreshed for",
+		"refreshed_all" => "&#149; All newswires refreshed for",
+		"unable_to_determine" => "&#149; Unable to determine summary type.<BR>",
+
+// upgrading some old $lang_
+                "date_warning" => "Invalid Date search! You should select a month, a day and a year",
+                "hidden_warning" => "Duplicate, test, and hidden articles only.",
+                "no_results" => "No stories found!",
+                "search_suggestion" => "Try narrowing your search to a shorter phrase or single word.",
+		"more_stories" =>       "more stories",
+		"newer_stories" =>      "newer stories",
+                "select_a_language" =>  "select a language",
+        );
+?>

@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - es - admin_index
+
+$local = array(
+               "articles_edit_list" => "Administrar Art&iacute;culos",
+               "enter_article_id" =>    "Ingresa el ID del art&iacute;culo para editar:",
+               "enter_comment_id" =>    "Ingresa el ID del art&iacute;culo cuyos comentarios vas a editar:",
+                "comment_edit" =>       "Editar comentario",
+               "click_on_article_to_edit" =>    "Cliquea en Editar para modificar el art&iacute;culo",
+               "save" =>    "Guardar",
+               "promote_to_feature"  => "Destacar este art&iacute;culo",
+              );
+
+?>

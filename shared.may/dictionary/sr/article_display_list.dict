@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - es - admin_index
+
+$local = array(
+               "articles_edit_list" => "Promeni èlanke",
+               "enter_article_id" =>    "Ukucaj ID èlanka za promenu:",
+               "enter_comment_id" =>    "Ukucaj ID èlanka èiji komentar želis da menjaš:",
+		"comment_edit" => 	"Menjanje komentara",
+               "click_on_article_to_edit" =>    "Promeni èlanke",
+               "save" =>    "Saèuvaj",
+	        "promote_to_feature"  => "napravi od ovog èlanka tekst u centralnoj koloni",
+			       
+              );
+
+?>

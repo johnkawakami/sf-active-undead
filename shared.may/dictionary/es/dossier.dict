@@ -1,0 +1,39 @@
+<?
+
+// dossier.dict - es - language file for the dossier code
+
+$local = array (
+                "dossier"                        =>        "dossier",
+                "dossier_title"                  =>        "P&aacute;gina del dossier ".$GLOBALS[current_dossier_name]." van ".$GLOBALS[site_name ],
+                "dossier_list_link"              =>        "Volver a la lista de dossiers",
+                "dossier_article_link"           =>        "Agrega un art&iacute;culo a un dossier",
+                "dossier_feature_link"           =>        "Agrega un dossier",
+                "dossier_articlelist"            =>        "Lista de art&iacute;culos de este dossier",
+                "update_ok"                      =>        "Tu art&iacute;culo fue actualizado",
+                "refresh_result"                 =>        "Todos los art&iacute;culos fueron regenerados.",
+                "refresh_work_further"           =>        "Usted puede ahora trabajar más lejos en el dossier",
+                "dossier_listpage_title"         =>        "Vista general de dossier desde ".$GLOBALS[site_name ],
+                "dossier_edit_index"             =>        "Editar un indice general de un dossier",
+                "dossier_refresh_articles"       =>        "Regenerar los art&iacute;culos de este dossier",
+                "dossier_name"                   =>        "Nombre del dossier",
+                "dossier_feature_edittitle"      =>        "Administrar el indice de este dossier",
+                "dossier_feature_newtitle"       =>        "Agregar un dossier",
+                "dossier_addfeature_error"       =>        "Existe un error<br />Tu destaque no fue publicado",
+                "dossier_updatefeature_error"    =>        "Existe un error<br />Tu destaque no fue actualizado",
+                "try_again"                      =>        "Prueba otra vez...",
+                "dossier_article_add_title"      =>        "Agrega un art&iacute;culo a un dossier",
+                "html_warning"                   =>        "Los art&iacute;culos deben ser creados en html",
+                "link_to_id"                     =>        "Art&iacute;culos a cuales quieres enlazar",
+                "link_to_id_pub"                 =>        "En el caso que quieras este art&iacute;culo en el indice general del dossier, escribe '0'. En el caso que quieras agregarlo como una subsecci&oacute;n a otro art&iacute;lo, tienes que escribir el n&uacute;mero de identificador del art&iacute;culo a cual quieres enlazar",
+                "order_num"                      =>        "Orden",
+                "order_num_pub"                  =>        "Este valor define el orden en el cual tus art&iacute;culos aparecer&aacute;n en el indice.",
+                "dossier_select"                 =>        "Elige un dossier",
+                "dossier_article_display_change" =>        "Cambia el estado de visualizaci&oacute;n de los art&iacute;culos de este dossier",
+                "dossier_adminindex_title"       =>        "Administrar dossiers",
+                "status"                         =>        "Estado",
+                "dossier_publish_ok"             =>        "<b>Tu art&iacute;culo no aparecer&aacute; en las noticias hasta que el dossier no est&eacute; en l&iacute;nea...</b>. Tampoco hasta que regeneres el dossier.",
+
+
+
+);
+?>

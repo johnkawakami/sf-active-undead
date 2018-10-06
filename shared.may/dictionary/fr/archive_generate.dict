@@ -1,0 +1,22 @@
+<?php
+// Dictionary file - fr - archive_generate
+
+$local = array(
+                "categories" =>                 "Features",
+                "categoryid" =>                 "ID cat&eacute;gorie",
+                "submit" =>                 "R&eacute;g&eacute;n&eacute;rer",
+                "arc_id" =>                 "ID:",
+                "arcdatetogen" =>                 "Nombre de semaines &agrave; r&eacute;g&eacute;n&eacute;rer:",
+                "default_weeks" =>                 "(par d&eacute;faut, 5 semaines)",
+                "arc_numtogen" =>                 "Nombre de features &agrave; r&eacute;g&eacute;n&eacute;rer:",
+                "admin_archive_id" =>                 "R&eacute;g&eacute;n&eacute;rer les archives par ID",
+                "admin_archive_date" =>                 "R&eacute;g&eacute;n&eacute;rer les archives par semaine",
+                "archive_generate" =>           "G&eacute;n&eacute;rer les archives",
+                "i_category" =>              "interne",
+                "no_items_for_week" =>          "Aucun feature pour cette semaine: ",
+				"no_items_for_id" =>            "aucun feature trouv&eacute; pour cet id ",
+                "specify_dmy" =>                "Pr&eacute;ciser un jour, un mois et une ann&eacute;e pour g&eacute;n&eacute;rer les semaines",
+                "writing" =>                    "&Eacute;criture sur: ",
+                );
+
+?>

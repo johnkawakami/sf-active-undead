@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - es - admin_index
+
+$local = array(
+               "articles_edit_list" => "Administriraj èlanke",
+               "enter_article_id" =>    "Unesi ID èlanka kojeg ¾eli¹ mijenjati:",
+               "enter_comment_id" =>    "nesi ID èlanka èije komentare eli¹ mijenjati:",
+		"comment_edit" => 	"Mijenjanje komentara",
+               "click_on_article_to_edit" =>    "Administriraj èlanke",
+               "save" =>    "Snimi",
+	        "promote_to_feature"  => "make this article a feature",
+              );
+
+?>

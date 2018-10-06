@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - it - comment latest
+
+$local = array(
+	"latest_comment_text" =>        "Questo e' un elenco degli ultimi commenti pubblicati sul sito. E' qui in modo che sia possibile partecipare alla costruzione di un informazione dal basso commentando gli articoli pubblicati e continuando ad aggiornare e a commentare gli approfondimenti e le discussioni cominciate. Vedi anche ",
+	"most_commented" =>        "articoli piu' commentati",
+        "latest_author" =>     "AUTORE ULTIMO COMMENTO",
+        "posted_at" =>   "DATA DI PUBBLICAZIONE",
+	"browse_older_threads" =>        "Naviga le discussioni passate &gt;&gt;",
+// Added after translation
+        "thread" =>          "DISCUSSIONE"
+        );
+
+?>

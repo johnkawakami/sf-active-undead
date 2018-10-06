@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - en - comment latest
+
+$local = array(
+	"file_viewer_info" =>        "This page can be used for viewing and editing any file in the cache folder. The file name is given through the url. Filter only shows lines containing the keywords given and you can not save if you have a filter on. An empty filter will reload the page showing all lines (hitting filter can therefore be used to refersh the page whereas hitting refresh could save if your last command was save). Please hit filter before you make changes and save since otherwise you may save over other changes (in the case of log files this could delete anything logged while you were viewing the page)",
+	"filter" => "filter"
+        );
+
+?>

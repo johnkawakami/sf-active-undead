@@ -1,0 +1,39 @@
+<?php
+
+// dossier.dict - sr - language file for the dossier code
+
+$local = array (
+		"dossier"					=>		"dosije",
+		"dossier_title"				=>		"Strana za dosije ".$GLOBALS[current_dossier_name]." za ".$GLOBALS[site_name ],
+		"dossier_list_link"			=>		"Nazad na spisak dosijea",
+		"dossier_article_link"		=>		"Dodaj èlanak u dosije",
+		"dossier_feature_link"		=>		"Dodaj dosije",
+		"dossier_articlelist"		=>		"Lista èlanaka iz ovoga dosiea",
+		"update_ok"					=>		"Vaš èlanak je ažuriran",
+		"refresh_result"			=>		"Svi èlanci su osveženi.",
+		"refresh_work_further"		=>		"Sada možete raditi dalje na dosijeu.",
+		"dossier_listpage_title"	=>		"Pregledajte stranu sa dosijejima iz ".$GLOBALS[site_name ],
+		"dossier_edit_index"		=>		"Promeni generalni indeks dosijea",
+		"dossier_refresh_articles"	=>		"Osveži èlanke u ovom dosijeu",
+		"dossier_name"				=>		"Ime dosijea",
+		"dossier_feature_edittitle"	=>		"Aministriraj index ovog dosijea",
+		"dossier_feature_newtitle"	=>		"Dodaj dosije",
+		"dossier_addfeature_error"	=>		"Postoji greška<br />Vaš tekst nije objavljen",
+		"dossier_updatefeature_error"	=>	"Postoji greška<br />Vaš tekst nije osvežen",
+		"try_again"					=>		"Probajte ponovo ...",
+		"dossier_article_add_title"	=>		"Dodajte èlanak u dosije",
+		"html_warning"				=>		"Èlanci se moraju sastaviti u HTML formatu",
+		"link_to_id"				=>		"Èlank na koji želite link (vezu)",
+		"link_to_id_pub"			=>		"U sluèaju da želite ovaj èlanak u generalnom indeksu, unesite 0. U sluèaju da želite da ga dodate kao poglavlje u drugom èlanku, morate da popunite ID èlanka onog èlanka sa kojim želite da ga povežete",
+		"order_num"					=>		"Broj u redosledu",
+		"order_num_pub"				=>		"Ove vrednosti definišu redosled u kom æe se vaši èlanci pojaviti u indeksu.",
+		"dossier_select"			=>		"Izaberi dosije",
+		"dossier_article_display_change" =>	"Promeni status prikazivanja za ovaj èlanak u dosijeu",
+		"dossier_adminindex_title"	=>		"Administriraj dosijea",
+		"status"					=>		"status",
+		"dossier_publish_ok"		=>		"<b>Vaš èlanak se neæe pojaviti u vestima pre nego što se dosije stavi online..</b>. Takoðe se neæe pojaviti na stranici dosijea, dok ne osvežite dosije.",
+
+
+
+);
+?>

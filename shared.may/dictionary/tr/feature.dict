@@ -1,0 +1,39 @@
+<?php
+// Dictionary file - es - feature
+
+$local = array(
+                "no_features_to_edit" =>    "D&uuml;zenlenecek b&ouml;l&uuml;m yok!",
+                "features_edit" =>          "Bu b&ouml;l&uuml;m&uuml; d&uuml;zenle",
+                "feature_story_edit" =>     "Bu &ouml;nyaz&#305;y&#305; d&uuml;zenle",
+                "feature_story_add" =>      "Haber ekle",
+                "feature_title1" =>         "K&#305;sa ba&#351;l&#305;k",
+                "feature_title2" =>         "Uzun haber ba&#351;l&#305;&#287;&#305;",
+                "template_name" =>          "&#350;ablon ad&#305;",
+                "order_num" =>              "S&#305;ra numaras&#305;",
+                "status" =>                 "Durum",
+                "feature_list" =>           "&Ouml;nyaz&#305; listesi",
+                "feature_all_versions" =>   "Bu &ouml;nyaz&#305;n&#305;n tarih&ccedil;esine g&ouml;zat",
+		"feature_history" =>        "Bu b&ouml;l&uuml;m&uuml;n tarih&ccedil;esine g&ouml;zat",
+                "feature_history_inst" =>   "D&uuml;zenlenecek bir versiyona t&#305;klay&#305;n ve &ouml;nceki haline d&ouml;n&uuml;n",
+                "feature_modifier" =>       "Son g&uuml;ncelleme",
+                "feature_test" =>           "Test sayfas&#305;",
+                "feature_preview" =>        "&Ouml;nizleme sayfas&#305; (G&uuml;ncelleme bu sayfadan yap&#305;l&#305;r)",
+                "story_version_id" =>       "&Ouml;nyaz&#305; ID'si",
+                "feature_version_num" =>    "Versiyon number",
+                "feature_display_date" =>   "G&ouml;r&uuml;nt&uuml;leme tarihi",
+                "feature_image_url" =>      "Resim linki",
+                "feature_alt_tag" =>        "Alt yaz&#305;",
+                "story_index_for" =>        "Dizin: ",
+                "story_index_inst" =>       "Bir haberi g&uuml;ncellemek i&ccedil;in ba&#351;l&#305;&#287;&#305;na t&#305;klay&#305;n&#305;z",
+                "feature_id_number" =>      "ID numaras&#305;",
+                // 07 sep 03
+                "no_template_defined" =>    "<br><h3>No template was defined for this feature</h3><br>",
+		"test"              =>      "test",
+
+                // language stuff
+                "language"          =>      "language",
+                "select_a_language" =>      "select a language",
+
+                );
+
+?>

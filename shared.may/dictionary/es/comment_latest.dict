@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - es - comment latest
+
+$local = array(
+	"latest_comment_text" =>        "Aqu&iacute; aparece una lista de los &uacute;ltimos comentarios publicados en el sitio. Es para que puedas seguir participando f&aacute;cilmente de una discusi&oacute;n y saber si han comentado tu art&iacute;culo. Puedes ver tambi&eacute;n los ",
+	"most_commented" =>        "art&iacute;culos m&aacute;s comentados ",
+        "latest_author" =>     "ULTIMO AUTOR",
+        "posted_at" =>   "PUBLICADO EL",
+	"browse_older_threads" =>        "ver comentarios anteriores &gt;&gt;",
+// Added after translation
+        "thread" =>          "ARTICULO"
+        );
+
+?>

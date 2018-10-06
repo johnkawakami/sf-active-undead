@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - hr - admin_cities
+$local = array(
+              "admin_refreshing_cities" =>  "Osvje¾avam listu gradova.",
+              "cities_unavailable" => "Popis Indymedia centara je trenutno nedostupan.",
+              "die" => "Ne mogu otvoriti XML input",
+              );
+?>

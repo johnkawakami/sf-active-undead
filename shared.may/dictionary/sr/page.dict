@@ -1,0 +1,11 @@
+<?php
+
+// error strings for the page_class
+
+$local=array(
+	"string_error" => "ID strane nije tekstualnog tipa.",
+	"template_error" => "Ne mogu da naðem datoteku sa šablonom.",
+	"script_error" => "Ne mogu da naðem script datoteku.",
+	"class_error" => "Ne mogu da naðem odgovorajuæu klasu."
+)
+?>

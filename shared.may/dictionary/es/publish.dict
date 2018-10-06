@@ -1,0 +1,74 @@
+<?php
+// Dictionary file - es - publish
+
+$local = array(
+              "pub_stepone" =>    "PRIMER PASO: INGRESA LA INFORMACION DEL ARTICULO ||| ATENCION: TODOS LOS DATOS SERAN PUBLICADOS",
+              "pub_steptwo" =>    "SEGUNDO PASO: INGRESA EL TEXTO DEL ARTICULO",
+              "pub_stepthree" =>  "TERCER PASO: ADJUNTA ARCHIVOS",
+	      "attach_a_file"=>   "ADJUNTA ARCHIVOS",
+              "pub_author" =>     "Autor",
+              "pub_url" =>        "Direcci&oacute;n web / URL",
+              "pub_artmime" =>    "TEXTO o HTML",
+
+              "pub_optional" =>   "(Los formularios de contacto son opcionales y se har&aacute;n visible con tu art&iacute;culo.)",
+              "pub_sum" =>        "(El resumen no debe exceder seis l&iacute;neas. Favor de incluir la duraci&oacute;n de piezas de audio y video.)",
+
+              "pub_art" =>        "Para los art&iacute;culos en texto plano, las urls van a ser convertidas a enlaces. Puedes igual usar &lt;a href=&quot;URL&quot;&gt;LINK&lt;/a&gt; en art&iacute;culos de texto plano (otros tags van a ser ignorados a menos que selecciones &quot;formato html&quot;).",
+              "pub_mime" =>       "No selecciones formato &quot;HTML&quot; salvo que incluya &lt;p&gt; y/o &lt;br&gt; ",
+              "pub_cuantofiles" =>"¿Cu&aacute;ntos archivos vas a subir?",
+              "sel_categories" => "&iquest;CATEGOR&Iacute;A?",
+              "sel_cattema" => "Categor&iacute;a tem&aacute;tica",
+              "sel_catlocali" => "Categor&iacute;a local",
+              "sel_catinternal" => "Categor&iacute;a interna",
+              "sel_catevent" => "categor&iacute;a de evento",
+              "sel_catproject" => "categor&iacute;a de proyecto",
+              "sel_catother" => "otras categor&iacute;as",
+              "sel_cathidden" => "categor&iacute;a oculta",
+
+// new words since translation was started
+              "select_file" => "Seleccionar Archivo",
+              "comment" => "Comentar",
+              "max_upload" => 'M&aacute;ximo tama&ntilde;o de archivo:',
+              "total_limit" => 'tama&ntilde;o l&iacute total:',
+              "minutes" => 'minutos para subir',
+              "accepted_types" => 'Extensiones aceptadas:  '.$GLOBALS['accepted_filetypes'],
+              // added by bart (for preview & ...)
+              "preview" => "Previsualizar",
+              "preview_warning" => "<b>Si tu quieres usar la previsualizaci&oacute;n, hazlo antes de subir archivos</b>",
+              "publish_successful" => "<strong>Publicaci&oacute;n exitosa! Hemos agregado tu historia a la columna de publicaci&oacute;n abierta.</strong>",
+              "comment_successful" => "<strong>Comentario agregado!</strong>",
+            // for e-mail validation
+              "validate_email" =>   "COMPROBACI&Oacute;N DE EMAIL ?",
+              "validate_form" => "Marca esta casilla para enviarte un mail y as&iacute; comprobar que esa casilla de email es tuya.",
+              "pub_validation_email" => "Hola,
+              Este mail ha sido enviado porque
+              t&uacute; u otra persona que publicado en tu nombre 
+              una historia en el sitio SITE_NAME usando tu email 
+              y pidiendo comprobaci&oacute;n de este.
+
+              El art&iacute;culo en cuesti&oacute;n lo puedes encontrar aqu&iacute;:
+              ARTICLE_URL
+
+              Si tu publicaste la historia, por favor visita la 
+              siguiente URL:
+              VALIDATIONURL
+              para validar el art&iacute;culo. Si tu no lo hiciste
+              y otra persona est&aacute; tratando de suplantarte
+              sientete libre de contactar a los operadores de 
+              SITE_NAME en el mail ADMIN_EMAIL
+              
+
+              Si tienes otras preguntas o comentarios
+              contactanos en: PUBLIC_EMAIL ", 
+              "pub_validation_email_sub" => "[SITE_NAME] Petici&oacute;n de comprobaci&oacute;n de email",
+              "validated_ok" => "tu art&iacute;culo ha sido validado",
+              "validated_allready" => "este art&iacute;culo ya ha sido validado",
+              "validated_error" => "Algo anda mal, quiza usaste una URL err&oacute;nea ?",
+              "validation_email_ok" => "El mensaje de comprobaci&oacute;n ha sido enviado.",
+              "validation_email_error" => "Hubo un problema al enviar el correo, ingresaste bien tu email?",
+
+            // for language stuff
+              "sel_language"  =>  "Selecciona un idoma",
+              "pub_error_language" => "Tienes que seleccionar un idioma para este art&iacute;culo",
+              );
+?>

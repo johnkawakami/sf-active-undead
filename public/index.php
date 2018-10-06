@@ -3,7 +3,8 @@
 //It displays a cached center column and a cached summary list
 //of the latest posts.
 
-include("shared/global.cfg");
+require_once("/www/la.indymedia.org/shared/global.cfg");
+require_once("shared/classes/translate_class.inc");
 
 $sftr = new Translate();
 

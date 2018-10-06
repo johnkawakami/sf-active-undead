@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - es - authenticate_display_logon
+
+$local = array(
+              "admin_enter" =>    "&#304;dari b&ouml;l&uuml;m giri&#351;i",
+              "return_to_site" => "Siteye d&ouml;n"
+              );
+?>

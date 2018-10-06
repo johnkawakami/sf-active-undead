@@ -1,0 +1,17 @@
+<?php
+// Dictionary file - hr - admin_index
+
+$local = array(
+              "admin_welcome" =>  "Dobrodo¹ao/la u administracijski sistem",
+              "admin_subtitle" => "Glavni administraciski meni",
+              "admin_user" =>     "Administracija korisnika",
+              "admin_category" => "Administracija kategorija &amp; moguænosti",
+              "admin_calendar" => "Administracija kalendara",
+              "admin_upload" =>   "Po¹alji slike",
+              "admin_article" =>  "Administracija èlanaka",
+              "admin_email" =>    "Po¹alji tjedni e-mail",
+              "admin_spam" =>     "Spam filteri",
+              "admin_logoff" =>   "Odjava"
+              );
+
+?>

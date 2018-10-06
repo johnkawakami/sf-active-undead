@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - es - authenticate_display_logon
+
+$local = array(
+              "admin_enter" =>    "Ulaz u administracijski site",
+              "return_to_site" => "Povratak na site"
+              );
+?>

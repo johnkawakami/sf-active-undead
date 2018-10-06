@@ -1,0 +1,38 @@
+<?php
+// Dictionary file - es - feature
+
+$local = array(
+                "no_features_to_edit" =>    "&iexcl;Ning&uacute;n destaque para editar!",
+                "features_edit" =>          "Editar categor&iacute;a",
+                "feature_story_edit" =>     "Editar este destaque",
+                "feature_story_add" =>      "Agregar destaque",
+                "feature_title1" =>         "T&iacute;tulo corto",
+                "feature_title2" =>         "T&iacute;tulo largo",
+                "template_name" =>          "Nombre de la plantilla",
+                "order_num" =>              "Orden",
+                "status" =>                 "Estado",
+                "feature_list" =>           "Lista de Destaques",
+                "feature_all_versions" =>   "Ver historial",
+                "feature_history" =>        "Historia de esta entrada",
+                "feature_history_inst" =>   "Pulsar una versi&oacute;n para editarla o re-establecer una versi&oacute;n previa.",
+                "feature_modifier" =>       "&Uacute;ltima modificaci&oacute;n",
+                "feature_test" =>           "Previsualizaci&oacute;n",
+                "feature_preview" =>        "Versi&oacute;n preliminar (antes de publicar)",
+                "story_version_id" =>       "Versi&oacute;n ID del destaque",
+                "feature_version_num" =>    "N&uacute;mero de versi&oacute;n",
+                "feature_display_date" =>   "Fecha a mostrar",
+                "feature_image_url" =>      "URL de la imagen",
+                "feature_alt_tag" =>        "Texto (Alt Tag)",
+                "story_index_for" =>        "Indice para la categor&iacute;a:",
+                "story_index_inst" =>       "Pulsa en un t&iacute;tulo para editar el destaque existente",
+                "feature_id_number" =>      "N&uacute;mero ID",
+                "no_template_defined" =>    "<br><h3>Ninguna plantilla fue definida para este destaque</h3><br>",
+		"test"              =>      "prueba",
+
+                // language stuff
+                "language"          =>      "idioma",
+                "select_a_language" =>      "selecciona un idioma",
+
+                );
+
+?>

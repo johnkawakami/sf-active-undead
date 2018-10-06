@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - it - admin_cities
+$local = array(
+              "admin_refreshing_cities" =>  "Stiamo salvando il file con l'elenco dei nodi del network.",
+              "cities_unavailable" => "L'elenco dei nodi del network di indymedia non e' al momento dispobibile.",
+              "die" => ">Non e' stato possibile aprire la fonte XML",
+              );
+?>

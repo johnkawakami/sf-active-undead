@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - es - upload_display_add
+
+$local = array(
+               "upload_subtitle" =>    "Upload beeldmateriaal",
+	       "file_to_upload" =>     "Bestand dat je wil uploaden",
+	       "location_upload" =>    "Plaats naar waar je upload",
+	       "over_write" =>         "overschrijf bestand met dezelfde naam",
+	       "browse_images" =>      "browse beelmateriaal",
+	       "image_exists_error" => "het beeld bestaat reeds!",
+	       "image_cannot_move" =>  "Kan het niet verplaatsen!",
+	       "image_uploaded" =>     "Afbeelding upgeload!"
+              );
+
+?>

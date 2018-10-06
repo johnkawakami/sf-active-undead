@@ -56,7 +56,7 @@ echo  '<?xml version="1.0"?>';
     $m = new Minical();
     $events = $m->event_array;
     foreach($events as $event) {
-           ?><?=$event->start_month.'/'.$event->start_day?> <a href="/calendar/event_display_detail.php?event_id=<?=$event->id?>"><?=$event->title?></a><br /><?  
+           ?><?=$event->start_month.'/'.$event->start_day?> <a href="/calendar/event_display_detail.php?event_id=<?=$event->id?>"><?=$event->title?></a><br /><?php  
     } 
 ?></small></card>
 </wml>

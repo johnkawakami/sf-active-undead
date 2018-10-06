@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - hr - page viewer
+
+$local = array(
+	"page_viewer_info" =>        "Ova stranica slu¾i za promjenu process-a ...........",
+	"filter" => "filter",
+	"search_string" => "Lista za pretragu",
+	"insertname" => "Unesi ime za novi css",
+	"errorpage" => "Une¹eno ime je neodgovarajuæe. Poku¹aj ponovo",
+        "filename_header" => "Kreiraj novi process pagecss");
+
+
+?>

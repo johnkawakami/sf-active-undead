@@ -1,18 +1,19 @@
 <?php
+include('shared/vendor/autoload.php');
 //This page does bulk status changes
 
 $display=true;
 include('shared/global.cfg');
 
-$q = "  SELECT qc.id AS id, 
-        LEFT(webcast.article,800) AS excerpt, 
-	    COUNT(qc.id) AS score, 
-		webcast.parent_id AS parent_id, 
-		qc.ip AS ip, 
-		webcast.heading AS heading, 
-		qcrank.score AS user_rep, 
-		webcast.author AS author, 
-		qc.type AS type
+$q = " SELECT qc.id AS id, 
+                LEFT(webcast.article,800) AS excerpt, 
+				COUNT(qc.id) AS score, 
+				webcast.parent_id AS parent_id, 
+				qc.ip AS ip, 
+				webcast.heading AS heading, 
+				qcrank.score AS user_rep, 
+				webcast.author AS author, 
+				qc.type AS type
 		FROM qc, webcast, qcrank
 		WHERE qc.id = webcast.id
 		AND qc.ip = qcrank.ip
@@ -22,7 +23,7 @@ $q = "  SELECT qc.id AS id,
 		GROUP BY qc.id, qc.ip
 		ORDER BY score ASC
 	";
-$db = new DB();
+$db = new SFACTIVE\DB();
 $a = $db->query($q);
 
 $q = " SELECT ip,score AS user_rep FROM qcrank WHERE lastIgnoreDate > DATE_SUB(NOW(), INTERVAL 3 DAY) AND score < 0 ORDER BY score ASC";

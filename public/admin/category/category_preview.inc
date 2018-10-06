@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 //get category name,heaeder and footer for display and file generation purposes
 
 $query="select name,header, footer from category where category_id=";

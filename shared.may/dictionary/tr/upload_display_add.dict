@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - es - upload_display_add
+
+$local = array(
+               "upload_subtitle" =>    "Resim y&uuml;kle",
+	       "file_to_upload" =>     "Y&uuml;klenecek dosya",
+	       "location_upload" =>    "Y&uuml;klenecek yer",
+	       "over_write" =>         "ayn&#305; isimli dosyalar silinsin",
+	       "browse_images" =>      "resimleri tara",
+	       "image_exists_error" => "resim mevcut!",
+	       "image_cannot_move" =>  "ta&#351;&#305;nam&#305;yor!",
+	       "image_uploaded" =>     "Resim y&uuml;klendi!"
+              );
+
+?>

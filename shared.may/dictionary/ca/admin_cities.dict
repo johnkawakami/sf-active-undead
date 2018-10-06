@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - ca - admin_cities
+$local = array(
+              "admin_refreshing_cities" =>  "Refrescant ciutats.",
+              "cities_unavailable" => "El llistat dels Independent Media Centers no esta disponible.",
+	      "die" => "No es pot obrir l'input XML",
+              );
+?>

@@ -1,0 +1,21 @@
+<?php
+// Dictionary file - en - calendar
+
+$local = array(
+                "admin_calendar" =>             "Caledário Administração",
+                "enter_event_id" =>             "Entre com o número da ID do evento o qual você necessita o número de confirmação",
+                "hint_event_id" =>              "Para obter a ID do evento veja a URL (endereço) do evento.",
+                "event_found" =>                "Evento encontrado para ID de evento",
+                "conf_no" =>                    "Número de Confirmação",
+                "find" =>                       "procurar",
+                "event_up" =>                   "Eventos reorganizados.",
+                "lookup_conf" =>                "Procurar número de confirmação de evento",
+                "regen_event" =>                "Atualizar a página",
+                "location" =>                   "Location",
+                "event_type" =>                 "Event Type",
+                "event_topic" =>                "Event Topic",
+                "enter_event2_id" =>            "Enter the ID-number of the event you want to edit",
+
+                );
+
+?>

@@ -37,7 +37,7 @@ a:link { color: black; }
     $m = new Minical();
     $events = $m->event_array;
     foreach($events as $event) {
-           ?><div class="box"><?=$event->start_month.'/'.$event->start_day?> <a href="/calendar/event_display_detail.php?event_id=<?=$event->id?>"><?=$event->title?></a></div><?  
+           ?><div class="box"><?=$event->start_month.'/'.$event->start_day?> <a href="/calendar/event_display_detail.php?event_id=<?=$event->id?>"><?=$event->title?></a></div><?php  
     } 
 ?>
 <div class="box"><b><a href="http://la.indymedia.org/calendar/event_display_list.php">Full Calendar</a></b></div>

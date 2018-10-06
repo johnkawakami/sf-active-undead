@@ -1,4 +1,5 @@
 <?php
+include 'shared/vendor/autoload.php';
 //This page displays the main list of calendar admin options
 
 $display=true;

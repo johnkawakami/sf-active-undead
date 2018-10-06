@@ -1,0 +1,12 @@
+
+<?php
+// Dictionary file - it - calendar
+
+$local = array(
+                "admin_calendar" =>             "Amministrazione agenda",
+                "refresh_event" =>             "Salvando il file di cache per la settimana  ",
+                "event_up" =>             "File di cache aggiornato",
+                "admin_index" =>                "Amministrazione"
+                );
+
+?>

@@ -1,0 +1,17 @@
+<?php
+// Dictionary file - ca - admin_index
+
+$local = array(
+              "admin_welcome" =>  "Benvingut al sistema d'administraci&oacute;",
+              "admin_subtitle" => "Men&uacute; d'Administraci&oacute;",
+              "admin_user" =>     "Administrar usuaris",
+              "admin_category" => "Administrar categories i especials",
+              "admin_calendar" => "Administrar calendari",
+              "admin_upload" =>   "Pujar imatges",
+              "admin_article" =>  "Administrar articles",
+              "admin_email" =>    "Enviar newsletter",
+              "admin_spam" =>     "Filtres d'spam",
+              "admin_logoff" =>   "Sortir"
+              );
+
+?>

@@ -1,7 +1,7 @@
 <?php
+include_once("shared/vendor/autoload.php");
 include_once("shared/global.cfg");
 include(SF_CLASS_PATH."/spamc_class.inc");
-# include(SF_CLASS_PATH."/article_class.inc");
 include_once('tags.lib.php');
 session_start();
 
@@ -18,18 +18,18 @@ if ($ignore=='ignore') {
     $ig = 0;
 }
 
-$db = new DB();
+$db = new SFACTIVE\DB();
 
 //echo "UPDATE tags SET `ignore`=$ig,synonym='$synonym' FROM tags WHERE id=$id";
-$db->execute_statement("UPDATE tags SET `ignore`=$ig,synonym='$synonym' WHERE id=$id");
+$db->execute("UPDATE tags SET `ignore`=$ig,synonym='$synonym' WHERE id=$id");
 
 if ($ig==1) {
-		$db->execute_statement("DELETE FROM tags_articles WHERE tag_id=$id");
+		$db->execute("DELETE FROM tags_articles WHERE tag_id=$id");
 }
 if ($synonym!='') {
 	$tag = get_tag_by_name($synonym);
 	$newid = $tag['id'];
-	$db->execute_statement("UPDATE tags_articles SET tag_id=$newid WHERE tag_id=$id");
+	$db->execute("UPDATE tags_articles SET tag_id=$newid WHERE tag_id=$id");
 }
 
 // right now, anyone can mess with the tags...

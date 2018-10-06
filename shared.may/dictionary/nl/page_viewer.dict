@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - nl - page viewer
+
+$local = array(
+	"page_viewer_info" =>        "Deze pagina wordt gebruikt om de pagina te bewerken",
+	"filter" => "filter",
+	"search_string" => "Zoek lijst",
+	"insertname" => "Vul een naam in voor de nieuwe pagina",
+	"errorpage" => "Je hebt een ongeldige paginanaam ingevuld. Probeer opnieuw",
+        "filename_header" => "Maak een nieuwe pagina");
+
+
+?>

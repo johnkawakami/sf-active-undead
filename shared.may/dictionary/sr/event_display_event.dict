@@ -1,0 +1,20 @@
+<?php
+// Dictionary file - en - event_display_event
+
+$local = array(
+	"cal_title" => "Naslov:",
+	"cal_start_date" => "POÈETNI DATUM",
+	"cal_start_time" => "POÈETNO VREME",
+	"cal_duration" => "Trajanje",
+	"cal_hours" => "Sati",
+	"cal_location" => "Lokacija",
+	"cal_location_details" => "Detalji o lokaciji",
+	"cal_type" => "Tip dogaðaja",
+	"cal_topic" => "Tema dogaðaja",	
+	"cal_contact_name" => "Kontakt osoba",
+	"cal_contact_email" => "Kontakt email",
+	"cal_contact_phone" => "Kontakt telefon",
+	"cal_description" => "OPIS",
+);
+
+?>

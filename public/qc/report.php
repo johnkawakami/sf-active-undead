@@ -1,124 +1,42 @@
-<?php
+<?php // vim:et:ai:sw=4:ts=4
+include "shared/vendor/autoload.php";
+
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Cookie;  
+
 include_once("shared/global.cfg");
 
-$id = $_GET['id'];
-$type = $_GET['q'];
-$format = $_GET['format'];
-$callback = $_GET['callback'];
-
-if (!filter_var($id,FILTER_VALIDATE_INT)) { exit; }
-
-if ($format != 'json') {
-	$format = 'html';
-}
-
-$ip = $_COOKIE['snitchip'];
-if (!$ip) 
+function too_many_reports( $ip, $interval_hours, $max_reports_per_interval )
 {
-	$ip = abs(crc32($_SERVER['REMOTE_ADDR']));
-	setcookie('snitchip',$ip, time()+60*60*24*2600);
+	$db = new SFACTIVE\DB();
+	$a = $db->queryFetchOne("SELECT COUNT(*) as c FROM qc 
+                        WHERE ip=:ip 
+                        AND	DATE_SUB(reportDate, INTERVAL $interval_hours HOUR) < 0", 
+                        ['ip'=>$ip] );
+	return ($a > $max_reports_per_interval);
 }
-else
+
+function delete_and_adjust( $ip, $id )
 {
-	// renew the cookie
-	setcookie('snitchip',$ip, time()+60*60*24*2600);
-}
+	$db = new \SFACTIVE\DB();
+	$db->execute("UPDATE qcrank SET score=score-0.5 WHERE ip=:ip", [':ip'=>$ip] );
 
-if ($format=='html') {
-	?>
-	<body style="margin: 0px"
-	<p style="margin: 4px;">
-	<strong>Peer Moderation</strong>
-	<br />
-	<br />
-	<?
-}
-
-$db = new DB();
-$out = array(); // for json output
-
-if ( preg_match('/[0-9]+/',$id) &&
-	preg_match('/(dmca|fraud|racist|genocide|chatter|porn|double|spam|ad|hate|offtopic|bestof|troll)/',$type) )
-{
-	if ( too_many_reports( 12, 15 ) )
-	{
-		if ($format == 'html') {
-			print('Thanks, but, you can only submit 15 reports per 12 hour period.');
-		}
-		if ($format == 'json') {
-			$out['message'] = "You can only submit 15 reports per 12 hour period.";
-		}
-	}
-	else
-	{
-		$modScore = report( $type, $id );
-		if ($format == 'html') {
-			print('Thanks for helping us moderate.<br>');
-		}
-		if ($modScore > 0)
-		{
-			if ($format == 'html') {
-				print("<small>ID: $ip <br>Your Moderator Score: $modScore.</small>");
-			} 
-			if ($format == 'json') {
-				$out['moderatorScore'] = $modScore;
-			}
-		}
-		if ( ($modScore > 20) and  preg_match('/(dmca|fraud|racist|genocide|chatter|porn|spam|ad|hate|offtopic)/',$type) )
-		{
-			delete_and_adjust( $id );
-		}
-	}
-}
-else
-{
-	if ($format == 'html') {
-		print('Invalid.');
-	} else {
-		header('Status: 500 Error', 500);
-		header('Content-Type: application/json');
-		echo json_encode(array('status'=>'error'));
-		exit;
-	}
-}
-
-function too_many_reports( $interval_hours, $max_reports_per_interval )
-{
-	global $ip;
-	$db = new DB();
-	$a = $db->query("SELECT COUNT(*) as c FROM qc 
-					WHERE ip='$ip' 
-					AND	DATE_SUB(reportDate, INTERVAL $interval_hours HOUR) < 0");
-	if ($a[0]['c']>$max_reports_per_interval)
-		return true;
-	else return false;
-}
-
-function delete_and_adjust( $id )
-{
-	global $ip;
-	global $db;
-
-	$db->execute_statement("UPDATE qcrank SET score=score-0.5 WHERE ip=$ip");
-
-	$article_obj = new Article;
+	$article_obj = new \SFACTIVE\Article;
 	$article_obj->update_article_status($id, 'f');
 
-	$db->execute_statement("DELETE FROM qc WHERE id=$id");
-
+	$db->execute("DELETE FROM qc WHERE id=:id", [':ip'=>$ip]);
 }
 
 /**
  * @returns int modScore the moderator's moderation score.
  */
-function report( $type, $id )
+function report( $ip, $type, $id )
 {
-	global $ip;
-
-	$db = new DB();
-	$a = $db->query("SELECT score FROM qcrank WHERE ip=$ip");
-	$modScore = $a[0]['score'];
-	if ($modScore==Null) $modScore=0;
+	$db = new SFACTIVE\DB();
+	$modScore = $db->queryFetchOne("SELECT score FROM qcrank WHERE ip=:ip", [':ip'=>$ip]);
+	if ($modScore==null) $modScore=0;
 
 
 	// This increases the 'ranking' score on the article
@@ -127,16 +45,14 @@ function report( $type, $id )
 	// Moderators with a negative mod score don't get to mod up articles.
 	if ($type=='bestof')
 	{
-		$db->execute_statement(
-			"UPDATE webcast SET rating=0 WHERE id=$id AND rating IS NULL");
-		if ($modScore > 0)
-				$increment = log10($modScore) + 1;
-		else
-				$increment = 0;
-		$db->execute_statement(
-			"UPDATE webcast SET rating=rating+$increment WHERE id=$id AND rating<10");
-		$db->execute_statement(
-			"UPDATE webcast SET rating=10 WHERE AND rating>10");
+		$db->execute("UPDATE webcast SET rating=0 WHERE id=:id AND rating IS NULL", [':id'=>$id]);
+		if ($modScore > 0) {
+            $increment = log10($modScore) + 1;
+        } else {
+            $increment = 0;
+        }
+        $db->execute("UPDATE webcast SET rating=rating+:increment WHERE id=:id AND rating<10", [':id'=>$id, ':increment'=>$increment]);
+		$db->execute("UPDATE webcast SET rating=10 WHERE rating>10");
 		$article_obj = new Article;
 		$article_obj->update_article_status($id, 't');
 		return $modScore;
@@ -144,9 +60,8 @@ function report( $type, $id )
 
     if ($type=='troll')
     {
-        $db->execute_statement(
-            "UPDATE webcast SET rating=-1 WHERE id=$id AND rating IS NULL");
-		if (mysql_affected_rows($GLOBALS['db_conn']) >= 1)
+        $affected = $db->update("UPDATE webcast SET rating=-1 WHERE id=$id AND rating IS NULL");
+		if ($affected >= 1)
 		{
 			$article_obj = new Article;
 			$article_obj->update_article_status($id, 't');
@@ -158,48 +73,108 @@ function report( $type, $id )
     }
 
 
-	$a = $db->query("SELECT COUNT(*) as c FROM qcok WHERE id=$id");
+	$isOk = $db->queryFetchOne("SELECT COUNT(*) as c FROM qcok WHERE id=:id", [':id'=>$id]);
 
 	// If the article is "ok" and they report it, then you drop their
 	// moderator score by one
-	if ($a[0]['c']>0) 
+	if ($isOk > 0) 
 	{
-		$db->execute_statement("INSERT INTO qcrank (ip,score,lastIgnoreDate) VALUES ($ip,-1,NOW()) ON DUPLICATE KEY UPDATE score=score-1,lastIgnoreDate=NOW()");
-		$a = $db->query("SELECT score FROM qcrank WHERE ip=$ip");
-		return $a[0]['score']; 
+		$db->insert("INSERT INTO qcrank (ip,score,lastIgnoreDate) VALUES (:ip,-1,NOW()) ON DUPLICATE KEY UPDATE score=score-1,lastIgnoreDate=NOW()", [':ip'=>$ip] );
+		return $db->queryFetchOne("SELECT score FROM qcrank WHERE ip=:ip", [':ip'=>$ip] );
 	}
 
-	$db->execute_statement(
-		sprintf("INSERT INTO qc (type,id,ip,reportDate)
-			VALUES ('%s',%d,'%s',NOW())",
-			addslashes($type), $id, $ip));
-	$db->execute_statement("INSERT INTO qcrank (ip,score,lastIgnoreDate) VALUES ($ip,0,NOW()) ON DUPLICATE KEY UPDATE lastIgnoreDate=NOW()");
+	$db->insert( 'INSERT INTO qc (type,id,ip,reportDate) VALUES (:type,:id,:ip,NOW())', [':type'=>$type, ':id'=>$id, ':ip'=>$ip] );
+	$db->insert( 'INSERT INTO qcrank (ip,score,lastIgnoreDate) VALUES (:ip,0,NOW()) ON DUPLICATE KEY UPDATE lastIgnoreDate=NOW()', [':ip'=>$ip] );
 
 	return $modScore;
-
 }
 
-if ($format == 'html') {
-	?>
-	</p>
-	<p>
-	<img src='/qc/0.jpg'>
-	</p>
-	<script>
-	function c() { window.close(); }
-	window.setTimeout('c()',6000);
-	</script>
-	<?
-} 
-if ($format == 'json') {
-	header('Status: 200 OK', 200);
-	header('Content-Type: application/json');
-	if ($callback) {
-		echo $callback.'(';
-	}
-	echo json_encode($out);
-	if ($callback) {
-		echo ')';
-	}
-	exit;
+// The script starts here
+
+
+// fixme - this should use POST, not GET.
+
+$request = Request::createFromGlobals();
+
+$id = $request->query->get('id');
+if (!filter_var($id,FILTER_VALIDATE_INT)) { 
+    throw new Exception('bad id'); 
 }
+
+$format = $request->query->get('format', 'html');
+if (!in_array($format, ['html','json'])) {
+    throw new Exception('format must be html or json'); 
+}
+
+$type = $request->query->get('q');
+if (!preg_match('/(dmca|fraud|racist|genocide|chatter|porn|double|spam|ad|hate|offtopic|bestof|troll)/',$type) ) {
+    throw new Exception('invalid type'); 
+}
+
+$callback = $request->query->get('callback');
+if ($callback!==null && !preg_match('/^[a-zA-Z_][a-zA-Z0-9_]{0,99}/', $callback)) {
+    throw new Exception('callback function names must be less than 100 characters long and use only letters, numbers and underscore.'); 
+}
+
+$ip = $request->cookies->get('snitchip', abs(crc32($_SERVER['REMOTE_ADDR'])));
+if (!filter_var($ip,FILTER_VALIDATE_INT)) {
+    throw new Exception('bad ip'); 
+}
+
+
+$db = new SFACTIVE\DB();
+$out = ['ip'=>$ip];
+
+if ( too_many_reports( $ip, 12, 15 ) )
+{
+    $out['message'] = "You can only submit 15 reports per 12 hour period.";
+}
+else
+{
+    $out['message'] = 'Thanks for helping us moderate.';
+
+    $out['moderatorScore'] = $modScore = report( $ip, $type, $id );
+    if ( ($modScore > 20) and  $type!='bestof' )
+    {
+        delete_and_adjust( $ip, $id );
+    }
+}
+
+if ($format=='html') 
+{
+    $response = new Response( '', Response::HTTP_OK, ['content-type'=>'text/html'] );
+
+	$template = <<<TEMPLATE
+    <html>
+        <body style="margin: 0px">
+            <p style="margin: 4px;">
+                <strong>Peer Moderation</strong>
+                <br /><br />
+                {{ message }}
+                <small>ID: {{ ip }} <br>Your Moderator Score: {{ moderatorScore }}.</small>
+            </p> 
+            <p> 
+                <img src="/qc/0.jpg"> 
+            </p> 
+            <script> 
+                window.setTimeout( () => { window.close(); }, 6000 );
+            </script>
+        </body>
+    </html>
+TEMPLATE;
+
+    $twig = new Twig_Environment(new Twig_Loader_Array(['page'=>$template]));
+    $response->setContent($twig->render('page', $out));
+}
+else
+{
+    $response = new JsonResponse( $out );
+    if ($callback) {
+        $response->setCallback( $callback );
+    } 
+}
+
+$response->prepare($request);
+$response->headers->setCookie(new Cookie('snitchip',$ip, time()+60*60*24*2600));
+$response->send();
+

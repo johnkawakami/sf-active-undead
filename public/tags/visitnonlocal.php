@@ -1,4 +1,6 @@
 <?php
+namespace SFACTIVE;
+include('shared/vendor/autoload.php');
 include_once("tags.lib.php");
 
 $id = $_GET['id'];
@@ -11,11 +13,11 @@ $c = $db->query("select b.id FROM (select distinct article_id from tags_articles
 <h1>Touching all non-local stories</h1>
 
 <? 
-    $o = '';
+	$o = [];
 	foreach($c as $row) {
 		$articleid = $row['id'];
 		$o[] = " article_id=$articleid";
 	}
 	echo join(' or ',$o);
-	$db->execute_statement("DELETE FROM tags_articles WHERE ".join(' or ',$o));
+	$db->execute("DELETE FROM tags_articles WHERE ".join(' or ',$o));
 ?>

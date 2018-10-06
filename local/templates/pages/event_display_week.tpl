@@ -66,6 +66,12 @@ href="event_display_week.php?day=TPL_CAL_NEXT_WD&amp;month=TPL_CAL_NEXT_WM&amp;y
 	</tr>
 	TPL_CAL_EVENT_MONTH_VIEW_FULL
 </table>
-   <br />TPL_FORM_SEARCH_BOTTOM
 
+<table cellpadding="7" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td colspan="3">
+			   TPL_FORM_SEARCH_BOTTOM
+		</td>
+	</tr>
+</table>
 

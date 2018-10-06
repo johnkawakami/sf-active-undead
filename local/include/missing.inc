@@ -29,7 +29,7 @@ width="468" height="60" border="0"></a></td>
 	  <?php if ($urlhtml) { ?>
       <font size="-1" face="Verdana, Arial, Helvetica, sans-serif" color="#990000">
 		But maybe this is the page you are looking for:<br>
-<?php echo $urlhtml; ?></font><? } ?>
+<?php echo $urlhtml; ?></font><?php } ?>
 </b></font></td>
   </tr>
   <tr>

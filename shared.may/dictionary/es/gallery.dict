@@ -1,0 +1,15 @@
+<?
+
+// translation file for gallery - en
+
+$local = array(
+	"media"		=>	"media",
+	"previous"	=>	"anterior",
+	"next"		=>	"siguiente",
+	"view_midsize"	=> 	"tama&ntilde;o medio",	
+	"view_fullsize"	=>	"tama&ntilde;o completo",
+	"read_article"	=>	"lee el art&iacute;culo",
+	"no_files"	=>	"No existen esos archivos.",
+	"download"	=>	"descarga",
+)
+?>

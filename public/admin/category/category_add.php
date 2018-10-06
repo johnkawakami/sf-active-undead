@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 //This file is used to add a feature to the DB (features are called Categories in the DB)
 $display=false;
 include('shared/global.cfg');

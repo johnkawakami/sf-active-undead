@@ -1,0 +1,28 @@
+<?php
+// Dictionary file - en - mailinglist
+
+$local = array(
+              "invalid_email" =>        "Questo indirizzo email non e' valido!",
+              "subscribe_thanks" =>     "Grazie per esserti iscritt*. devi risponderer alla email di cnferma che ti e' stata inviata.",
+              "unsubscribe_thanks" =>   "Sei stato disiscritto. Riceverai una email di conferma",
+              "passwd_notsent" =>       "Non abiamo potuto inviarti la password in questo momento. Riprova piu' tardi.",
+              "passwd_sent" =>          "La tua pasword ti e' stata inviata.",
+                          "delivery_options" =>         "Opzioni di invio",
+                          "weekly_email" =>                     "Email settimanale",
+                          "top_text" =>                         "Un sommario settimanale dei titoli principali in plain-text. Vi invieremo ogni settimana i titoli per email.",
+                          "email_address" =>            "Indirizzo email",
+                          "subscribe" =>                        "Iscriviti",
+                          "password" =>                         "Password (per disiscriversi)",
+                          "unsubscribe" =>                      "Disiscriviti",
+                          "email_pass" =>                       "Inviami la mia password via mail",
+                          "indy_news" =>                        "Notizie Indipendenti da Indymedia",
+                          "list_text" =>                        "Mailing list pubblica per notizie indypendenti, eventi, annunci. Traffico moderato. Per iscriversi , andate alla pagina delle <a href=\"http://lists.indymedia.org/\">mailing list di indymedia</a>",
+                          "xml_newsfeeds" =>            "Feed xml per PDAs e Syndacation",
+                          "xml_text" =>                         "I seguenti file xml sono aggiornati costantemente e possono essere usati per il vostro sito, il vostro PDA o la vostra applicazione desktop",
+                          "feature_stories" =>          "titoli",
+                          "open_newswire" =>            "newswire",
+                          "syndication_page" =>         "pagina di riassunto dei feed di syndication",
+                          "custom_xml" =>                       "Genera query xml personalizzata",
+              );
+
+?>

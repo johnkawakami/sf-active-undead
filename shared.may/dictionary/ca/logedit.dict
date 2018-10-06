@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - ca - logedit
+
+$local = array(
+	"logedit" => "Includes, css, administració de templates",
+	"logedit_info" =>        "Aquesta pàgina serveix per editar includes, plantillesi css, o crear-los. Ves al tanto.",
+	"filter" => "filtrar",
+	"include_create" => "Crear un nou include",
+	"template_create" => "Crear una nova plantilla",
+	"css_create" => "Crear un nou css",
+        "page_create" => "Create a new process page",
+	"submit_include" => "crear"
+        );
+
+?>

@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - fr - event_add
+
+$local = array(
+	"cal_calendar" => "Calendrier",
+	"cal_spam_block" => "Acc&egrave;s &agrave; ce site refus&eacute; pour cause de &laquo;spamming&raquo;",
+	"cal_error_event_add" => "Une erreur s'est produite lors de l'ajout de l'&eacute;v&eacute;nement. Veuillez v&eacute;rifier que tous les champs obligatoires sont remplis et que la date et l'heure sont exactes.",
+	"cal_error_event_title" => "L'&eacute;v&eacute;nement ne peut pas &ecirc;tre ajout&eacute; car il n'a pas de titre. Merci de lui en donner un!",
+	"cal_error_event_delete" => "Cet &eacute;v&eacute;nement n'a pas pu &ecirc;tre supprim&eacute;. Le num&eacute;ro de confirmation est peut-&ecirc;tre invalide.",
+	"cal_error_event_id" => "L'ID d'&eacute;v&eacute;nement dans l'URL &eacute;tait invalide."
+);
+
+?>
+

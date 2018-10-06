@@ -1,0 +1,24 @@
+<?php
+// Dictionary file - en - mailable
+
+$local = array(
+	"prn_original_article" => "Articolo originale : ",
+	"original_upload" => "File associato : ",
+	"prn_print_comments" => "Invia anche i commenti.",
+	"prn_hide_comments" => "Nascondi i commenti.",
+	"prn_no_id" => "Errore: non e' possibile mostrare questo articolo. L'articolo non esiste.",
+	"prn_no_comments" => "/* nessun commento */",
+	"fromaddress" => "Indirizzo mittente",
+	"toaddress" => "Indirizzo destinatario",
+	"subject" => "Oggetto",
+	"commentmail" => "Breve commento per introdurre l'articolo nella mail",
+	"submit_email" => "Invia",
+	"from_is_not_mail" => "L'indirizzo del mittente non e' un indirizzo valido!",
+	"to_is_not_mail" => "L'indirizzo del destinatario non e' un indirizzo valido!",
+	"subject_is_too_long" => "L'oggetto e' troppo lungo!",
+	"subject_is_null" => "Ti sei dimenticato l'oggetto!",
+	"comment_is_too_long" => "Il commento introduttivo e' troppo lungo!",
+	"notice" => "Per la nostra policy riguardo privacy e copyright potete fare riferimento alle seguenti pagine: "
+);
+
+?>

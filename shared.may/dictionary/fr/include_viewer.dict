@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - it - include viewer
+
+$local = array(
+	"include_viewer_info" =>        "Cette page est utilis&eacute;e pour &eacute;diter les fichiers include ...........",
+	"filter" => "Filtrer",
+	"search_string" => "Chercher la cha&icirc;ne",
+	"insertname" => "Nom du nouveau fichier include: ",
+	"errortpl" => "Nom de fichier include incorrect. Veuillez r&eacute;essaier.",
+        "filename_header" => "Cr&eacute;er un nouveau fichier include");
+
+?>

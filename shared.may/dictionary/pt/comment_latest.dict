@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - en - comment latest
+
+$local = array(
+	"latest_comment_text" =>        "Esta é uma lista dos últimos comentários postados no site. Desta forma, você pode participar com mais facilidade comentando artigos publicados  e continuando a discussão que os mesmos começaram. Veja também o",
+	"most_commented" =>        "artigos mais comentados.",
+        "latest_article_name" =>        "ARTIGO",
+        "latest_author" =>     "Último Autor",
+        "posted_at" =>   "Publicado em",
+	"browse_older_threads" =>        "Veja os mais antigos"
+        );
+
+?>

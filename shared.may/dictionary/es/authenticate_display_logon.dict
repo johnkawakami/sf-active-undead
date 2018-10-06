@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - es - authenticate_display_logon
+
+$local = array(
+              "admin_enter" =>    "Ingresar al administrador",
+              "return_to_site" => "Volver al sitio"
+              );
+?>

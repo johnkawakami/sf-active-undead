@@ -1,0 +1,12 @@
+<?php
+// Dictionary file - it - event_display_week
+
+$local = array(
+	"cal_enter_confirm" => "Per favore, inserisce il numero di conferma dell'appuntamento per cancellarlo",
+	"cal_return_to_event" => "Torna al dettaglio dell'appuntamento",
+	"cal_conf_no" => "Numero di Conferma",
+	"cal_delete" => "Cancella",
+	"cal_error_event_id" => "L'ID dell'appuntamento nella richiesta non e' corretto",
+	"cal_error_event_delete" => "Nono posso cancellare l'appuntamento. Forse il tuo numero di conferma non e' corretto."
+);
+

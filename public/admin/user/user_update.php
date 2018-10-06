@@ -1,10 +1,9 @@
 <?php
-//This page adds a user
+include 'shared/vendor/autoload.php';
 
 $display=false;
 include('shared/global.cfg');
 include('../admin_header.inc');
-include(SF_SHARED_PATH . '/classes/user_class.inc');
 $page = new Page('user_update');
 if ($page->get_error())
 {
@@ -14,5 +13,3 @@ if ($page->get_error())
     echo $page->get_html();
 }
 include('../admin_footer.inc');
-
-?>

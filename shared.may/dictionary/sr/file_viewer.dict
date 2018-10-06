@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - en - comment latest
+
+$local = array(
+	"file_viewer_info" =>        "Ova strana se može koristiti za pregled i menjanje bilo koje datoteke u keš folderu. Naziv datoteke se prosleðuje preko url-a. Filter prikazuje samo linije koje sadrže date kljuène reèi i ne možete snimati ako imate ukljuèen filter. Prazan filter æe ponovo uèitati stranu sa svim linijama (odgovarajuæi filter se kasnije može koristiti da se osveži strana kao i što refresh može da snimi ako je vaša poslednja komanda bila save). Molim pritisnite filter pre nego što napravite izmene i snimite jer inaèe možete snimiti preko drugih promena (u slucaju log datoteke ovo može obrisati bilo šta što je logovano dok ste gledali stranu)",
+	"filter" => "filter"
+        );
+
+?>

@@ -1,0 +1,52 @@
+<?php
+// Dictionary file - en - category
+
+$local = array(
+                "categories" =>                 "Kategorije",
+                "category_add" =>               "Dodaj kategoriju",
+                "archive_generate" =>           "Generiši arhivu",
+                "click_on_category_to_edit" =>  "(Klikni na naslov da promeniš kategoriju; klikni na 'Promeni èlanke' da promeniš èlanke u svakoj kategoriji.)",
+                "story_list" =>                 "Promeni èlanke",
+                "no_center_column" =>           "Nema centralne kolone",
+		"updated_site" =>               "Prezentacija je sada osvežena",
+		"feature_list" =>               "Lista tekstova za kategoriju",
+		"category_pushto" =>		"Objavi",
+                "category_shortname" =>         "Skraæenica kategorije",
+                "category_name" =>              "Ime kategorije",
+                "category_summarylength" =>     "Max. broj èlanaka posetilaca",
+                "template_name" =>              "Ime šablona",
+                "default_template" =>           "Primarni šablon",
+                "newswire_type" =>              "Tip vesti",
+                "centercolumn_type" =>          "Tip centralne kolone",
+                "category_description" =>       "Opis kategorije",
+                "n_newswire" =>                 "Nema vesti",
+                "s_newswire" =>                 "Standardne vesti",
+                "a_newswire" =>                 "Sve vesti",
+		"f_newswire" =>                 "Filtrirane vesti",
+                "no_centercolumn" =>            "Bez centralne kolone",
+                "standard_centercolumn" =>      "Standardna centralna kolona",
+                "ordernum" =>                   "Broj u redosledu",
+                "category_add" =>               "Dodaj kategoriju",
+                "category_edit" =>              "Promeni kategoriju",
+                "catclass_type" =>          "Tip kategorije",
+                "m_category_left" =>              "kategorije",
+                "t_category_left" =>              "tematske kategorije",
+                "l_category_left" =>              "lokalni kolektivi",
+                "i_category_left" =>              "interne kategorije",
+                 "m_category" =>              "glavna",
+                "h_category" =>              "sakrivena",
+                "t_category" =>              "tematska",
+                "l_category" =>              "lokalna",
+                "i_category" =>              "interna",
+                "o_category" =>             "ostalo",
+                "e_category" =>             "dogaðaj",
+                "p_category" =>             "projekat",
+                "recache" =>	"osveži",
+                // 07 sep 03
+                "no_feature_template_defined"=>  "<br><h3>Ni jedan šablon nije definisan za ovaj tekst</h3><br>",
+                "no_category_template_defined"=>  "<br><h3>Ni jedan šablon nije definisan za ovu kategoriju</h3><br>",
+		 "refresh_newswire"      =>  "osveži vesti u desnoj koloni ",
+
+              );
+
+?>

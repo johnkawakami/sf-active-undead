@@ -1,0 +1,14 @@
+<?php
+// Dictionary file - fr - admin_email
+$local = array(
+    "your_mail_sent" => "Votre e-mail a &eacute;t&eacute; envoy&eacute;!",
+    "your_mail_not_sent" => "Votre e-mail N'a PAS &eacute;t&eacute; envoy&eacute;!",
+    'check_here' => 'Cochez cette case si votre message est pr&ecirc;t',
+    'send' => 'Envoyer!',
+    'date' => 'Date',
+    'list_recipients' => "Adresse &agrave; laquelle l'e-mail sera envoy&eacute;",
+    'mailing_list_admin' => 'Administration de la liste de diffusion',
+    'subject' => 'Sujet',
+    'message_body' => 'Corps du message'
+);
+?>

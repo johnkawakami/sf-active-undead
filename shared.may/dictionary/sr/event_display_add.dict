@@ -1,0 +1,56 @@
+<?php
+// Dictionary file - en - event_display_week
+
+$local = array(
+	"cal_calendar" => "Kalendar",
+	"cal_week" => "Nedelja",
+	"cal_error_event_add" => "Pojavila se greška tokom dodavanja dogaðaja. Proverite da li su sva polja popunjena i da je vreme i datum ispravno uneseno.",
+	"cal_error_event_title" => "Bez naslova ne možete uneti dogaðaj. Dodajte naslov!",
+	"cal_error_event_delete" => "Ne mogu da obrišem dogaðaj, možda je vaš potvrdni broj pogrešan",
+	"cal_error_event_id" => "ID dogaðaja u URL adresi je netaèan",
+	"cal_confirm_add_page" => "Potvrdi stranu za dodavanje",
+	"cal_your_confirm" => "Vaš potvrdni broj je",
+	"cal_need_confirm" => "Ovaj broj æe vam biti potreban da ažurirate ili obrišete ovaj dogaðaj.",
+	
+	"cal_conf_no" => "Potvrdni broj",
+	"cal_title" => "NASLOV",
+	"cal_return_to_calendar" => "Vrati se na kalendar",
+
+	"cal_start_date" => "POÈETNI DATUM",
+	"cal_start_time" => "POÈETNO VREME",
+	"cal_duration" => "Trajanje",
+	"cal_location" => "Lokacija",
+	"cal_event_type" => "Tip dogaðaja",
+	"cal_event_topic" => "Tema dogaðaja",
+	"cal_contact_name" => "Kontakt osoba",
+	"cal_contact_email" => "Kontakt email",
+	"cal_contact_phone" => "Kontakt telefon",
+	"cal_description" => "OPIS",
+
+	
+	"cal_update" => "Ažuriraj",
+	"cal_add" => "Dodaj",
+	"cal_location_details" => "Detalji o lokaciji",
+	"cal_return_to_event" => "Vrati se na detalje o dogaðajima",
+	"cal_enter_confirm" => "Molim vas unesite potvrdni broj za èlanak da bi ga obrisali",
+	"cal_delete" => "Obriši",
+	"cal_hours" => "Sati",
+	"cal_end_date" => "Krajnji datum",
+	"cal_display_details" => "Prikaži detalje",
+	"cal_view_events" => "Pogledaj dogaðaje",
+	"cal_previous_week" => "Prethodna nedelja",
+	"cal_next_week" => "Sledeæa nedelja",
+	"cal_week_of" => "Nedelja o(d)",
+	"cal_add_an_event" => "Dodaj dogaðaj",
+	"cal_view_all_months" => "Pogledaj sve mesece",
+	"cal_list_future_events" => "Lista buduæih dogaðaja",
+	"cal_filter_by_topic" => "Filtriraj po temi",
+	"cal_filter" => "Filter",
+	"cal_no_events" => "Ni jedan dogaðaj nije prijavljen za ovu nedelju.",
+	"cal_error_event_update_title" => "Dogaðaji moraju da imaju naslov da bi se saèuvali",
+	"cal_error_event_update" => "Ne mogu da ažuriram dogaðaj, možda je vaš potvrdni broj netaèan",
+        "language" =>   "JEZIK",
+        "select_a_language" =>  "izaberi jezik",
+        "cal_error_language" => "izabrali ste jezik za svoj dogaðaj",
+
+);

@@ -1,6 +1,6 @@
 <?php
 //This page does bulk status changes
-
+include 'shared/vendor/autoload.php';
 $display=true;
 include('shared/global.cfg');
 
@@ -28,10 +28,10 @@ $q = " SELECT id, heading, author, article
 		WHERE 
 		webcast.display='f'
 		$where
-		ORDER BY created DESC
+		ORDER BY RAND()
 		LIMIT 0,200
 	";
-$db = new DB();
+$db = new SFACTIVE\DB();
 $a = $db->query($q);
 
 function unhtmlentities($str)

@@ -1,0 +1,39 @@
+<?
+
+// dossier.dict - nl - language file for the dossier code
+
+$local = array (
+		"dossier"					=>		"dossier",
+		"dossier_title"				=>		"Visuele pagina voor het dossier ".$GLOBALS[current_dossier_name]." van ".$GLOBALS[site_name ],
+		"dossier_list_link"			=>		"Keer terug naar de lijst van dossiers",
+		"dossier_article_link"		=>		"Voeg een artikel toe aan een dossier",
+		"dossier_feature_link"		=>		"Voeg een dossier toe",
+		"dossier_articlelist"		=>		"Lijst van artikels binnen dit dossier",
+		"update_ok"					=>		"Jouw artikel werd upgedate",
+		"refresh_result"			=>		"Alle artikels werden ververst.",
+		"refresh_work_further"		=>		"Je kan nu verder werken aan het dossier.",
+		"dossier_listpage_title"	=>		"Overzichtspagina van de dossiers van ".$GLOBALS[site_name ],
+		"dossier_edit_index"		=>		"Bewerk de algemene index van het dossier",
+		"dossier_refresh_articles"	=>		"Ververs de artikels van dit dossier",
+		"dossier_name"				=>		"Naam van het dossier",
+		"dossier_feature_edittitle"	=>		"beheer de index van dossier:",
+		"dossier_feature_newtitle"	=>		"Voeg een dossier toe",
+		"dossier_addfeature_error"	=>		"Er is een fout opgetreden.<br />Jouw feature werd niet gepubliceerd",
+		"dossier_updatefeature_error"	=>	"Er is een fout opgetreden.<br />Jouw feature werd niet upgedate",
+		"try_again"					=>		"Probeer opnieuw ...",
+		"dossier_article_add_title"	=>		"Voeg een artikel toe aan een dossier",
+		"html_warning"				=>		"Artikels moeten in html opgemaakt worden.",
+		"link_to_id"				=>		"Artikel waarnaar gelinkt wordt",
+		"link_to_id_pub"			=>		"deze waarde moet nul zijn in het geval men het artikel in de algemene index van het dossier wil opnemen; de waarde moet gelijk zijn aan het id van het artikel waarin men dit artikel als deel van een index wil opnemen",
+		"order_num"					=>		"volgnummer",
+		"order_num_pub"				=>		"deze waarde bepaald de volgorde waarin dit artikel zal verschijnen in de index",
+		"dossier_select"			=>		"Selecteer een dossier",
+		"dossier_article_display_change" =>	"Wijzig de display-status van de artikelen",
+		"dossier_adminindex_title"	=>		"Beheer dossiers",
+		"status"					=>		"status",
+		"dossier_publish_ok"		=>		"<b>Jouw artikel zal niet in de nieuwslijnen verschijnen voor het dossier online gebracht wordt.</b>. Het artikel zal ook niet verschijnen op de dossierpagina tot je het dossier ververst hebt.",
+
+
+
+);
+?>

@@ -4,6 +4,7 @@
 		<title>TPL_HEAD_TITLE</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		TPL_META_ROBOT
+		TPL_CANONICAL
 		<link rel="stylesheet" type="text/css" href="/themes/TPL_CSS_THEME" />
 	</head>
 	<body>

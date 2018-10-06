@@ -1,4 +1,4 @@
-<? $category = $GLOBALS['category_id'] ; ?>
+<?php $category = $GLOBALS['category_id'] ; ?>
 <table width="112"><tr><td><a 
 href="/news/?category=<?=$category?>&amp;medium=text"><img align="middle" src="/im/imc_article.gif"
 border="0"   alt="browse articles" /></a></td><td><a class="newswire"

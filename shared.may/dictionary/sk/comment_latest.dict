@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - en - comment latest
+
+$local = array(
+	"latest_comment_text" =>        "Toto je zoznam posledných diskusných reakcií a príspevkov zaradených na stránku. Dôvod, že je tu je aby si mohol jednoduchšie reagova na èlánok a diskusné príspevky. Chod tiež sem: ",
+	"most_commented" =>        "najdiskutovanejšie èlánky.",
+        "latest_article_name" =>        "CLÁNOK",
+        "latest_author" =>     "POSLEDNÝ AUTOR",
+        "posted_at" =>   "UVEREJNENÝ O",
+	"browse_older_threads" =>        "Prezeranie starších reazcov reakcií a príspevkov"
+        );
+
+?>

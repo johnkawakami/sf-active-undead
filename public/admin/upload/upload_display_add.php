@@ -1,10 +1,12 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 //This page displays the main list of admin options
 
 $display=true;
 include("shared/global.cfg");
 include("../admin_header.inc");
-$page = new Page('upload_display_add');
+$page = new \SFACTIVE\Page('upload_display_add');
 if ($page->get_error())
 {
     echo "Fatal error: " . $page->get_error();

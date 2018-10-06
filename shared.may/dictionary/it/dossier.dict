@@ -1,0 +1,39 @@
+<?
+
+// dossier.dict - it - language file for the dossier code
+
+$local = array (
+		"dossier"					=>		"dossier",
+		"dossier_title"				=>		"Visualizza il dossier ".$GLOBALS[current_dossier_name]." di ".$GLOBALS[site_name ],
+		"dossier_list_link"			=>		"Torna alla lista dei dossier",
+		"dossier_article_link"		=>		"aggiungi un articolo",
+		"dossier_feature_link"		=>		"aggiungi un dossier",
+		"dossier_articlelist"		=>		"Segue la lista degli articoli del dossier",
+		"update_ok"					=>		"Jouw artikel werd upgedate",
+		"refresh_result"			=>		"Tutti gli articoli sono stati refreshati.",
+		"refresh_work_further"		=>		"Adesso potrete visualizzare il dossier nella sua complessita a partire dal suo indice",
+		"dossier_listpage_title"	=>		"Elenco dei dossier di ".$GLOBALS[site_name ],
+		"dossier_edit_index"		=>		"Edita l'indice principale del dossier",
+		"dossier_refresh_articles"	=>		"Refresha gli articoli del dossier",
+		"dossier_name"				=>		"Nome Dossier",
+		"dossier_feature_edittitle"	=>		"Edita l'indice principale del dossier:",
+		"dossier_feature_newtitle"	=>		"aggiungi un dossier",
+		"dossier_addfeature_error"	=>		"ERRORE - PROVA UN'ALTRA VOLTA!<br /> La tua introduzione non e' stata pubblicata.",
+		"dossier_updatefeature_error"	=>	"ERRORE - PROVA UN'ALTRA VOLTA!<br /> La tua introduzione non e' stata aggiornata",
+		"try_again"					=>		"riprova...",
+		"dossier_article_add_title"	=>		"Pubblica il tuo articolo per il dossier",
+		"html_warning"				=>		"Gli articoli devono essere pubblicati in html.",
+		"link_to_id"				=>		"Articolo a cui linkare",
+		"link_to_id_pub"			=>		"questo valore deve essere 0 nel caso che si voglia includere l'articolo nell'indice generale del dossier; deve essere uguale all'id dell'articolo all'interno del quale si vuole questo articolo come parte di un indice",
+		"order_num"					=>		"order number",
+		"order_num_pub"				=>		"Questo valore determina l'ordine con cui questo articolo comparira' negli indici.",
+		"dossier_select"			=>		"Scegli un dossier",
+		"dossier_article_display_change" =>	"Edita lo stato di visibilita' degli articoli",
+		"dossier_adminindex_title"	=>		"Editare dossiers",
+		"status"					=>		"status",
+		"dossier_publish_ok"		=>		"<b>L'articolo per il dossier e' stato pubblicato correttamente.<br> Non verra' mostrato nella colonna sinistra fino a che il dossier non sara' pubblicato.<br> Non verra' incluso negli altri articoli fino a che non refresherete il dossier.",
+
+
+
+);
+?>

@@ -1,0 +1,11 @@
+<?php
+// Dictionary file - en - comment latest
+
+$local = array(
+	"file_viewer_info" =>        "Bu sayfa bellekteki dosyalar&#305; g&ouml;r&uuml;nt&uuml;lemek ve d&uuml;zenlemek
+i&ccedil;in kullan&#305;l&#305;r. Dosya ad&#305; web adresinde verilmi&#351;tir. Filtre se&ccedil;ildi&#287;inde
+sadece anahtar kelimeler g&ouml;r&uuml;n&uuml;r ve de&#287;i&#351;klikleri kaydedemezsiniz.",
+	"filter" => "filtre"
+        );
+
+?>

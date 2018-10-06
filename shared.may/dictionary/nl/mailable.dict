@@ -1,0 +1,24 @@
+<?php
+// Dictionary file - en - mailable
+
+$local = array(
+	"prn_original_article" => "Het originele artikel bevindt zich hier: ",
+	"original_upload" => "Upgeload bestand bevindt zich hier: ",
+	"prn_print_comments" => "Mail commentaren.",
+	"prn_hide_comments" => "Verberg commentaren.",
+	"prn_no_id" => "fout: kan het artikel niet tonen. geen artikel id.",
+	"prn_no_comments" => "/* geen commentaren */",
+	"fromaddress" => "Van adres",
+	"toaddress" => "Aan adres",
+	"subject" => "Onderwerp",
+	"commentmail" => "Commentaar om de mail in te leiden",
+	"submit_email" => "Verstuur de mail",
+	"from_is_not_mail" => "Van adres is ongeldig!",
+	"to_is_not_mail" => "Aan adres is ongeldig!",
+	"subject_is_too_long" => "Onderwerp is te lang!",
+	"subject_is_null" => "Je vergat een onderwerp in te vullen!",
+	"comment_is_too_long" => "Commentaar is te lang!",
+	"notice" => "Voor copyright en privacy beleid verwijs naar: "
+);
+
+?>

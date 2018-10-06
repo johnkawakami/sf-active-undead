@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 //This file is used to reorder features in the DB. For now
 //This does not do anything except make the admin page appear
 //in a different order. In teh future if the fron tpage list of features is run from the

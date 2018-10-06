@@ -1,0 +1,16 @@
+
+<?php
+// Dictionary file - it - logedit
+
+$local = array(
+	"logedit" => "Include, css, template beheer",
+	"logedit_info" =>        "Deze pagina wordt gebruikt om include, template en css bestanden te bewerken of aan te maken. Let op wat je doet.",
+	"filter" => "filter",
+	"include_create" => "Maak een nieuwe include",
+	"template_create" => "Maak een nieuw template",
+	"css_create" => "Maak een nieuwe style sheet",
+	"page_create" => "Maak een nieuwe process pagina aan",
+	"submit_include" => "Maak"
+        );
+
+?>

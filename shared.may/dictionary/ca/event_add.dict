@@ -1,0 +1,13 @@
+<?php
+// Dictionary file - ca - event_add
+
+$local = array(
+	"cal_calendar" => "Calendari",
+	"cal_spam_block" => "Sembla que has bloquejat aquest site per spamming",
+	"cal_error_event_add" => "Hi ha hagut un error afegint l'event. Assegura't d'haver emplenat tots els camps i que la data sigui v&agrave;lida",
+	"cal_error_event_title" => "No has entrat el t&iacute;tol.",
+	"cal_error_event_delete" => "No es pot esborrar l'event, potser el nombre de confirmaci&oacute; no &eacute; v&agrave;lid",
+	"cal_error_event_id" => "L'id de l'event a la url no &eacute;s v&agrave;lid"
+);
+
+?>

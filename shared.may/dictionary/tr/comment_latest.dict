@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - en - comment latest
+
+$local = array(
+	"latest_comment_text" =>        "Son gelen yorumlar&#305;n listesi. Bu b&ouml;l&uuml;mden son postalanan yorumlara
+ve haberlere ve s&uuml;regiden tart&#305;&#351;malara ula&#351;abilirsiniz. Ayr&#305;ca ",
+	"most_commented" =>        "en &ccedil;ok yorum eklenen haberleri de g&ouml;rebilirsiniz.",
+        "latest_author" =>     "G&Ouml;NDEREN",
+        "posted_at" =>   "TAR&#304;H",
+	"browse_older_threads" =>        "Eski ba&#351;l&#305;klara g&ouml;zat",
+// Added after translation
+        "thread" =>          "YORUMLAR"
+        );
+
+?>

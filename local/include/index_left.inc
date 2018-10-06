@@ -8,14 +8,13 @@ href="/features/"><b><?php echo $sftr->trans('features'); ?></b></a><br /><small
 
 <!-- iframe src="http://zanon.slaptech.net/paypal/financeInfo.php?d=544&f=html" width="101" height="252" style="border:none"></iframe -->
 
-<? include (SF_CACHE_PATH."/left_catlisting.inc"); ?>
+<?php include (SF_CACHE_PATH."/left_catlisting.inc"); ?>
 
 <!-- insert allies and weblogs here -->
 <p class="left" style="text-align:center"><a href="http://killradio.org">
 <img src="/im/meter.gif" border="0"><br />
 KILLRADIO</a></p>
 <p><a href=http://vozmob.net/>VozMob</a></p>
-<p><a href="http://www.copwatchla.org/index.cgi">CopWatch LA</a></p>
 <p><a href="http://www.abcf.net/losangeles/">ABCF LA</a></p>
 <p><a href="http://radio4all.net/">A-Infos Radio</a></p>
 <p><a href="http://archive.kpfk.org/index.php?shokey=indymed">Indymedia On Air</a></p>
@@ -33,11 +32,7 @@ alt="donate now" /></a></small></p -->
 
 <div class="left"><small><b><a class="left" href="/archives/"><?php echo $sftr->trans('archives'); ?></a></b></small></div>
 
-<div class="left"><small><b><a class="left" href="/irc/"><?php echo $sftr->trans('chat'); ?></a></b></small></div>
-
-<div class="left"><? include(SF_INSTALL_PATH . '/local/include/search.inc'); ?></div>
-
-<div class="left"><? include(SF_INSTALL_PATH . '/local/include/translate.inc'); ?></div>
+<div class="left"><?php include(SF_INSTALL_PATH . '/local/include/search.inc'); ?></div>
 
 <div class="left"><small><a class="left" href="/process/links.php"><b><?php echo $sftr->trans('links'); ?></b></a></small></div>
 

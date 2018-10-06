@@ -1,0 +1,9 @@
+<?php
+// Dictionary file - hr - disclaimer
+
+$local = array(
+	"privacy" => "Privatnost",
+	"disclaimer" => "Napomena"
+);
+
+?>

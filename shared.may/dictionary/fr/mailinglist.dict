@@ -1,0 +1,29 @@
+<?php
+// Dictionary file - fr - mailinglist
+
+$local = array(
+              "invalid_email" =>        "Adresse e-mail invalide!",
+              "subscribe_thanks" =>     "Merci de votre inscription. Vous n'avez plus qu'&agrave; r&eacute;pondre &agrave; l'e-mail de confirmation qui vous est envoy&eacute;.",
+              "unsubscribe_thanks" =>   "Vous &ecirc;tes maintenant d&eacute;sinscrit(e). Une confirmation vous est envoy&eacute;e par e-mail.",
+              "passwd_notsent" =>       "Nous n'avons pas pu vous envoyer votre mot de passe. Merci de r&eacute;essaier plus tard.",
+              "passwd_sent" =>          "Mot de passe envoy&eacute; par e-mail.",
+                          "delivery_options" =>         "Options de diffusion",
+                          "weekly_email" =>                     "E-mail d'infos hebdomadaire",
+                          "top_text" =>                         "Un r&eacute;sum&eacute; hebdomadaire des titres en feature envoy&eacute; en texte brut. Nous vous enverrons chaque semaine un e-mail avec les titres des features.",
+                          "email_address" =>            "Adresse e-mail",
+                          "subscribe" =>                        "S'abonner",
+                          "password" =>                         "Mot de passe (pour se d&eacute;sinscrire)",
+                          "unsubscribe" =>                      "Se d&eacute;sabonner",
+                          "email_pass" =>                       "Envoyez-moi mon mot de passe par e-mail",
+                          "indy_news" =>                        "Infos ind&eacute;pendantes",
+                          "list_text" =>                        "Liste de diffusion pour des infos, des &eacute;v&eacute;nements, des annonces ind&eacute;pendants. Traffic mod&eacute;r&eacute;. Pour vous inscrire, allez &agrave; la <a href=\"http://lists.indymedia.org/\">page de la liste de diffusion</a>",
+                          "xml_newsfeeds" =>            "Fils d'infos XML pour les PDA et la syndication",
+                          "xml_text" =>                         "Les fichiers XML suivants sont suivis et peuvent &ecirc;tre repris sur un site web, un PDA ou une applet desktop",
+                          "feature_stories" =>          "Features",
+                          "open_newswire" =>            "Fil d'infos ouvert",
+                          "syndication_page" =>         "Page d'aper&ccedil; de la syndication",
+                          "custom_xml" =>                       "G&eacute;n&eacute;rer une XML query personnalis&eacute;e",
+
+              );
+
+?>

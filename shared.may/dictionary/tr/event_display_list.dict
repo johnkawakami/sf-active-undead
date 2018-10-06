@@ -1,0 +1,15 @@
+<?php
+// Dictionary file - en - event_display_list
+
+$local = array(
+	"cal_all" => "Hepsi",
+	"cal_view_events" => "Duyurular&#305; g&ouml;r&uuml;nt&uuml;le",
+	"cal_event_topic" => "Eylem/etkinlik ba&#351;l&#305;&#287;&#305;",
+	"cal_event_type" => "Eylem/etkinlik t&uuml;r&uuml;",
+	"cal_location" => "Yer",
+	"cal_end_date" => "Biti&#351; tarihi",
+	"cal_display_details" => "Detaylar",
+	"cal_start_date" => "Ba&#351;lang&#305;&ccedil; tarihi"
+);
+
+?>

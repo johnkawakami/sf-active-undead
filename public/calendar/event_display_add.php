@@ -1,4 +1,5 @@
 <?php
+include 'shared/vendor/autoload.php';
 session_start();
 // Add and Update a Event
 
@@ -22,4 +23,3 @@ if ($page->get_error()) {
 
 
 
-?>

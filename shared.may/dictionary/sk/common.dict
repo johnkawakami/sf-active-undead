@@ -1,0 +1,150 @@
+<?php
+// Common dictionary file for eng
+
+$GLOBALS['dict']['imc_network'] =           "Indymedia";
+$GLOBALS['dict']['about_us'] =              "O nás";
+$GLOBALS['dict']['contact_us'] =            "Kontakt";
+$GLOBALS['dict']['subscribe_me'] =          "Odoberaj";
+$GLOBALS['dict']['calendar'] =              "Kalendár";
+$GLOBALS['dict']['publish'] =               "Uverejni";
+$GLOBALS['dict']['button_publish'] =        "Uverejni";
+$GLOBALS['dict']['search'] =                "Nájdi";
+$GLOBALS['dict']['text'] =                  "Text";
+$GLOBALS['dict']['image'] =                 "Obrázok";
+$GLOBALS['dict']['audio'] =                 "Audio";
+$GLOBALS['dict']['video'] =                 "Video";
+$GLOBALS['dict']['other'] =                 "Iné";
+$GLOBALS['dict']['all'] =                   "Všetko";
+$GLOBALS['dict']['any'] =                   "Hociktoré";
+$GLOBALS['dict']['medium'] =                "Média";
+$GLOBALS['dict']['traducir'] =              "Prelož";
+$GLOBALS['dict']['refresh_text'] =          "Obnov text...";
+$GLOBALS['dict']['nothing_was_done'] =      "Niè sa nestalo!";
+$GLOBALS['dict']['required'] =              "Požadované";
+$GLOBALS['dict']['reorder'] =               "Zorad";
+$GLOBALS['dict']['current'] =               "Aktuálne";
+$GLOBALS['dict']['archived'] =              "Archivované";
+$GLOBALS['dict']['action_archive'] =        "Archív";
+$GLOBALS['dict']['action_hide'] =           "Ukry";
+$GLOBALS['dict']['action_display'] =        "Ukáž";
+$GLOBALS['dict']['hidden'] =                "Ukryté";
+$GLOBALS['dict']['logon_failed'] =          "Heslo nie je platné. Prihlásenie sa neuskutoènilo!";
+$GLOBALS['dict']['admin_article'] =         "Spravovanie èlánkov";
+$GLOBALS['dict']['admin_index'] =           "Hlavná ponuka";
+$GLOBALS['dict']['edit'] =                  "Edituj";
+$GLOBALS['dict']['id'] =                    "Identifikaèné èíslo";
+$GLOBALS['dict']['created'] =               "Vytvorené";
+$GLOBALS['dict']['modified'] =              "Modifikované";
+$GLOBALS['dict']['title'] =                 "Názov";
+$GLOBALS['dict']['author'] =                "Autor";
+$GLOBALS['dict']['email'] =                 "E-mail";
+$GLOBALS['dict']['link'] =                  "URL";
+$GLOBALS['dict']['address'] =               "Adresa";
+$GLOBALS['dict']['phone'] =                 "Telefónne èíslo";
+$GLOBALS['dict']['category_list'] =         "Zoznam kategórií";
+$GLOBALS['dict']['mimetype'] =              "Mime Typ";
+$GLOBALS['dict']['textmime'] =              "HTML/Text";
+$GLOBALS['dict']['displaystat'] =           "Display STatus";
+$GLOBALS['dict']['parent_id'] =             "Rodièovské identifikaèné èíslo";
+$GLOBALS['dict']['mediafile'] =             "Mediálny súbor";
+$GLOBALS['dict']['summary'] =               "Súhrn";
+$GLOBALS['dict']['article'] =               "CLÁNOK";
+$GLOBALS['dict']['status_hidden'] =         "Ukryté";
+$GLOBALS['dict']['status_local'] =          "Lokálne";
+$GLOBALS['dict']['status_display'] =        "Iné";
+$GLOBALS['dict']['status_global'] =         "Globálne";
+$GLOBALS['dict']['user_add'] =              "Pridaj užívatela";
+$GLOBALS['dict']['delete'] =                "Vymaž";
+$GLOBALS['dict']['username'] =              "Užívatelské meno";
+$GLOBALS['dict']['password'] =              "Heslo";
+$GLOBALS['dict']['insecure_pass_msg'] =         "Your password is insecure.";
+$GLOBALS['dict']['secure_pass_desc'] =          "A secure password is at least 6 characters long and contains letters, capitals and numbers.";
+$GLOBALS['dict']['secure_pass_desc2'] =         "You have to enter a secure password!";
+$GLOBALS['dict']['first_name'] =            "Meno";
+$GLOBALS['dict']['last_name'] =             "Priezvisko";
+$GLOBALS['dict']['save'] =                  "Ulož";
+$GLOBALS['dict']['copy'] =                  "Kopíruj";
+$GLOBALS['dict']['order_number'] =          "Poradové èíslo";
+$GLOBALS['dict']['comment_pub_one'] =       "PRVÝ KROK: INFORMÁCIA O PRÍSPEVKU";
+$GLOBALS['dict']['comment_pub_two'] =       "DRUHÝ KROK: PRÍSPEVOK";
+$GLOBALS['dict']['comment_pub_three'] =     "TRETÍ KROK: PRILOŽ SÚBOR";
+$GLOBALS['dict']['optional'] =              "Nepovinné";
+$GLOBALS['dict']['select_a_category'] =     "Vyber kategóriu";
+
+// have to include archive stuff here :/
+
+$GLOBALS['dict']['local_information'] = "Táto stránka vedie do archívu správ zo stredného stlpca.";
+$GLOBALS['dict']['local_click_on_week'] = "Klikni na týžden pre archív z toho týždna.";
+$GLOBALS['dict']['archive_id'] = "archívy jednej rubriky";
+$GLOBALS['dict']['archive_index'] = "archívy všetkých rubrík";
+$GLOBALS['dict']['archive_week'] = "týždenné archívy";
+$GLOBALS['dict']['archive_date'] = "archívy podla dátumu";
+$GLOBALS['dict']['archive_id'] = "archívy jednej rubriky";
+$GLOBALS['dict']['archive_title2'] = "Názov rubriky";
+$GLOBALS['dict']['archive_display_date'] = "Dátum";
+$GLOBALS['dict']['archive_findweek'] = "Nájdi všetky archívy pre daný týžden";
+$GLOBALS['dict']['next_archive_page'] = "dalšia strana";
+$GLOBALS['dict']['prev_archive_page'] = "predchádzajúca strana";
+$GLOBALS['dict']['prev_archive_week'] = "predchádzajúci týžden";
+$GLOBALS['dict']['next_archive_week'] = "další týžden";
+$GLOBALS['dict']['archive_navmonths'] = "naviguj pomocou mesiacov";
+$GLOBALS['dict']['archive_navdate'] = "prezeraj všetky archivované rubriky podla dátumu";
+$GLOBALS['dict']['archive_navid'] = "prezeraj všetky archívy jednej rubriky";
+$GLOBALS['dict']['archive_home'] = "hlavná stránka";
+$GLOBALS['dict']['search_by_keyword'] = "klúèové slovo";
+$GLOBALS['dict']['search_by_author'] = "autor";
+$GLOBALS['dict']['view_article_wo_comment'] = "Otvor èlánok bez komentárov";
+$GLOBALS['dict']['your_story_is'] = "Tvoj èlánok je";
+$GLOBALS['dict']['html_article'] = "HTML èlánok";
+$GLOBALS['dict']['image_file'] = "Obrazový súbor";
+$GLOBALS['dict']['pdf_file'] = "PDF súbor";
+$GLOBALS['dict']['smil_file'] = "SMIL súbor";
+$GLOBALS['dict']['mpeg_video_file'] = "MPEG Video súbor";
+$GLOBALS['dict']['realaudio_file'] = "RealAudio súbor";
+$GLOBALS['dict']['mp3_stream'] = "MP3 Stream";
+$GLOBALS['dict']['mp3_playlist'] = "MP3 Playlist";
+$GLOBALS['dict']['realaudio_metafile'] = "RealAudio Metafile";
+$GLOBALS['dict']['wm_audio_file'] = "Windows Media Audio súbor";
+$GLOBALS['dict']['mp3_file'] = "MP3 súbor";
+$GLOBALS['dict']['realvideo_file'] = "RealVideo súbor";
+$GLOBALS['dict']['quicktime_file'] = "Quicktime súbor";
+$GLOBALS['dict']['avi_file'] = "AVI Video súbor";
+$GLOBALS['dict']['realvideo_metafile'] = "RealVideo Metafile";
+$GLOBALS['dict']['wm_file'] = "Windows Media Audio súbor";
+$GLOBALS['dict']['wav_file'] = "Wav file";
+$GLOBALS['dict']['error_detected'] = "VYSKYTLA SA CHYBA -- SKÚS ZNOVA!";
+$GLOBALS['dict']['fill_out_form_right'] = "Skontroluj správne vyplnenie formulára";
+$GLOBALS['dict']['pub_error_title'] = "Dopln Názov.";
+$GLOBALS['dict']['pub_error_author'] = "Dopln Autora.";
+$GLOBALS['dict']['pub_error_summary'] = "Dopln Súhrn.";
+$GLOBALS['dict']['pub_error_long_summary'] = "Súhrn je príliš dlhý. Skrá to.";
+$GLOBALS['dict']['pub_error_upload'] = "Musíš doplni èlánok alebo uploadnú súbor.";
+$GLOBALS['dict']['pub_error_long_upload'] = "Naraz môžeš uploadnú najviac 20 súborov!";
+$GLOBALS['dict']['pub_error_file'] = "Nesprávny typ súbora. Skús znova.";
+$GLOBALS['dict']['pub_error_where_file'] = "Povedal si, že to bude obrazok... Toto nie je obrázok.";
+$GLOBALS['dict']['pub_error_select_file'] = "Nevyplnil si názov pre súbor.";
+$GLOBALS['dict']['there_were'] = "Zistili sme";
+$GLOBALS['dict']['files_detected'] = "súbor(y,ov).";
+
+
+// for i18n of leftcatlisting
+$GLOBALS['dict']['m_category_left'] = "principal";
+$GLOBALS['dict']['h_category_left'] = "inactiu";
+$GLOBALS['dict']['t_category_left'] = "tematic";
+$GLOBALS['dict']['l_category_left'] = "local";
+$GLOBALS['dict']['i_category_left'] = "intern";
+$GLOBALS['dict']['e_category_left'] = "event categories";
+$GLOBALS['dict']['p_category_left'] = "project categories";
+$GLOBALS['dict']['o_category_left'] = "other categories";
+
+// for email validation
+$GLOBALS['dict']['article_validated'] = "(email address validated)";
+$GLOBALS['dict']['article_not_validated'] = "";
+
+// admin stuff -- mtoups
+$GLOBALS['dict']['lastlogin'] = "Last Login";
+
+// language stuff
+$GLOBALS['dict']['language'] =   "LANGUAGE";
+$GLOBALS['dict']['select_a_language'] =  "select a language";
+?>

@@ -1,0 +1,10 @@
+<?php
+// Dictionary file - hr - event_add
+
+$local = array(
+	"features" => "Kategorije:",
+	"catclass" => "Ova kategorija je  ",
+	"feature_overview" => "TRENUTNE TEME I TEKUÆE AKCIJE"
+);
+
+?>

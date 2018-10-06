@@ -1,0 +1,39 @@
+<?php
+// Dictionary file - ca - calendar
+
+$local = array(
+                "admin_calendar" =>             "Administraci&oacute; del calendari",
+                "enter_event_id" =>             "Entra l'ID de l'event del qual que necessites el número de confirmació.",
+                "hint_event_id" =>              "Per obtenir l'ID de l'event mira la URL de l'event.",
+                "event_found" =>                "Event trobat per aquest ID",
+                "conf_no" =>                    "N&uacute;mero de confirmaci&oacute;",
+                "find" =>                       "buscar",
+                "event_up" =>                   "Events refrescats.",
+                "lookup_conf" =>                "Comprova el n&uacute;mero de confirmaci&oacute; de l'event",
+                "regen_event" =>                "Regenera el cache HTML",
+                "topic_menu" =>                                 "Edit topics",
+                "type_menu" =>                                  "Edit types",
+                "location_menu" =>                              "Edit Locations",
+                "locations" =>                                  "Locations",
+                "event_types" =>                                "Types",
+                "event_topics" =>                               "Topics",
+                "click_on_location_to_edit" =>  "Click on a location to edit",
+                "click_on_topic_to_edit" =>     "Click on a topic to edit",
+                "click_on_type_to_edit" =>              "Click on a type to edit",
+                "location_edit" =>                              "Edit a location",
+                "event_type_edit" =>                    "Edit an event type",
+                "event_topic_edit" =>                   "Edit an event topic",
+                "location_add" =>                               "Add a location",
+                "event_type_add" =>                     "Add a type",
+                "event_topic_add" =>                    "Add a topic",
+                "location_name" =>                              "Location name",
+                "event_type_name" =>                    "Type name",
+                "event_topic_name" =>                   "Topic name",
+		"location" => 			"Ubicació",
+                "event_type" => 		"Tipus d'event",
+                "event_topic" => 		"Tema de l'event",
+                "enter_event2_id" => 		"Entra el número ID de l'event que vols editar",
+
+                );
+
+?>

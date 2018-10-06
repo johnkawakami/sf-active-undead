@@ -1,8 +1,6 @@
 <?php
 
-$get = array_merge($_GET, array('preview'=>null));
-
-if (strlen($get['preview']) > 0)
+if (strlen($_GET['preview']) > 0)
 {
     include_once(SF_SHARED_PATH . '/classes/category_class.inc');
     $category_obj= new Category;
@@ -19,20 +17,20 @@ if (strlen($get['preview']) > 0)
                 include(SF_INSTALL_PATH . '/local/include/waplayout.inc'); 
         } else if ($GLOBALS['isMobile']) {
                 include(SF_INSTALL_PATH . '/local/include/mobilelayout.inc'); 
-        } else if (isset($feature_name)){
+        } else if (strlen($feature_name)>0){
 		include(SF_CACHE_PATH. '/center_column_'.$feature_name.'.html');
 	}else{
 		include(SF_CACHE_PATH . '/center_column_production.html');
 	}
 }
 
-  if (isset($category_id) and !$GLOBALS['isMobile']) {
+  if (strlen($category_id)>0 and !$GLOBALS['isMobile']) {
 ?>
 <h3><a href="/archives/archive_display_by_date.php?category_id=<?=$category_id?>">[   Older Stories   ]</a></h3>
-<?
+<?php
   } else if (!$GLOBALS['isMobile']) {
 ?>
 <h3><a href="/archives/archive_display_by_date.php">[   Older Stories   ]</a></h3>
-<?
+<?php
   }
 ?>

@@ -1,13 +1,12 @@
 <?php
+include_once("shared/vendor/autoload.php");
 include_once("shared/global.cfg");
-#include(SF_CLASS_PATH."/spamc_class.inc");
-# include(SF_CLASS_PATH."/article_class.inc");
 session_start();
 
 $id = $_GET['id'];
 if (!preg_match('/^[0-9]{1,7}$/', $id)) die();
 
-$db = new DB();
+$db = new SFACTIVE\DB();
 
 $tag = $db->query("SELECT name,`ignore`,synonym FROM tags WHERE id=$id");
 $name = $tag[0]['name'];
@@ -17,18 +16,26 @@ $synonym = $tag[0]['synonym'];
 // if the tag contains a cr or nl, it's an error and we should just
 // delete the tag
 // this is a real edge case
-if (strpos($name,"\n")!==false or strpos($name,"\r")!==false) {
-    $db->execute_statement("DELETE FROM tags WHERE id=$id");
-    $db->execute_statement("DELETE FROM tags_articles WHERE tag_id=$id");
+if (strpos($name,"\n")!==false or strpos($name,"\r")!==false or $name==NULL) {
+    $db->execute("DELETE FROM tags WHERE id=$id");
+    $db->execute("DELETE FROM tags_articles WHERE tag_id=$id");
     $url = $_SESSION['url'];
-    header("Location: $url");
-	exit;
+    if ($url) {
+	    header("Location: $url");
+	    exit;
+    } else {
+	http_response_code(410); // gone
+	echo "Error: 410 Gone.<p>";
+        exit;
+    }
 }
 
 
 if ($ignore==1) {
+	http_response_code(410); // gone
+	echo "Error: 410 Gone.<p>";
 	echo "ignored tag: $name";
-    $db->execute_statement("DELETE FROM tags_articles WHERE tag_id=$id");
+    $db->execute("DELETE FROM tags_articles WHERE tag_id=$id");
 	exit;
 }
 if ($synonym) {
@@ -37,10 +44,12 @@ if ($synonym) {
 	$synonym = addslashes($synonym);
 	$tags = $db->query("SELECT id FROM tags WHERE name='$synonym'");
 	$id = $tags[0]['id'];
-	header("Location: tags.php?id=$id");
+	header("Location: tags.php?id=$id", true, 301);
 	exit;
 }
 fix_articles($id,$name);
+
+//------- functions ------
 
 function get_articles($id) {
   global $db;
@@ -50,9 +59,9 @@ function get_articles($id) {
 function fix_articles($id,$name) {
 	global $db;
 	echo "fix articles $id, $name";
-	if (!preg_match('/^[0-9]{1,7}$/', $id)) die();
-	if (!preg_match('/^[a-z0-9.# ]+$/i', $name)) die($name);
-	$db->execute_statement("UPDATE 
+	if (!preg_match('/^[0-9]{1,7}$/', $id)) die("invalid id");
+	if (!preg_match('/^[a-z0-9.# ]+$/i', $name)) die("invalid name".var_dump($name));
+	$db->execute("UPDATE 
 		(SELECT id FROM tags WHERE synonym='$name') AS a JOIN
 		tags_articles AS b ON a.id=b.tag_id
 		SET tag_id=$id");

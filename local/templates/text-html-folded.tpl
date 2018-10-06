@@ -21,6 +21,9 @@ by A_UTHOR
 <a target="_blank" href="https://plus.google.com/share?url=http://la.indymedia.orgTPL_SHORT_URL">Google+</a>
 <br />
 </div>
-<p class="addcomment"><a href="/comment.php?top_id=A_RTID">add your comments</a></p><br />
+<form action="/comment.php" method="get" class="addcomment">
+ <button>add your comments</button>
+ <input type="hidden" name="top_id" value="A_RTID" />
+</form><br />^M
 <!-- /INTERACTIVE -->
 <!-- /TEMPLATE -->

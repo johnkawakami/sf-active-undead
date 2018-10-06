@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 // Adds a feature to the database
 
 $display = false;
@@ -15,4 +17,3 @@ if ($page->get_error())
 }
 include('../admin_footer.inc');
 
-?>

@@ -1,0 +1,52 @@
+<?php
+// Dictionary file - it - category
+
+$local = array(
+                "categories" =>                 "Categorie",
+                "category_add" =>               "Aggiungi una Feature",
+                "archive_generate" =>           "Genera gli archivi",
+                "click_on_category_to_edit" =>  "Clicca sul nome o sull'ID per editare una categoria; clicca su \"Elenco delle feature per questa categoria\" per editare le features di ogni categoria.)",
+                "story_list" =>                 "Elenco delle feature per questa categoria",
+                "no_center_column" =>           "Questa categoria non ha colonna centrale",
+		"updated_site" =>               "Il sito e' stato aggiornato",
+		"feature_list" =>               "Elenco delle feature",
+		"category_pushto" =>		"Pubblica",
+                "category_shortname" =>         "Nome breve della categoria (senza spazi)",
+                "category_name" =>              "Nome della categoria",
+                "category_summarylength" =>     "Lunghezza del Newswire in numero di articoli",
+                "template_name" =>              "Nome del Template",
+                "default_template" =>           "Template di Default",
+                "newswire_type" =>              "Tipo di Newswire",
+                "centercolumn_type" =>          "Tipo di Colonna Centrale",
+                "category_description" =>       "Descrizione della Categoria",
+                "n_newswire" =>                 "Nessun Newswire",
+                "s_newswire" =>                 "Newswire Standard",
+                "a_newswire" =>                 "Newswire Tripartito",
+		"f_newswire" =>                 "Filtered Newswire",
+                "no_centercolumn" =>            "Nessuna Colonna Centrale",
+                "standard_centercolumn" =>      "Colonna Centrale Standard",
+                "ordernum" =>                   "Numero d'ordine",
+                "category_add" =>               "Aggiungi una Categoria",
+                "category_edit" =>              "Edita una Categoria",
+                "catclass_type" =>          "Tipo di categoria",
+                "m_category_left" =>              "Categorie",
+                "t_category_left" =>              "Categorie Tematiche",
+                "l_category_left" =>              "IMC locali",
+                "i_category_left" =>              "Process e Produzioni",
+                "m_category" =>              "principale",
+                "h_category" =>              "inattiva",
+                "t_category" =>              "tematica",
+                "l_category" =>              "locale",
+                "i_category" =>              "interna",
+                "o_category" =>             "other",
+                "e_category" =>             "event",
+                "p_category" =>             "project",
+		"recache"    =>		     "Clicca qui per sovrascrivere l'indice della directory di categoria (funziona automaticamente nel caso tu stia aggiungendo una nuova categoria)",
+                // 07 sep 03
+                "no_feature_template_defined"=> "<br><h3>Non e' stato specificato nessun template per questa feature</h3><br>",
+                "no_category_template_defined"=> "<br><h3>Non e' stato specificato nessun template per questa categoria</h3><br>",
+				"refresh_newswire"      =>  "refresh the newswire ",
+
+                );
+
+?>

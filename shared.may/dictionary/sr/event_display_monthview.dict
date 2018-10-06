@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - en - event_display_list
+
+$local = array(
+	"CALENDAR_LOCAL_INFORMATION" => "Kalendar: Pregledaj po mesecu",
+	"CALENDAR_LOCAL_CLICK_ON_WEEK" => "Klikni na nedelju da vidiš najavljene dogaðaje za tu nedelju"
+);
+

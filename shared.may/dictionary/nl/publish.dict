@@ -1,0 +1,75 @@
+<?php
+// Dictionary file - nl - publish
+
+$local = array(
+              "pub_stepone" =>    "PASO 1: VOEG DE INFORMATIE OVER HET ARTIKEL TOE",
+              "pub_steptwo" =>    "PASO 2: VUL DE TEKST VAN HET ARTIKEL IN",
+              "pub_stepthree" =>  "PASO 3: VOEG BESTANDEN TOE",
+	      "attach_a_file"=>	    "VOEG EEN BESTAND TOE",
+              "pub_author" =>     "Auteur",
+              "pub_url" =>        "Website",
+              "pub_artmime" =>    "Tekst of HTML",
+              "pub_optional" =>   "De bovenstaande contactvelden zijn optioneel en zullen samen met je artikel publiek vertoond worden",
+              "pub_sum" =>        "De samenvatting mag maximaal zes lijnen lang zijn. Vermeld ajb de lengte van audio en videomateriaal",
+              "pub_art" =>        "Bij gewone tekst artikels worden de urls omgezet in aanklikbare links. Je mag ook deze vorm gebruiken: &lt;a href=&quot;URL&quot;&gt;LINK&lt;/a&gt; in tekst artikels (alle andere tags zullen genegeerd worden.) Als je ze toch wil gebruiken, publiceer dan als &quot;html formaat&quot;).",
+              "pub_mime" =>       "Selecteer &quot;html format&quot; niet tenzij je &lt;p&gt; en/of &lt;br&gt; tags gebruikt!!",
+              "pub_cuantofiles" =>"Hoeveel bestanden ?",
+              "sel_categories" => "CATEGORI&Euml;N?",
+              "sel_cattema" => "Thematische categorie",
+              "sel_catlocali" => "Lokale categorie",
+	      "sel_catinternal" => "interne categorie",
+	      "sel_catevent" => "evenements cateogie",
+	      "sel_catproject" => "project categorie",
+	      "sel_catother" => "andere categorie&euml;n",
+	      "sel_cathidden" => "verborgen categorie",
+	      
+// new words since translation was started
+              "select_file" => "Selecteer een bestand",
+              "comment" => "Commentaar",
+              "max_upload" => 'Max bestandsgrootte:',
+              "total_limit" => 'Maximale bestandsgrootte voor alle bestanden samen:',
+              "minutes" => 'minuten upload tijd',
+              "accepted_types" => 'Aanvaarde bestandstypes:  '.$GLOBALS['accepted_filetypes'],
+              // added by bart (for preview & ...)
+              "preview" => "Bekijk een voorbeeld",
+              "preview_warning" => "<b>Als je het voorbeeld wil bekijken, doe dat dan voor je de uploads invoert</b>.",
+              "publish_successful" => "<strong>Publiceren geslaagd! Jouw artikel is aan de nieuwslijn toegevoegd</strong>",
+              "comment_successful" => "<strong>Commentaar toegevoegd!</strong>",
+	      
+	    // for e-mail validation
+	      "validate_email" =>   "EMAIL BEVESTIGING ?",
+	      "validate_form" => "klik deze checkbox aan om jezelf een e-mail te laten versturen. op deze manier kan je nadien bevestigen dat dit emailadres het jouwe is",
+              "pub_validation_email" => "Hallo,
+              Deze mail wordt je verstuurd omdat je of iemand
+	      die zich als je voordoet een artikel gepuliceerd
+	      heeft op SITE_NAME en daarbij jouw email adres
+	      heeft gebruikt en gevraagd heeft om dit email
+	      adres te laten bevestigen.
+
+              Het artikel in kwestie kan hier gevonden worden:
+              ARTICLE_URL
+
+              Als jij de persoon bent die het artikel heeft ge-
+	      publiceerd, bezoek dan de volgende url:
+              VALIDATIONURL
+              om jouw artikel te bevestigen. Als je dit artikel
+	      niet zelf hebt gepubliceerd, of als je denkt dat 
+	      iemand zich probeert voor te doen als jij, neem
+	      dan eventueel contact op met de beheerder van
+	      SITE_NAME via ADMIN_EMAIL
+
+              Als je andere vragen of opmerkingen hebt, wees dan
+	      zo vrij ons te contacteren via:
+	      PUBLIC_EMAIL ",
+              "pub_validation_email_sub" => "[SITE_NAME] Aanvraag tot email-bevestiging.",
+              "validated_ok" => "Jouw artikel werd bevestigd.",
+              "validated_allready" => "Dit artikel was reeds bevestigd",
+              "validated_error" => "Er ging iets mis. Misschien gebruikte je een verkeerde url ?",
+	      "validation_email_ok" => "De bevestigings-email is verstuurd",
+	      "validation_email_error" => "er was een probleem bij het versturen van de bevestigings-email",
+
+	    // for language stuff
+	      "sel_language"  =>  "Selecteer een taal",
+	      "pub_error_language" => "je moet een taal kiezen voor je artikel",
+              );
+?>

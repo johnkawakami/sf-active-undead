@@ -1,0 +1,8 @@
+<?php
+// Dictionary file - en - admin_cities
+$local = array(
+              "admin_refreshing_cities" =>  "Herschrijven stedenlijst.",
+	      "cities_unavailable" => "De Lijst van Independent Media Centers is tijdelijk onbeschikbaar",
+	      "die" => "Kon het xml bestand niet openen",
+              );
+?>

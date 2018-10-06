@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 //This file is used for updating a story in the DB. Since all versions of a story are
 //preserved this is actually and insert plus an update of teh status of the old version
 //to be noncurrent

@@ -1,0 +1,20 @@
+<?php
+// Dictionary file - en - event_display_event
+
+$local = array(
+	"cal_title" => "títol:",
+	"cal_start_date" => "DATA D'INICI",
+	"cal_start_time" => "HORA D'INICI",
+	"cal_duration" => "Duració",
+	"cal_hours" => "Hores",
+	"cal_location" => "Lloc",
+	"cal_location_details" => "Detalls de localització",
+	"cal_type" => "Tipus d'event",
+	"cal_topic" => "Event Topic",	
+	"cal_contact_name" => "Nom de contacte",
+	"cal_contact_email" => "Email de contacte",
+	"cal_contact_phone" => "Telèfon de contacte",
+	"cal_description" => "DESCRIPCIÓ",
+);
+
+?>

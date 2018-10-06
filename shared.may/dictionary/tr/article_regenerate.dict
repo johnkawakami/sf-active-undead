@@ -1,0 +1,10 @@
+
+<?php
+// Dictionary file - it - article_regenerate
+
+$local = array(
+	"id_article" => "Yeniden d&uuml;zenlenen haberin ID'si: ",
+	"wrote_to" => "G&ouml;nderilen: "
+              );
+
+?>

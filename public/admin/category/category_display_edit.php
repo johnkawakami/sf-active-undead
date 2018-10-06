@@ -1,4 +1,6 @@
-<?php
+<?php // vim:et:ai:ts=4:sw=4
+include 'shared/vendor/autoload.php';
+
 //This file displays an edit page for a category
 //this only includes things like the name and description and default
 //values for new stories

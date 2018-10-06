@@ -1,0 +1,39 @@
+<?
+
+// dossier.dict - fr - language file for the dossier code
+
+$local = array (
+		"dossier"					=>		"dossier",
+		"dossier_title"				=>		"Page visuelle pour le dossier ".$GLOBALS[current_dossier_name]." de ".$GLOBALS[site_name ],
+		"dossier_list_link"			=>		"Retour &agrave; la liste des dossiers",
+		"dossier_article_link"		=>		"Ajouter un article &agrave; un dossier",
+		"dossier_feature_link"		=>		"Ajouter dossier",
+		"dossier_articlelist"		=>		"Liste des articles de ce dossier",
+		"update_ok"					=>		"Article mis &agrave; jour",
+		"refresh_result"			=>		"Articles rafra&icirc;chis",
+		"refresh_work_further"		=>		"Vous pouvez continuer &agrave; travailler sur le dossier.",
+		"dossier_listpage_title"	=>		"Page d'aper&ccedil;u des dossiers de ".$GLOBALS[site_name ],
+		"dossier_edit_index"		=>		"&Eacute;diter l'index g&eacute;n&eacute;ral d'un dossier",
+		"dossier_refresh_articles"	=>		"Rafra&icirc;chir les articles de ce dossier",
+		"dossier_name"				=>		"Nom du dossier",
+		"dossier_feature_edittitle"	=>		"Administrer l'index de ce dossier",
+		"dossier_feature_newtitle"	=>		"Ajouter un dossier",
+		"dossier_addfeature_error"	=>		"Une erreur s'est produite.<br />Votre feature n'a pas &eacute;t&eacute; publi&eacute;.",
+		"dossier_updatefeature_error"	=>	"Une erreur s'est produite<br />Votre feature n'a pas &eacute;t&eacute; mis &agrave; jour",
+		"try_again"					=>		"Veuillez r&eacute;essaier ...",
+		"dossier_article_add_title"	=>		"Ajouter un article &agrave; un dossier",
+		"html_warning"				=>		"Les articles doivent &ecirc;tre en html",
+		"link_to_id"				=>		"Article vers lequel vous voulez &eacute;tablir un lien",
+		"link_to_id_pub"			=>		"Pour que l'article apparaisse dans l'index g&eacute;n&eacute;ral du dossier, entrer '0'. Pour l'ajouter comme sous-section d'un autre article, indiquer l'id de l'article parent.",
+		"order_num"					=>		"Num&eacute;ro d'ordre",
+		"order_num_pub"				=>		"Cette valeur d&eacute;finit la place de l'article dans l'index.",
+		"dossier_select"			=>		"S&eacute;l&eacute;ctionner un dossier",
+		"dossier_article_display_change" =>	"Changer le statut d'affichage des articles de ce dossier",
+		"dossier_adminindex_title"	=>		"Administrer les dossiers",
+		"status"					=>		"statut",
+		"dossier_publish_ok"		=>		"<b>Votre article n'appara&icirc;tra pas dans les fils d'infos avant la mise en ligne du dossier</b>. Il n'appara&icirc;tra pas non plus sur la page du dossier tant que le dossier n'aura pas &eacute;t&eacute; rafra&icirc;chi.",
+
+
+
+);
+?>

@@ -1,0 +1,32 @@
+<?php
+// Dictionary file - es - mailinglist
+
+$local = array(
+              "invalid_email" =>           "&iexcl;Direcci&oacute;n de correo inv&aacute;lida! ",
+              "subscribe_thanks" =>        "Gracias por suscribirte. Debe responder al correo de confirmaci&oacute;n que te ha sido enviado.",
+              "unsubscribe_thanks" =>      "Te haz dado de baja. Recibir&aacute;s un correo de confirmaci&oacute;n. ",
+              "passwd_notsent" =>          "No ha sido posible enviarte su contrase&ntilde;a en este momento. Trate m&aacute; tarde.",
+              "passwd_sent" =>             "Tu contrase&ntilde;a ha sido enviada a tu casilla de correo. ",
+              "delivery_options" =>        "Opciones de Entrega",
+              "weekly_email" =>            "Resumen de noticias del sitio peri&oacute;dico a tu correo electr&oacute;nico. ",
+              "top_text" =>                "Un resumen peri&oacute;dico de los titulares enviados en texto plano. Te enviaremos peri&oacute;dicamente los &uacute;ltimos titulares y noticias m&aacute;s importantes 
+a tu email. ",
+              "email_address" =>           "Direcci&oacute;n de correo ",
+              "subscribe" =>               "Suscribirse",
+              "password" =>                "Clave (para desuscribirse)",
+              "unsubscribe" =>             "Desuscribirse",
+              "email_pass" =>              "Enviar por correo mi contrase&ntilde;a",
+              "indy_news" =>               "Noticias en Indymedia",
+              "list_text" =>               "Lista p&uacute;blica de mails para noticias, eventos, anuncios. Tr&aacute;fico 
+moderado. Vista la <a href=\"http://lists.indymedia.org/\">p&aacute;gina de listas 
+de e-mail de trabajo</a> ",
+              "xml_newsfeeds" =>           "Noticias en XML para PDAs &amp; Sindicaci&oacute;n",
+              "xml_text" =>                "Los siguientes archivos XML son mantenidos y pueden ser usado en tu sitio web, PDA o aplicaci&oacute;n de escritorio ",
+              "feature_stories" =>         "historias destacadas",
+              "open_newswire" =>           "publicaci&oacute;n abierta",
+              "syndication_page" =>        "Vista de la p&oacute;gina general de sindicaci&oacute;n",
+              "custom_xml" =>              "Generar custom XML query",
+
+              );
+
+?>
