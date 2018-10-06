@@ -1,4 +1,4 @@
-<?
+<?php
 //file containing the array creating the select for the hiding reason
 // rememeber to edti as well teh common.dict for your language :)))))
 

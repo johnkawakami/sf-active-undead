@@ -295,7 +295,7 @@ class Gallery extends Page
 	*/
 	if(!file_exists(SF_UPLOAD_PATH.'/'.$year.'/'.$month.'/index.php'))
 	{
-	    $file .= "<?\n";
+	    $file .= "<?php\n";
 	    $file .= "include_once(\"shared/global.cfg\");\n";
 	    $file .= "\$sftr = new Translate ; \n";
 	    $file .= "\$sftr->create_translate_table('gallery');\n\n";

@@ -188,7 +188,7 @@ class Category extends \Cache
         $query = "select category_id, name from category where newswire != 'n' and catclass = 't' order by order_num desc";
         $result = $db_obj->query($query);
 
-        $file = "<?\n\n";
+        $file = "<?php\n\n";
         $file .= "\$cattema_options[\"0\"]  =  \$this->tr->trans('select_a_thematic_category');\n";
 
         while($row = array_pop($result))
@@ -226,7 +226,7 @@ class Category extends \Cache
         $query = "select category_id, name from category where newswire != 'n' and catclass = 'l' order by order_num desc";
         $result = $db_obj->query($query);
 
-        $file = "<?\n\n";
+        $file = "<?php\n\n";
         $file .= "\$catlocali_options[\"0\"]  =  \$this->tr->trans('select_a_local_category');\n";
 
         while($row = array_pop($result))
@@ -271,7 +271,7 @@ class Category extends \Cache
         $query = "select category_id, name from category where newswire != 'n' and category_id != '".$GLOBALS['config_defcategory']."' order by order_num desc";
         $result = $db_obj->query($query);
 
-        $file = "<?\n\n";
+        $file = "<?php\n\n";
         $file .= "\$cat_options[\"0\"]  =  \$this->tr->trans('select_a_category');\n";
 
         while($row = array_pop($result))
@@ -289,7 +289,7 @@ class Category extends \Cache
 	$query = "select category_id, name from category where newswire !='n' and catclass = 'i' order by order_num desc";
 	$result = $db_obj->query($query);
 
-	$file = "<?\n\n";
+	$file = "<?php\n\n";
 	$file .= "\$catinternal_options['0'] = \$GLOBALS['dict']['select_a_internal_category'];\n";
 
 	while($row = array_pop($result))
@@ -306,7 +306,7 @@ class Category extends \Cache
         $query = "select category_id, name from category where newswire !='n' and catclass = 'h' order by order_num desc";
         $result = $db_obj->query($query);
 
-        $file = "<?\n\n";
+        $file = "<?php\n\n";
         $file .= "\$cathidden_options['0'] = \$GLOBALS['dict']['select_a_hidden_category'];\n";
 
         while($row = array_pop($result))
@@ -323,7 +323,7 @@ class Category extends \Cache
         $query = "select category_id, name from category where newswire !='n' and catclass = 'p' order by order_num desc";
         $result = $db_obj->query($query);
 
-        $file = "<?\n\n";
+        $file = "<?php\n\n";
         $file .= "\$catproject_options['0'] = \$GLOBALS['dict']['select_a_project_category'];\n";
 
         while($row = array_pop($result))
@@ -340,7 +340,7 @@ class Category extends \Cache
         $query = "select category_id, name from category where newswire !='n' and catclass = 'e' order by order_num desc";
         $result = $db_obj->query($query);
 
-        $file = "<?\n\n";
+        $file = "<?php\n\n";
         $file .= "\$catevent_options['0'] = \$GLOBALS['dict']['select_a_event_category'];\n";
 
         while($row = array_pop($result))
@@ -357,7 +357,7 @@ class Category extends \Cache
         $query = "select category_id, name from category where newswire !='n' and catclass = 'o' order by order_num desc";
         $result = $db_obj->query($query);
 
-        $file = "<?\n\n";
+        $file = "<?php\n\n";
         $file .= "\$catother_options['0'] = \$GLOBALS['dict']['select_a_other_category'];\n";
 
         while($row = array_pop($result))
@@ -414,7 +414,7 @@ class Category extends \Cache
 			$db_obj = new DB ;
 			$query = "select * from category where center = 't' order by order_num desc";
 			$result = $db_obj->query($query);
-			$file = "<?\n\n";
+			$file = "<?php\n\n";
 			while($row = array_pop($result))
 			{
 				$file .= "\$cat_options[\"".$row['category_id']."\"] = \"".$row["name"]."\";\n";

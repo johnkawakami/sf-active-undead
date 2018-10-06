@@ -1,4 +1,4 @@
-<?
+<?php
 class RSSWriter
  {
 // A convenience class to make it easy to write RSS classes
